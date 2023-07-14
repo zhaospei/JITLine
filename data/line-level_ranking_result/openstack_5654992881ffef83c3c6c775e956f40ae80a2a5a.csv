@@ -1,0 +1,107 @@
+total_tokens,line_level_label,line_score,row
+fake_fetch_to_raw ctx image_service image_id path blocksize ,0.0,1.0,1
+fake_fetch_to_raw ctx image_service image_id path size = None ,1.0,1.0,2
+fake_copy_volume srcstr deststr size * * kwargs ,1.0,0.7409749456786772,3
+fake_copy_volume srcstr deststr size blocksize * * kwargs ,1.0,0.7409749456786772,4
+context <STR> mox IgnoreArg ,0.0,0.6199915968126091,5
+string value ,1.0,0.5317854580624233,6
+string value ,1.0,0.5317854580624233,7
+context <STR> size = <NUM> ,1.0,0.5235096331622294,8
+Options defined cinder volume utils ,0.0,0.4259538737124376,9
+The default block size used when copying / clearing volumes ,0.0,0.32423559033640437,10
+The default block size used when copying / clearing volumes ,0.0,0.32423559033640437,11
+image_id dest volume_format blocksize ,0.0,0.28391393547247307,12
+image_id dest volume_format ,0.0,0.28391393547247307,13
+image_id dest blocksize ,0.0,0.28391393547247307,14
+image_id dest ,0.0,0.28391393547247307,15
+volutils copy_volume <STR> dev <NUM> mox IgnoreArg ,0.0,0.2486345280373874,16
+dev_path size_in_g * <NUM> ,1.0,0.21912346465213095,17
+dev_path size_in_g * <NUM> ,0.0,0.21912346465213095,18
+bs count = volume_utils _calculate_count <NUM> ,0.0,0.20461720594735316,19
+blocksize count =_calculate_count size_in_m ,0.0,0.20461720594735316,20
+bs count = volume_utils _calculate_count <NUM> <STR> ,1.0,0.20461720594735316,21
+blocksize count =_calculate_count size_in_m blocksize ,0.0,0.20461720594735316,22
+volutils copy_volume <STR> dev <NUM> ,1.0,0.15215256438690924,23
+CONF set_override <STR> ,0.0,0.13276998154365585,24
+CONF register_opts volume_opts ,1.0,0.12282048418633029,25
+cfg StrOpt <STR> ,1.0,0.11288570396679494,26
+cfg StrOpt <STR> ,1.0,0.11288570396679494,27
+mox IgnoreArg ,0.0,0.09648196365047813,28
+mox IgnoreArg size = TEST_VOLUME_SIZE ,0.0,0.09648196365047813,29
+blocksize = mox IgnoreArg None ,0.0,0.09648196365047813,30
+mox IgnoreArg execute = lvm_driver _execute ,0.0,0.09648196365047813,31
+TEST_IMAGE_ID <STR> mox IgnoreArg ,0.0,0.09648196365047813,32
+volutils copy_volume <STR> vol_path size_in_m ,0.0,0.08832537236715622,33
+<STR> vol_path size_in_m ,0.0,0.08832537236715622,34
+volume_opts = [ ,1.0,0.06187968729151258,35
+default = <STR> ,1.0,0.04512168908684567,36
+default = <STR> ,1.0,0.04512168908684567,37
+self _get_device_size device * <NUM> ,0.0,0.027416481491375124,38
+volutils copy_volume self local_path src_vref device ,0.0,0.027416481491375124,39
+self local_path src_vref device ,0.0,0.027416481491375124,40
+self _get_device_size device * <NUM> ,0.0,0.027416481491375124,41
+volume_utils copy_volume src_attach_info [ <STR> ] ,0.0,0.0,42
+self local_path volume ,1.0,0.0,43
+volutils copy_volume <STR> ,1.0,0.0,44
+dest_attach_info [ <STR> ] ,0.0,0.0,45
+= <STR> ,1.0,0.0,46
+] ,0.0,0.0,47
+x y z sync = execute = <STR> None ,0.0,0.0,48
+sync = ,0.0,0.0,49
+self fake_local_path volume ,1.0,0.0,50
+size = TEST_VOLUME_SIZE ,0.0,0.0,51
+src_vref [ <STR> ] * <NUM> ,0.0,0.0,52
+volutils copy_volume self local_path temp_snapshot ,0.0,0.0,53
+blocksize = CONF volume_dd_blocksize ,0.0,0.0,54
+size_in_mb ,0.0,0.0,55
+sync = execute = self _execute ,1.0,0.0,56
+TEST_IMAGE_ID <STR> size = <NUM> ,0.0,0.0,57
+user_id project_id ,0.0,0.0,58
+volume_dd_blocksize = <NUM>M ,1.0,0.0,59
+<STR> ] ,0.0,0.0,60
+copy_volume srcstr deststr size_in_m sync = ,0.0,0.0,61
+volume_utils copy_volume tmp dest image_meta [ <STR> ] ,0.0,0.0,62
+<STR> ,1.0,0.0,63
+volume_dd_blocksize = <NUM>M ,1.0,0.0,64
+self TEST_IMAGE_ID self TEST_DEV_PATH ,0.0,0.0,65
+volume_utils copy_volume ,1.0,0.0,66
+self fake_local_path volume ,1.0,0.0,67
+sync = ,0.0,0.0,68
+configuration volume_dd_blocksize = <STR> ,1.0,0.0,69
+size = <NUM> ,0.0,0.0,70
+<STR> ,1.0,0.0,71
+self local_path volume ,1.0,0.0,72
+size = None ,0.0,0.0,73
+dest_attach_info [ <STR> ] ,0.0,0.0,74
+volume_utils copy_volume tmp dest image_meta [ <STR> ] blocksize ,0.0,0.0,75
+def_calculate_count size_in_m ,0.0,0.0,76
+blocksize user_id project_id size ,0.0,0.0,77
+= <STR> ,1.0,0.0,78
+<STR> ,1.0,0.0,79
+self local_path temp_snapshot ,0.0,0.0,80
+volutils copy_volume ,1.0,0.0,81
+CONF volume_dd_blocksize ,1.0,0.0,82
+self TEST_IMAGE_ID self TEST_DEV_PATH ,0.0,0.0,83
+self configuration volume_dd_blocksize ,1.0,0.0,84
+src_vref [ <STR> ] * <NUM> ,0.0,0.0,85
+volutils copy_volume ,0.0,0.0,86
+] ,0.0,0.0,87
+mox_lib IgnoreArg ,0.0,0.0,88
+self local_path volume size = volume [ <STR> ] ,1.0,0.0,89
+tmp name size = volume [ <STR> ] ,1.0,0.0,90
+execute = self _execute ,1.0,0.0,91
+execute = lvm_driver _execute sync = ,0.0,0.0,92
+self configuration volume_dd_blocksize = <STR> ,1.0,0.0,93
+execute = self _execute ,0.0,0.0,94
+tmp name ,0.0,0.0,95
+scality CONF volume_dd_blocksize = <STR> ,1.0,0.0,96
+def_calculate_count size_in_m blocksize ,0.0,0.0,97
+x y z sync = execute = <STR> ,0.0,0.0,98
+src_attach_info [ <STR> ] ,0.0,0.0,99
+copy_volume srcstr deststr size_in_m blocksize sync = ,1.0,0.0,100
+<STR> ,1.0,0.0,101
+blocksize user_id project_id ,0.0,0.0,102
+size = volume [ <STR> ] ,1.0,0.0,103
+sync = execute = self _execute ,0.0,0.0,104
+size_in_mb ,0.0,0.0,105
+user_id project_id size ,0.0,0.0,106

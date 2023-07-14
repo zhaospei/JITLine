@@ -1,0 +1,207 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,0.0,1.0,1
+License the specific language governing permissions limitations ,0.0,0.7919361650087637,2
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,0.0,0.7805397788552835,3
+a copy of the License at ,0.0,0.7570690098436361,4
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,0.0,0.7386925214063558,5
+iSCSI the compute host to the storage host again assuming that an ,0.0,0.7279672016882642,6
+cinder openstack common log logging ,1.0,0.7242903374222883,7
+cinder openstack common log logging ,0.0,0.7242903374222883,8
+the configuration file that contains the key stored on the disk ,0.0,0.7234807225439263,9
+encrypted a key provided by this key manager actually share the same ,0.0,0.6236392968386354,10
+use this file compliance the License You may obtain ,0.0,0.6213193878238396,11
+key remains secret Using the volume encryption feature an example ,0.0,0.5590892265727913,12
+distributed under the License distributed on an <STR> BASIS WITHOUT ,0.0,0.5537726186478871,13
+Encryption also protects the confidentiality of data it transmitted via ,0.0,0.5532894860070526,14
+attacker who intercepts the data does know the secret key ,0.0,0.5513787181076892,15
+An implementation of a key manager that reads its key the project ' s ,0.0,0.5067141507823513,16
+to invocations of create_key Side effects e g raising exceptions ,0.0,0.5002705921951672,17
+This key manager implementation supports the methods specified by the ,0.0,0.48896133207891834,18
+<STR> Retrieves the key identified by the specified ,0.0,0.48896133207891834,19
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,0.0,0.48138889169176413,20
+context None a KeyError raised the UUID invalid ,0.0,0.4661222638550722,21
+This implementation returns the key that associated the ,0.0,0.4617222239350399,22
+Keys created one instance will be accessible other instances of ,0.0,0.45860655466113154,23
+NotAuthorized exception raised the specified context None ,0.0,0.42290990528471784,24
+encryption key so * * volume can be decrypted once the fixed key known ,0.0,0.4079416218614798,25
+A mock implementation of a key manager that stores keys a dictionary ,0.0,0.3925815299880561,26
+This implementation returns a UUID the created key A ,0.0,0.3776474814198451,27
+A mock implementation of a key manager This module should NOT be used ,0.0,0.37663872763250833,28
+particular it does store keys persistently Lack of a centralized key ,0.0,0.36764096548576536,29
+each method are handled specified by the key manager interface ,0.0,0.3249475324327165,30
+Test cases the conf key manager ,0.0,0.32044191019832224,31
+Note Instantiating this multiple times will create separate key stores ,0.0,0.25629544262746745,32
+cinder openstack common gettextutils _ ,0.0,0.2402731931976323,33
+store also makes this implementation unsuitable use among different ,0.0,0.23852036741751562,34
+cinder context ,0.0,0.23134498139151818,35
+self ctxt = context RequestContext <STR> ,0.0,0.22304829077909222,36
+<STR> Stores i e registers a key the key manager ,0.0,0.2100415374305283,37
+under the License ,0.0,0.2100415374305283,38
+specified UUID A NotAuthorized exception raised the specified ,0.0,0.2100415374305283,39
+This key manager implementation provides limited security assuming that the ,0.0,0.2100415374305283,40
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,0.0,0.20631862027795303,41
+key_length = kwargs get <STR> <NUM> ,0.0,0.17476230565176593,42
+key_length = kwargs get <STR> <NUM> ,0.0,0.17476230565176593,43
+Fixed key returned by key manager specified string ,0.0,0.168911396750792,44
+this ,0.0,0.1486114917290579,45
+Because this implementation uses a single fixed key it proffers no ,0.0,0.1486114917290579,46
+default = <STR> ,0.0,0.14543803029672034,47
+default = <STR> ,0.0,0.14543803029672034,48
+def__ init__ self * args * * kwargs ,0.0,0.1197385139483456,49
+CONF register_opts keymgr_opts group = <STR> ,0.0,0.11239221889692254,50
+cfg StrOpt <STR> ,0.0,0.11165809182259052,51
+CONF = cfg CONF ,0.0,0.11165809182259052,52
+oslo config cfg ,0.0,0.11165809182259052,53
+cfg StrOpt <STR> ,0.0,0.11165809182259052,54
+delete_key self ctxt key_id * * kwargs ,0.0,0.11108121925621489,55
+create_key self ctxt * * kwargs ,0.0,0.11108121925621489,56
+copy_key self ctxt key_id * * kwargs ,0.0,0.11108121925621489,57
+store_key self ctxt key * * kwargs ,0.0,0.11108121925621489,58
+get_key self ctxt key_id * * kwargs ,0.0,0.11108121925621489,59
+conf set_default <STR> ,0.0,0.11040037276779391,60
+def_generate_hex_key self * * kwargs ,0.0,0.10090129633149833,61
+ConfKeyManagerTestCase self __ init__ * args * * kwargs ,0.0,0.10090129633149833,62
+def_generate_key self * * kwargs ,0.0,0.10090129633149833,63
+key = self _generate_key * * kwargs ,0.0,0.10090129633149833,64
+KeyManagerTestCase self __ init__ * args * * kwargs ,0.0,0.10090129633149833,65
+_ = self _generate_hex_key * * kwargs ,0.0,0.10090129633149833,66
+This key manager suitable use production deployments ,0.0,0.10006450169233601,67
+keys are stored persistently ,0.0,0.09678830427888344,68
+CONF register_opts keymgr_opts ,0.0,0.09194266732528254,69
+encryption provides protection against a lost stolen disk assuming that ,0.0,0.08616612864075779,70
+Options defined cinder keymgr conf_key_mgr ,0.0,0.08587857789729371,71
+protection once that key compromised In particular different volumes ,0.0,0.08114132248798388,72
+LOG = logging getLogger __ name__ ,0.0,0.07464495149624369,73
+LOG = logging getLogger __ name__ ,0.0,0.07464495149624369,74
+test_delete_unknown_key self ,0.0,0.0736439670860972,75
+symbolgroups = <STR> ,0.0,0.06612139895734574,76
+symbolgroups = <STR> ,0.0,0.06612139895734574,77
+configuration options ,0.0,0.05232923007008235,78
+key manager interface This implementation creates a single key response ,0.0,0.050038091146300166,79
+This should NOT be used anything but integration testing because ,0.0,0.04361697161345851,80
+test_store_null_context self ,0.0,0.04135390178076793,81
+LOG warn _ <STR> key_id ,0.0,0.032468042516288265,82
+LOG warn _ <STR> ,1.0,0.032468042516288265,83
+def__ ne__ self other ,0.0,0.032207626243917174,84
+anything but integration testing ,0.0,0.031247221815322163,85
+hex_string = utils generate_password length = key_length / <NUM> ,0.0,0.02896529932913519,86
+hex_encoded = utils generate_password length = key_length / <NUM> ,0.0,0.02896529932913519,87
+CONF import_opt <STR> ,0.0,0.0273345356872132,88
+CONF register_opts key_mgr_opts group = <STR> ,0.0,0.020449551571639985,89
+def__ init__ self ,0.0,0.018837217616847274,90
+def__ eq__ self other ,0.0,0.018837217616847274,91
+api_class = cinder keymgr conf_key_mgr ConfKeyManager ,0.0,0.018476613537142528,92
+cinder keymgr key_mgr ,0.0,0.018476613537142528,93
+cinder keymgr key ,0.0,0.018476613537142528,94
+keymgr_api_class = cinder keymgr not_implemented_key_mgr NotImplementedKeyManager ,0.0,0.018476613537142528,95
+cinder exception ,0.0,0.018476613537142528,96
+cinder keymgr conf_key_mgr ,0.0,0.018476613537142528,97
+cinder tests keymgr test_key_mgr ,0.0,0.018476613537142528,98
+cls = importutils import_class CONF keymgr api_class ,0.0,0.016874757497099685,99
+cls = importutils import_class keymgr_api_class ,0.0,0.016874757497099685,100
+key_id = self key_mgr create_key self ctxt ,0.0,0.010179922924716568,101
+self key_mgr delete_key self ctxt None ,0.0,0.010179922924716568,102
+self assertRaises KeyError self key_mgr get_key self ctxt None ,0.0,0.010179922924716568,103
+actual_key = self key_mgr get_key self ctxt key_id ,0.0,0.010179922924716568,104
+ctxt None ,1.0,0.010179922924716568,105
+self key_mgr store_key self ctxt inverse_key ,0.0,0.010179922924716568,106
+copied_key = self key_mgr get_key self ctxt copied_key_id ,0.0,0.010179922924716568,107
+key_id_<NUM> = self key_mgr create_key self ctxt ,0.0,0.010179922924716568,108
+self store_key ctxt _key ,0.0,0.010179922924716568,109
+self store_key ctxt key ,0.0,0.010179922924716568,110
+key = self key_mgr get_key self ctxt key_id ,0.0,0.010179922924716568,111
+key_id = self key_mgr store_key self ctxt self key ,0.0,0.010179922924716568,112
+self key_mgr get_key self ctxt self key_id ,0.0,0.010179922924716568,113
+copied_key_id = self key_mgr copy_key self ctxt key_id ,0.0,0.010179922924716568,114
+self key_mgr delete_key self ctxt key_id ,0.0,0.010179922924716568,115
+value ,0.0,0.009490000910716535,116
+This key manager implementation primarily intended testing In ,0.0,0.009150168558842032,117
+key ! = self _generate_key ,0.0,0.0,118
+Copyright c <NUM> The Johns Hopkins University / Applied Physics Laboratory ,0.0,0.0,119
+test_get_key self ,0.0,0.0,120
+_ key = key SymmetricKey <STR> _bytes ,0.0,0.0,121
+test_get_unknown_key self ,0.0,0.0,122
+<STR> ,0.0,0.0,123
+test_store_key self ,0.0,0.0,124
+encoded = array array <STR> tolist ,0.0,0.0,125
+fixed_key = < None > ,0.0,0.0,126
+<STR> ,0.0,0.0,127
+CONF keymgr fixed_key None ,0.0,0.0,128
+ConfKeyManager key_mgr KeyManager ,0.0,0.0,129
+other SymmetricKey ,0.0,0.0,130
+ConfKeyManagerTestCase test_key_mgr KeyManagerTestCase ,0.0,0.0,131
+self key_mgr get_key None None ,0.0,0.0,132
+self assertRaises exception NotAuthorized ,0.0,0.0,133
+self _generate_key ,0.0,0.0,134
+self key_mgr store_key None self key ,0.0,0.0,135
+<STR> ,0.0,0.0,136
+KeyError key_id ,0.0,0.0,137
+Total option count <NUM> ,0.0,0.0,138
+array ,0.0,0.0,139
+test_copy_null_context self ,0.0,0.0,140
+self assertEqual key copied_key ,0.0,0.0,141
+array array <STR> tolist ,0.0,0.0,142
+test_delete_key self ,0.0,0.0,143
+encoded = self key get_encoded ,0.0,0.0,144
+self assertEqual self key ,1.0,0.0,145
+self key_mgr delete_key None None ,0.0,0.0,146
+self _hex_key = <STR> * <NUM> ,0.0,0.0,147
+keymgr_api_class = CONF keymgr_api_class ,0.0,0.0,148
+key_id ! = self key_id ,0.0,0.0,149
+KeyManagerError CinderException ,1.0,0.0,150
+inverse_key = key SymmetricKey <STR> [ ~ b b encoded ] ,0.0,0.0,151
+_ = array array <STR> tolist ,0.0,0.0,152
+exception KeyManagerError ,0.0,0.0,153
+test___init__ self ,0.0,0.0,154
+result NotImplemented ,0.0,0.0,155
+self assertEqual self key_id self key_mgr key_id ,0.0,0.0,156
+self assertEqual self key actual_key ,0.0,0.0,157
+self key_id = <STR> ,0.0,0.0,158
+test_create_null_context self ,0.0,0.0,159
+test_copy_key self ,0.0,0.0,160
+ConfKeyManager self __ init__ ,0.0,0.0,161
+<STR> Creates a key ,0.0,0.0,162
+test_store_key_invalid self ,0.0,0.0,163
+conf_key_mgr ConfKeyManager ,0.0,0.0,164
+ValueError _ <STR> ,0.0,0.0,165
+<STR> ,0.0,0.0,166
+= <STR> ,0.0,0.0,167
+self key_mgr copy_key None None ,0.0,0.0,168
+def_create_key_manager self ,0.0,0.0,169
+hex_encoded ,0.0,0.0,170
+self assertTrue self key ! = None ,1.0,0.0,171
+self assertTrue self key = = self key ,1.0,0.0,172
+key_mgr_opts = [ ,0.0,0.0,173
+self assertRaises exception KeyManagerError ,0.0,0.0,174
+test_create_key self ,0.0,0.0,175
+result ,0.0,0.0,176
+self alg = = other alg ,0.0,0.0,177
+test___eq__ self ,0.0,0.0,178
+ConfKeyManagerTestCase self setUp ,0.0,0.0,179
+self assertTrue None ! = self key ,0.0,0.0,180
+setUp self ,0.0,0.0,181
+Total option count <NUM> ,0.0,0.0,182
+self key_mgr create_key None ,0.0,0.0,183
+self assertFalse self key = = None ,1.0,0.0,184
+self assertFalse self key ! = self key ,1.0,0.0,185
+key SymmetricKey <STR> ,0.0,0.0,186
+CONF keymgr fixed_key ,0.0,0.0,187
+self key = key SymmetricKey <STR> encoded ,0.0,0.0,188
+exception NotAuthorized ,0.0,0.0,189
+test___ne__ self ,0.0,0.0,190
+result = self __ eq__ other ,0.0,0.0,191
+test_get_null_context self ,0.0,0.0,192
+services ,0.0,0.0,193
+All Rights Reserved ,0.0,0.0,194
+test_delete_null_context self ,0.0,0.0,195
+self assertFalse None = = self key ,0.0,0.0,196
+msg_fmt =_ <STR> ,1.0,0.0,197
+reason = <STR> ,0.0,0.0,198
+] ,0.0,0.0,199
+self assertEqual key_id copied_key_id ,0.0,0.0,200
+NotImplemented ,0.0,0.0,201
+CONF set_default <STR> ,0.0,0.0,202
+self key = = other key ,0.0,0.0,203
+self key_id ,0.0,0.0,204
+result ,0.0,0.0,205
+self assertEqual key_id_<NUM> key_id_<NUM> ,0.0,0.0,206

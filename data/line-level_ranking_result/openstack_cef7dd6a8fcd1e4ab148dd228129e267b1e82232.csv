@@ -1,0 +1,354 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,1.0,1.0,1
+License the specific language governing permissions limitations ,1.0,0.7745472355824473,2
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.6396470576934166,3
+nova openstack common log logging ,1.0,0.6020452048956878,4
+def_fetch_image self context image_id image_meta path ,0.0,0.5174913303376064,5
+def_remove_image self context image_id image_meta path ,0.0,0.5174913303376064,6
+def_can_handle_image self context image_meta location * * kwargs ,0.0,0.49680746557344674,7
+self _can_handle_image context image_meta location * * kwargs ,0.0,0.49680746557344674,8
+a copy of the License at ,1.0,0.4889688343593434,9
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.4859883352864718,10
+- The image must be readable by the rados user available to nova ,0.0,0.4704986096386003,11
+def_move_image self context image_id image_meta src_path dst_path ,0.0,0.46977217029754037,12
+<STR> Returns the size of the virtual disk ,0.0,0.44820731430811867,13
+<STR> Returns whether it makes sense to clone the image ,0.0,0.4231572950006682,14
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.41382995523499316,15
+use this file compliance the License You may obtain ,1.0,0.4016572448038617,16
+will clone images already stored rbd instead of downloading ,0.0,0.3896808418924728,17
+nova openstack common excutils ,1.0,0.3801027899970029,18
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.37555668172552364,19
+its name callers may pass a non - existent local file path ,0.0,0.32494788029667215,20
+<STR> Convert a string to None the None ,1.0,0.3167235572387441,21
+backend_type = kwargs get <STR> ,0.0,0.3121731838177033,22
+rados_lib = kwargs get <STR> ,1.0,0.3121731838177033,23
+backend_location = kwargs get <STR> ,0.0,0.3121731838177033,24
+rbd_lib = kwargs get <STR> ,1.0,0.3121731838177033,25
+dest_image = kwargs get <STR> ,0.0,0.3121731838177033,26
+self mock_rbd RBD clone assert_called_once_with * args * * kwargs ,0.0,0.2754562173229541,27
+def__ init__ self driver = None * args * * kwargs ,0.0,0.2703699213985334,28
+This useful when a parameter None by default a string LibRBD ,1.0,0.2633128329253892,29
+pool image = kwargs [ <STR> ] ,0.0,0.2516637473038064,30
+only accepts hence the need conversion ,1.0,0.2451516974764932,31
+If rbd the image backend this handler does nothing ,0.0,0.24472554256706525,32
+os path exists base ,0.0,0.24466431546204181,33
+RBDCloneImageHandler self __ init__ driver * args * * kwargs ,0.0,0.24122794529524247,34
+If libvirt using rbd ephemeral / root disks this handler ,0.0,0.23772102618215454,35
+nova openstack common units ,1.0,0.2270916050764727,36
+nova openstack common gettextutils _ ,1.0,0.2270916050764727,37
+exception ImageUnacceptable image_id = location reason = reason ,0.0,0.20242111069995333,38
+dest_pool dest_image = kwargs [ <STR> ] ,0.0,0.20210420439715396,39
+kwargs = <STR> self mock_rbd RBD_FEATURE_LAYERING ,1.0,0.20210420439715396,40
+* * kwargs ,0.0,0.20210420439715396,41
+src_pool src_image = kwargs [ <STR> ] ,0.0,0.20210420439715396,42
+self exists image pool = pool snapshot = snapshot ,0.0,0.19947099749349545,43
+self volume = driver rbd Image ioctx name snapshot = None ,1.0,0.1963668378457152,44
+RBDVolumeProxy self volume_name vol ,1.0,0.18848735862902294,45
+under the License ,1.0,0.17802179041305818,46
+rbd_user = CONF libvirt rbd_user ,1.0,0.17383233720474273,47
+mock patch self driver <STR> mock_get_fsid ,1.0,0.16095623461438138,48
+self driver clone dest_pool dest_image pool image snapshot ,0.0,0.15694643629499086,49
+vol remove ,0.0,0.15407069342599913,50
+excutils save_and_reraise_exception ,0.0,0.15301118492053023,51
+self driver clone self rbd_pool self volume_name ,0.0,0.1529915377666969,52
+self mock_rbd RBD = mock Mock return_value = mock Mock ,0.0,0.15252001744810392,53
+snap_name = snapshot encode <STR> snapshot None ,0.0,0.15163261679757123,54
+mock patch rbd_utils <STR> client_init ,1.0,0.15123363455318517,55
+@ mock patch rbd_utils <STR> ,1.0,0.15123363455318517,56
+mock patch rbd_utils <STR> proxy_init ,1.0,0.15123363455318517,57
+def__ init__ self driver name pool = None snapshot = None ,1.0,0.1510228849965508,58
+_ fsid pool image snapshot = self driver parse_location url ,0.0,0.13659759305407684,59
+self volume = driver rbd Image ioctx name encode <STR> ,1.0,0.13516933854533492,60
+self imagehandler driver remove = mock Mock ,0.0,0.13002343665482516,61
+LOG debug reason ,0.0,0.12949157047833512,62
+vol resize size ,1.0,0.12650732983513638,63
+vol resize size_bytes ,0.0,0.12650732983513638,64
+self driver is_cloneable location [ <STR> ] image_meta ,0.0,0.12634883479540804,65
+self cluster self ioctx = driver _connect_to_rados pool ,1.0,0.12469063970890586,66
+self imagehandler driver clone = mock Mock ,0.0,0.12244940281212797,67
+snapshot = snapshot ,0.0,0.12239499860068197,68
+image_meta [ <STR> ,0.0,0.11662623473421184,69
+image_location image_meta [ <STR> ] ,0.0,0.11662623473421184,70
+is_cloneable self image_location image_meta ,0.0,0.11662623473421184,71
+LOG debug <STR> ,1.0,0.11345714218592565,72
+LOG debug _ <STR> % ,0.0,0.11345714218592565,73
+LOG debug <STR> name ,0.0,0.11345714218592565,74
+LOG debug _ <STR> e ,0.0,0.11345714218592565,75
+LOG debug <STR> name size_bytes ,0.0,0.11345714218592565,76
+LOG debug <STR> name new_name ,0.0,0.11345714218592565,77
+self mock_rbd RBD clone = mock Mock ,1.0,0.11272680275093178,78
+fsid pool image snapshot = self parse_location image_location ,0.0,0.11075704220695415,79
+vol startswith self rbd_name ,0.0,0.11002986555646144,80
+vol rbd_volumes ,0.0,0.11002986555646144,81
+RBDVolumeProxy self name vol ,1.0,0.11002986555646144,82
+self imagehandler driver remove assert_called_once_with image ,0.0,0.10673494645881502,83
+RBD clone image handler libvirt hypervisors ,0.0,0.09841776545564572,84
+self driver _disconnect_from_rados self cluster self ioctx ,1.0,0.09717418372274483,85
+resize self volume_name size ,1.0,0.09493495735123646,86
+client_stack [ <NUM> ] ioctx self volume_name ] ,0.0,0.0914792588036446,87
+snapshot = snap_name ,0.0,0.09043511749726954,88
+def__ init__ self driver name pool = None ,1.0,0.08982538569624911,89
+def__ init__ self driver pool = None ,1.0,0.08982538569624911,90
+The name argument ignored since this backend already knows ,0.0,0.08897861059379829,91
+exists self name pool = None snapshot = None ,0.0,0.08871395528646271,92
+self assertTrue self driver exists self volume_name ,1.0,0.08818009313367911,93
+self driver rename self volume_name new_name ,1.0,0.08818009313367911,94
+self imagehandler driver rename = mock Mock ,0.0,0.08598260878520887,95
+self imagehandler driver is_cloneable = mock Mock ,0.0,0.08598260878520887,96
+pieces = urllib unquote location [ prefix ] split <STR> ,0.0,0.08326101190264733,97
+self volume_name ,1.0,0.07845749307257319,98
+self imagehandler driver clone assert_called_once_with dest_pool ,0.0,0.07711782569568791,99
+rbd = mock Mock ,0.0,0.07626000872407492,100
+mock ANY ,0.0,0.07626000872407492,101
+mock ,1.0,0.07626000872407492,102
+rados = mock Mock ,0.0,0.07626000872407492,103
+self driver remove image ,0.0,0.07580651485124715,104
+client cluster get_fsid ,0.0,0.0744298179305104,105
+- The image must be raw ,0.0,0.07266853710076787,106
+args = [ <STR> self pool base self rbd_name ] ,1.0,0.06880375719906827,107
+args = [ <STR> self pool base self rbd_name ] ,1.0,0.06880375719906827,108
+def__ exit__ self type_ value traceback ,1.0,0.06536819615791996,109
+self imagehandler driver rename assert_called_once_with image ,0.0,0.0626941185892643,110
+snapshot = <STR> ,0.0,0.06119749930035103,111
+snapshot ,0.0,0.06119749930035103,112
+self imagehandler driver is_cloneable assert_called_once_with url ,0.0,0.05676898245477788,113
+group = <STR> ,1.0,0.055830057422244186,114
+pool = pool ,0.0,0.055032911972319784,115
+pool_to_open = pool self pool ,1.0,0.055032911972319784,116
+pool_to_open = pool self pool ,1.0,0.055032911972319784,117
+test_cloneable self ,1.0,0.054414424962045634,118
+fn max_size = full_size target = self TEMPLATE_PATH ,1.0,0.05143318394383651,119
+read_only = read_only ,0.0,0.050955685870380206,120
+backend_location = pool image ,0.0,0.049559542906644515,121
+self rbd RBD clone src_client ioctx ,0.0,0.04948855975799193,122
+rbd_volumes = libvirt_utils list_rbd_volumes self pool ,0.0,0.04895025683789183,123
+image driver resize rbd_name full_size ,0.0,0.04824315126035596,124
+proxy resize assert_called_once_with size ,1.0,0.04740589588633518,125
+proxy resize assert_called_once_with size * units Ki ,1.0,0.04740589588633518,126
+base_size = self get_disk_size base ,1.0,0.04654398438309067,127
+base_size = disk get_disk_size base ,1.0,0.04654398438309067,128
+self assertFalse self imagehandler driver clone called ,0.0,0.04618939408806615,129
+client __ enter__ side_effect = mock__ enter__ client ,0.0,0.04607552639888082,130
+oslo config cfg ,0.0,0.045042610641606876,131
+mock__ enter__ inst ,1.0,0.044102980749247025,132
+- The glance image libvirt image backend must be rbd ,0.0,0.04408617384096924,133
+remove self name ,1.0,0.04404082786960462,134
+mock_rename rename assert_called_once_with client ioctx ,0.0,0.04395019733870545,135
+self assertEqual client __ enter__ call_count <NUM> ,0.0,0.04308045634219013,136
+CONF = cfg CONF ,0.0,0.036991788944985365,137
+LOG exception _ <STR> name ,1.0,0.03664647467168458,138
+exception ImageUnacceptable e ,0.0,0.03664647467168458,139
+self assertRaises exception ImageUnacceptable ,0.0,0.03664647467168458,140
+nova exception ,1.0,0.03664647467168458,141
+LOG exception _ <STR> name ,1.0,0.03664647467168458,142
+clone self dest_pool dest_image src_pool src_image src_snap ,0.0,0.036466794026908236,143
+urllib ,1.0,0.03605555146342183,144
+proxy __ exit__ assert_called_once ,0.0,0.03554174025677907,145
+verify_base_size base size base_size = <NUM> ,1.0,0.03533051392168113,146
+verify_base_size self base size base_size = <NUM> ,1.0,0.03533051392168113,147
+nova virt imagehandler base ,1.0,0.03533051392168113,148
+RBDCloneImageHandler base ImageHandler ,0.0,0.03533051392168113,149
+image get_disk_size rbd_name AndReturn self SIZE ,0.0,0.03325655738189416,150
+image get_disk_size self TEMPLATE_PATH AndReturn self SIZE ,0.0,0.03325655738189416,151
+self driver parse_location locations ,0.0,0.03284405552827919,152
+location = url = url ,0.0,0.0322359015719964,153
+self mox StubOutWithMock image driver <STR> ,1.0,0.031765686981642546,154
+def__ enter__ self ,1.0,0.031114521752893906,155
+self _get_fsid ! = fsid ,0.0,0.030173119323796932,156
+pool = src_pool img = src_image snap = src_snap ,0.0,0.029982644444645833,157
+image = self image_class self INSTANCE self NAME ,1.0,0.029001328030006587,158
+self rbd_pool ,1.0,0.028344650606125565,159
+backend_location = pool ,0.0,0.027516455986159892,160
+pool = <STR> ,1.0,0.027516455986159892,161
+pool = CONF libvirt images_rbd_pool ,1.0,0.027516455986159892,162
+read_only = ,0.0,0.025477842935190103,163
+read_only = ,0.0,0.025477842935190103,164
+locations = [ <STR> ,0.0,0.02312145546712127,165
+loc locations ,0.0,0.02312145546712127,166
+driver _disconnect_from_rados client ioctx ,1.0,0.02274436579224161,167
+driver _disconnect_from_rados client ioctx ,1.0,0.02274436579224161,168
+LOG = logging getLogger __ name__ ,1.0,0.02259292622845464,169
+image ,0.0,0.02204308692048462,170
+self mox StubOutWithMock image <STR> ,1.0,0.02204308692048462,171
+image create_image fn self TEMPLATE_PATH None ,1.0,0.02204308692048462,172
+image check_image_exists AndReturn ,0.0,0.02204308692048462,173
+image check_image_exists AndReturn ,0.0,0.02204308692048462,174
+image create_image fn self TEMPLATE_PATH full_size ,1.0,0.02204308692048462,175
+image create_image fn self TEMPLATE_PATH self SIZE ,1.0,0.02204308692048462,176
+image create_image fn self TEMPLATE_PATH None ,1.0,0.02204308692048462,177
+image = <STR> ,1.0,0.02204308692048462,178
+RBDTestCase test NoDBTestCase ,1.0,0.020304125095587766,179
+nova test ,1.0,0.020304125095587766,180
+self driver = driver ,1.0,0.019445200122315834,181
+args = [ client_stack [ <NUM> ] ioctx src_image src_snap ,0.0,0.018978553022310937,182
+resize self name size_bytes ,1.0,0.01647746427871342,183
+url = <STR> ,1.0,0.0161179507859982,184
+url = location [ <STR> ] ,0.0,0.0161179507859982,185
+reason =_ <STR> ,0.0,0.016034428292447132,186
+reason =_ <STR> ,0.0,0.016034428292447132,187
+reason =_ <STR> % image_location ,0.0,0.016034428292447132,188
+ceph_conf = CONF libvirt images_rbd_ceph_conf ,1.0,0.015739378005664686,189
+self assertFalse self driver is_cloneable * args ,0.0,0.015679387352385162,190
+args + = self driver ceph_args ,1.0,0.015679387352385162,191
+args + = self driver ceph_args ,1.0,0.015679387352385162,192
+self rbd RBD rename client ioctx ,1.0,0.013021765731083691,193
+dest_client ioctx ,0.0,0.013021765731083691,194
+ioctx = client open_ioctx pool_to_open encode <STR> ,1.0,0.013021765731083691,195
+ioctx = client open_ioctx pool_to_open ,1.0,0.013021765731083691,196
+test_uncloneable_unreadable self mock_proxy ,0.0,0.012075716182027388,197
+size size > self get_disk_size self rbd_name ,0.0,0.01121347046140954,198
+imagebackend Qcow<NUM> get_disk_size self TEMPLATE_PATH ,1.0,0.01121347046140954,199
+disk get_disk_size name ,0.0,0.01121347046140954,200
+imagebackend disk get_disk_size self TEMPLATE_PATH ,1.0,0.01121347046140954,201
+get_disk_size self name ,1.0,0.01121347046140954,202
+self driver is_cloneable location <STR> ,0.0,0.009722600061157917,203
+self driver = rbd_utils RBDDriver ,1.0,0.009722600061157917,204
+self driver supports_layering ,1.0,0.009722600061157917,205
+self assertTrue self driver is_cloneable location info ,0.0,0.009722600061157917,206
+self driver parse_location ,0.0,0.009722600061157917,207
+self driver supports_layering ,1.0,0.009722600061157917,208
+self driver rename src_image dest_image ,0.0,0.009722600061157917,209
+self imagehandler driver is_cloneable return_value = ,0.0,0.009722600061157917,210
+self imagehandler driver is_cloneable return_value = ,0.0,0.009722600061157917,211
+self driver exists self rbd_name ,1.0,0.009722600061157917,212
+driver rbd ImageNotFound ,0.0,0.009722600061157917,213
+self driver size self rbd_name ,1.0,0.009722600061157917,214
+self driver is_cloneable location <STR> f ,0.0,0.009722600061157917,215
+self driver is_cloneable loc <STR> ,0.0,0.009722600061157917,216
+libvirt_utils import_rbd_image * args ,0.0,0.005956787291227246,217
+args + = [ <STR> ] ,1.0,0.005956787291227246,218
+args + = [ <STR> ] ,1.0,0.005956787291227246,219
+args = [ location <STR> ] ,0.0,0.005956787291227246,220
+libvirt_utils import_rbd_image * args ,1.0,0.005956787291227246,221
+client_stack append inst ,0.0,0.00402535531913344,222
+test_create_image_resize self ,1.0,0.003174732127425855,223
+proxy __ enter__ assert_called_once ,0.0,0.0019725456496338003,224
+client __ enter__ return_value = client ,0.0,0.0019725456496338003,225
+test_create_image_already_exists self ,0.0,0.0,226
+info = <STR> ,1.0,0.0,227
+libvirt_rbd_clone = nova virt libvirt imagehandler RBDCloneImageHandler ,0.0,0.0,228
+<STR> ,1.0,0.0,229
+rbd_name = <STR> % self INSTANCE [ <STR> ] self NAME ,1.0,0.0,230
+self imagehandler = imagehandler RBDCloneImageHandler ,0.0,0.0,231
+rename self name new_name ,0.0,0.0,232
+test_remove_image self ,1.0,0.0,233
+proxy = proxy_init return_value ,1.0,0.0,234
+<STR> self CONF ,0.0,0.0,235
+prefix = <STR> ,1.0,0.0,236
+self mox StubOutWithMock imagebackend Qcow<NUM> <STR> ,1.0,0.0,237
+nova virt libvirt imagehandler ,1.0,0.0,238
+nova virt libvirt rbd_utils ,1.0,0.0,239
+test_fetch_image_rbd_not_cloneable self ,0.0,0.0,240
+backend_location = <STR> ,0.0,0.0,241
+new_name ,0.0,0.0,242
+test_clone self mock_client ,0.0,0.0,243
+self mox StubOutWithMock imagebackend disk <STR> ,1.0,0.0,244
+test_exists self ,1.0,0.0,245
+AndReturn self SIZE ,0.0,0.0,246
+self assertFalse ,0.0,0.0,247
+new_name encode <STR> ,0.0,0.0,248
+<STR> ,1.0,0.0,249
+test_good_locations self ,0.0,0.0,250
+rbd_name <STR> self USER ,0.0,0.0,251
+test_uncloneable_different_fsid self ,0.0,0.0,252
+ascii_str s ,1.0,0.0,253
+cmd = <STR> self POOL self TEMPLATE_PATH ,1.0,0.0,254
+test_rename self ,1.0,0.0,255
+client = mock_client return_value ,0.0,0.0,256
+IMAGE_PATH IMAGE_PATH ,0.0,0.0,257
+new_name = <STR> ,1.0,0.0,258
+RADOSClient self client ,0.0,0.0,259
+user_id = None project_id = None location = None ,0.0,0.0,260
+self mox VerifyAll ,1.0,0.0,261
+s None ,1.0,0.0,262
+get_schemes self ,0.0,0.0,263
+CONF import_opt <STR> ,1.0,0.0,264
+location = <STR> ,1.0,0.0,265
+formats = [ <STR> ] ,1.0,0.0,266
+mock_proxy side_effect = self mock_rbd Error ,1.0,0.0,267
+def_get_fsid self ,0.0,0.0,268
+self assertTrue mock_get_fsid called ,0.0,0.0,269
+s ,1.0,0.0,270
+them locally importing them into rbd ,0.0,0.0,271
+<STR> ,1.0,0.0,272
+RBDTestCase self tearDown ,1.0,0.0,273
+self assertFalse handled ,0.0,0.0,274
+handled = self imagehandler _remove_image None IMAGE_ID ,0.0,0.0,275
+test_bad_locations self ,0.0,0.0,276
+handled = self imagehandler _move_image None IMAGE_ID ,0.0,0.0,277
+AndReturn self SIZE ,0.0,0.0,278
+dest_pool = <STR> ,1.0,0.0,279
+dest_image encode <STR> ,0.0,0.0,280
+test_uncloneable_bad_format self ,0.0,0.0,281
+RBDVolumeProxy self name ,1.0,0.0,282
+self libvirt_utils import_rbd_image self TEMPLATE_PATH * cmd ,1.0,0.0,283
+IMAGE_ID = <STR> ,0.0,0.0,284
+backend_type = <STR> ,0.0,0.0,285
+test_fetch_image_non_rbd_backend self ,0.0,0.0,286
+@ ,0.0,0.0,287
+CONF libvirt images_rbd_pool ,1.0,0.0,288
+features = self rbd RBD_FEATURE_LAYERING ,1.0,0.0,289
+<STR> pieces ,0.0,0.0,290
+size = size * units Ki ,1.0,0.0,291
+pieces ! = <NUM> ,0.0,0.0,292
+rbd_name = <STR> % self INSTANCE [ <STR> ] self NAME ,1.0,0.0,293
+client = client_init return_value ,0.0,0.0,294
+self check_image_exists ,0.0,0.0,295
+client_stack = [ ] ,0.0,0.0,296
+<STR> ] ,1.0,0.0,297
+dest_image ,0.0,0.0,298
+def_inner ,0.0,0.0,299
+size size > base_size ,1.0,0.0,300
+<STR> Handler rbd - backed images ,0.0,0.0,301
+return_inner ,0.0,0.0,302
+src_pool src_image src_snap ,0.0,0.0,303
+<STR> ,1.0,0.0,304
+s ,1.0,0.0,305
+disk_format = <STR> ,0.0,0.0,306
+src_snap encode <STR> ,0.0,0.0,307
+parse_location self location ,0.0,0.0,308
+src_image = u <STR> ,0.0,0.0,309
+tearDown self ,1.0,0.0,310
+<STR> ,1.0,0.0,311
+dst = dest_image dstpl = dest_pool ,0.0,0.0,312
+mock_proxy assert_called_once ,1.0,0.0,313
+test_fetch_image_no_snapshot self ,0.0,0.0,314
+self mox ReplayAll ,1.0,0.0,315
+RADOSClient self src_pool src_client ,0.0,0.0,316
+setUp self ,1.0,0.0,317
+src_image encode <STR> ,0.0,0.0,318
+test_move_image self ,1.0,0.0,319
+fn = self mox CreateMockAnything ,1.0,0.0,320
+loc = image_location err = e ,0.0,0.0,321
+rbd_utils rbd RBD_FEATURE_LAYERING = <NUM> ,1.0,0.0,322
+handled = self imagehandler _fetch_image None IMAGE_ID ,0.0,0.0,323
+self rbd Error e ,1.0,0.0,324
+backend_dest = <STR> ,1.0,0.0,325
+src_snap = u <STR> ,1.0,0.0,326
+f formats ,0.0,0.0,327
+test_fetch_image_cloneable self ,0.0,0.0,328
+self ,1.0,0.0,329
+mock_rename = self mock_rbd RBD return_value ,0.0,0.0,330
+name encode <STR> ,0.0,0.0,331
+mock_get_fsid return_value = <STR> ,0.0,0.0,332
+RADOSClient ,1.0,0.0,333
+pieces ,0.0,0.0,334
+full_size = self SIZE * <NUM> ,0.0,0.0,335
+RBDTestCase self setUp ,1.0,0.0,336
+is_local self ,0.0,0.0,337
+dest_image = <STR> ,0.0,0.0,338
+IMAGE_PATH = <STR> ,0.0,0.0,339
+<STR> ,0.0,0.0,340
+RADOSClient self dest_pool dest_client ,0.0,0.0,341
+backend_location = <STR> ,0.0,0.0,342
+backend_location = dest_pool ,0.0,0.0,343
+IMAGE_PATH ,0.0,0.0,344
+dest_image ,0.0,0.0,345
+self rbd ImageNotFound ,0.0,0.0,346
+src_pool = u <STR> ,1.0,0.0,347
+location startswith prefix ,0.0,0.0,348
+backend_type ! = <STR> backend_location ,0.0,0.0,349
+RuntimeError _ <STR> ,1.0,0.0,350
+inst ,1.0,0.0,351
+self assertTrue handled ,0.0,0.0,352
+loc ,0.0,0.0,353

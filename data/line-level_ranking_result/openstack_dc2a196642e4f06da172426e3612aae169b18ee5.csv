@@ -1,0 +1,160 @@
+total_tokens,line_level_label,line_score,row
+Tell the caller weather we expect the legacy of block ,1.0,1.0,1
+<STR> Tell the caller the driver requires legacy block device info ,0.0,0.9537592660682198,2
+changed This call updates the DB the latest connection info ,0.0,0.9351753835976285,3
+device info to be passed to methods that expect it ,0.0,0.9060578448676994,4
+self db_api block_device_mapping_update self context <NUM> ,1.0,0.4447626807406533,5
+db_api block_device_mapping_update context self ,1.0,0.4447626807406533,6
+self db block_device_mapping_get_all_by_instance context ,1.0,0.42110706662248043,7
+self compute_api _get_block_device_info self context inst uuid ,1.0,0.41565769280118553,8
+context instance self volume_api ,1.0,0.34895764330523504,9
+context instance ,1.0,0.34895764330523504,10
+block_device_mapping context instance self volume_api ,1.0,0.34895764330523504,11
+bdms = self _get_instance_volume_bdms context instance ,1.0,0.34895764330523504,12
+context instance self volume_api ,1.0,0.34895764330523504,13
+context instance ,1.0,0.34895764330523504,14
+def_get_instance_volume_bdms self context instance ,1.0,0.34895764330523504,15
+def_get_instance_volume_bdms self context instance legacy = ,1.0,0.34895764330523504,16
+context instance legacy legacy ,0.0,0.34895764330523504,17
+bdms = self _get_instance_volume_bdms context instance ,1.0,0.34895764330523504,18
+test_bdm refresh_connection_info self context instance ,1.0,0.34895764330523504,19
+def_refresh_block_device_connection_info self context instance ,1.0,0.34895764330523504,20
+context instance refresh_conn_info = ,0.0,0.34895764330523504,21
+bdms = self _refresh_block_device_connection_info context instance ,1.0,0.34895764330523504,22
+refresh_connection_info self context instance volume_api ,1.0,0.34895764330523504,23
+context instance ,1.0,0.34895764330523504,24
+context instance bdms = bdms ,0.0,0.34895764330523504,25
+def_get_block_device_info self context instance_uuid ,1.0,0.2991183084366796,26
+connection_info = volume_api initialize_connection context ,0.0,0.2989294316123422,27
+self context test_bdm volume_id ,0.0,0.28933112787719195,28
+self driver self conductor_api + ,1.0,0.28470835245027915,29
+self driver self conductor_api ,0.0,0.28470835245027915,30
+self driver self conductor_api + ,0.0,0.28470835245027915,31
+self driver self conductor_api ,1.0,0.28470835245027915,32
+context bdm [ <STR> ] connector ,0.0,0.2719312113427526,33
+connector = self driver get_volume_connector instance ,0.0,0.262681909320812,34
+<STR> After some operations the IQN CHAP example may have ,0.0,0.2582360309665488,35
+context bdm [ <STR> ] ,0.0,0.25749895217420077,36
+self mox StubOutWithMock self compute_api <STR> ,1.0,0.1828134431958673,37
+virt_driver db_api = None ,0.0,0.17886780950846018,38
+db_api ,0.0,0.17886780950846018,39
+self db_api ,0.0,0.17886780950846018,40
+self driver need_legacy_block_device_info ,0.0,0.15679095902122592,41
+nova openstack common jsonutils ,0.0,0.15546888011556817,42
+self conductor_api block_device_mapping_update ,1.0,0.1363133124868091,43
+self mox StubOutWithMock self compute ,1.0,0.12408999394135425,44
+bdm get <STR> ] ,0.0,0.1117491266851968,45
+self virt_driver get_volume_connector instance AndReturn connector ,0.0,0.10589095029957418,46
+connector = virt_driver get_volume_connector instance ,0.0,0.10589095029957418,47
+<STR> jsonutils dumps connection_info ,1.0,0.10347632652526279,48
+instance = <STR> ,1.0,0.09145869113104216,49
+instance [ <STR> ] ,1.0,0.09145869113104216,50
+econtext instance AndReturn fake_block_dev_info ,0.0,0.09145869113104216,51
+self compute _get_instance_volume_block_device_info ,1.0,0.08309011961515513,52
+<STR> jsonutils dumps cinfo ,1.0,0.07688049527197563,53
+<STR> jsonutils dumps expected_conn_info ,1.0,0.07688049527197563,54
+pass ,0.0,0.07452082962605501,55
+block_device_info [ <STR> ] = driver_block_device get_swap ,1.0,0.06644695674350229,56
+block_device_info = \ ,1.0,0.06559502097387117,57
+block_device_info = self _get_volume_block_device_info ,1.0,0.06559502097387117,58
+block_device_info [ <STR> ] ,1.0,0.06559502097387117,59
+block_device_info = None ,1.0,0.06559502097387117,60
+block_device_info None ,1.0,0.06559502097387117,61
+block_device_info = self _get_instance_volume_block_device_info ,1.0,0.06559502097387117,62
+block_device_info = self _get_instance_volume_block_device_info ,1.0,0.06559502097387117,63
+block_device_info = fake_block_dev_info ,1.0,0.06559502097387117,64
+block_device_info = <STR> ,1.0,0.06559502097387117,65
+block_device_info [ bdm_type ] = \ ,1.0,0.06559502097387117,66
+block_device_info [ bdm_type ] ,1.0,0.06559502097387117,67
+block_device_info = block_info ,1.0,0.06559502097387117,68
+block_device_mapping append bdmap ,1.0,0.06127524986573804,69
+connection_info [ <STR> ] = self volume_id ,1.0,0.05842800695624543,70
+instance_uuid ,0.0,0.04161935626248525,71
+connector AndReturn connection_info ,1.0,0.0410280904218192,72
+self mox ReplayAll ,1.0,0.04099987432621417,73
+test_bdm = self driver_classes [ <STR> ] ,1.0,0.035905721829442384,74
+self volume_id ,0.0,0.031832175702958265,75
+connection_info = <STR> ,1.0,0.026595831253287166,76
+self [ <STR> ] = connection_info ,1.0,0.026595831253287166,77
+<STR> connection_info ,1.0,0.026595831253287166,78
+self volume_api initialize_connection ,0.0,0.014834648184904063,79
+cinfo = self volume_api initialize_connection ,0.0,0.014834648184904063,80
+connector = <STR> ,1.0,0.014432259168532033,81
+connector ,0.0,0.014432259168532033,82
+matchers DictMatches expected_conn_info ,1.0,0.01070872042473586,83
+<STR> driver_block_device get_swap ,1.0,0.0008519357696311139,84
+block_info = self _get_block_device_info elevated ,1.0,0.0,85
+block_device_mapping = driver_block_device refresh_conn_infos ,1.0,0.0,86
+bdmap = <STR> cinfo ,0.0,0.0,87
+legacy ,0.0,0.0,88
+[ bdm bdm bdms bdm [ <STR> ] ] ,1.0,0.0,89
+block_device_mapping = [ ] ,1.0,0.0,90
+<STR> driver_block_device legacy_block_devices ,0.0,0.0,91
+driver_block_device legacy_block_devices ,0.0,0.0,92
+driver_block_device legacy_block_devices ,1.0,0.0,93
+block_device_mapping = ,1.0,0.0,94
+driver_block_device legacy_block_devices ,0.0,0.0,95
+driver_block_device convert_volumes bdms + ,1.0,0.0,96
+AndReturn <STR> ,0.0,0.0,97
+operator methodcaller <STR> ,0.0,0.0,98
+expected_conn_info = <STR> ,1.0,0.0,99
+refresh_conn_info = ,0.0,0.0,100
+block_device_mapping = driver_block_device legacy_block_devices ,1.0,0.0,101
+<STR> ,1.0,0.0,102
+<STR> block_device_mapping ,1.0,0.0,103
+bdms None ,0.0,0.0,104
+driver_block_device convert_volumes bdms ,1.0,0.0,105
+refresh_conn_infos block_device_mapping * refresh_args * * refresh_kwargs ,0.0,0.0,106
+self _get_volume_bdms bdms ,1.0,0.0,107
+<STR> ,0.0,0.0,108
+bdm [ <STR> ] ,0.0,0.0,109
+driver_block_device convert_snapshots bdms ,1.0,0.0,110
+self use_legacy_block_device_info = \ ,1.0,0.0,111
+self _await_block_device_map_created ,1.0,0.0,112
+[ bdm bdm bdms bdm [ <STR> ] ] ,0.0,0.0,113
+block_device_mapping ,1.0,0.0,114
+def_get_volume_bdms self bdms legacy = ,0.0,0.0,115
+legacy = ,0.0,0.0,116
+self _await_block_device_map_created ,1.0,0.0,117
+bdms = block_device legacy_mapping ,1.0,0.0,118
+cinfo = jsonutils loads bdm [ <STR> ] ,0.0,0.0,119
+<STR> driver_block_device convert_swap bdms ,1.0,0.0,120
+bdms = self _refresh_block_device_connection_info ,0.0,0.0,121
+[ bdm bdm bdms ,1.0,0.0,122
+refresh_conn_info ,0.0,0.0,123
+bdm bdms ,0.0,0.0,124
+self use_legacy_block_device_info ,1.0,0.0,125
+need_legacy_block_device_info self ,0.0,0.0,126
+<STR> ,1.0,0.0,127
+bdm [ <STR> ] ,1.0,0.0,128
+* refresh_args * * refresh_kwargs ,0.0,0.0,129
+block_device_mapping ,1.0,0.0,130
+bdms = None ,0.0,0.0,131
+@ ,0.0,0.0,132
+bdm_type <STR> ,0.0,0.0,133
+block_device_mapping = [ ,1.0,0.0,134
+self volume_api self virt_driver ,1.0,0.0,135
+self [ <STR> ] ,0.0,0.0,136
+self assertThat test_bdm [ <STR> ] ,1.0,0.0,137
+driver_block_device attach_block_devices ,1.0,0.0,138
+self snapshot_bdm ,0.0,0.0,139
+def_get_volume_bdms self bdms ,1.0,0.0,140
+cinfo [ <STR> ] ,0.0,0.0,141
+self _get_volume_block_device_info bdms ,1.0,0.0,142
+<STR> ,0.0,0.0,143
+TypeError ,0.0,0.0,144
+bdm bdm block_device_mapping ,1.0,0.0,145
+<STR> driver_block_device convert_ephemerals bdms ,1.0,0.0,146
+cinfo <STR> cinfo ,0.0,0.0,147
+<STR> ] ,0.0,0.0,148
+driver_block_device attach_block_devices ,0.0,0.0,149
+def_get_volume_block_device_info self bdms ,1.0,0.0,150
+driver_block_device convert_ephemerals bdms ,1.0,0.0,151
+<STR> ,1.0,0.0,152
+self _get_instance_volume_block_device_info ,1.0,0.0,153
+bdms ,0.0,0.0,154
+driver_block_device convert_swap bdms ,1.0,0.0,155
+bdms ,1.0,0.0,156
+test_refresh_connection self ,1.0,0.0,157
+driver_block_device convert_volumes bdms ,1.0,0.0,158
+driver_block_device convert_snapshots bdms ,1.0,0.0,159

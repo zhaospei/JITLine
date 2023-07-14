@@ -1,0 +1,744 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,1.0,1.0,1
+License the specific language governing permissions limitations ,1.0,0.953889073340811,2
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.9405494852595915,3
+target_portal the portal of the iSCSI target ,1.0,0.8393960464632533,4
+use this file compliance the License You may obtain ,1.0,0.8332388138135707,5
+the of the driver data defined in_get_iscsi_properties ,1.0,0.8213125281614825,6
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.8017482272457885,7
+a copy of the License at ,1.0,0.7922985945992942,8
+volume_id the of the volume currently used by xen ,1.0,0.7786204802929442,9
+cinder openstack common log logging ,1.0,0.7663450699727299,10
+def__ init__ self * args * * kwargs ,1.0,0.7602128891589938,11
+EMCISCSIDriver self __ init__ * args * * kwargs ,1.0,0.7520346912474513,12
+therefore maps the volume to the host ,0.0,0.7487644406564551,13
+target_lun the lun of the iSCSI target ,1.0,0.7047277740201224,14
+target_iqn the IQN of the iSCSI target ,1.0,0.7047277740201224,15
+the iscsi driver returns a driver_volume_type of <STR> ,1.0,0.6614166868421492,16
+result = result get datatype num ,1.0,0.6601957150091307,17
+<STR> Add volume to the Device Masking Group that belongs to ,1.0,0.6251045060476257,18
+<STR> Get the storage the config file ,1.0,0.5797890444880718,19
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.5102978140536029,20
+image_service update context image_id volume_file ,1.0,0.5060457993542146,21
+copy_volume_to_image self context volume image_service image_id ,1.0,0.48080471707348477,22
+We ideally get saved information the volume entity but fall back ,1.0,0.4594706483441189,23
+meaning use CHAP the specified credentials ,1.0,0.45888859364909407,24
+therefore unmaps the volume the host ,1.0,0.4482057430201588,25
+result = num ,1.0,0.44587520470083153,26
+<STR> pywbem Uint<NUM> num ,1.0,0.44587520470083153,27
+<STR> pywbem Uint<NUM> num ,1.0,0.44587520470083153,28
+def_getnum self num datatype ,1.0,0.44587520470083153,29
+copy_image_to_volume self context volume image_service image_id ,1.0,0.4075753711259318,30
+image_service download context image_id image_file ,1.0,0.4075753711259318,31
+cinder openstack common cfg ,1.0,0.4011785090182376,32
+create_export self context volume ,1.0,0.3998636996071898,33
+<STR> Driver exntry point to remove an export a volume ,0.0,0.38829045916117316,34
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.37375802570352606,35
+target_discovered boolean indicating whether discovery was used ,1.0,0.35727289690931846,36
+< ! - - Credentials of ECOM packaged SMI - S - - > ,0.0,0.3404410640731374,37
+the authentication details Right now either auth_method ,1.0,0.3345455221286101,38
+check_for_export self context volume_id ,1.0,0.32070113459480115,39
+ensure_export self context volume ,1.0,0.32044744048713114,40
+context volume connector ,1.0,0.32044744048713114,41
+remove_export self context volume ,1.0,0.32044744048713114,42
+def_attach_volume self context volume connector ,1.0,0.32044744048713114,43
+<STR> Initializes the connection returns connection info ,1.0,0.29604170285283854,44
+present meaning no authentication auth_method = = ` CHAP ` ,1.0,0.2526792252228879,45
+< ? xml version = <STR> ? > ,1.0,0.2452262871464858,46
+to discovery need be Discovery may be completely removed future ,1.0,0.22958926728814208,47
+<STR> Adds a volume initiator to a Storage Group ,1.0,0.22958926728814208,48
+self stubs Set EMCISCSIDriver <STR> ,1.0,0.22003142757541128,49
+iscsi_properties get <STR> <NUM> ,1.0,0.2143205103081933,50
+LOG debug _ <STR> % location ,1.0,0.21313705733000643,51
+def_iscsi_location ip target iqn lun = None ,1.0,0.20817917313884035,52
+under the License ,1.0,0.20783205423218448,53
+opt = cfg StrOpt <STR> ,1.0,0.20601523650346704,54
+check_exit_code = kwargs pop <STR> <NUM> ,1.0,0.2029314879601071,55
+def_run_iscsiadm self iscsi_properties iscsi_command * * kwargs ,1.0,0.2029314879601071,56
+pass ,1.0,0.19807768386246913,57
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.19627997756586824,58
+self driver create_volume test_volume ,1.0,0.1934116969170491,59
+self driver = driver ,1.0,0.19241953341994184,60
+export = self driver create_export None test_volume ,1.0,0.1906078121910064,61
+<STR> % ip FLAGS iscsi_port target iqn lun ,1.0,0.19038655561958992,62
+LOG = logging getLogger __ name__ ,1.0,0.18929168328524876,63
+cinder volume drivers emc EMCISCSIDriver ,1.0,0.18785049616051366,64
+FLAGS register_opt opt ,1.0,0.17888316158127934,65
+contents = utils read_file_as_root <STR> ,1.0,0.1736077943076977,66
+utils file_open volume_path volume_file ,1.0,0.1736077943076977,67
+utils temporary_chown volume_path ,1.0,0.1736077943076977,68
+utils file_open volume_path <STR> image_file ,1.0,0.1736077943076977,69
+cinder utils ,1.0,0.1736077943076977,70
+<STR> Removes a volume the Storage Group ,1.0,0.16592597147123572,71
+instance = vol ,1.0,0.15783057044931317,72
+exception VolumeBackendAPIException data = msg ,1.0,0.1518283077955942,73
+vols append vol ,1.0,0.1423542189442543,74
+location = self _do_iscsi_discovery volume ,1.0,0.14183279739082644,75
+rc job = conn InvokeMethod <STR> configservice ,1.0,0.13500528826932748,76
+rc errordesc = self _wait_for_job_complete job ,1.0,0.13500528826932748,77
+rc job ,1.0,0.13500528826932748,78
+rc job = conn InvokeMethod ,1.0,0.13500528826932748,79
+LOG debug _ <STR> ,1.0,0.1349946599826881,80
+LOG debug <STR> % ,1.0,0.1349946599826881,81
+LOG debug _ <STR> ] ,1.0,0.1349946599826881,82
+LOG debug _ <STR> ,1.0,0.1349946599826881,83
+LOG debug _ <STR> % storageType ,1.0,0.1349946599826881,84
+LOG debug _ <STR> % properties ,1.0,0.1349946599826881,85
+LOG debug _ <STR> % ,1.0,0.1349946599826881,86
+LOG debug _ <STR> % view ,1.0,0.1349946599826881,87
+LOG debug _ <STR> ,1.0,0.1349946599826881,88
+l [ l index <STR> + <NUM> ] strip ,1.0,0.12520293930704132,89
+views None views > <NUM> ,1.0,0.11921980189269053,90
+exception NovaException _ <STR> ,1.0,0.11577682599177619,91
+exception VolumeBackendAPIException data = exception_message ,1.0,0.11577682599177619,92
+cinder exception ,1.0,0.11577682599177619,93
+exception InvalidVolume _ <STR> ,1.0,0.11577682599177619,94
+exception VolumeBackendAPIException ,1.0,0.11577682599177619,95
+exception VolumeBackendAPIException data = errordesc ,1.0,0.11577682599177619,96
+Example value ,1.0,0.11420596070419206,97
+< MaskingView > openstack < / MaskingView > ,0.0,0.1136046915504225,98
+Size = self _getnum volumesize <STR> ,1.0,0.11300464654502504,99
+connection_info = self driver initialize_connection test_volume ,1.0,0.11149396159314548,100
+vol vols ,1.0,0.10912337820963675,101
+pools append pool ,1.0,0.10789208416141273,102
+filename = FLAGS cinder_emc_config_file ,1.0,0.1054178271364701,103
+associators = conn Associators ctrl ,1.0,0.10399597616934257,104
+volumesize = volume [ <STR> ] * <NUM> ,1.0,0.10349620867669068,105
+<STR> volumesize ,1.0,0.10349620867669068,106
+ctrls append ctrl ,1.0,0.10006353917211952,107
+create_volume self volume ,1.0,0.09720193020716483,108
+self driver create_volume_from_snapshot ,1.0,0.09620976670997322,109
+self driver terminate_connection test_volume connector ,1.0,0.09620976670997322,110
+EMCISCSIDriver driver ISCSIDriver ,1.0,0.09620976670997322,111
+driver = EMCISCSIDriver ,1.0,0.09620976670997322,112
+self driver create_snapshot test_snapshot ,1.0,0.09620976670997322,113
+cinder volume driver ,1.0,0.09620976670997322,114
+self driver delete_volume test_clone ,1.0,0.09620976670997322,115
+self driver remove_export None test_volume ,1.0,0.09620976670997322,116
+self driver delete_volume test_volume ,1.0,0.09620976670997322,117
+self driver delete_snapshot test_snapshot ,1.0,0.09620976670997322,118
+<STR> device_id ,0.0,0.09551791625449789,119
+% <STR> device_id ,1.0,0.09551791625449789,120
+device_id = vol_instance [ <STR> ] ,1.0,0.09551791625449789,121
+n [ <STR> ] = = device_id ,1.0,0.09551791625449789,122
+device_id = volume [ <STR> ] ,1.0,0.09551791625449789,123
+device_id = None ,1.0,0.09551791625449789,124
+device_id None ,1.0,0.09551791625449789,125
+<STR> device_id ,0.0,0.09551791625449789,126
+LUNames = [ device_id ] ProtocolControllers = [ lunmask_ctrl ] ,0.0,0.09551791625449789,127
+<STR> device_id ,0.0,0.09551791625449789,128
+units append unit ,0.0,0.09512652208481713,129
+file = filename <STR> ,1.0,0.0951239755800903,130
+configservice ElementName = volumename InPool = pool ,1.0,0.09292283339099944,131
+maskingview_name = = instance [ <STR> ] ,1.0,0.09288410176554543,132
+instance = EMC_StorageVolume ,1.0,0.09288410176554543,133
+instance ,1.0,0.09288410176554543,134
+instance = conn GetInstance view LocalOnly = ,1.0,0.09288410176554543,135
+sync_name storage_system = self _find_storage_sync_sv_sv ,1.0,0.09274265122611132,136
+vol_instance = self _find_lun volume ,1.0,0.09091454045745431,137
+snapshot_instance = self _find_lun snapshot ,1.0,0.09091454045745431,138
+foundMaskingGroup = groups [ <NUM> ] ,1.0,0.08899069351323599,139
+groups = conn AssociatorNames foundView ,1.0,0.08899069351323599,140
+pool storage_system = self _find_pool storage_type ,1.0,0.08724775882006042,141
+def_wait_for_job_complete self job ,1.0,0.08517703903711973,142
+job = <STR> ,1.0,0.08517703903711973,143
+jobinstancename = job [ <STR> ] ,1.0,0.08517703903711973,144
+out err = self _execute <STR> ,1.0,0.08087567812139591,145
+out _err = self _execute <STR> ,1.0,0.08087567812139591,146
+location ,1.0,0.07814239734738433,147
+results = location split <STR> ,1.0,0.07814239734738433,148
+vols append snap_vol ,1.0,0.07740775026048874,149
+vols append clone_vol ,1.0,0.07740775026048874,150
+The properties are ,1.0,0.07193140816763462,151
+tries > = FLAGS num_iscsi_scan_tries ,1.0,0.07153796910492093,152
+filename = = None ,1.0,0.0713830596396831,153
+def_get_masking_view self filename = None ,1.0,0.0713830596396831,154
+def_get_ecom_cred self filename = None ,1.0,0.0713830596396831,155
+fake_storage_type self filename = None ,1.0,0.0713830596396831,156
+def_get_ecom_connection self filename = None ,1.0,0.0713830596396831,157
+def_get_ecom_server self filename = None ,1.0,0.0713830596396831,158
+def_get_storage_type self filename = None ,1.0,0.0713830596396831,159
+< ! - - StorageType a thin pool name - - > ,0.0,0.07112389473047989,160
+target out splitlines ,1.0,0.07099732524928191,161
+auth_method auth_username auth_secret = auth split ,1.0,0.06893523845076223,162
+msg = _ <STR> % volumename ,1.0,0.0674644628726757,163
+foundCtrl = ctrl ,1.0,0.06683269843754712,164
+ctrl ,1.0,0.06683269843754712,165
+ctrl controllers ,1.0,0.06683269843754712,166
+storage_system ! = ctrl [ <STR> ] ,1.0,0.06683269843754712,167
+ctrl [ <STR> ] = storage_system ,1.0,0.06683269843754712,168
+ctrl = ,1.0,0.06683269843754712,169
+ctrl [ <STR> ] = lunmask_creationclass ,1.0,0.06683269843754712,170
+ctrl [ <STR> ] = lunmaskctrl_id ,1.0,0.06683269843754712,171
+vol [ <STR> ,1.0,0.06494646868377794,172
+vol path = <STR> ] ,0.0,0.06494646868377794,173
+vol = EMC_StorageVolume ,1.0,0.06494646868377794,174
+vol [ <STR> ] = storage_system ,1.0,0.06494646868377794,175
+vol [ <STR> ] ,1.0,0.06494646868377794,176
+vol [ <STR> ] ,1.0,0.06494646868377794,177
+foundPool = vpool ,0.0,0.06317802385146482,178
+vpool vpools ,1.0,0.06317802385146482,179
+poolinstance = vpool [ <STR> ] ,1.0,0.06317802385146482,180
+units = [ ] ,1.0,0.06189568135024473,181
+units ,1.0,0.06189568135024473,182
+pool [ <STR> + storage_type ,1.0,0.06150985232220093,183
+<STR> pool ,0.0,0.06150985232220093,184
+pool None ,1.0,0.06150985232220093,185
+pool = ,1.0,0.06150985232220093,186
+pool [ <STR> ,1.0,0.06150985232220093,187
+view = views [ <NUM> ] toxml replace <STR> ,1.0,0.059609900946366784,188
+views = dom getElementsByTagName <STR> ,1.0,0.059609900946366784,189
+user passwd = self _get_ecom_cred ,1.0,0.05522819677636944,190
+conn = pywbem WBEMConnection url user passwd ,1.0,0.05522819677636944,191
+<STR> rc ,0.0,0.049828249232282594,192
+rc errordesc ,1.0,0.049828249232282594,193
+<STR> rc ,0.0,0.049828249232282594,194
+rc = jobinstance [ <STR> ] ,1.0,0.049828249232282594,195
+rc controller = conn InvokeMethod ,1.0,0.049828249232282594,196
+rc = <NUM>L ,1.0,0.049828249232282594,197
+<STR> rc ,0.0,0.049828249232282594,198
+rc ! = <NUM>L ,1.0,0.049828249232282594,199
+Drivers EMC volumes ,0.0,0.04668428023586456,200
+vols = self _enum_storagevolumes ,1.0,0.04417690952591634,201
+vols = [ ] ,1.0,0.04417690952591634,202
+vols ,1.0,0.04417690952591634,203
+objpath<NUM> = vols [ <NUM> ] ,1.0,0.04417690952591634,204
+properties [ <STR> ] = auth_secret ,1.0,0.04368053879805238,205
+names append name ,1.0,0.04136196115624837,206
+os path exists host_device ,1.0,0.039491574275501186,207
+os path exists host_device ,1.0,0.039491574275501186,208
+iscsi_command out err ,1.0,0.03856255824491665,209
+out err ,1.0,0.03856255824491665,210
+index > - <NUM> # VNX ,1.0,0.03751130289216273,211
+index > - <NUM> # VMAX / VMAXe ,1.0,0.03751130289216273,212
+index > - <NUM> ,1.0,0.03751130289216273,213
+index = classname find <STR> ,1.0,0.03751130289216273,214
+associators = conn Associators ,1.0,0.037163277731795466,215
+assoc associators ,1.0,0.037163277731795466,216
+msg = _ <STR> ,1.0,0.03605148180387718,217
+msg = _ <STR> % ,1.0,0.03605148180387718,218
+LOG error msg ,0.0,0.03605148180387718,219
+rep_services append rep_service ,1.0,0.033230840734572394,220
+numlist append numDeviceNumber ,0.0,0.033230840734572394,221
+myunitnames append unitname ,0.0,0.033230840734572394,222
+syncs append sync ,1.0,0.033230840734572394,223
+conf_services append conf_service ,1.0,0.033230840734572394,224
+assocs append assoc ,1.0,0.033230840734572394,225
+default = CINDER_EMC_CONFIG_FILE ,1.0,0.03314438720054009,226
+target ,1.0,0.03243476700436526,227
+ElementName = volumename ,1.0,0.031412981068798515,228
+vol_instance [ <STR> ] = = volumename ,0.0,0.031412981068798515,229
+<STR> volumename ,1.0,0.031412981068798515,230
+% <STR> volumename ,1.0,0.031412981068798515,231
+volumename = volume [ <STR> ] ,1.0,0.031412981068798515,232
+% volumename ,1.0,0.031412981068798515,233
+volumename snapshotname ,1.0,0.031412981068798515,234
+snapshotname volumename ,0.0,0.031412981068798515,235
+<STR> volumename ,1.0,0.031412981068798515,236
+<STR> volumename ,1.0,0.031412981068798515,237
+volumename = snapshot [ <STR> ] ,1.0,0.031412981068798515,238
+volumename = vol_instance [ <STR> ] ,1.0,0.031412981068798515,239
+volume [ <STR> ] = volumename ,1.0,0.031412981068798515,240
+% <STR> volumename ,1.0,0.031412981068798515,241
+def_find_storage_sync_sv_sv self snapshotname volumename ,1.0,0.031412981068798515,242
+<STR> % volumename ,1.0,0.031412981068798515,243
+volumename <STR> errordesc ,0.0,0.031412981068798515,244
+% volumename ,1.0,0.031412981068798515,245
+l startswith <STR> ,1.0,0.029684829601209908,246
+self _run_iscsiadm iscsi_properties <STR> ,1.0,0.02909934114297245,247
+properties [ <STR> ] = auth_method ,1.0,0.02525469965270985,248
+auth_method auth_username auth_password ,1.0,0.02525469965270985,249
+check_for_setup_error self ,1.0,0.024610111729848543,250
+file close ,0.0,0.0237409159404072,251
+data = file read ,1.0,0.0237409159404072,252
+iscsi_properties volume_path = self _attach_volume ,1.0,0.01746325179942017,253
+def_get_iscsi_properties self volume ,1.0,0.015552784243320862,254
+pools ,1.0,0.01315139110469179,255
+pools = [ ] ,1.0,0.01315139110469179,256
+< ! - - MaskingView needed only VMAX / VMAXe - - > ,0.0,0.01169172614426945,257
+def_do_iscsi_discovery self volume ,1.0,0.009927271937593147,258
+SyncType = self _getnum <NUM> <STR> ,1.0,0.009508437868355214,259
+DeviceAccesses = [ self _getnum <NUM> <STR> ] ,1.0,0.009508437868355214,260
+Operation = self _getnum <NUM> <STR> ,1.0,0.009508437868355214,261
+ElementType = self _getnum <NUM> <STR> ,1.0,0.009508437868355214,262
+EnumerateInstanceNames self name ,1.0,0.008131120421675976,263
+name = = <STR> ,1.0,0.008131120421675976,264
+name = ,1.0,0.008131120421675976,265
+name = = <STR> ,1.0,0.008131120421675976,266
+name = objectpath [ <STR> ] ,1.0,0.008131120421675976,267
+name [ <STR> ,1.0,0.008131120421675976,268
+<STR> Get initiator name connector [ <STR> ] ,1.0,0.008131120421675976,269
+poolname systemname = self _parse_pool_instance_id poolinstance ,1.0,0.0042847914406383,270
+poolname = instanceid [ endp + <NUM> ] ,1.0,0.0042847914406383,271
+storage_type = = poolname ,1.0,0.0042847914406383,272
+poolname = None ,1.0,0.0042847914406383,273
+poolname None systemname None ,1.0,0.0042847914406383,274
+poolname systemname ,1.0,0.0042847914406383,275
+LOG warn _ <STR> ,1.0,0.0032911192252070755,276
+LOG warn _ <STR> ,1.0,0.0032911192252070755,277
+<STR> Gets iscsi configuration ,1.0,0.0022333422173567495,278
+FLAGS iscsi_ip_address ,0.0,0.0011046468293036185,279
+run_as_root = ,0.0,0.00027973034570525664,280
+* iscsi_command run_as_root = ,1.0,0.00027973034570525664,281
+lunmask_ctrl None ,1.0,0.0,282
+upools = conn EnumerateInstanceNames <STR> ,1.0,0.0,283
+< StorageType > gold < / StorageType > ,0.0,0.0,284
+storage_system = = repservice [ <STR> ] ,1.0,0.0,285
+auth ,1.0,0.0,286
+test_clone = <STR> ,1.0,0.0,287
+SourceElement = vol_instance path ,1.0,0.0,288
+<STR> snapshot_instance path ,1.0,0.0,289
+foundinstance None ,1.0,0.0,290
+<STR> masking_group ,1.0,0.0,291
+assoc = ,1.0,0.0,292
+unit [ <STR> ,1.0,0.0,293
+% <STR> snapshotname ,1.0,0.0,294
+maxnum = numlist ,0.0,0.0,295
+foundsyncname = n ,1.0,0.0,296
+antecedent [ <STR> ] = storage_system ,1.0,0.0,297
+repservice ,1.0,0.0,298
+storageTypes = dom getElementsByTagName <STR> ,1.0,0.0,299
+numDeviceNumber = unitinstance [ <STR> ] <NUM> ,1.0,0.0,300
+snapshot_instance = conn GetInstance n [ <STR> ] ,1.0,0.0,301
+All Rights Reserved ,1.0,0.0,302
+<STR> iscsi_properties ,1.0,0.0,303
+storage_type = <STR> ,1.0,0.0,304
+LOG info <STR> ,1.0,0.0,305
+ecomPasswds = dom getElementsByTagName <STR> ,1.0,0.0,306
+time sleep tries * * <NUM> ,1.0,0.0,307
+def_enum_lunmaskctrls self ,1.0,0.0,308
+<STR> <NUM> ,1.0,0.0,309
+ecomPasswds None ecomPasswds > <NUM> ,1.0,0.0,310
+clone_vol [ <STR> ] ,1.0,0.0,311
+LocalOnly = ,0.0,0.0,312
+delete_snapshot self snapshot ,1.0,0.0,313
+<STR> foundsyncname ,1.0,0.0,314
+ecomUsers = dom getElementsByTagName <STR> ,1.0,0.0,315
+fake_get_iscsi_properties self volume ,1.0,0.0,316
+NameError ,1.0,0.0,317
+snap_vol [ <STR> ,1.0,0.0,318
+<STR> out_num_device_number ,1.0,0.0,319
+def_find_pool self storage_type ,1.0,0.0,320
+result ,1.0,0.0,321
+ecomPorts = dom getElementsByTagName <STR> ,1.0,0.0,322
+self _ref_unitnames ,1.0,0.0,323
+foundConfigService = None ,1.0,0.0,324
+test_map_unmap self ,1.0,0.0,325
+= <STR> ,1.0,0.0,326
+get_iscsi_initiator ,1.0,0.0,327
+CINDER_EMC_CONFIG_FILE = <STR> ,1.0,0.0,328
+fake_ecom_connection self ,1.0,0.0,329
+foundRepService ,1.0,0.0,330
+unit_creationclass = <STR> ,1.0,0.0,331
+device_number None ,1.0,0.0,332
+ecomIp = ecomIps [ <NUM> ] toxml replace <STR> ,1.0,0.0,333
+def_ref_unitnames self ,1.0,0.0,334
+def_hide_paths self conn configservice vol_instance connector ,1.0,0.0,335
+GetInstance self objectpath LocalOnly = ,1.0,0.0,336
+os ,1.0,0.0,337
+conf_service [ <STR> ] = stconf_service_creationclass ,1.0,0.0,338
+dependent [ <STR> ] = storage_system ,1.0,0.0,339
+% <STR> vol_instance path ,1.0,0.0,340
+Exception ,1.0,0.0,341
+foundMaskingGroup ,1.0,0.0,342
+% <STR> foundinitiatorname ,1.0,0.0,343
+<STR> errordesc ,0.0,0.0,344
+vol_creationclass = <STR> ,1.0,0.0,345
+<STR> ,1.0,0.0,346
+def_find_lunmasking_scsi_protocol_controller_for_vol self vol_instance ,1.0,0.0,347
+iscsi_properties = init_conn [ <STR> ] ,1.0,0.0,348
+self _enum_lunmaskctrls ,1.0,0.0,349
+time ,1.0,0.0,350
+<STR> configservice ,1.0,0.0,351
+jobinstance = conn GetInstance jobinstancename LocalOnly = ,1.0,0.0,352
+setUp self ,1.0,0.0,353
+<STR> initiator ,1.0,0.0,354
+a Masking View <STR> ,1.0,0.0,355
+result = self _default_assocnames objectpath ,1.0,0.0,356
+LOG error _ <STR> ,1.0,0.0,357
+lunmask_ctrl = self _find_lunmasking_scsi_protocol_controller_for_vol ,1.0,0.0,358
+<STR> lun_name ,0.0,0.0,359
+% <STR> ,1.0,0.0,360
+% <STR> lunmask_ctrl ,0.0,0.0,361
+tries = <NUM> ,1.0,0.0,362
+ecomUser = ecomUsers [ <NUM> ] toxml replace <STR> ,1.0,0.0,363
+foundinitiatorname = None ,1.0,0.0,364
+<STR> snapshotname ,1.0,0.0,365
+antecedent [ <STR> ] = lunmaskctrl_id ,1.0,0.0,366
+clone_vol path = <STR> ] ,1.0,0.0,367
+myunitnames = [ ] ,1.0,0.0,368
+result = self _enum_ctrlconfsvcs ,1.0,0.0,369
+tries ! = <NUM> ,1.0,0.0,370
+conf_services ,1.0,0.0,371
+snap_vol [ <STR> ] ,1.0,0.0,372
+connector ,1.0,0.0,373
+def_find_avail_device_number self storage_system ,1.0,0.0,374
+<STR> storage_system ,1.0,0.0,375
+foundinitiatorname = connector [ <STR> ] ,1.0,0.0,376
+ecomIp = ecomIp replace <STR> ,1.0,0.0,377
+% <STR> maskingview_name ,1.0,0.0,378
+conn ,1.0,0.0,379
+test_volume [ <STR> ] ,1.0,0.0,380
+cinder test ,1.0,0.0,381
+self _unmap_lun volume connector ,1.0,0.0,382
+controllers = conn EnumerateInstanceNames ,1.0,0.0,383
+numlist = [ ] ,0.0,0.0,384
+Synchronization = sync_name ,1.0,0.0,385
+conf_service [ <STR> ] = storage_system ,1.0,0.0,386
+def_default_enum self ,1.0,0.0,387
+iscsi_properties = None ,1.0,0.0,388
+ecomUser ecomPasswd ,1.0,0.0,389
+def_find_lunmasking_scsi_protocol_controller self storage_system ,1.0,0.0,390
+conn = FakeEcomConnection ,1.0,0.0,391
+unitnames = conn ReferenceNames ,1.0,0.0,392
+antecedent [ <STR> ] = lunmask_creationclass ,1.0,0.0,393
+conf_services = [ ] ,1.0,0.0,394
+volume [ <STR> ] ,1.0,0.0,395
+pool_creationclass = <STR> ,1.0,0.0,396
+foundsyncname None ,1.0,0.0,397
+conn = self _get_ecom_connection ,1.0,0.0,398
+snapshotname = snapshot [ <STR> ] ,1.0,0.0,399
+connector [ <STR> ] = initiator ,1.0,0.0,400
+snapshotname ! = snapshot_instance [ <STR> ] ,1.0,0.0,401
+% <STR> errordesc ,0.0,0.0,402
+TheElements = None ,0.0,0.0,403
+foundConfigService ,1.0,0.0,404
+Associators self objectpath resultClass = <STR> ,1.0,0.0,405
+storage_system = snapshot_instance [ <STR> ] ,1.0,0.0,406
+<STR> ,1.0,0.0,407
+errordesc = jobinstance [ <STR> ] ,1.0,0.0,408
+unitinstance = conn GetInstance unitname LocalOnly = ,1.0,0.0,409
+% <STR> configservice ,1.0,0.0,410
+def_remove_members self conn configservice vol_instance connector ,1.0,0.0,411
+% host_device ,1.0,0.0,412
+assocs = [ ] ,1.0,0.0,413
+out_num_device_number = None ,1.0,0.0,414
+ecomPort = ecomPorts [ <NUM> ] toxml replace <STR> ,1.0,0.0,415
+result = self _getinstance_lunmask ,1.0,0.0,416
+storage_type ,1.0,0.0,417
+connector [ <STR> ] ,1.0,0.0,418
+syncs ,1.0,0.0,419
+maskingviews = conn EnumerateInstanceNames ,1.0,0.0,420
+test_create_destroy self ,1.0,0.0,421
+def_parse_pool_instance_id self instanceid ,1.0,0.0,422
+def_find_replication_service self storage_system ,1.0,0.0,423
+rep_service [ <STR> ] = storage_system ,1.0,0.0,424
+<STR> storage_type ,1.0,0.0,425
+device_number = self _find_device_number volume ,1.0,0.0,426
+time sleep <NUM> ,0.0,0.0,427
+vpools = conn EnumerateInstanceNames <STR> ,1.0,0.0,428
+None ,1.0,0.0,429
+isVMAX > - <NUM> ,1.0,0.0,430
+out_device_number = <STR> ,1.0,0.0,431
+result = self _enum_syncsvsvs ,1.0,0.0,432
+configservice None ,1.0,0.0,433
+poolinstance = upool [ <STR> ] ,1.0,0.0,434
+foundRepService = None ,1.0,0.0,435
+configservice TheElements = [ vol_instance path ] ,1.0,0.0,436
+% configservice ,1.0,0.0,437
+result = self _getinstance_unit objectpath ,1.0,0.0,438
+lunmask ,1.0,0.0,439
+AssociatorNames self objectpath ,1.0,0.0,440
+% volume [ <STR> ] ,1.0,0.0,441
+initiator = self _find_initiator_name connector ,1.0,0.0,442
+<STR> vol_instance path ,1.0,0.0,443
+out_num_device_number = maxnum + <NUM> ,0.0,0.0,444
+lunmask [ <STR> ] = lunmask_creationclass ,1.0,0.0,445
+names = conn EnumerateInstanceNames <STR> ,1.0,0.0,446
+properties [ <STR> ] = results [ <NUM> ] ,1.0,0.0,447
+def_unmap_lun self volume connector ,1.0,0.0,448
+exception_message = _ <STR> ,1.0,0.0,449
+names = [ ] ,1.0,0.0,450
+rep_services = [ ] ,1.0,0.0,451
+self _hide_paths conn configservice vol_instance connector ,1.0,0.0,452
+test_create_volume_snapshot_destroy self ,1.0,0.0,453
+ProtocolControllers = None ,1.0,0.0,454
+systemname = None ,1.0,0.0,455
+FLAGS = flags FLAGS ,1.0,0.0,456
+storage_system ! = controller [ <STR> ] ,1.0,0.0,457
+LOG error _ <STR> ,1.0,0.0,458
+SyncType = None SourceElement = None ,1.0,0.0,459
+controller = unitname [ <STR> ] ,1.0,0.0,460
+upool upools ,1.0,0.0,461
+dependent [ <STR> ] ,1.0,0.0,462
+check_exit_code = check_exit_code ,1.0,0.0,463
+def_assocnames_lunmaskctrl self ,1.0,0.0,464
+result = self _ref_unitnames ,1.0,0.0,465
+connector = ,1.0,0.0,466
+ecomPorts None ecomPorts > <NUM> ,1.0,0.0,467
+def_find_lun self volume ,1.0,0.0,468
+self _remove_members conn configservice vol_instance connector ,1.0,0.0,469
+result = self _default_getinstance objectpath ,1.0,0.0,470
+<STR> initiator ,1.0,0.0,471
+<STR> errordesc ,1.0,0.0,472
+def_enum_unitnames self ,1.0,0.0,473
+lun_name = vol_instance [ <STR> ] ,1.0,0.0,474
+systemname = idarray [ <NUM> ] + <STR> + idarray [ <NUM> ] ,1.0,0.0,475
+syncs = [ ] ,0.0,0.0,476
+def_getinstance_storagevolume self objectpath ,1.0,0.0,477
+<STR> configservice ,1.0,0.0,478
+names ,1.0,0.0,479
+test_volume = <STR> ,1.0,0.0,480
+unit = ,1.0,0.0,481
+result = self _enum_lunmaskctrls ,1.0,0.0,482
+out_device_number = <STR> % out_num_device_number ,1.0,0.0,483
+exception_message = _ <STR> ,1.0,0.0,484
+self _add_members conn configservice vol_instance connector ,1.0,0.0,485
+snap_vol = EMC_StorageVolume ,1.0,0.0,486
+def_enum_pools self ,1.0,0.0,487
+data = exception_message ,1.0,0.0,488
+test_clone test_snapshot ,1.0,0.0,489
+numDeviceNumber = unitinstance [ <STR> ] ,1.0,0.0,490
+configservice = self _find_controller_configuration_service ,1.0,0.0,491
+< / EMC > ,0.0,0.0,492
+view maskingviews ,1.0,0.0,493
+def_add_members self conn configservice vol_instance connector ,1.0,0.0,494
+ecomPasswd = ecomPasswds [ <NUM> ] toxml replace <STR> ,1.0,0.0,495
+> <NUM> ,1.0,0.0,496
+<STR> sync_name ,0.0,0.0,497
+% <STR> storage_system ,1.0,0.0,498
+<STR> ,0.0,0.0,499
+volume [ <STR> ] ,1.0,0.0,500
+cinder flags ,1.0,0.0,501
+result = self _enum_unitnames ,1.0,0.0,502
+sync = ,1.0,0.0,503
+unit [ <STR> ] = unit_creationclass ,1.0,0.0,504
+volume [ <STR> ] = None ,1.0,0.0,505
+assoc [ <STR> ] = = initiator ,1.0,0.0,506
+result = self _enum_storagevolumes ,1.0,0.0,507
+foundinitiatorname ,1.0,0.0,508
+ecomIps = dom getElementsByTagName <STR> ,1.0,0.0,509
+result = self _default_assoc objectpath ,1.0,0.0,510
+properties [ <STR> ] = device_number ,1.0,0.0,511
+def_enum_storagevolumes self ,1.0,0.0,512
+self _expose_paths conn configservice vol_instance connector ,1.0,0.0,513
+classname = controller [ <STR> ] ,1.0,0.0,514
+ctrlconf_service_creationclass = <STR> ,1.0,0.0,515
+ResultClass = <STR> ,1.0,0.0,516
+ResultClass = = <STR> ,1.0,0.0,517
+lunmask = ,1.0,0.0,518
+l contents split <STR> ,1.0,0.0,519
+self fake_get_iscsi_properties ,1.0,0.0,520
+def_find_controller_configuration_service self storage_system ,1.0,0.0,521
+dom = parseString data ,1.0,0.0,522
+ecomIps None ecomIps > <NUM> ,1.0,0.0,523
+initiator<NUM> = <STR> ,1.0,0.0,524
+ctrls = [ ] ,1.0,0.0,525
+<STR> ,1.0,0.0,526
+lunmask [ <STR> ] = lunmaskctrl_id ,1.0,0.0,527
+foundsyncname storage_system ,1.0,0.0,528
+ReferenceNames self objectpath ,1.0,0.0,529
+def_enum_replicationservices self ,1.0,0.0,530
+storage_system = vol_instance [ <STR> ] ,1.0,0.0,531
+iscsi_properties = self _get_iscsi_properties volume ,1.0,0.0,532
+pywbem ,1.0,0.0,533
+ecomIp None ecomPort None ,1.0,0.0,534
+foundinstance = None ,1.0,0.0,535
+snap_vol [ <STR> ] = storage_system ,1.0,0.0,536
+rep_services ,1.0,0.0,537
+device_number None ,1.0,0.0,538
+repservice None ,1.0,0.0,539
+Members = [ vol_instance path ] ,1.0,0.0,540
+self _iscsiadm_update iscsi_properties <STR> ,1.0,0.0,541
+SourceElement = snapshot_instance path ,1.0,0.0,542
+ecomUser None ecomPasswd None ,1.0,0.0,543
+ecomIp ecomPort ,1.0,0.0,544
+<STR> repservice ,1.0,0.0,545
+lunmask_ctrl = self _find_lunmasking_scsi_protocol_controller ,1.0,0.0,546
+unit [ <STR> ] = antecedent ,1.0,0.0,547
+self terminate_connection volume connector ,1.0,0.0,548
+out_num_device_number = numDeviceNumber ,1.0,0.0,549
+<STR> lunmask_ctrl ,1.0,0.0,550
+% repservice ,1.0,0.0,551
+def_enum_ctrlconfsvcs self ,1.0,0.0,552
+sync_name None ,1.0,0.0,553
+configservice = self _find_storage_configuration_service ,1.0,0.0,554
+repservice = self _find_replication_service storage_system ,1.0,0.0,555
+def_find_storage_configuration_service self storage_system ,1.0,0.0,556
+<STR> ] ,1.0,0.0,557
+<STR> foundinstance path ,0.0,0.0,558
+def_assoc_hdwid self ,1.0,0.0,559
+default_namespace = <STR> ,1.0,0.0,560
+result = self _assoc_hdwid ,1.0,0.0,561
+result = self _enum_replicationservices ,1.0,0.0,562
+masking_group = self _find_device_masking_group ,1.0,0.0,563
+terminate_connection self volume connector ,1.0,0.0,564
+foundinstance = vol_instance ,1.0,0.0,565
+result = ,1.0,0.0,566
+unitnames = conn EnumerateInstanceNames ,1.0,0.0,567
+repservice repservices ,1.0,0.0,568
+connector = <STR> initiator<NUM> ,1.0,0.0,569
+cinder volume volume_types ,1.0,0.0,570
+% <STR> out_device_number ,1.0,0.0,571
+result = self _enum_pools ,1.0,0.0,572
+EMCISCSIDriverTestCase self setUp ,1.0,0.0,573
+def_getinstance_unit self objectpath ,1.0,0.0,574
+self fake_ecom_connection ,1.0,0.0,575
+result = None ,1.0,0.0,576
+<STR> snapshot_instance path ,1.0,0.0,577
+result = self _default_enum ,1.0,0.0,578
+% <STR> initiator ,1.0,0.0,579
+<STR> foundMaskingGroup ,1.0,0.0,580
+properties ,1.0,0.0,581
+assocs ,1.0,0.0,582
+vol_instance connector ,1.0,0.0,583
+Copyright c <NUM> OpenStack LLC ,1.0,0.0,584
+storage_system = = configservice [ <STR> ] ,1.0,0.0,585
+test_snapshot = <STR> ,1.0,0.0,586
+delete_volume self volume ,1.0,0.0,587
+stconf_service_creationclass = <STR> ,1.0,0.0,588
+storageType = storageTypes [ <NUM> ] toxml ,0.0,0.0,589
+LOG info _ <STR> % properties ,1.0,0.0,590
+foundConfigService = configservice ,1.0,0.0,591
+<STR> foundCtrl ,0.0,0.0,592
+ip port = self _get_ecom_server ,1.0,0.0,593
+self _map_lun volume connector ,1.0,0.0,594
+def_enum_stconfsvcs self ,1.0,0.0,595
+def_default_getinstance self objectpath ,1.0,0.0,596
+initialize_connection self volume connector ,1.0,0.0,597
+def_getinstance_lunmask self ,1.0,0.0,598
+clone_vol [ <STR> ,1.0,0.0,599
+dependent [ <STR> ] = vol_creationclass ,1.0,0.0,600
+def_enum_syncsvsvs self ,1.0,0.0,601
+foundRepService = repservice ,1.0,0.0,602
+jobstate = jobinstance [ <STR> ] ,1.0,0.0,603
+lunmask_creationclass = <STR> ,1.0,0.0,604
+repservices = conn EnumerateInstanceNames <STR> ,1.0,0.0,605
+< EcomUserName > xxxxxxxx < / EcomUserName > ,0.0,0.0,606
+foundinstance ,1.0,0.0,607
+properties [ <STR> ] ,1.0,0.0,608
+assoc [ <STR> ] = initiator<NUM> ,1.0,0.0,609
+url = <STR> + port ,1.0,0.0,610
+MaskingGroup = masking_group Members = [ vol_instance path ] ,0.0,0.0,611
+< EcomServerPort > xxxx < / EcomServerPort > ,0.0,0.0,612
+% <STR> snapshotname ,1.0,0.0,613
+check_exit_code = [ <NUM> <NUM> ] ,0.0,0.0,614
+ecomPort = ecomPort replace <STR> ,1.0,0.0,615
+LOG error exception_message ,1.0,0.0,616
+unit [ <STR> ] = dependent ,1.0,0.0,617
+iscsi_properties [ <STR> ] ,1.0,0.0,618
+clone_vol [ <STR> ] = storage_system ,1.0,0.0,619
+sync [ <STR> ] = objpath<NUM> ,1.0,0.0,620
+ProtocolControllers = [ lunmask_ctrl ] ,1.0,0.0,621
+storage_system = <STR> ,1.0,0.0,622
+LOG info _ <STR> ,1.0,0.0,623
+<STR> repservice ,1.0,0.0,624
+snap_vol path = <STR> ] ,1.0,0.0,625
+vol_instance = conn GetInstance n [ <STR> ] ,1.0,0.0,626
+storage_system None ,1.0,0.0,627
+storage_system = None ,1.0,0.0,628
+controllers = conn AssociatorNames ,1.0,0.0,629
+< EMC > ,0.0,0.0,630
+% storage_system ,1.0,0.0,631
+host_device = <STR> % ,1.0,0.0,632
+create_snapshot self snapshot ,1.0,0.0,633
+MaskingGroup = masking_group ,0.0,0.0,634
+ecomPasswd = ecomPasswd replace <STR> ,1.0,0.0,635
+foundPool = None ,1.0,0.0,636
+foundCtrl None ,1.0,0.0,637
+def_find_initiator_name self connector ,1.0,0.0,638
+conf_service = ,1.0,0.0,639
+foundCtrl = None ,1.0,0.0,640
+ImportError ,1.0,0.0,641
+storage_type = self _get_storage_type ,1.0,0.0,642
+ElementName = snapshotname ,0.0,0.0,643
+out_num_device_number ,1.0,0.0,644
+def_default_ref self objectpath ,1.0,0.0,645
+out_num_device_number None ,1.0,0.0,646
+rep_service [ <STR> ] = rep_service_creationclass ,1.0,0.0,647
+configservice configservices ,1.0,0.0,648
+sync [ <STR> ,1.0,0.0,649
+iscsi_properties [ <STR> ] ,1.0,0.0,650
+endp = instanceid rfind <STR> ,1.0,0.0,651
+ResultClass = <STR> ,1.0,0.0,652
+isVMAX = storage_system find <STR> ,1.0,0.0,653
+LUNames = None InitiatorPortIDs = None DeviceAccesses = None ,1.0,0.0,654
+EMC_StorageVolume ,1.0,0.0,655
+resultClass = <STR> ,1.0,0.0,656
+init_conn = self initialize_connection volume connector ,1.0,0.0,657
+LOG info _ <STR> ,1.0,0.0,658
+<STR> None ,0.0,0.0,659
+resultClass = <STR> ,1.0,0.0,660
+configservice LUNames = [ lun_name ] ,0.0,0.0,661
+properties [ <STR> ] = results [ <NUM> ] split <STR> [ <NUM> ] ,1.0,0.0,662
+MaskingGroup = None Members = None ,1.0,0.0,663
+storage_system connector ,1.0,0.0,664
+vol_instance None ,1.0,0.0,665
+properties [ <STR> ] = ,1.0,0.0,666
+InvokeMethod self MethodName Service ElementName = None InPool = None ,1.0,0.0,667
+foundPool = upool ,0.0,0.0,668
+maskingview_name = self _get_masking_view ,1.0,0.0,669
+Copyright c <NUM> EMC Corporation Inc ,1.0,0.0,670
+configservices = conn EnumerateInstanceNames ,1.0,0.0,671
+objectpath ,1.0,0.0,672
+jobstate [ <NUM>L <NUM>L <NUM>L <NUM>L ] ,1.0,0.0,673
+exception_message = _ <STR> ,1.0,0.0,674
+ctrls ,1.0,0.0,675
+def_default_assoc self objectpath ,1.0,0.0,676
+device_number = <STR> ,1.0,0.0,677
+def_map_lun self volume connector ,1.0,0.0,678
+idarray = instanceid split <STR> ,1.0,0.0,679
+rep_service_creationclass = <STR> ,1.0,0.0,680
+foundPool systemname ,1.0,0.0,681
+EMCISCSIDriverTestCase test TestCase ,1.0,0.0,682
+self fake_storage_type ,1.0,0.0,683
+view ,0.0,0.0,684
+tries = tries + <NUM> ,1.0,0.0,685
+rep_service = ,1.0,0.0,686
+connector ,1.0,0.0,687
+antecedent = ,1.0,0.0,688
+out_device_number ,1.0,0.0,689
+out_num_device_number = <NUM> ,0.0,0.0,690
+view = view replace <STR> ,0.0,0.0,691
+storage_system ,1.0,0.0,692
+foundMaskingGroup = None ,1.0,0.0,693
+storageType ,1.0,0.0,694
+def_default_assocnames self objectpath ,1.0,0.0,695
+xml dom minidom parseString ,1.0,0.0,696
+ecomUsers None ecomUsers > <NUM> ,1.0,0.0,697
+iscsi_properties host_device ,1.0,0.0,698
+foundPool None systemname None ,1.0,0.0,699
+result = self _default_ref objectpath ,1.0,0.0,700
+Operation = None Synchronization = None ,1.0,0.0,701
+host_device = None ,1.0,0.0,702
+<STR> % ,1.0,0.0,703
+% <STR> systemname ,1.0,0.0,704
+volume = ,1.0,0.0,705
+unitname unitnames ,1.0,0.0,706
+FakeEcomConnection ,1.0,0.0,707
+unit ,1.0,0.0,708
+< EcomPassword > xxxxxxxx < / EcomPassword > ,0.0,0.0,709
+clone_vol = EMC_StorageVolume ,1.0,0.0,710
+result = self _assocnames_lunmaskctrl ,1.0,0.0,711
+create_volume_from_snapshot self volume snapshot ,1.0,0.0,712
+ElementType = None Size = None ,1.0,0.0,713
+properties [ <STR> ] = auth_username ,1.0,0.0,714
+storageType = storageType replace <STR> ,0.0,0.0,715
+endp > - <NUM> ,1.0,0.0,716
+vol_instance path ,1.0,0.0,717
+def_find_device_masking_group self ,1.0,0.0,718
+properties [ <STR> ,1.0,0.0,719
+<STR> snapshotname ,1.0,0.0,720
+def_find_device_number self volume ,1.0,0.0,721
+ecomUser = ecomUser replace <STR> ,1.0,0.0,722
+resultClass = = <STR> ,1.0,0.0,723
+auth = volume [ <STR> ] ,1.0,0.0,724
+result = self _getinstance_storagevolume objectpath ,1.0,0.0,725
+conn None ,1.0,0.0,726
+result = self _enum_stconfsvcs ,1.0,0.0,727
+lunmask [ <STR> ] = storage_system ,1.0,0.0,728
+vol_instance = conn GetInstance n ,1.0,0.0,729
+def_expose_paths self conn configservice vol_instance connector ,1.0,0.0,730
+properties = ,1.0,0.0,731
+foundView = view ,1.0,0.0,732
+foundsyncname = None ,1.0,0.0,733
+dependent = ,1.0,0.0,734
+storage_type None ,1.0,0.0,735
+initiator = get_iscsi_initiator ,1.0,0.0,736
+lunmaskctrl_id = <STR> ,1.0,0.0,737
+< EcomServerIp > x x x x < / EcomServerIp > ,0.0,0.0,738
+storageTypes None storageTypes > <NUM> ,1.0,0.0,739
+foundCtrl ,1.0,0.0,740
+conf_service [ <STR> ] = ctrlconf_service_creationclass ,1.0,0.0,741
+n names ,1.0,0.0,742
+InitiatorPortIDs = [ initiator ] ,0.0,0.0,743

@@ -1,0 +1,395 @@
+total_tokens,line_level_label,line_score,row
+License the specific language governing permissions limitations ,1.0,1.0,1
+a copy of the License at ,1.0,0.8160373643322505,2
+Unless required by applicable law agreed to writing software ,1.0,0.7218482745440941,3
+use this file compliance the License You may obtain ,1.0,0.6871890033227998,4
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.657138739750148,5
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.6191109084493642,6
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.5901301113824065,7
+nova openstack common log logging ,1.0,0.42167578678506806,8
+instance = common get_instance self compute_api context ,0.0,0.4050129562573329,9
+instance = common get_instance self compute_api context ,0.0,0.4050129562573329,10
+self compute_api method self context instance * args ,1.0,0.4035200401374399,11
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.3975289877676097,12
+self app = fakes wsgi_app_v<NUM> init_only = <STR> ,1.0,0.35876320578259563,13
+self compute_api resize self context instance AndRaise exc_info ,1.0,0.34928829693714436,14
+self compute_api resize self context instance AndRaise exc_info ,0.0,0.34928829693714436,15
+fake_live_migrate _self context instance scheduler_hint ,0.0,0.34255471776825663,16
+fake_live_migrate _self context instance scheduler_hint ,0.0,0.34255471776825663,17
+args kwargs = compute_api_args_map get action ,1.0,0.322869172638076,18
+self compute_api live_migrate context instance block_migration ,0.0,0.3180253613302827,19
+self compute_api live_migrate self context instance ,1.0,0.3180253613302827,20
+self compute_api live_migrate self context instance ,1.0,0.3180253613302827,21
+self compute_api method self context instance AndRaise ,1.0,0.3180253613302827,22
+self compute_api method self context instance ,1.0,0.3180253613302827,23
+self compute_api live_migrate context instance block_migration ,0.0,0.3180253613302827,24
+This method creates the server that will be used each tests ,0.0,0.2980156344632566,25
+fake_auth_context = self context ,1.0,0.2817831647541084,26
+context = req environ [ <STR> ] ,1.0,0.2646734544833851,27
+context = req environ [ <STR> ] ,0.0,0.2646734544833851,28
+def__ init__ self * args * * kwargs ,0.0,0.25627675040683123,29
+authorize context action_name ,0.0,0.2507842695509417,30
+under the License ,1.0,0.24918811204301497,31
+fake_get_compute context host ,0.0,0.2385533307918976,32
+extensions extension_authorizer <STR> action context ,0.0,0.2385533307918976,33
+fake_get_compute context host ,0.0,0.2385533307918976,34
+authorize context <STR> ,0.0,0.2385533307918976,35
+authorize context <STR> ,0.0,0.2385533307918976,36
+def_fake_controller * args * * kwargs ,1.0,0.21293915173117692,37
+MigrateServerController self __ init__ * args * * kwargs ,0.0,0.21293915173117692,38
+webob exc ,1.0,0.21215972511438028,39
+version = <NUM> ,0.0,0.20658782461168188,40
+self stubs Set db <STR> fake_get_compute ,0.0,0.1723500132508066,41
+self stubs Set db <STR> fake_get_compute ,0.0,0.1723500132508066,42
+uuid = uuidutils generate_uuid ,0.0,0.14974679318921374,43
+uuid = uuidutils generate_uuid ,1.0,0.14974679318921374,44
+nova openstack common gettextutils _ ,1.0,0.14810450224241542,45
+nova conductor manager conductor_manager ,0.0,0.14414330467079414,46
+nova conductor manager conductor_manager ,0.0,0.14414330467079414,47
+webob Response status_int = <NUM> ,0.0,0.14374936811483616,48
+webob ,1.0,0.14374936811483616,49
+webob Response status_int = <NUM> ,0.0,0.14374936811483616,50
+nova openstack common uuidutils ,1.0,0.14179032871851097,51
+* * kwargs AndRaise ,0.0,0.12744447292411254,52
+* * kwargs ,0.0,0.12744447292411254,53
+nova tests api openstack fakes ,0.0,0.11791730884724427,54
+body = body_map get action ,1.0,0.10993002090689914,55
+method = method_translations get action ,1.0,0.10993002090689914,56
+self compute_api resize req environ [ <STR> ] instance ,0.0,0.10559215422977976,57
+self compute_api resize req environ [ <STR> ] instance ,0.0,0.10559215422977976,58
+allowed = <NUM> resource = <STR> ,0.0,0.10537615352251692,59
+allowed = <NUM> resource = <STR> ,0.0,0.10537615352251692,60
+res = self _make_request <STR> % instance uuid ,1.0,0.10177771072268582,61
+res = self _make_request <STR> % instance uuid ,1.0,0.10177771072268582,62
+name = <STR> ,1.0,0.10039123161469299,63
+self stubs Set conductor_manager ComputeTaskManager ,0.0,0.09854027859491117,64
+self stubs Set migrate_server <STR> ,0.0,0.09854027859491117,65
+self stubs Set conductor_manager ComputeTaskManager ,0.0,0.09854027859491117,66
+exc HTTPBadRequest explanation = msg ,1.0,0.0963506012308611,67
+exc HTTPBadRequest explanation = msg ,1.0,0.0963506012308611,68
+nova openstack common strutils ,1.0,0.0869875949270057,69
+common raise_http_conflict_for_instance_invalid_state state_error ,1.0,0.0869875949270057,70
+nova openstack common strutils ,1.0,0.0869875949270057,71
+nova api openstack common ,1.0,0.0869875949270057,72
+common raise_http_conflict_for_instance_invalid_state state_error ,1.0,0.0869875949270057,73
+instance = self _stub_instance_get uuid = uuid ,1.0,0.07947203053838763,74
+instance = self _stub_instance_get uuid = uuid ,0.0,0.07947203053838763,75
+self assertEqual self uuid instance [ <STR> ] ,0.0,0.07947203053838763,76
+instance = self _stub_instance_get ,1.0,0.07947203053838763,77
+instance = self _stub_instance_get ,0.0,0.07947203053838763,78
+self assertEqual self uuid instance [ <STR> ] ,0.0,0.07947203053838763,79
+response = self _do_post <STR> % self uuid ,0.0,0.07821190907209367,80
+response = self _do_post <STR> % self uuid ,0.0,0.07821190907209367,81
+nova db ,1.0,0.07380973465582474,82
+nova db ,1.0,0.07380973465582474,83
+exc HTTPRequestEntityTooLarge explanation = e format_message ,1.0,0.06841035699961545,84
+exc HTTPRequestEntityTooLarge ,0.0,0.06841035699961545,85
+exc HTTPNotFound explanation = e format_message ,1.0,0.06841035699961545,86
+exc HTTPConflict explanation = e format_message ,1.0,0.06841035699961545,87
+exc HTTPBadRequest explanation = ex format_message ,1.0,0.06841035699961545,88
+exc HTTPBadRequest explanation = err ,1.0,0.06841035699961545,89
+exc HTTPNotFound explanation = e format_message ,1.0,0.06841035699961545,90
+exc HTTPBadRequest explanation = e format_message ,1.0,0.06841035699961545,91
+exc HTTPBadRequest explanation = err ,1.0,0.06841035699961545,92
+exc HTTPBadRequest explanation = ex format_message ,1.0,0.06841035699961545,93
+exc HTTPRequestEntityTooLarge explanation = e format_message ,1.0,0.06841035699961545,94
+exc HTTPConflict explanation = e format_message ,1.0,0.06841035699961545,95
+exc HTTPRequestEntityTooLarge ,1.0,0.06841035699961545,96
+disabled = ,0.0,0.06738276859912842,97
+disabled = ,0.0,0.06738276859912842,98
+self mox StubOutWithMock self compute_api <STR> ,1.0,0.0648866912800941,99
+self mox ReplayAll ,1.0,0.0648866912800941,100
+self mox StubOutWithMock self compute_api action ,1.0,0.0648866912800941,101
+self mox StubOutWithMock self compute_api method action ,1.0,0.0648866912800941,102
+self mox ReplayAll ,0.0,0.0648866912800941,103
+self mox StubOutWithMock self compute_api <STR> ,1.0,0.0648866912800941,104
+self assertEqual response status <NUM> ,1.0,0.06415058697554397,105
+self assertEqual response status <NUM> ,1.0,0.06415058697554397,106
+nova tests integrated v<NUM> test_servers ,0.0,0.06013177138217744,107
+explanation = error format_message ,1.0,0.04906671351965466,108
+exception QuotaError error ,1.0,0.04906671351965466,109
+exception QuotaError error ,1.0,0.04906671351965466,110
+explanation = error format_message ,1.0,0.04906671351965466,111
+exception NoValidHost reason = <STR> ,0.0,0.0470008126818523,112
+exception MigrationPreCheckError reason = <STR> ,0.0,0.0470008126818523,113
+exception NoValidHost reason = <STR> ,1.0,0.0470008126818523,114
+exception MigrationPreCheckError reason = <STR> ,0.0,0.0470008126818523,115
+exception InvalidLocalStorage path = <STR> ,0.0,0.04391389470437313,116
+exception InvalidSharedStorage path = <STR> ,0.0,0.04391389470437313,117
+exception InvalidSharedStorage path = <STR> ,0.0,0.04391389470437313,118
+exception InvalidLocalStorage path = <STR> ,0.0,0.04391389470437313,119
+exception UnableToMigrateToSelf instance_id = uuid ,0.0,0.03695324883076552,120
+exception UnableToMigrateToSelf instance_id = uuid ,0.0,0.03695324883076552,121
+extension = extensions ControllerExtension self <STR> controller ,0.0,0.036884883844807655,122
+<STR> setUp Method MigrateServer api samples extension ,0.0,0.036884883844807655,123
+[ extension ] ,0.0,0.036884883844807655,124
+def_test_migrate_live_succeeded self param ,0.0,0.036843793725651094,125
+self _test_migrate_live_succeeded param ,1.0,0.036843793725651094,126
+self _test_migrate_live_succeeded param ,0.0,0.036843793725651094,127
+<STR> param ,0.0,0.036843793725651094,128
+<STR> param ,0.0,0.036843793725651094,129
+def_test_migrate_live_succeeded self param ,0.0,0.036843793725651094,130
+param = <STR> ,1.0,0.036843793725651094,131
+param = <STR> ,1.0,0.036843793725651094,132
+test_migrate_live_destination_hypervisor_too_old self ,1.0,0.03526247526465445,133
+test_migrate_live_destination_hypervisor_too_old self ,0.0,0.03526247526465445,134
+LOG = logging getLogger __ name__ ,0.0,0.03470001882605807,135
+self _test_migrate_exception exc_info <NUM> ,1.0,0.03126293560685,136
+exc_info = exception TooManyInstances overs = <STR> used = <NUM> ,0.0,0.03126293560685,137
+def_test_migrate_exception self exc_info expected_result ,1.0,0.03126293560685,138
+self _test_migrate_exception exc_info <NUM> ,1.0,0.03126293560685,139
+exc_info = exception CannotResizeToSameFlavor ,0.0,0.03126293560685,140
+def_test_migrate_exception self exc_info expected_result ,1.0,0.03126293560685,141
+exc_info = exception TooManyInstances overs = <STR> used = <NUM> ,0.0,0.03126293560685,142
+nova tests api openstack compute plugins v<NUM> \ ,1.0,0.03117095626506671,143
+binary = <STR> ,1.0,0.030430223387816237,144
+binary = <STR> ,1.0,0.030430223387816237,145
+nova api openstack wsgi ,1.0,0.029994026455279682,146
+@ wsgi action <STR> ,1.0,0.029994026455279682,147
+MigrateServerController wsgi Controller ,0.0,0.029994026455279682,148
+@ wsgi action <STR> ,1.0,0.029994026455279682,149
+msg =_ <STR> ,1.0,0.02794024423131459,150
+msg =_ <STR> ,1.0,0.02794024423131459,151
+def_migrate self req body ,0.0,0.02612012369147166,152
+def_migrate_live self req body ,0.0,0.02612012369147166,153
+def_migrate self req body ,0.0,0.02612012369147166,154
+def_migrate_live self req body ,0.0,0.02612012369147166,155
+res = self _make_request <STR> ] ,1.0,0.022305680184367682,156
+self assertEqual <NUM> res status_int ,1.0,0.022305680184367682,157
+self assertEqual expected_result res status_int ,1.0,0.022305680184367682,158
+res = self _make_request <STR> ,1.0,0.022305680184367682,159
+self assertEqual expected_result res status_int ,1.0,0.022305680184367682,160
+self assertIn unicode fake_exc res body ,0.0,0.022305680184367682,161
+res = self _make_request <STR> ] ,1.0,0.022305680184367682,162
+res = self _make_request <STR> ,1.0,0.022305680184367682,163
+self assertIn unicode fake_exc res body ,0.0,0.022305680184367682,164
+self assertEqual <NUM> res status_int ,1.0,0.022305680184367682,165
+migrate_server = nova api openstack compute plugins v<NUM> migrate_server MigrateServer ,0.0,0.02049329710232764,166
+nova api openstack compute plugins v<NUM> migrate_server ,1.0,0.02049329710232764,167
+action actions ,1.0,0.015200739098893384,168
+actions = [ <STR> ] ,1.0,0.015200739098893384,169
+actions = [ <STR> ,1.0,0.015200739098893384,170
+actions = [ <STR> ] ,1.0,0.015200739098893384,171
+def_test_actions self actions method_translations = body_map = ,1.0,0.015200739098893384,172
+def_test_actions self actions method_translations = ,1.0,0.015200739098893384,173
+host = scheduler_hint [ <STR> ] ,0.0,0.014225821168725424,174
+host = scheduler_hint [ <STR> ] ,0.0,0.014225821168725424,175
+updated_at = <STR> ,0.0,0.013544436120655534,176
+updated_at = <STR> ,0.0,0.013544436120655534,177
+ctype = <STR> ,1.0,0.013091624930839985,178
+action = <STR> % ALIAS action_name ,0.0,0.012230938759027216,179
+<STR> self compute host ,0.0,0.0073846003922934614,180
+self assertEqual self compute host host ,0.0,0.0073846003922934614,181
+self assertEqual self compute host host ,0.0,0.0073846003922934614,182
+<STR> self compute host ,0.0,0.0073846003922934614,183
+self compute_api = compute API ,0.0,0.0073846003922934614,184
+nova compute ,1.0,0.0073846003922934614,185
+get_controller_extensions self ,0.0,0.005392097926888121,186
+block_migration = strutils bool_from_string block_migration ,1.0,0.003721393705857511,187
+disk_over_commit = strutils bool_from_string disk_over_commit ,1.0,0.003721393705857511,188
+block_migration = strutils bool_from_string block_migration ,1.0,0.003721393705857511,189
+disk_over_commit = strutils bool_from_string disk_over_commit ,1.0,0.003721393705857511,190
+exception TooManyInstances e ,1.0,0.0,191
+method_translations = ,1.0,0.0,192
+test_migrate_live_missing_dict_param self ,1.0,0.0,193
+service = host = host ,1.0,0.0,194
+exception ComputeServiceUnavailable ,1.0,0.0,195
+def_test_action self action body = None method = None ,1.0,0.0,196
+self _test_locked_instance action method = method ,1.0,0.0,197
+test_migrate_live_pre_check_error self ,1.0,0.0,198
+<STR> ,1.0,0.0,199
+exception MigrationPreCheckError ex ,0.0,0.0,200
+headers = <STR> <NUM> ,1.0,0.0,201
+test_migrate_live_compute_service_unavailable self ,1.0,0.0,202
+self _test_actions_with_locked_instance [ <STR> ] ,1.0,0.0,203
+MigrateServerTests self setUp ,0.0,0.0,204
+report_count = <NUM> ,0.0,0.0,205
+test_migrate_live_with_invalid_disk_over_commit self ,1.0,0.0,206
+def_test_locked_instance self action method = None ,1.0,0.0,207
+[ <STR> ] body_map = body_map ,1.0,0.0,208
+@ extensions expected_errors <NUM> <NUM> <NUM> <NUM> ,1.0,0.0,209
+controller = MigrateServerController ,0.0,0.0,210
+exception UnableToMigrateToSelf ,0.0,0.0,211
+method_translations = <STR> ,1.0,0.0,212
+<STR> <STR> ,1.0,0.0,213
+exception InvalidLocalStorage ,0.0,0.0,214
+<STR> ,1.0,0.0,215
+<STR> ,1.0,0.0,216
+<STR> ,0.0,0.0,217
+host = <STR> ,1.0,0.0,218
+Copyright <NUM> OpenStack Foundation ,0.0,0.0,219
+test_migrate_live_invalid_local_storage self ,1.0,0.0,220
+body_map = <STR> ,1.0,0.0,221
+@ extensions expected_errors <NUM> <NUM> <NUM> ,1.0,0.0,222
+exception CannotResizeToSameFlavor e ,0.0,0.0,223
+body_map = <STR> ,1.0,0.0,224
+<STR> None ,1.0,0.0,225
+block_migration = body [ <STR> ] ,1.0,0.0,226
+self controller = migrate_server MigrateServerController ,0.0,0.0,227
+<STR> [ service ] ,0.0,0.0,228
+exception InstanceInvalidState state_error ,1.0,0.0,229
+body_map = body_map ,1.0,0.0,230
+Copyright <NUM> Nebula Inc ,0.0,0.0,231
+self _test_locked_instance action method = method body = body ,1.0,0.0,232
+exception InstanceIsLocked e ,1.0,0.0,233
+test_migrate_live_invalid_hypervisor_type self ,0.0,0.0,234
+topic = <STR> ,1.0,0.0,235
+compute_api_args_map = args_map ,1.0,0.0,236
+ValueError err ,1.0,0.0,237
+want_objects = ,0.0,0.0,238
+exception DestinationHypervisorTooOld ,0.0,0.0,239
+exception DestinationHypervisorTooOld ,0.0,0.0,240
+self _test_migrate_live_failed_with_exception ,1.0,0.0,241
+<STR> ,1.0,0.0,242
+test_migrate_resize_to_same_flavor self ,1.0,0.0,243
+uuid = uuid ,0.0,0.0,244
+test_migrate_live_no_valid_host self ,1.0,0.0,245
+[ ] ,0.0,0.0,246
+test_post_migrate self ,1.0,0.0,247
+host = body [ <STR> ] ,1.0,0.0,248
+ALIAS = <STR> ,1.0,0.0,249
+<STR> ,1.0,0.0,250
+MigrateServerTests admin_only_action_common CommonTests ,0.0,0.0,251
+self compute_api = self controller compute_api ,1.0,0.0,252
+test_migrate_live_enabled self ,1.0,0.0,253
+MigrateServer extensions V<NUM>APIExtensionBase ,0.0,0.0,254
+disk_over_commit host ,1.0,0.0,255
+exception InstanceNotFound e ,1.0,0.0,256
+disk_over_commit = body [ <STR> ] ,1.0,0.0,257
+<STR> ,0.0,0.0,258
+strict = ,0.0,0.0,259
+test_migrate_too_many_instances self ,1.0,0.0,260
+args_map = <STR> ,1.0,0.0,261
+test_migrate_live_invalid_shared_storage self ,1.0,0.0,262
+hypervisor_type = <STR> ,1.0,0.0,263
+nova api openstack extensions ,1.0,0.0,264
+exception NoValidHost ,1.0,0.0,265
+exception ComputeServiceUnavailable host = <STR> ,1.0,0.0,266
+test_actions_raise_conflict_on_invalid_state self ,1.0,0.0,267
+] ,0.0,0.0,268
+fake_live_migrate ,0.0,0.0,269
+exception InvalidHypervisorType ,0.0,0.0,270
+block_migration disk_over_commit ,0.0,0.0,271
+test_migrate_live_enabled_with_string_param self ,1.0,0.0,272
+test_migrate_live_unable_to_migrate_to_self self ,1.0,0.0,273
+<STR> AndRaise fake_exc ,0.0,0.0,274
+TypeError KeyError ,1.0,0.0,275
+exception InvalidHypervisorType ,0.0,0.0,276
+test_migrate_live_with_invalid_block_migration self ,1.0,0.0,277
+def_test_migrate_live_failed_with_exception self fake_exc ,0.0,0.0,278
+<STR> <STR> ,1.0,0.0,279
+hypervisor_version = <STR> ,1.0,0.0,280
+nova exception ,1.0,0.0,281
+uuid = None ,0.0,0.0,282
+test_post_live_migrate_server self ,0.0,0.0,283
+self _test_invalid_state action method = method ,1.0,0.0,284
+<STR> ,1.0,0.0,285
+exception ComputeServiceUnavailable ,1.0,0.0,286
+self _test_action action method = method body = body ,1.0,0.0,287
+exception InstanceInvalidState state_error ,1.0,0.0,288
+test_migrate_too_many_instances self ,1.0,0.0,289
+method_translations = method_translations ,1.0,0.0,290
+self _test_actions_raise_conflict_on_invalid_state ,0.0,0.0,291
+test_migrate_live_with_invalid_disk_over_commit self ,1.0,0.0,292
+compute_api_args_map = args_map ,1.0,0.0,293
+MigrateServerSamplesJsonTest test_servers ServersSampleBase ,0.0,0.0,294
+ValueError err ,0.0,0.0,295
+topic = <STR> ,1.0,0.0,296
+want_objects = ,0.0,0.0,297
+[ <STR> ] body_map = body_map args_map = args_map ,1.0,0.0,298
+self uuid = self _post_server ,0.0,0.0,299
+exception DestinationHypervisorTooOld ,0.0,0.0,300
+admin_only_action_common ,0.0,0.0,301
+test_migrate self ,1.0,0.0,302
+MigrateServerSamplesJsonTest self setUp ,0.0,0.0,303
+namespace = <STR> % ALIAS ,0.0,0.0,304
+uuid = uuid ,0.0,0.0,305
+test_migrate_live_no_valid_host self ,1.0,0.0,306
+test_migrate_live_invalid_hypervisor_type self ,1.0,0.0,307
+report_count = <NUM> ,0.0,0.0,308
+def_test_action self action body = None method = None ,1.0,0.0,309
+method_translations = ,1.0,0.0,310
+host = body [ <STR> ] ,1.0,0.0,311
+@ extensions expected_errors <NUM> <NUM> <NUM> <NUM> ,1.0,0.0,312
+self _test_locked_instance action ,1.0,0.0,313
+body_map = <STR> ,1.0,0.0,314
+<STR> ,1.0,0.0,315
+args_map = <STR> ,1.0,0.0,316
+fake_live_migrate ,0.0,0.0,317
+body_map = args_map = ,1.0,0.0,318
+block_migration disk_over_commit ,0.0,0.0,319
+exception ComputeServiceUnavailable host = <STR> ,1.0,0.0,320
+test_migrate_live_enabled_with_string_param self ,1.0,0.0,321
+test_migrate_live_unable_to_migrate_to_self self ,1.0,0.0,322
+self controller ,1.0,0.0,323
+<STR> AndRaise fake_exc ,0.0,0.0,324
+TypeError KeyError ,0.0,0.0,325
+exception NoValidHost ,1.0,0.0,326
+args_map = ,1.0,0.0,327
+exception InvalidHypervisorType ,0.0,0.0,328
+test_migrate_live_with_invalid_block_migration self ,1.0,0.0,329
+def_test_migrate_live_failed_with_exception self fake_exc ,1.0,0.0,330
+<STR> <STR> ,1.0,0.0,331
+hypervisor_version = <STR> ,1.0,0.0,332
+test_post_migrate self ,1.0,0.0,333
+uuid = None ,0.0,0.0,334
+setUp self ,1.0,0.0,335
+<STR> ,1.0,0.0,336
+service = host = host ,0.0,0.0,337
+test_migrate_live_invalid_shared_storage self ,1.0,0.0,338
+_ fake_controller ,0.0,0.0,339
+get_resources self ,1.0,0.0,340
+compute_api_args_map = ,1.0,0.0,341
+<STR> <STR> ,1.0,0.0,342
+exception InvalidHypervisorType ,0.0,0.0,343
+hypervisor_type = <STR> ,1.0,0.0,344
+@ extensions expected_errors <NUM> <NUM> <NUM> ,1.0,0.0,345
+action None ,0.0,0.0,346
+self _test_actions [ <STR> ] body_map = body_map ,1.0,0.0,347
+test_migrate_with_non_existed_instance self ,1.0,0.0,348
+<STR> ,1.0,0.0,349
+<STR> ] ,1.0,0.0,350
+extension_name = <STR> ,0.0,0.0,351
+exception InstanceIsLocked e ,1.0,0.0,352
+exception FlavorNotFound e ,0.0,0.0,353
+exception TooManyInstances e ,1.0,0.0,354
+test_migrate_live_missing_dict_param self ,1.0,0.0,355
+test_migrate_live_compute_service_unavailable self ,1.0,0.0,356
+def_test_locked_instance self action method = None body = None ,1.0,0.0,357
+headers = <STR> <NUM> ,1.0,0.0,358
+exception MigrationPreCheckError ex ,0.0,0.0,359
+<STR> [ service ] ,0.0,0.0,360
+self _test_action action method = method ,1.0,0.0,361
+test_migrate_live_invalid_local_storage self ,1.0,0.0,362
+<STR> [ ,1.0,0.0,363
+test_migrate_raise_conflict_on_invalid_state self ,1.0,0.0,364
+<STR> ,0.0,0.0,365
+exception InvalidLocalStorage ,0.0,0.0,366
+args_map = args_map ,1.0,0.0,367
+test_actions_with_locked_instance self ,1.0,0.0,368
+<STR> ,1.0,0.0,369
+<STR> ,1.0,0.0,370
+<STR> ,1.0,0.0,371
+test_migrate_live_pre_check_error self ,1.0,0.0,372
+test_migrate_live_enabled self ,1.0,0.0,373
+action body ,0.0,0.0,374
+exception UnableToMigrateToSelf ,0.0,0.0,375
+Copyright <NUM> IBM Corp ,0.0,0.0,376
+<STR> ,1.0,0.0,377
+exception InvalidSharedStorage ,0.0,0.0,378
+block_migration = body [ <STR> ] ,1.0,0.0,379
+disk_over_commit = body [ <STR> ] ,1.0,0.0,380
+disk_over_commit host ,1.0,0.0,381
+<STR> None ,0.0,0.0,382
+body_map = <STR> ,1.0,0.0,383
+method_translations = <STR> ,1.0,0.0,384
+<STR> ,1.0,0.0,385
+self _test_migrate_live_failed_with_exception ,0.0,0.0,386
+exception DestinationHypervisorTooOld ,0.0,0.0,387
+self _test_action action ,1.0,0.0,388
+strict = ,0.0,0.0,389
+alias = ALIAS ,0.0,0.0,390
+self _test_actions_with_non_existed_instance ,1.0,0.0,391
+test_post_live_migrate_server self ,1.0,0.0,392
+host = <STR> ,1.0,0.0,393
+exception InvalidSharedStorage ,0.0,0.0,394

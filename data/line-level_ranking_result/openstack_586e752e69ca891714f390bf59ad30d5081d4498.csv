@@ -1,0 +1,235 @@
+total_tokens,line_level_label,line_score,row
+instance = instance ,1.0,1.0,1
+instance = instance ,1.0,1.0,2
+update self context volume_id fields ,1.0,0.6951588223537285,3
+update self context volume fields ,0.0,0.6951588223537285,4
+args = context volume_id kwargs get <STR> ,0.0,0.666868202018852,5
+args = context volume kwargs get <STR> ,0.0,0.666868202018852,6
+<STR> Transforms the exception the snapshot but keeps its traceback ,0.0,0.6589476595984496,7
+<STR> Transform the exception the volume but keep its traceback ,0.0,0.6589476595984496,8
+<STR> Transform the exception the snapshot but keep its traceback ,0.0,0.6589476595984496,9
+<STR> Transforms the exception the volume but keeps its traceback intact ,0.0,0.6589476595984496,10
+res = method self ctx volume_id * args * * kwargs ,0.0,0.5134262378550171,11
+res = method self ctx snapshot_id * args * * kwargs ,0.0,0.5134262378550171,12
+wrapper self ctx snapshot_id * args * * kwargs ,0.0,0.47745481237484366,13
+wrapper self ctx volume_id * args * * kwargs ,0.0,0.47745481237484366,14
+item = cinderclient context volume_snapshots create volume [ <STR> ] ,0.0,0.4434009168474099,15
+item = cinderclient context volume_snapshots create volume_id ,1.0,0.4434009168474099,16
+create_snapshot self context volume_id name description = None ,1.0,0.4330610865623035,17
+stub_snapshot_create self context volume_id name description ,1.0,0.4330610865623035,18
+create_snapshot_force self context volume_id name description ,1.0,0.4330610865623035,19
+context volume name volume [ <STR> ] ,1.0,0.4330610865623035,20
+create_snapshot self context volume name description ,0.0,0.4330610865623035,21
+create_snapshot self context volume_id name description ,1.0,0.4330610865623035,22
+create_snapshot self context volume name description = None ,0.0,0.4330610865623035,23
+create_snapshot_force self context volume name description ,0.0,0.4330610865623035,24
+stub_snapshot_create self context volume name description ,0.0,0.4330610865623035,25
+volume = self volume_api get ctxt bdm [ <STR> ] ,1.0,0.25275550313408157,26
+self volume_api terminate_connection ctxt bdm [ <STR> ] ,1.0,0.25275550313408157,27
+self volume_api terminate_connection ctxt volume connector ,1.0,0.25275550313408157,28
+stub_snapshot <NUM> volume_id = volume [ <STR> ] display_name = name ,0.0,0.2436476969182951,29
+stub_snapshot <NUM> volume_id = volume_id display_name = name ,0.0,0.2436476969182951,30
+called [ <STR> ] = ,1.0,0.21506521599637762,31
+self assertTrue called get <STR> ,1.0,0.21506521599637762,32
+kwargs get <STR> ,0.0,0.20346852543995836,33
+vol = self volume_api get context ,1.0,0.1894133896440084,34
+return_untranslate_volume_summary_view context item ,0.0,0.1894133896440084,35
+delete self context volume_id ,1.0,0.1894133896440084,36
+delete self context volume ,1.0,0.1894133896440084,37
+roll_detaching self context volume_id ,1.0,0.1894133896440084,38
+delete_snapshot self context snapshot ,0.0,0.1894133896440084,39
+context volume connector ,0.0,0.1894133896440084,40
+fake_volume_get self context volume_id ,1.0,0.1894133896440084,41
+reserve_volume self context volume ,1.0,0.1894133896440084,42
+self volume_api attach self context vol ,1.0,0.1894133896440084,43
+cinderclient context volumes delete volume [ <STR> ] ,0.0,0.1894133896440084,44
+volume = self volume_api get context bdm [ <STR> ] ,1.0,0.1894133896440084,45
+self volume_api detach context volume ,1.0,0.1894133896440084,46
+self volume_api unreserve_volume context volume ,1.0,0.1894133896440084,47
+stub_snapshot_delete self context snapshot_id ,0.0,0.1894133896440084,48
+cinderclient context volumes attach volume [ <STR> ] ,1.0,0.1894133896440084,49
+cinderclient context volumes reserve volume [ <STR> ] ,0.0,0.1894133896440084,50
+volume = self get context volume_id ,1.0,0.1894133896440084,51
+self volume_api attach context volume_id instance_uuid mountpoint ,1.0,0.1894133896440084,52
+create_snapshot_force self context volume ,1.0,0.1894133896440084,53
+self volume_api delete context bdm [ <STR> ] ,1.0,0.1894133896440084,54
+cinderclient context volumes delete volume_id ,1.0,0.1894133896440084,55
+self volume_api delete context ,1.0,0.1894133896440084,56
+item = cinderclient context volume_snapshots get snapshot_id ,0.0,0.1894133896440084,57
+self volume_api reserve_volume context volume ,1.0,0.1894133896440084,58
+self volume_api delete_snapshot context snapshot ,0.0,0.1894133896440084,59
+cinderclient context volumes unreserve volume [ <STR> ] ,0.0,0.1894133896440084,60
+item = cinderclient context volumes get volume_id ,0.0,0.1894133896440084,61
+terminate_connection self context volume connector ,1.0,0.1894133896440084,62
+fake_volume_get self context volume ,1.0,0.1894133896440084,63
+vol = self volume_api get context volume_id ,1.0,0.1894133896440084,64
+fake_detach self context volume ,1.0,0.1894133896440084,65
+get_volume_metadata self context volume ,1.0,0.1894133896440084,66
+self volume_api terminate_connection context volume ,1.0,0.1894133896440084,67
+self volume_api delete context vol ,1.0,0.1894133896440084,68
+volume = self volume_api get context volume_id ,1.0,0.1894133896440084,69
+delete_volume_metadata self context volume key ,1.0,0.1894133896440084,70
+cinderclient context volume_snapshots delete snapshot [ <STR> ] ,0.0,0.1894133896440084,71
+unreserve_volume self context volume ,1.0,0.1894133896440084,72
+self volume_api roll_detaching context volume ,1.0,0.1894133896440084,73
+self volume_api begin_detaching context volume ,1.0,0.1894133896440084,74
+roll_detaching self context volume ,1.0,0.1894133896440084,75
+stub_snapshot_delete self context snapshot ,0.0,0.1894133896440084,76
+cinderclient context \ ,0.0,0.1894133896440084,77
+self volume_api delete self context vol ,1.0,0.1894133896440084,78
+attach self context volume instance_uuid mountpoint ,1.0,0.1894133896440084,79
+self volume_api delete context volume ,1.0,0.1894133896440084,80
+volume = self get context volume [ <STR> ] ,1.0,0.1894133896440084,81
+cinderclient context volumes begin_detaching volume [ <STR> ] ,0.0,0.1894133896440084,82
+snapshot = self volume_api get_snapshot context snapshot_id ,1.0,0.1894133896440084,83
+fake_terminate_connection self context volume connector ,1.0,0.1894133896440084,84
+begin_detaching self context volume_id ,1.0,0.1894133896440084,85
+begin_detaching self context volume ,1.0,0.1894133896440084,86
+cinderclient context volumes detach volume [ <STR> ] ,0.0,0.1894133896440084,87
+detach self context volume ,1.0,0.1894133896440084,88
+self volume_api detach context bdm [ <STR> ] ,1.0,0.1894133896440084,89
+self volume_api begin_detaching context volume_id ,1.0,0.1894133896440084,90
+cinderclient context volumes begin_detaching volume_id ,1.0,0.1894133896440084,91
+return_untranslate_volume_summary_view context item ,0.0,0.1894133896440084,92
+self volume_api terminate_connection context bdm [ <STR> ] ,1.0,0.1894133896440084,93
+self volume_api terminate_connection context volume connector ,1.0,0.1894133896440084,94
+unreserve_volume self context volume_id ,1.0,0.1894133896440084,95
+terminate_connection self context volume_id connector ,1.0,0.1894133896440084,96
+self volume_api roll_detaching context volume_id ,1.0,0.1894133896440084,97
+cinderclient context volumes unreserve volume_id ,1.0,0.1894133896440084,98
+fake_detach self context volume_id_param ,1.0,0.1894133896440084,99
+self volume_api delete self context vol [ <STR> ] ,1.0,0.1894133896440084,100
+snapshot = self volume_api get_snapshot context ,1.0,0.1894133896440084,101
+cinderclient context volume_snapshots delete snapshot_id ,0.0,0.1894133896440084,102
+item = cinderclient context volumes get volume_id ,1.0,0.1894133896440084,103
+cinderclient context volumes terminate_connection volume_id ,1.0,0.1894133896440084,104
+get_volume_metadata self context volume_id ,1.0,0.1894133896440084,105
+cinderclient context volumes roll_detaching volume [ <STR> ] ,0.0,0.1894133896440084,106
+self volume_api delete_snapshot context ,1.0,0.1894133896440084,107
+self volume_api unreserve_volume context volume_id ,1.0,0.1894133896440084,108
+self volume_api attach context volume instance_uuid mountpoint ,1.0,0.1894133896440084,109
+cinderclient context volumes initialize_connection volume_id ,1.0,0.1894133896440084,110
+self volume_api attach self context vol [ <STR> ] ,1.0,0.1894133896440084,111
+fake_terminate_connection self context volume_id connector ,1.0,0.1894133896440084,112
+self volume_api delete_snapshot context snapshot_id ,1.0,0.1894133896440084,113
+self volume_api reserve_volume context volume_id ,1.0,0.1894133896440084,114
+reserve_volume self context volume_id ,1.0,0.1894133896440084,115
+stub_volume_notfound self context volume_id ,1.0,0.1894133896440084,116
+item = cinderclient context volume_snapshots get snapshot_id ,0.0,0.1894133896440084,117
+self volume_api terminate_connection context volume_id connector ,1.0,0.1894133896440084,118
+delete_snapshot self context snapshot_id ,1.0,0.1894133896440084,119
+cinderclient context volumes attach volume_id instance_uuid ,1.0,0.1894133896440084,120
+context bdm [ <STR> ] connector ,0.0,0.1894133896440084,121
+detach self context volume_id ,1.0,0.1894133896440084,122
+cinderclient context volumes detach volume_id ,1.0,0.1894133896440084,123
+cinderclient context volumes reserve volume_id ,1.0,0.1894133896440084,124
+self volume_api delete context volume_id ,1.0,0.1894133896440084,125
+update_volume_metadata self context volume_id ,1.0,0.1894133896440084,126
+context volume [ <STR> ] ,1.0,0.1894133896440084,127
+self volume_api detach context elevated volume_id ,1.0,0.1894133896440084,128
+attach self context volume_id instance_uuid mountpoint ,1.0,0.1894133896440084,129
+update_volume_metadata self context volume metadata delete = ,1.0,0.1894133896440084,130
+initialize_connection self context volume_id connector ,1.0,0.1894133896440084,131
+delete_volume_metadata self context volume_id key ,1.0,0.1894133896440084,132
+cinderclient context volumes roll_detaching volume_id ,1.0,0.1894133896440084,133
+stub_volume_get_notfound self context volume_id ,1.0,0.1894133896440084,134
+self volume_api detach context elevated volume ,1.0,0.1894133896440084,135
+fake_volume_get self context volume_id ,1.0,0.1894133896440084,136
+initialize_connection self context volume connector ,1.0,0.1894133896440084,137
+create_snapshot_force self context volume_id ,1.0,0.1894133896440084,138
+self volume_api begin_detaching context volume [ <STR> ] ,1.0,0.1894133896440084,139
+self stubs Set cinder API <STR> fake_volume_get ,1.0,0.16647858448891611,140
+self stubs Set cinder API <STR> fakes stub_volume_get ,1.0,0.16647858448891611,141
+self stubs Set cinder API <STR> fakes stub_volume_get_notfound ,1.0,0.16647858448891611,142
+self stubs Set cinder API <STR> fakes stub_volume_notfound ,1.0,0.16647858448891611,143
+cinder cinderclient self ctx AndRaise cinder_exception NotFound <STR> ,0.0,0.11342788114378086,144
+cinder cinderclient self ctx AndRaise cinder_exception BadRequest <STR> ,0.0,0.11342788114378086,145
+exception InvalidInput reason = e message ,1.0,0.09185789674476656,146
+exc_value = exception SnapshotNotFound snapshot_id = snapshot_id ,0.0,0.09185789674476656,147
+exc_value = exception VolumeNotFound volume_id = volume_id ,0.0,0.09185789674476656,148
+exception SnapshotNotFound snapshot_id = snapshot_id ,0.0,0.09185789674476656,149
+exception InvalidInput reason = exc_value message ,1.0,0.09185789674476656,150
+exc_value = exception InvalidInput reason = exc_value message ,0.0,0.09185789674476656,151
+self assertRaises exception InvalidInput ,1.0,0.09185789674476656,152
+self assertRaises exception VolumeNotFound ,0.0,0.09185789674476656,153
+exception VolumeNotFound volume_id = volume_id ,0.0,0.09185789674476656,154
+LOG info <STR> ] ,0.0,0.07792073365883179,155
+LOG info <STR> volume_id ,1.0,0.07792073365883179,156
+res ,1.0,0.03597142548017338,157
+result [ <STR> ] = = volume_id ,1.0,0.0023885466700418307,158
+result [ <STR> ] = volume_id_param = = volume_id ,0.0,0.0023885466700418307,159
+connector ,0.0,0.0,160
+intact <STR> ,1.0,0.0,161
+def_translate_volume_exception self volume_id exc_value ,0.0,0.0,162
+self _reraise_translated_volume_exception volume_id ,0.0,0.0,163
+self _reraise_translated_volume_exception ,0.0,0.0,164
+self api roll_detaching self ctx <STR> ,0.0,0.0,165
+<STR> ,1.0,0.0,166
+self volume_api detach elevated volume ,1.0,0.0,167
+new_exc = self _translate_snapshot_exception snapshot_id exc_value ,0.0,0.0,168
+exc_value cinder_exception BadRequest ,0.0,0.0,169
+def_reraise_translated_snapshot_exception self snapshot_id = None ,0.0,0.0,170
+volume ,0.0,0.0,171
+self volume_list = [ v v self volume_list v ! = volume ] ,0.0,0.0,172
+exc_type exc_value exc_trace = sys exc_info ,0.0,0.0,173
+def_reraise_translated_volume_exception self volume_id = None ,0.0,0.0,174
+self _reraise_translated_snapshot_exception snapshot_id ,0.0,0.0,175
+self api terminate_connection self ctx <STR> ,0.0,0.0,176
+Exception ,1.0,0.0,177
+self volume_api detach elevated bdm [ <STR> ] ,1.0,0.0,178
+self volume_list = [ v v self volume_list ,0.0,0.0,179
+volume_api create_snapshot_force mox IgnoreArg volume [ <STR> ] ,0.0,0.0,180
+self api detach self ctx <STR> ,0.0,0.0,181
+self api begin_detaching self ctx <STR> ,0.0,0.0,182
+@ translate_volume_exception ,0.0,0.0,183
+translate_snapshot_exception method ,0.0,0.0,184
+exc_value cinder_exception BadRequest ,0.0,0.0,185
+snapshot_id = = <STR> ,1.0,0.0,186
+bdm [ <STR> ] ,1.0,0.0,187
+metadata delete = ,0.0,0.0,188
+self api reserve_volume self ctx <STR> ,0.0,0.0,189
+exc_value None exc_trace ,0.0,0.0,190
+connector ,1.0,0.0,191
+snapshot [ <STR> ,0.0,0.0,192
+self api delete_snapshot self ctx <STR> ,0.0,0.0,193
+wrapper ,1.0,0.0,194
+self api initialize_connection self ctx <STR> ,0.0,0.0,195
+exc_value cinder_exception NotFound ,0.0,0.0,196
+self api roll_detaching self ctx <STR> ,0.0,0.0,197
+s [ <STR> ] ! = snapshot_id ] ,1.0,0.0,198
+self snapshot_list = [ s s self snapshot_list ,0.0,0.0,199
+v [ <STR> ] ! = volume_id ] ,1.0,0.0,200
+self api unreserve_volume self ctx <STR> ,0.0,0.0,201
+get_volume_metadata_value self volume_id key ,1.0,0.0,202
+<STR> ,1.0,0.0,203
+volume_id ,1.0,0.0,204
+self api attach self ctx <STR> ,1.0,0.0,205
+self api delete self ctx <STR> ,0.0,0.0,206
+@ translate_snapshot_exception ,0.0,0.0,207
+cinder_exception BadRequest e ,0.0,0.0,208
+exc_value cinder_exception NotFound ,0.0,0.0,209
+self api detach self ctx <STR> ,0.0,0.0,210
+new_exc None exc_trace ,0.0,0.0,211
+volumes terminate_connection volume [ <STR> ] connector ,0.0,0.0,212
+volume_api create_snapshot_force mox IgnoreArg volume ,0.0,0.0,213
+self api attach self ctx <STR> ,0.0,0.0,214
+self api unreserve_volume self ctx <STR> ,0.0,0.0,215
+exc_value ,0.0,0.0,216
+self snapshot_list = [ s s self snapshot_list s ! = snapshot ] ,0.0,0.0,217
+get_volume_metadata_value self volume key ,1.0,0.0,218
+def_translate_snapshot_exception self snapshot_id exc_value ,0.0,0.0,219
+self api delete_snapshot self ctx <STR> ,0.0,0.0,220
+self api terminate_connection self ctx <STR> ,1.0,0.0,221
+vol ,0.0,0.0,222
+self api initialize_connection self ctx <STR> ,0.0,0.0,223
+self api delete self ctx <STR> ,0.0,0.0,224
+new_exc = self _translate_volume_exception volume_id exc_value ,0.0,0.0,225
+self api begin_detaching self ctx <STR> ,0.0,0.0,226
+self api reserve_volume self ctx <STR> ,0.0,0.0,227
+volumes initialize_connection volume [ <STR> ] connector ,0.0,0.0,228
+intact ,0.0,0.0,229
+translate_volume_exception method ,0.0,0.0,230
+vol [ <STR> ] ,1.0,0.0,231
+cinder_exception ClientException ,0.0,0.0,232
+exc_type exc_value exc_trace = sys exc_info ,0.0,0.0,233
+instance_uuid ,0.0,0.0,234

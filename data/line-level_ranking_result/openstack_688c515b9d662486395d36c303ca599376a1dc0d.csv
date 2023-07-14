@@ -1,0 +1,537 @@
+total_tokens,line_level_label,line_score,row
+One of volume share used to the values ,0.0,1.0,1
+It can be used by the driver to introspect internal ,0.0,0.9366814621408587,2
+image_id a string which represents of the image ,0.0,0.9272807506978611,3
+can be served using different ips It finds the ,0.0,0.6728119797209361,4
+image_location a string whose depends on the ,0.0,0.6451828751826406,5
+<STR> Finds the image at location cloneable ,0.0,0.5880844573720857,6
+against the mounted shares which will contain only ,1.0,0.5847488087833046,7
+stores registry to do an efficient image clone ,0.0,0.5178266182063489,8
+cinder openstack common log logging ,1.0,0.5079906879003446,9
+<STR> Returns the share that served by ip ,0.0,0.4754270272864464,10
+msg = e msg e <STR> None e __ str__ ,0.0,0.3913707576876661,11
+returns url It needs to be verified ,0.0,0.3597057835260002,12
+Returns a of volume properties eg provider_location ,0.0,0.34473290969804365,13
+to determine whether cloning possible ,0.0,0.3412483231412575,14
+Threshold minutes after which cache file can be cleaned ,0.0,0.3333767857326295,15
+Threshold available percent to start cache cleaning ,0.0,0.2938012468027548,16
+Threshold available percent to stop cache cleaning integer ,0.0,0.2938012468027548,17
+client = GlanceClientWrapper version = <NUM> ,0.0,0.2810196172178545,18
+<STR> Create a volume efficiently an existing image ,0.0,0.27723681194657784,19
+default = <NUM> ,0.0,0.22193848749490988,20
+image service backend use The driver should use it ,0.0,0.19773977984996063,21
+share which served by ip on same nfs server ,0.0,0.19113418569058407,22
+<STR> Raises error required configuration flag NetApp ,0.0,0.16859226587682796,23
+def__ init__ self fmt ,0.0,0.15642066990917403,24
+cinder volume drivers netapp options netapp_img_cache_opts ,1.0,0.15598546695293622,25
+res __ = self _execute * cmd run_as_root = ,1.0,0.15485764243366726,26
+msg = <STR> % strg ,1.0,0.15446503275464793,27
+msg =_ <STR> Cloning params volume % volume s src % src_path s ,0.0,0.15446503275464793,28
+msg =_ <STR> Cloning params volume % volume s src % src_path s ,0.0,0.15446503275464793,29
+self fail msg ,0.0,0.15446503275464793,30
+% <STR> msg ,0.0,0.15446503275464793,31
+find CommandFilter find root ,0.0,0.13805149426888544,32
+copy_image_to_volume self context volume image_service image_id ,1.0,0.12349715355061969,33
+NetAppNFSDriver self do_setup context ,0.0,0.12349715355061969,34
+NetAppDirectNfsDriver self do_setup context ,0.0,0.12349715355061969,35
+context volume image_service image_id ,1.0,0.12349715355061969,36
+__ ___ img_file = image_location rpartition <STR> ,1.0,0.11389625247002416,37
+LOG debug _ <STR> ,1.0,0.11231916808406243,38
+LOG debug _ <STR> image_id ,1.0,0.11231916808406243,39
+LOG debug _ <STR> share ,1.0,0.11231916808406243,40
+LOG debug _ <STR> path ,1.0,0.11231916808406243,41
+LOG debug _ <STR> ,1.0,0.11231916808406243,42
+LOG debug _ <STR> bytes_to_free ,1.0,0.11231916808406243,43
+LOG debug _ <STR> file_list ,1.0,0.11231916808406243,44
+LOG debug _ <STR> ,1.0,0.11231916808406243,45
+LOG debug _ <STR> ip ,1.0,0.11231916808406243,46
+LOG debug _ <STR> file_path ,1.0,0.11231916808406243,47
+old_file_paths = res strip <STR> ,0.0,0.10835291747346316,48
+cinder volume drivers netapp utils na_utils ,1.0,0.10337554278241032,49
+by backend before use ,0.0,0.10125086928524646,50
+actual = self volume driver clone_image ,1.0,0.10076804418158036,51
+actual = self volume driver clone_image image_loc ,0.0,0.10076804418158036,52
+file_list append file u_bytes ,0.0,0.10033407772109026,53
+pass ,1.0,0.09221566055514062,54
+path = <STR> % exp_volume file ,0.0,0.08946563983989278,55
+file old_files ,0.0,0.08946563983989278,56
+sorted_files = file_list key = x x [ <NUM> ] reverse = ,0.0,0.08406869783309537,57
+% <STR> e __ str__ ,0.0,0.08244069217837023,58
+LOG = logging getLogger __ name__ ,0.0,0.08244069217837023,59
+LOG warning _ <STR> ex __ str__ ,0.0,0.08244069217837023,60
+virt_size = data virtual_size / units GiB ,1.0,0.07668227202367002,61
+result = na_utils invoke_api ,0.0,0.07559402753962684,62
+value ,1.0,0.07059616184704368,63
+integer value ,1.0,0.07059616184704368,64
+res cache_result ,1.0,0.06530404563546595,65
+res = self _invoke_successfully file_use ,0.0,0.06530404563546595,66
+res ,0.0,0.06530404563546595,67
+res result ,1.0,0.06530404563546595,68
+share file_name = res ,1.0,0.06530404563546595,69
+res = self _invoke_successfully ifconfig None ,0.0,0.06530404563546595,70
+res = drv _is_cloneable_share strg ,0.0,0.06530404563546595,71
+if_info = res get_child_by_name <STR> ,0.0,0.06530404563546595,72
+f res ,1.0,0.06530404563546595,73
+res = self _invoke_successfully file_use vserver ,0.0,0.06530404563546595,74
+res = drv _find_old_cache_files <STR> ,0.0,0.06530404563546595,75
+res = = r_files ,0.0,0.06530404563546595,76
+res = = <NUM> ,0.0,0.06530404563546595,77
+records = res get_child_content <STR> ,0.0,0.06530404563546595,78
+attr_list = res [ <STR> ] ,0.0,0.06530404563546595,79
+= res get_child_content <STR> ,0.0,0.06530404563546595,80
+LOG info ,0.0,0.06312299483720889,81
+LOG info _ <STR> share ,0.0,0.06312299483720889,82
+LOG info _ <STR> new_size ,0.0,0.06312299483720889,83
+LOG info _ <STR> dst ,1.0,0.06312299483720889,84
+LOG info _ <STR> file_name ,0.0,0.06312299483720889,85
+LOG info _ <STR> ] ,1.0,0.06312299483720889,86
+LOG info _ <STR> image_id ,1.0,0.06312299483720889,87
+lxml etree ,1.0,0.06285217930713238,88
+lxml etree ,1.0,0.06285217930713238,89
+boolean indicating whether cloning occurred ,0.0,0.05596650342748015,90
+LOG warn _ ,0.0,0.05263670412390424,91
+LOG warn _ <STR> ,1.0,0.05263670412390424,92
+LOG warn _ <STR> ,1.0,0.05263670412390424,93
+LOG warn _ <STR> ,1.0,0.05263670412390424,94
+LOG warn ,0.0,0.05263670412390424,95
+cinder image image_utils ,1.0,0.050489433371136434,96
+image_meta <STR> None ,0.0,0.045546486548133897,97
+image_meta <STR> None ,0.0,0.045546486548133897,98
+image_meta <STR> None ,0.0,0.045546486548133897,99
+exception InvalidResults ,1.0,0.036792474780461014,100
+exception InvalidInput <STR> ,1.0,0.036792474780461014,101
+IgnoreArg IgnoreArg AndRaise exception InvalidResults ,0.0,0.036792474780461014,102
+WebNFS url relative - path supported ,1.0,0.0339869026446672,103
+junction = = vol [ <STR> ] ,0.0,0.03315499739225086,104
+junction = = vol [ <STR> ] ,0.0,0.03315499739225086,105
+retry_seconds = timeout ,0.0,0.03303012579542423,106
+def_discover_file_till_timeout self path timeout = <NUM> ,1.0,0.03303012579542423,107
+Total option count <NUM> ,0.0,0.029463153194044488,108
+Total option count <NUM> ,0.0,0.029463153194044488,109
+CONF register_opts netapp_img_cache_opts ,1.0,0.02911906899769399,110
+mox StubOutWithMock os path <STR> ,1.0,0.026306734962281923,111
+self file_format = fmt ,0.0,0.024419025599256135,112
+abs_path = os path join url_parse netloc url_parse path ,0.0,0.024208821388268215,113
+os path exists path ,0.0,0.0210773636056035,114
+os path exists <STR> AndReturn ,0.0,0.0210773636056035,115
+os path exists file_path ,0.0,0.0210773636056035,116
+os ,1.0,0.0210773636056035,117
+os path exists vol_path ,0.0,0.0210773636056035,118
+rel_path = os path relpath abs_path mount_point ,0.0,0.0210773636056035,119
+os path exists file_path ,0.0,0.0210773636056035,120
+result append share file_name ,0.0,0.01086843788119746,121
+share_candidates append sh ,0.0,0.01086843788119746,122
+mox = self mox ,0.0,0.010458742713356844,123
+time sleep sleep_interval ,0.0,0.009248905136596864,124
+self _execute * cmd run_as_root = ,1.0,0.007112904619831096,125
+drv _execute * cmd run_as_root = AndReturn files None ,0.0,0.007112904619831096,126
+drv _execute * cmd run_as_root = AndReturn None <STR> ,0.0,0.007112904619831096,127
+mox IsA ,1.0,0.005229371356678421,128
+mox StubOutWithMock drv <STR> ,1.0,0.005229371356678421,129
+mox VerifyAll ,0.0,0.005229371356678421,130
+mox IgnoreArg ,1.0,0.005229371356678421,131
+mox StubOutWithMock image_utils <STR> ,1.0,0.005229371356678421,132
+mox StubOutWithMock drv <STR> ,1.0,0.005229371356678421,133
+mox StubOutWithMock socket <STR> ,1.0,0.005229371356678421,134
+mox StubOutWithMock netapp_nfs NetAppNFSDriver <STR> ,0.0,0.005229371356678421,135
+mox ,1.0,0.005229371356678421,136
+mox IgnoreArg ,1.0,0.005229371356678421,137
+mox ,1.0,0.005229371356678421,138
+mox IsA ,1.0,0.005229371356678421,139
+mox MockObject ,1.0,0.005229371356678421,140
+mox ReplayAll ,0.0,0.005229371356678421,141
+cloned prop [ <STR> ] ,0.0,0.00437608027784847,142
+prop cloned = drv clone_image ,1.0,0.00437608027784847,143
+Multiple shares can have same path but ,0.0,0.0024000441848785353,144
+drv configuration thres_avl_size_perc_start = <NUM> ,0.0,0.002070564338918717,145
+self configuration append_config_values netapp_img_cache_opts ,1.0,0.002070564338918717,146
+threshold_minutes = self configuration expiry_thres_minutes ,0.0,0.002070564338918717,147
+self configuration thres_avl_size_perc_stop ,0.0,0.002070564338918717,148
+drv configuration thres_avl_size_perc_stop = <NUM> ,0.0,0.002070564338918717,149
+self configuration thres_avl_size_perc_start ,0.0,0.002070564338918717,150
+drv configuration <STR> ,0.0,0.002070564338918717,151
+drv configuration <STR> <NUM> ,0.0,0.002070564338918717,152
+self _clone_file exp_volume volume_name clone_name vserver ,1.0,0.001194013950220361,153
+self _clone_file exp_volume volume_name clone_name vserver ,0.0,0.001194013950220361,154
+def_clone_volume self volume_name clone_name volume_id share = None ,0.0,0.001194013950220361,155
+def_clone_volume self volume_name clone_name volume_id ,0.0,0.001194013950220361,156
+def_clone_volume self volume_name clone_name ,0.0,0.001194013950220361,157
+drv _get_mount_point_for_share <STR> ,1.0,0.0,158
+def_get_vserver_and_exp_vol self volume_id = None share = None ,0.0,0.0,159
+def_construct_image_nfs_url self image_location ,1.0,0.0,160
+sh self _mounted_shares ,1.0,0.0,161
+<STR> netloc ,0.0,0.0,162
+<STR> extra ,0.0,0.0,163
+def_ip_in_ifs self ip api_ifs ,0.0,0.0,164
+ip_vserver = self _get_vserver_for_ip ip ,1.0,0.0,165
+share self _mounted_shares ,1.0,0.0,166
+dir_path = self _get_mount_point_for_share share ,1.0,0.0,167
+test_clone_image_cloneableshare_notraw self ,0.0,0.0,168
+file_use = NaElement create_node_with_children ,0.0,0.0,169
+<STR> ] ,0.0,0.0,170
+<STR> share ,1.0,0.0,171
+It creates direct url image_location ,0.0,0.0,172
+mount_point = location [ <STR> ,1.0,0.0,173
+share self <STR> [ ] ,0.0,0.0,174
+self _delete_files_till_bytes_free ,0.0,0.0,175
+share = self _is_cloneable_share image_location ,1.0,0.0,176
+self _is_filer_ip ip_sh ,0.0,0.0,177
+volume <STR> ,1.0,0.0,178
+test_construct_image_url_direct self ,0.0,0.0,179
+<STR> method ,0.0,0.0,180
+self _set_rw_permissions_for_all vol_path ,0.0,0.0,181
+test_check_share_in_use_incorrect_host self ,0.0,0.0,182
+conn ,1.0,0.0,183
+NotImplementedError ,0.0,0.0,184
+<STR> ,0.0,0.0,185
+r_files = [ <STR> ] ,0.0,0.0,186
+self _delete_file vol_path ,0.0,0.0,187
+drv _set_rw_permissions_for_all <STR> ,0.0,0.0,188
+total_size total_avl total_alc = \ ,0.0,0.0,189
+volume_id ,0.0,0.0,190
+drv _mounted_shares = [ <STR> ] ,1.0,0.0,191
+self assertEqual expected actual ,1.0,0.0,192
+test_find_old_cache_files_notexists self ,0.0,0.0,193
+= <STR> ,1.0,0.0,194
+old_files = [ x [ mount_fs_len + <NUM> ] x old_file_paths ] ,0.0,0.0,195
+<STR> ,1.0,0.0,196
+<STR> ,1.0,0.0,197
+mount_fs = self _get_mount_point_for_share share ,1.0,0.0,198
+image_location = image_location [ <NUM> ] image_location None ,0.0,0.0,199
+client = GlanceClientWrapper ,0.0,0.0,200
+drv _get_capacity_info <STR> AndReturn <NUM> <NUM> <NUM> ,0.0,0.0,201
+self cleaning = ,1.0,0.0,202
+share shares ,0.0,0.0,203
+drv _get_export_path IgnoreArg AndReturn <STR> ,0.0,0.0,204
+def_find_image_in_cache self image_id ,1.0,0.0,205
+volume_id share = None ,0.0,0.0,206
+share = drv _check_share_in_use <STR> ,0.0,0.0,207
+share ,0.0,0.0,208
+<STR> % ,0.0,0.0,209
+<STR> method ,0.0,0.0,210
+share ,0.0,0.0,211
+sleep_interval = <NUM> ,0.0,0.0,212
+drv _mounted_shares remove <STR> ,0.0,0.0,213
+drv _clone_volume ,1.0,0.0,214
+_ <STR> ,1.0,0.0,215
+export_path = self _get_export_path volume_id ,0.0,0.0,216
+host_ip = self _get_host_ip volume_id ,0.0,0.0,217
+drv _delete_file <STR> ,0.0,0.0,218
+ip_vserver shares ,0.0,0.0,219
+filer missing ,0.0,0.0,220
+drv _is_cloneable_share strg ,0.0,0.0,221
+self <STR> None ,0.0,0.0,222
+drv _delete_files_till_bytes_free ,0.0,0.0,223
+def_post_clone_image self volume ,1.0,0.0,224
+<STR> % data file_format ,0.0,0.0,225
+test_register_img_in_cache_with_share self ,0.0,0.0,226
+bytes_to_free < = <NUM> ,1.0,0.0,227
+ip_sh = share split <STR> [ <NUM> ] ,0.0,0.0,228
+image_utils resize_image path new_size ,0.0,0.0,229
+strg = <STR> ,1.0,0.0,230
+None ,1.0,0.0,231
+socket gethostbyname IgnoreArg AndReturn <STR> ,1.0,0.0,232
+if_info ,0.0,0.0,233
+eligible_files = self _shortlist_del_eligible_files ,0.0,0.0,234
+drv _discover_file_till_timeout IgnoreArg AndReturn ,1.0,0.0,235
+cloned = ,0.0,0.0,236
+share = = <STR> ,0.0,0.0,237
+ipv<NUM> = socket gethostbyname host ,0.0,0.0,238
+test_clone_image_cloneableshare_nospace self ,0.0,0.0,239
+data = image_utils qemu_img_info path ,0.0,0.0,240
+<STR> path ,0.0,0.0,241
+drv _delete_file <STR> AndReturn ,0.0,0.0,242
+<STR> extra ,0.0,0.0,243
+image_loc = ,0.0,0.0,244
+urlparse ,1.0,0.0,245
+share_location mount_point ,0.0,0.0,246
+file_name volume [ <STR> ] share file_name ,0.0,0.0,247
+direct_url ,0.0,0.0,248
+direct_url locations = image_location ,0.0,0.0,249
+img_info ,0.0,0.0,250
+def_share_match_for_ip self ip shares ,0.0,0.0,251
+result ,1.0,0.0,252
+self _discover_file_till_timeout vol_path ,1.0,0.0,253
+cloned ,1.0,0.0,254
+drv _clean_image_cache ,0.0,0.0,255
+test_register_img_in_cache_noshare self ,0.0,0.0,256
+files = <STR> ,1.0,0.0,257
+export_path = self _get_export_path volume_id ,0.0,0.0,258
+host_ip = self _get_host_ip volume_id ,0.0,0.0,259
+drv local_path IgnoreArg AndReturn <STR> ,0.0,0.0,260
+self _resize_image_file vol_path volume [ <STR> ] ,0.0,0.0,261
+post_clone = ,0.0,0.0,262
+eligible_files ,0.0,0.0,263
+def_get_filer_file_usage self path ,0.0,0.0,264
+Exception ex ,1.0,0.0,265
+result = [ ] ,0.0,0.0,266
+avl_percent < = thres_size_perc_start ,0.0,0.0,267
+drv _is_cloneable_share IgnoreArg AndReturn <STR> ,1.0,0.0,268
+exp_volume = self _get_actual_path_for_export share ,0.0,0.0,269
+ifc_ip = = ip ,0.0,0.0,270
+retry_seconds < = <NUM> ,0.0,0.0,271
+def_do_clone ,0.0,0.0,272
+img_loc = None ,0.0,0.0,273
+self _spawn_clean_cache_job ,0.0,0.0,274
+nfs_loc_pattern = \ ,1.0,0.0,275
+def_do_delete ,0.0,0.0,276
+drv _is_share_eligible IgnoreArg IgnoreArg AndReturn ,1.0,0.0,277
+location = drv _construct_image_nfs_url img_loc ,1.0,0.0,278
+ifc_ip = ifc get_child_content <STR> ,0.0,0.0,279
+image_utils convert_image img_path dst <STR> ,0.0,0.0,280
+def_spawn_clean_cache_job self ,0.0,0.0,281
+self _is_share_eligible share volume [ <STR> ] ,1.0,0.0,282
+file_list ,0.0,0.0,283
+image_utils convert_image IgnoreArg IgnoreArg <STR> ,0.0,0.0,284
+% <STR> share ,0.0,0.0,285
+share ,0.0,0.0,286
+test_find_old_cache_files_exists self ,0.0,0.0,287
+@ utils synchronized f [ <NUM> ] external = ,1.0,0.0,288
+def_find_old_cache_files self share ,0.0,0.0,289
+file_name = <STR> % image_id ,1.0,0.0,290
+<STR> ,1.0,0.0,291
+v<NUM>_addr ,0.0,0.0,292
+def_direct_nfs_clone self volume image_location image_id ,1.0,0.0,293
+drv cleaning ,0.0,0.0,294
+self _clone_volume src dst volume_id = None share = share ,0.0,0.0,295
+IgnoreArg r_files AndReturn r_files ,0.0,0.0,296
+mount_fs_len = mount_fs ,0.0,0.0,297
+self assertFalse vol_dict [ <STR> ] ,1.0,0.0,298
+test_check_share_in_use_success self ,1.0,0.0,299
+location_type location_type lower ! = <STR> ,0.0,0.0,300
+file_path = <STR> % mount_fs f [ <NUM> ] ,0.0,0.0,301
+t start ,0.0,0.0,302
+f ,0.0,0.0,303
+drv _do_clone_rel_img_cache <STR> ,0.0,0.0,304
+u_bytes = self _get_cluster_file_usage path vserver ,0.0,0.0,305
+self _clone_volume ,0.0,0.0,306
+NetAppNFSDriver self copy_image_to_volume ,1.0,0.0,307
+sh_vserver = self _get_vserver_for_ip ip_sh ,1.0,0.0,308
+def_clean_image_cache self ,0.0,0.0,309
+drv _find_image_in_cache IgnoreArg AndReturn ,1.0,0.0,310
+% <STR> ,0.0,0.0,311
+_ <STR> ,1.0,0.0,312
+address = ip_info get_child_content <STR> ,0.0,0.0,313
+volume = <STR> ,1.0,0.0,314
+sh_vserver = = ip_vserver ,0.0,0.0,315
+vserver ,0.0,0.0,316
+self assertFalse result ,1.0,0.0,317
+img_path = <STR> % dir_path img_file ,0.0,0.0,318
+NotImplementedError ,1.0,0.0,319
+data = image_utils qemu_img_info dst ,1.0,0.0,320
+def_create_file_usage_req self path ,0.0,0.0,321
+file_path = <STR> % dst ,0.0,0.0,322
+cache_result = self _find_image_in_cache image_id ,1.0,0.0,323
+result ,0.0,0.0,324
+expiry_thres_minutes = <NUM> ,0.0,0.0,325
+eligible_files = self _find_old_cache_files share ,0.0,0.0,326
+def_get_verver_ips self vserver ,1.0,0.0,327
+t = Timer <NUM> self _clean_image_cache ,1.0,0.0,328
+Returns url nfs scheme nfs store ,0.0,0.0,329
+threading Timer ,1.0,0.0,330
+drv _is_share_eligible IgnoreArg IgnoreArg AndReturn ,1.0,0.0,331
+location = locations [ <NUM> ] ,0.0,0.0,332
+ip = = address ,0.0,0.0,333
+cmd = [ <STR> path ] ,0.0,0.0,334
+which a direct_url locations ,1.0,0.0,335
+drv = self _driver ,1.0,0.0,336
+share ,1.0,0.0,337
+test_check_share_in_use_invalid_conn self ,0.0,0.0,338
+vserver exp_volume = self _get_vserver_and_exp_vol ,1.0,0.0,339
+self _get_capacity_info share ,0.0,0.0,340
+vs_ifs = self _get_verver_ips self vserver ,1.0,0.0,341
+<STR> ,1.0,0.0,342
+matched ,1.0,0.0,343
+cache_result ,1.0,0.0,344
+drv _get_export_ip_path ,0.0,0.0,345
+volume_id = None share = share ,0.0,0.0,346
+image_id ,1.0,0.0,347
+self _register_image_in_cache volume image_id ,1.0,0.0,348
+drv _mounted_shares = [ ] ,0.0,0.0,349
+<STR> bootable cloned ,0.0,0.0,350
+url_parse = urlparse urlparse url ,0.0,0.0,351
+share_candidates ,0.0,0.0,352
+self cleaning = ,1.0,0.0,353
+volume [ <STR> ] = None ,0.0,0.0,354
+test_construct_image_url_loc self ,0.0,0.0,355
+img_loc = <STR> None ,0.0,0.0,356
+get_img_info self ,0.0,0.0,357
+share_location = location [ <STR> ,0.0,0.0,358
+u_bytes = self _get_filer_file_usage path ,0.0,0.0,359
+if_list = [ ] ,0.0,0.0,360
+= matched group <NUM> <STR> ,1.0,0.0,361
+if_list ,1.0,0.0,362
+locations ,0.0,0.0,363
+file_path = <STR> % file_name ,0.0,0.0,364
+% <STR> file_name ,0.0,0.0,365
+strg strgs ,0.0,0.0,366
+[ <STR> ] ,1.0,0.0,367
+avl_percent = total_avl / total_size * <NUM> ,0.0,0.0,368
+vol_dict result = drv clone_image ,0.0,0.0,369
+if_list extend ifs ,0.0,0.0,370
+thres_size_perc_stop = \ ,0.0,0.0,371
+strgs = [ <STR> ,1.0,0.0,372
+self _client api_name = <STR> ,0.0,0.0,373
+ip_info ,0.0,0.0,374
+file_list = [ ] ,0.0,0.0,375
+self fail <STR> ,1.0,0.0,376
+drv _resize_image_file <STR> IgnoreArg ,0.0,0.0,377
+<STR> volume_id = None ,0.0,0.0,378
+_ do_clone ,0.0,0.0,379
+image_utils qemu_img_info <STR> AndReturn ,0.0,0.0,380
+drv _is_cloneable_share <STR> AndReturn ,0.0,0.0,381
+ifs = if_info get_children ,0.0,0.0,382
+share_candidates ,0.0,0.0,383
+volume [ <STR> ] file_name ,0.0,0.0,384
+thres_size_perc_stop * total_size / <NUM> ,0.0,0.0,385
+drv _get_mount_point_for_share IgnoreArg AndReturn <STR> ,1.0,0.0,386
+cloned = ,1.0,0.0,387
+drv _post_clone_image volume ,1.0,0.0,388
+eligible_files ,0.0,0.0,389
+ifconfig = NaElement <STR> ,0.0,0.0,390
+def_shortlist_del_eligible_files self share old_files ,0.0,0.0,391
+[ ] ,0.0,0.0,392
+test_clean_image_cache_exec self ,1.0,0.0,393
+def_is_cloneable_share self image_location ,1.0,0.0,394
+drv _find_old_cache_files <STR> ] ,0.0,0.0,395
+= <STR> ,1.0,0.0,396
+drv _check_share_in_use IgnoreArg IgnoreArg AndReturn <STR> ,0.0,0.0,397
+self assertEquals expected actual ,1.0,0.0,398
+cloned = self _clone_from_cache volume image_id cache_result ,1.0,0.0,399
+post_clone = self _post_clone_image volume ,1.0,0.0,400
+thres_avl_size_perc_start = <NUM> ,0.0,0.0,401
+IgnoreArg IgnoreArg AndReturn <STR> ,0.0,0.0,402
+vserver = ifs [ <NUM> ] get_child_content <STR> ,0.0,0.0,403
+share file_name = result [ <NUM> ] ,0.0,0.0,404
+<STR> image_location ,1.0,0.0,405
+self _is_file_size_equal path new_size ,0.0,0.0,406
+records > <NUM> ,0.0,0.0,407
+cloned = self _direct_nfs_clone volume image_location ,1.0,0.0,408
+if_do_delete ,0.0,0.0,409
+share ,0.0,0.0,410
+bytes_to_free = bytes_to_free - f [ <NUM> ] ,1.0,0.0,411
+@ utils synchronized <STR> ,0.0,0.0,412
+matched = re match nfs_loc_pattern image_location flags = <NUM> ,1.0,0.0,413
+data file_format ! = <STR> ,1.0,0.0,414
+netapp_nfs NetAppNFSDriver do_setup IgnoreArg ,0.0,0.0,415
+location ! = <STR> ,1.0,0.0,416
+vol_path = self local_path volume ,0.0,0.0,417
+<STR> Construct direct url nfs backend ,0.0,0.0,418
+host = sh split <STR> [ <NUM> ] ,0.0,0.0,419
+is_iter = tunnel = vserver ,0.0,0.0,420
+drv _discover_file_till_timeout IgnoreArg AndReturn ,1.0,0.0,421
+def_get_cluster_file_usage self path vserver ,1.0,0.0,422
+ifs = attr_list get_children ,0.0,0.0,423
+bytes_to_free = threshold_size - total_avl ,0.0,0.0,424
+self _delete_file file_path ,0.0,0.0,425
+file_use ,0.0,0.0,426
+<STR> % threshold_minutes ] ,0.0,0.0,427
+sh_exp = = ,0.0,0.0,428
+drv _delete_files_till_bytes_free files <STR> bytes_to_free = <NUM> ,0.0,0.0,429
+threshold_size = ,0.0,0.0,430
+drv clone_image ,1.0,0.0,431
+v<NUM>_addr = intf get_child_by_name <STR> ,0.0,0.0,432
+cloned ,0.0,0.0,433
+e ,0.0,0.0,434
+test_clone_image_fromcache self ,1.0,0.0,435
+def_is_file_size_equal self path size ,0.0,0.0,436
+test_clean_image_cache_noexec self ,1.0,0.0,437
+test_clone_image_resizefails self ,1.0,0.0,438
+[ <STR> ,1.0,0.0,439
+thres_avl_size_perc_stop = <NUM> ,0.0,0.0,440
+def_resize_image_file self path new_size ,0.0,0.0,441
+share old_files ,0.0,0.0,442
+virt_size = = size ,1.0,0.0,443
+Accepting characters path - names checking ,1.0,0.0,444
+def_get_vserver_for_ip self ip ,1.0,0.0,445
+test_find_image_in_cache_shares self ,1.0,0.0,446
+socket gethostbyname IgnoreArg AndRaise Exception ,1.0,0.0,447
+self _share_match_for_ip ipv<NUM> share_candidates ,1.0,0.0,448
+share_candidates = [ ] ,0.0,0.0,449
+test_is_cloneable_share_badformats self ,1.0,0.0,450
+cmd = [ <STR> ,1.0,0.0,451
+url = location [ <STR> ] ,1.0,0.0,452
+files = [ <STR> <NUM> ] ,0.0,0.0,453
+<STR> ] ,1.0,0.0,454
+<STR> ] ,0.0,0.0,455
+self _register_image_in_cache ,1.0,0.0,456
+share = None ,0.0,0.0,457
+Exception ,1.0,0.0,458
+conn = matched group <NUM> ,1.0,0.0,459
+test_find_image_in_cache_no_shares self ,0.0,0.0,460
+def_is_filer_ip self ip ,0.0,0.0,461
+= self _get_mount_point_for_share share ,1.0,0.0,462
+drv _find_image_in_cache IgnoreArg AndReturn [ ] ,1.0,0.0,463
+api_ifs None ,0.0,0.0,464
+drv clone_image volume <STR> ,1.0,0.0,465
+f sorted_files ,0.0,0.0,466
+host_ip = share split <STR> [ <NUM> ] ,0.0,0.0,467
+drv _shortlist_del_eligible_files ,0.0,0.0,468
+def_delete_files_till_bytes_free self file_list share bytes_to_free = <NUM> ,0.0,0.0,469
+Exception e ,1.0,0.0,470
+direct_url = <STR> % share_location rel_path ,0.0,0.0,471
+re ,1.0,0.0,472
+result = drv _find_image_in_cache <STR> ,1.0,0.0,473
+dst = <STR> ] ,1.0,0.0,474
+def_register_image_in_cache self volume image_id ,1.0,0.0,475
+share self _is_share_eligible share volume [ <STR> ] ,1.0,0.0,476
+def_clone_from_cache self volume image_id cache_result ,1.0,0.0,477
+volume image_id ,0.0,0.0,478
+<STR> Returns export ip path ,0.0,0.0,479
+eligible_files share bytes_to_free ,0.0,0.0,480
+vserver exp_volume = self _get_vserver_and_exp_vol volume_id share ,1.0,0.0,481
+cfg IntOpt <STR> ,1.0,0.0,482
+self get_img_info <STR> ,0.0,0.0,483
+host_ip export_path = self _get_export_ip_path volume_id share ,0.0,0.0,484
+volume [ <STR> ] = share ,1.0,0.0,485
+drv _share_match_for_ip ,0.0,0.0,486
+sh_exp = sh split <STR> [ <NUM> ] ,0.0,0.0,487
+thres_size_perc_start = \ ,0.0,0.0,488
+ifc api_ifs ,0.0,0.0,489
+bootable = cloned ,0.0,0.0,490
+test_clone_image_file_not_discovered self ,1.0,0.0,491
+clone_image self volume image_location image_id ,1.0,0.0,492
+drv _resize_image_file ,0.0,0.0,493
+<STR> % <STR> netloc ,0.0,0.0,494
+drv _register_image_in_cache IgnoreArg IgnoreArg ,1.0,0.0,495
+export_path = share split <STR> [ <NUM> ] ,0.0,0.0,496
+img_info file_format = = <STR> ,1.0,0.0,497
+self _is_filer_ip ip shares ,0.0,0.0,498
+drv _register_image_in_cache volume <STR> ,1.0,0.0,499
+share = drv _check_share_in_use None <STR> ,0.0,0.0,500
+test_clone_image_cloneableshare_raw self ,1.0,0.0,501
+def_do_clone_rel_img_cache self src dst share cache_file ,0.0,0.0,502
+img_info ,0.0,0.0,503
+@ utils synchronized cache_file external = ,1.0,0.0,504
+ip_info = v<NUM>_addr get_child_by_name <STR> ,0.0,0.0,505
+retry_seconds = retry_seconds - sleep_interval ,0.0,0.0,506
+def_check_share_in_use self conn ,1.0,0.0,507
+cloned = cloned post_clone ,0.0,0.0,508
+volume [ <STR> ,1.0,0.0,509
+img_file volume [ <STR> ] ,1.0,0.0,510
+share = volume [ <STR> ] cloned None ,0.0,0.0,511
+test_is_cloneable_share_goodformat<NUM> self ,1.0,0.0,512
+intf ifs ,0.0,0.0,513
+r_files remove f ,0.0,0.0,514
+location_type = location [ <STR> ,1.0,0.0,515
+self assertEqual vol_dict [ <STR> ] None ,1.0,0.0,516
+allowed path segments ,0.0,0.0,517
+vserver exp_volume ,0.0,0.0,518
+location [ <STR> ] ,1.0,0.0,519
+url ,1.0,0.0,520
+self _check_share_in_use conn ,1.0,0.0,521
+host_ip export_path ,0.0,0.0,522
+self _do_clone_rel_img_cache ,0.0,0.0,523
+socket ,1.0,0.0,524
+host = conn split <STR> [ <NUM> ] ,0.0,0.0,525
+img_info = image_utils qemu_img_info img_path ,0.0,0.0,526
+test_check_share_in_use_no_conn self ,0.0,0.0,527
+def_get_export_ip_path self volume_id = None share = None ,0.0,0.0,528
+netapp_img_cache_opts = [ ,1.0,0.0,529
+[ <STR> bytes_to_free = <NUM> ,1.0,0.0,530
+self _ip_in_ifs ipv<NUM> vs_ifs ,1.0,0.0,531
+ifs = self _get_if_info_by_ip ip ,0.0,0.0,532
+test_delete_files_till_bytes_free_success self ,0.0,0.0,533
+image_location = self _construct_image_nfs_url image_location ,1.0,0.0,534
+def_delete_file self path ,0.0,0.0,535
+file_list bytes_to_free > <NUM> ,0.0,0.0,536

@@ -1,0 +1,262 @@
+total_tokens,line_level_label,line_score,row
+In folsom version l<NUM> an extension There no way to extend exntension attributes ,1.0,1.0,1
+quantum openstack common cfg ,1.0,0.9426710559256963,2
+quantum openstack common cfg ,1.0,0.9426710559256963,3
+flavor router corresponds to specific l<NUM> plugin flavor - plugin mapping could be configureable by l<NUM>_plugin_list config Note that Metaplugin can provide l<NUM> functionaliteis l<NUM> plugin which didn ' t support l<NUM> extension yet ,1.0,0.9282056514866593,4
+r_in_db = plugin create_router context router ,1.0,0.8460167617008179,5
+router_ret<NUM> = self plugin create_router self context router<NUM> ,1.0,0.8460167617008179,6
+router_in_db<NUM> = self plugin get_router self context router_ret<NUM> [ <STR> ] ,1.0,0.8398928762793806,7
+self plugin get_router self context router_ret<NUM> [ <STR> ] ,1.0,0.8398928762793806,8
+router = plugin get_router context fields ,1.0,0.8398928762793806,9
+flavor network corresponds to specific l<NUM> plugin flavor - plugin mapping could be configureable by plugin_list config ,1.0,0.8216329081896728,10
+flavor correspond to specific plugin flavor - plugin mapping could be configureable by plugin_list config ,1.0,0.8182046603018353,11
+This plugin support multiple plugin at same time This plugin L<NUM> connectivility ,1.0,0.8027618277109393,12
+create_router self context router ,1.0,0.8003444426872328,13
+get_router self context fields = None ,1.0,0.7942205572657954,14
+[ self get_router context router [ <STR> ] ,1.0,0.7942205572657954,15
+This plugin supports multiple plugin at same time This plugin L<NUM> connectivility ,1.0,0.7388920845350491,16
+get_routers self context filters = None fields = None ,1.0,0.7234199803221107,17
+quantum common exceptions exc ,1.0,0.7049750828700402,18
+quantum common exceptions exc ,1.0,0.7049750828700402,19
+delete_port self context ,1.0,0.6946402350259666,20
+delete_port self context l<NUM>_port_check = ,1.0,0.6946402350259666,21
+between networks which are realized by different plugins This plugin adds new attributes <STR> flavor router `` ,1.0,0.6799954535907334,22
+routers = self get_routers_with_flavor context filters ,1.0,0.6765317276623177,23
+collection = self _model_query context l<NUM>_db Router ,1.0,0.6153667771030104,24
+plugin update_router context router ,1.0,0.5897454079162392,25
+plugin delete_router context r_in_db [ <STR> ] ,1.0,0.5897454079162392,26
+self plugin delete_router self context router_ret<NUM> [ <STR> ] ,1.0,0.5897454079162392,27
+plugin delete_router context ,1.0,0.5897454079162392,28
+self _extend_router_dict context r_in_db ,1.0,0.5440730889026543,29
+get_routers_with_flavor self context filters = None ,1.0,0.5440730889026543,30
+delete_router self context ,1.0,0.5440730889026543,31
+self disassociate_floatingips context ,1.0,0.5440730889026543,32
+self prevent_l<NUM>_port_deletion context ,1.0,0.5440730889026543,33
+self _extend_router_dict context router ,1.0,0.5440730889026543,34
+def_extend_router_dict self context router ,1.0,0.5440730889026543,35
+update_router self context router ,1.0,0.5440730889026543,36
+between networks which are realized by different plugins This plugin add new attribute <STR> ,1.0,0.4242081518565856,37
+auth_url = http / / <NUM> <NUM> <NUM> <NUM> <NUM> / v<NUM> <NUM> ,1.0,0.41229822550911743,38
+auth_url = http / / <NUM> <NUM> <NUM> <NUM> <NUM> / v<NUM> <NUM> ,1.0,0.41229822550911743,39
+so you can flavor router value but you can ' t get flavor router value API output ,1.0,0.3313686867792997,40
+<STR> attributes ATTR_NOT_SPECIFIED ,1.0,0.2758150954808187,41
+<STR> attributes ATTR_NOT_SPECIFIED ,1.0,0.2758150954808187,42
+cfg CONF set_override <STR> ,1.0,0.2170737889499035,43
+LOG debug <STR> % r_in_db [ <STR> ] ,1.0,0.21199900382479164,44
+LOG debug <STR> % r_in_db [ <STR> ] ,1.0,0.21199900382479164,45
+mox ,1.0,0.204309254985828,46
+mox ,1.0,0.204309254985828,47
+binding = meta_models_v<NUM> RouterFlavor flavor = flavor router_id = router_id ,1.0,0.18604056527201857,48
+filter_by router_id = router_id ,1.0,0.18604056527201857,49
+admin_password = password ,1.0,0.18378768191266762,50
+admin_password = password ,1.0,0.18378768191266762,51
+self supported_extension_aliases append <STR> ,1.0,0.17689133938435544,52
+quantum extensions l<NUM> ,1.0,0.17017230218237253,53
+quantum extensions flavor FLAVOR_NETWORK ,1.0,0.17017230218237253,54
+quantum extensions flavor FLAVOR_NETWORK FLAVOR_ROUTER ,1.0,0.17017230218237253,55
+agent internal_network_added ri ex_gw_port port_id cidr mac ,1.0,0.16854674316609403,56
+self default_l<NUM>_flavor = cfg CONF META default_l<NUM>_flavor ,1.0,0.15613411688714388,57
+cfg CONF META l<NUM>_plugin_list split <STR> ] ,1.0,0.15613411688714388,58
+self default_flavor = cfg CONF META default_flavor ,1.0,0.15613411688714388,59
+cfg StrOpt <STR> ,1.0,0.15613411688714388,60
+router routers ] ,1.0,0.13245863875937325,61
+binding = meta_models_v<NUM> Flavor flavor = flavor network_id = net_id ,1.0,0.12849230945355417,62
+binding = meta_models_v<NUM> NetworkFlavor flavor = flavor network_id = net_id ,1.0,0.12849230945355417,63
+add_network_flavor_binding flavor net_id ,1.0,0.12485561575040291,64
+add_flavor_binding flavor net_id ,1.0,0.12485561575040291,65
+LOG info <STR> % plugin_provider ,1.0,0.10174578560750057,66
+internal_network_added self ri ex_gw_port network_id port_id ,1.0,0.09635858262228872,67
+agent internal_network_added ri ex_gw_port network_id ,1.0,0.09635858262228872,68
+def_get_flavor_by_router_id self router_id ,1.0,0.09302028263600928,69
+<STR> % self flavor self router_id ,1.0,0.09302028263600928,70
+meta_db_v<NUM> get_flavor_by_router router_id ,1.0,0.09302028263600928,71
+get_flavor_by_router router_id ,1.0,0.09302028263600928,72
+router_id = sa Column sa String <NUM> sa ForeignKey <STR> ,1.0,0.09302028263600928,73
+add_router_flavor_binding flavor router_id ,1.0,0.09302028263600928,74
+l<NUM>_db Router = = r_model router_id ,1.0,0.09302028263600928,75
+self internal_network_added ri ex_gw_port ,1.0,0.09272188891913748,76
+internal_network_added self ri ex_gw_port port_id ,1.0,0.09272188891913748,77
+self internal_network_added ri ex_gw_port p [ <STR> ] ,1.0,0.09272188891913748,78
+plugin_klass = importutils import_class plugin_provider ,1.0,0.09041926026315462,79
+plugin_klass = importutils import_class plugin_provider ,1.0,0.09041926026315462,80
+exc Invalid <STR> % ,1.0,0.08247346632154548,81
+FaildToAddFlavorBinding exc QuantumException ,1.0,0.08247346632154548,82
+exc NoResultFound ,1.0,0.08247346632154548,83
+exc Invalid <STR> % ,1.0,0.08247346632154548,84
+FlavorNotFound exc NotFound ,1.0,0.08247346632154548,85
+exc ClassNotFound ,1.0,0.08247346632154548,86
+admin_tenant_name = service ,1.0,0.08127154186144357,87
+admin_tenant_name = service ,1.0,0.08127154186144357,88
+port_id cidr mac ,0.0,0.07582485424695655,89
+binding = session query meta_models_v<NUM> Flavor ,1.0,0.07547908622326724,90
+binding = session query meta_models_v<NUM> RouterFlavor ,1.0,0.07547908622326724,91
+binding = session query meta_models_v<NUM> NetworkFlavor ,1.0,0.07547908622326724,92
+L<NUM> agent dont ' s support flavor router ,1.0,0.06386974317569719,93
+Limited L<NUM> support ,1.0,0.06386974317569719,94
+def__ repr__ self ,1.0,0.051174418698365566,95
+plugin = self _get_l<NUM>_plugin flavor ,1.0,0.04567231901346218,96
+plugin l<NUM> ,1.0,0.04567231901346218,97
+one ,1.0,0.03813743147416165,98
+uuid ,1.0,0.03562366038115531,99
+uuid ,1.0,0.03562366038115531,100
+<STR> _uuid ,1.0,0.03100006784056914,101
+key value filters iteritems ,1.0,0.030484556026339704,102
+session add binding ,1.0,0.021607601017119733,103
+session = db get_session ,1.0,0.021607601017119733,104
+session flush ,1.0,0.021607601017119733,105
+self default_flavor self plugins ,1.0,0.02049037267533318,106
+self l<NUM>_plugins [ flavor ] = self plugins [ flavor ] ,1.0,0.02049037267533318,107
+quantum plugins metaplugin meta_models_v<NUM> Flavor ,1.0,0.02049037267533318,108
+flavor self plugins ,1.0,0.02049037267533318,109
+self default_flavor self plugins ,1.0,0.02049037267533318,110
+quantum plugins metaplugin meta_models_v<NUM> NetworkFlavor ,1.0,0.02049037267533318,111
+message =_ <STR> ,1.0,0.02022869382096079,112
+primary_key = ,0.0,0.01017414616278595,113
+<STR> % self flavor self network_id ,1.0,0.0036366937031512415,114
+network_id =_uuid ,1.0,0.0036366937031512415,115
+models_v<NUM> Network = = Flavor network_id ,0.0,0.0036366937031512415,116
+<STR> % self flavor self network_id ,1.0,0.0036366937031512415,117
+models_v<NUM> Network = = model network_id ,1.0,0.0036366937031512415,118
+self driver plug network_id port_id interface_name mac_address ,1.0,0.0036366937031512415,119
+flavor = network [ <STR> ] ,1.0,0.00342824788771205,120
+network [ <STR> ] ,1.0,0.00342824788771205,121
+flavor = network [ <STR> ] [ FLAVOR_NETWORK ] ,1.0,0.00342824788771205,122
+network [ FLAVOR_NETWORK ] = flavor ,1.0,0.00342824788771205,123
+flavor = self _get_flavor_by_network_id network [ <STR> ] ,1.0,0.00342824788771205,124
+l<NUM>_port_check ,1.0,0.0,125
+<STR> flavor ,0.0,0.0,126
+<STR> ,1.0,0.0,127
+FLAVOR_NETWORK = <STR> ,1.0,0.0,128
+self driver plug None port_id interface_name mac_address ,1.0,0.0,129
+FLAVOR_NETWORK <STR> ,1.0,0.0,130
+self assertEqual <STR> ] ,1.0,0.0,131
+quantum db l<NUM>_db ,1.0,0.0,132
+Default value l<NUM> ,1.0,0.0,133
+self l<NUM>_plugins = ,1.0,0.0,134
+key = = <STR> ,1.0,0.0,135
+def_get_l<NUM>_plugin self flavor ,1.0,0.0,136
+collection = collection join model ,1.0,0.0,137
+Metaplugin Exceptions ,1.0,0.0,138
+Exception <STR> ,1.0,0.0,139
+FAKE_PATH FAKE_PATH PROXY_PATH ,1.0,0.0,140
+<STR> None ,1.0,0.0,141
+self l<NUM>_plugins [ flavor ] ,1.0,0.0,142
+<STR> ,1.0,0.0,143
+unittest ,1.0,0.0,144
+collection = collection join Flavor ,1.0,0.0,145
+FlavorNotFound flavor = flavor ,1.0,0.0,146
+<STR> % \ ,1.0,0.0,147
+MetaPluginV<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,148
+Exception <STR> % flavor ,1.0,0.0,149
+<STR> ,1.0,0.0,150
+admin_user = quantum ,1.0,0.0,151
+self driver plug None ex_gw_port [ <STR> ] interface_name ,1.0,0.0,152
+PLUGIN_LIST = \ ,1.0,0.0,153
+<STR> ,1.0,0.0,154
+self default_l<NUM>_flavor ,1.0,0.0,155
+LOG error <STR> ,1.0,0.0,156
+<STR> ,1.0,0.0,157
+self default_flavor ,1.0,0.0,158
+<STR> ,1.0,0.0,159
+column = Flavor flavor ,1.0,0.0,160
+plugin_set ,1.0,0.0,161
+fake_network = <STR> ,1.0,0.0,162
+[ Proxy ] ,1.0,0.0,163
+ondelete = <STR> ,1.0,0.0,164
+Flavor models_v<NUM> model_base BASEV<NUM> ,1.0,0.0,165
+default_l<NUM>_flavor = <STR> ,1.0,0.0,166
+flavor = r get FLAVOR_ROUTER ,1.0,0.0,167
+<STR> ] ,1.0,0.0,168
+r = router [ <STR> ] ,1.0,0.0,169
+Fake<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,170
+LOG exception <STR> ,1.0,0.0,171
+fields <STR> fields ,1.0,0.0,172
+flavor = Column String <NUM> ,1.0,0.0,173
+Exception e ,1.0,0.0,174
+flavor = n get <STR> ,1.0,0.0,175
+FLAVOR_ROUTER flavor ,1.0,0.0,176
+ProxyPluginV<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,177
+auth_region = RegionOne ,1.0,0.0,178
+router<NUM> = self _fake_router <STR> ,1.0,0.0,179
+self supported_extension_aliases + = [ <STR> ] ,1.0,0.0,180
+meta_db_v<NUM> add_flavor_binding flavor net [ <STR> ] ,1.0,0.0,181
+Exception <STR> ,1.0,0.0,182
+router [ FLAVOR_ROUTER ] = flavor ,1.0,0.0,183
+self l<NUM>_plugins [ flavor ] = self _load_plugin plugin_provider ,1.0,0.0,184
+<STR> ,1.0,0.0,185
+FLAVOR_ROUTER = <STR> ,1.0,0.0,186
+self assertEqual <STR> router_ret<NUM> [ FLAVOR_ROUTER ] ,1.0,0.0,187
+flavor plugin_provider l<NUM>_plugin_list ,1.0,0.0,188
+<STR> ,1.0,0.0,189
+column = l<NUM>_db Router key None ,1.0,0.0,190
+None ,0.0,0.0,191
+collection = collection join r_model ,1.0,0.0,192
+data ,1.0,0.0,193
+<STR> strip % FAKE_PATH FAKE_PATH PROXY_PATH ,1.0,0.0,194
+LOG exception <STR> ,1.0,0.0,195
+auth_region = RegionOne ,1.0,0.0,196
+def_fake_router self flavor ,1.0,0.0,197
+fake<NUM> % s fake_plugin Fake<NUM> fake<NUM> % s fake_plugin Fake<NUM> ,1.0,0.0,198
+l<NUM>_plugin_list = [ plugin_set split <STR> ,1.0,0.0,199
+l<NUM>_db L<NUM>_NAT_db_mixin ,1.0,0.0,200
+self default_flavor ,1.0,0.0,201
+meta_db_v<NUM> add_network_flavor_binding flavor net [ <STR> ] ,1.0,0.0,202
+unittest<NUM> unittest ,1.0,0.0,203
+fake_network = <STR> ,1.0,0.0,204
+self assertRaises l<NUM> RouterNotFound ,1.0,0.0,205
+flavor = meta_db_v<NUM> get_flavor_by_router ,1.0,0.0,206
+<STR> ,1.0,0.0,207
+admin_user = quantum ,1.0,0.0,208
+flavor = self _get_flavor_by_router_id router [ <STR> ] ,1.0,0.0,209
+self default_l<NUM>_flavor self l<NUM>_plugins ,1.0,0.0,210
+flavor = n get FLAVOR_NETWORK ,1.0,0.0,211
+self assertEqual <STR> ret<NUM> [ FLAVOR_NETWORK ] ,1.0,0.0,212
+binding flavor ,1.0,0.0,213
+self driver plug ex_gw_port [ <STR> ] ,1.0,0.0,214
+l<NUM>_plugin_list = <STR> ,1.0,0.0,215
+Fake<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,216
+model = NetworkFlavor ,1.0,0.0,217
+<STR> ,1.0,0.0,218
+NetworkFlavor models_v<NUM> model_base BASEV<NUM> ,1.0,0.0,219
+None ,1.0,0.0,220
+PLUGIN_LIST = <STR> ,1.0,0.0,221
+fields FLAVOR_NETWORK fields ,1.0,0.0,222
+filters ,1.0,0.0,223
+RouterFlavor models_v<NUM> model_base BASEV<NUM> ,1.0,0.0,224
+r_model = RouterFlavor ,1.0,0.0,225
+flavor = self default_l<NUM>_flavor ,1.0,0.0,226
+FLAVOR_NETWORK flavor ,1.0,0.0,227
+router ,1.0,0.0,228
+flavor self l<NUM>_plugins ,1.0,0.0,229
+ex_gw_port [ <STR> ] interface_name ,1.0,0.0,230
+FaildToAddFlavorBinding ,1.0,0.0,231
+RouterFlavor ,0.0,0.0,232
+column ,0.0,0.0,233
+<STR> strip % FAKE_PATH FAKE_PATH ,1.0,0.0,234
+fields FLAVOR_ROUTER fields ,1.0,0.0,235
+collection = collection column in_ value ,1.0,0.0,236
+MetaPluginV<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,237
+[ Proxy ] ,1.0,0.0,238
+test_create_delete_router self ,1.0,0.0,239
+L<NUM>_PLUGIN_LIST = <STR> ,1.0,0.0,240
+r_in_db ,1.0,0.0,241
+FLAVOR_ROUTER <STR> ,1.0,0.0,242
+key = = FLAVOR_ROUTER ,1.0,0.0,243
+db _ENGINE = None ,1.0,0.0,244
+self assertEqual <STR> router_in_db<NUM> [ FLAVOR_ROUTER ] ,1.0,0.0,245
+fake<NUM> % s fake_plugin Fake<NUM> fake<NUM> % s fake_plugin Fake<NUM> proxy % s ,1.0,0.0,246
+binding ,1.0,0.0,247
+[ self _make_router_dict c fields c collection ] ,1.0,0.0,248
+<STR> self fake_tenant_id ,1.0,0.0,249
+data = <STR> ,1.0,0.0,250
+p [ <STR> ] ,1.0,0.0,251
+key = = FLAVOR_NETWORK ,1.0,0.0,252
+FLAVOR_NETWORK [ <STR> ] ,1.0,0.0,253
+column = NetworkFlavor flavor ,1.0,0.0,254
+fields ,1.0,0.0,255
+ProxyPluginV<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,256
+flavor ,1.0,0.0,257
+fields = None ,1.0,0.0,258
+column = RouterFlavor flavor ,1.0,0.0,259
+meta_db_v<NUM> add_router_flavor_binding flavor r_in_db [ <STR> ] ,1.0,0.0,260
+flavor self l<NUM>_plugins ,1.0,0.0,261

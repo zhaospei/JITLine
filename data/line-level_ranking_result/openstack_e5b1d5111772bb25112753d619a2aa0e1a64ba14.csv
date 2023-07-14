@@ -1,0 +1,248 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,1.0,1.0,1
+License the specific language governing permissions limitations ,1.0,0.7303133528199313,2
+use this file compliance the License You may obtain ,1.0,0.7218491778130554,3
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.6269304050169493,4
+<STR> Return the current state of the volume service ,0.0,0.5486644151840293,5
+Can optionally a Dictionary of changes to the volume ,0.0,0.5340973285113433,6
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.5061067834666695,7
+a copy of the License at ,1.0,0.4941317633988849,8
+terminate_connection self volume connector force = * * kwargs ,1.0,0.42032385723817917,9
+cinder openstack common log logging ,1.0,0.4116526519473762,10
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.39731953782662094,11
+Path Scality SOFS root to volume string value ,0.0,0.3659068680078436,12
+def_execute_wrapper self cmd * args * * kwargs ,0.0,0.35128388424279317,13
+utils execute cmd * args * * kwargs ,0.0,0.35128388424279317,14
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.342278973652582,15
+Creates sparse files on SOFS hypervisors to use block ,0.0,0.330367686172012,16
+remove_export self context volume ,1.0,0.3296803974161381,17
+copy_volume_to_image self context volume image_service image_meta ,0.0,0.3167492889020563,18
+image_location a string whose depends on the ,0.0,0.3017730907246124,19
+If <STR> run the update first ,0.0,0.2706904279919561,20
+os makedirs path ,0.0,0.26989851806623727,21
+ensure_export self context volume ,1.0,0.2621695423264691,22
+Path URL to Scality SOFS configuration file string ,0.0,0.23560512118603258,23
+kwargs pop <STR> ,0.0,0.22757759809958958,24
+copy_image_to_volume self context volume image_service image_id ,1.0,0.22571642501537864,25
+volume_path = os path join FLAGS scality_sofs_mount_point ,1.0,0.21988752079588098,26
+create_export self context volume ,1.0,0.21388453819307285,27
+<STR> Exports the volume ,0.0,0.21187547982523655,28
+under the License ,1.0,0.20669316189994325,29
+volume [ <STR> ] = self _sofs_path volume ,0.0,0.19826830381439156,30
+Base where Scality SOFS shall be mounted string value ,0.0,0.19793731536246892,31
+cinder openstack common cfg ,1.0,0.18748966860436264,32
+create_volume_from_snapshot self volume snapshot ,0.0,0.17966376650732163,33
+to determine whether cloning possible ,0.0,0.1715356407974981,34
+self assertFalse os path isfile self TEST_SNAPPATH ,0.0,0.1707941613837986,35
+self assertTrue os path isfile self TEST_SNAPPATH ,0.0,0.1707941613837986,36
+self assertFalse os path isfile self TEST_VOLPATH ,0.0,0.1707941613837986,37
+self assertTrue os path isfile self TEST_VOLPATH ,0.0,0.1707941613837986,38
+cinder volume driver ,1.0,0.1647914954340297,39
+cinder / volume / scality py ,0.0,0.16393060571080606,40
+cinder volume drivers scality ,1.0,0.16393060571080606,41
+Options defined cinder volume drivers scality ,0.0,0.16393060571080606,42
+image service backend use The driver should use it ,0.0,0.1600481052095451,43
+def_create_file self path size ,0.0,0.15783598870638346,44
+attach_volume self context volume_id instance_uuid mountpoint ,1.0,0.15579974917768724,45
+delete_volume self volume ,1.0,0.15535255277708526,46
+os access path flags ,0.0,0.15318442908332647,47
+to be persisted ,0.0,0.1518763046790359,48
+image_utils fetch_to_raw context ,1.0,0.15181258681253137,49
+sysdir = os path join mount_path <STR> ,0.0,0.1463660998677919,50
+self _makedirs os path join self TEST_MOUNT self TEST_VOLDIR ,0.0,0.1463660998677919,51
+voldir = os path join FLAGS scality_sofs_mount_point ,1.0,0.1463660998677919,52
+TEST_VOLPATH = os path join TEST_MOUNT ,1.0,0.1463660998677919,53
+TEST_SNAPPATH = os path join TEST_MOUNT ,1.0,0.1463660998677919,54
+os path isdir sysdir ,0.0,0.1463660998677919,55
+self _makedirs os path join self TEST_MOUNT <STR> ,0.0,0.1463660998677919,56
+voldir_path = os path join self TEST_MOUNT self TEST_VOLDIR ,0.0,0.1463660998677919,57
+self assertTrue os path isdir voldir_path ,0.0,0.1463660998677919,58
+os chmod path <NUM> ,1.0,0.1463660998677919,59
+os path join self TEST_VOLDIR ,0.0,0.1463660998677919,60
+os path join FLAGS scality_sofs_mount_point ,1.0,0.1463660998677919,61
+os path join FLAGS scality_sofs_volume_dir ,1.0,0.1463660998677919,62
+os path isdir voldir ,0.0,0.1463660998677919,63
+initialize_connection self volume connector ,1.0,0.13947926008649178,64
+<STR> Creates a logical volume ,0.0,0.1364903708169355,65
+image_utils upload_volume context ,0.0,0.13244515151691233,66
+clone_image self volume image_location ,1.0,0.13185371340500082,67
+def_access_wrapper path flags ,0.0,0.1318523310920279,68
+def_makedirs self path ,0.0,0.12726653421063447,69
+path <STR> f ,0.0,0.12726653421063447,70
+path = = <STR> ,1.0,0.12726653421063447,71
+os remove self local_path volume ,0.0,0.11823371756431353,72
+do_setup self context ,1.0,0.11475038628583738,73
+detach_volume self context volume_id ,1.0,0.11475038628583738,74
+value ,0.0,0.11305820532772172,75
+Unit tests the Scality SOFS Volume Driver ,0.0,0.11274132791800111,76
+exception VolumeBackendAPIException data = msg ,1.0,0.11177537763595162,77
+cinder exception ,1.0,0.10775514299877634,78
+ret = self _driver initialize_connection self TEST_VOLUME None ,0.0,0.1049199940930818,79
+LOG = logging getLogger __ name__ ,0.0,0.10257738495559521,80
+self create_volume volume ,1.0,0.0991341519071561,81
+self _sofs_path volume ,0.0,0.0991341519071561,82
+self _size_bytes volume [ <STR> ] ,1.0,0.0991341519071561,83
+<STR> Create a volume efficiently an existing image ,0.0,0.0991341519071561,84
+changes = self create_volume volume ,0.0,0.0991341519071561,85
+self local_path volume ,0.0,0.0991341519071561,86
+create_volume self volume ,1.0,0.0991341519071561,87
+local_path self volume ,0.0,0.0991341519071561,88
+volume [ <STR> ] ,1.0,0.0991341519071561,89
+self _create_file self local_path volume ,0.0,0.0991341519071561,90
+<STR> self _sofs_path volume ,0.0,0.0991341519071561,91
+def_sofs_path self volume ,0.0,0.0991341519071561,92
+FLAGS register_opts volume_opts ,1.0,0.09850386429491523,93
+LOG warn msg ,0.0,0.09355709586890504,94
+image_meta ,0.0,0.09103286388667768,95
+scality_sofs_volume_dir = cinder / volumes ,0.0,0.08598549761255375,96
+self _copy_file volume_path snapshot_path ,0.0,0.07352142092811635,97
+self _driver create_snapshot self TEST_SNAPSHOT ,1.0,0.07158682184421578,98
+create_snapshot self snapshot ,0.0,0.07158682184421578,99
+cinder flags ,1.0,0.06938225068502696,100
+msg =_ <STR> % voldir ,0.0,0.06881668844081706,101
+msg =_ <STR> % e ,0.0,0.06881668844081706,102
+msg =_ <STR> ,1.0,0.06881668844081706,103
+<STR> Scality SOFS cinder driver ,0.0,0.06565734352684642,104
+cinder test ,1.0,0.06479645380361061,105
+cinder image image_utils ,1.0,0.06479645380361061,106
+cinder utils ,1.0,0.06479645380361061,107
+self assertEqual ret [ <STR> ,1.0,0.06457488591380642,108
+ret = self _driver create_volume self TEST_VOLUME ,0.0,0.06457488591380642,109
+self assertEqual ret [ <STR> ] ,1.0,0.06457488591380642,110
+Returns a boolean indicating whether cloning occurred ,1.0,0.06341074512829663,111
+def_copy_file self src_path dest_path ,0.0,0.0614409658002781,112
+delete_snapshot self snapshot ,0.0,0.05959096117371356,113
+self _driver delete_snapshot self TEST_SNAPSHOT ,0.0,0.05959096117371356,114
+self _driver delete_volume self TEST_VOLUME ,0.0,0.05621840086990289,115
+self _execute <STR> % dest_path ,0.0,0.04684937163421667,116
+self assertRaises exception VolumeBackendAPIException ,1.0,0.04295868919518977,117
+self stubs Set os <STR> _access_wrapper ,0.0,0.04193713281420814,118
+size_in_g * <NUM> * <NUM> * <NUM> ,0.0,0.04160296803507178,119
+def_size_bytes self size_in_g ,0.0,0.04160296803507178,120
+size_in_g = = <NUM> ,0.0,0.04160296803507178,121
+os access <STR> os X_OK ,0.0,0.04043166364840789,122
+pass ,0.0,0.032361075751246866,123
+f truncate size ,0.0,0.030569454495762774,124
+self _execute <STR> config mount_path ,0.0,0.029814102806654235,125
+default = None ,0.0,0.029119511154088323,126
+default = <STR> ,1.0,0.029119511154088323,127
+mount CommandFilter / / mount root ,1.0,0.02842110775339235,128
+e errno ! = errno ENOENT ,0.0,0.027485045757643878,129
+e errno ! = errno EEXIST ,0.0,0.027485045757643878,130
+cfg StrOpt <STR> ,0.0,0.026651712221632883,131
+get_volume_stats self refresh = ,0.0,0.025898481489629078,132
+test_create_snapshot self ,1.0,0.020150772912322534,133
+test_delete_volume self ,1.0,0.01972288469877588,134
+os remove self local_path snapshot ,0.0,0.019099565657157418,135
+self assertEqual os stat self TEST_SNAPPATH st_size ,0.0,0.019099565657157418,136
+os rmdir voldir_path ,0.0,0.019099565657157418,137
+self assertEqual os stat self TEST_VOLPATH st_size ,0.0,0.019099565657157418,138
+os ,1.0,0.019099565657157418,139
+os unlink self TEST_CONFIG ,0.0,0.019099565657157418,140
+self _driver set_execute self _execute_wrapper ,0.0,0.015024024637192428,141
+errno ,1.0,0.013742522878821939,142
+image_service ,0.0,0.011831886822284034,143
+FLAGS = flags FLAGS ,0.0,0.004585796881416349,144
+urlparse urlparse config scheme = = <STR> ,0.0,0.003779765731349332,145
+test_initialize_connection self ,0.0,0.0019693137938615536,146
+ScalityDriver driver VolumeDriver ,0.0,0.0008608897232358083,147
+volume_opts = [ ,0.0,0.0006899220367594475,148
+self _size_bytes snapshot [ <STR> ] ,0.0,0.0,149
+urlparse ,0.0,0.0,150
+self _driver = scality ScalityDriver ,0.0,0.0,151
+TEST_SNAPNAME ,0.0,0.0,152
+test_setup_no_mount_helper self ,0.0,0.0,153
+devices ,0.0,0.0,154
+<STR> ,1.0,0.0,155
+urllib<NUM> urlopen config timeout = <NUM> close ,0.0,0.0,156
+urllib<NUM> ,0.0,0.0,157
+OSError e ,1.0,0.0,158
+self _driver create_volume self TEST_VOLUME ,0.0,0.0,159
+<STR> TEST_VOLNAME ,0.0,0.0,160
+TEST_SNAPNAME = <STR> ,1.0,0.0,161
+Total option count <NUM> ,0.0,0.0,162
+changes ,0.0,0.0,163
+test_create_volume self ,1.0,0.0,164
+self _mount_sofs ,0.0,0.0,165
+self _makedirs mount_path ,0.0,0.0,166
+TEST_SNAPSHOT = ,0.0,0.0,167
+TEST_CONFIG = <STR> ,1.0,0.0,168
+self _remove_fake_config ,1.0,0.0,169
+self _configure_driver ,1.0,0.0,170
+scality FLAGS scality_sofs_config = self TEST_CONFIG ,1.0,0.0,171
+test_setup_no_config self ,0.0,0.0,172
+self _create_fake_config ,0.0,0.0,173
+def_mount_sofs self ,0.0,0.0,174
+def_remove_fake_config self ,0.0,0.0,175
+scality FLAGS scality_sofs_volume_dir = self TEST_VOLDIR ,1.0,0.0,176
+snapshot_path = self local_path snapshot ,0.0,0.0,177
+self _set_access_wrapper ,0.0,0.0,178
+dd CommandFilter / / dd root ,1.0,0.0,179
+<NUM> * <NUM> * <NUM> ,0.0,0.0,180
+utils execute <STR> self TEST_MOUNT ,0.0,0.0,181
+scality FLAGS scality_sofs_config = <STR> ,1.0,0.0,182
+config = <STR> % config ,0.0,0.0,183
+image_id ,0.0,0.0,184
+config ,0.0,0.0,185
+TEST_VOLDIR ,0.0,0.0,186
+self TEST_VOLPATH ,0.0,0.0,187
+check_for_setup_error self ,0.0,0.0,188
+self _check_prerequisites ,0.0,0.0,189
+def_remove_fake_mount self ,0.0,0.0,190
+KeyError ,0.0,0.0,191
+test_delete_snapshot self ,0.0,0.0,192
+urllib<NUM> URLError e ,0.0,0.0,193
+self _set_access_wrapper ,0.0,0.0,194
+] ,0.0,0.0,195
+stats ,0.0,0.0,196
+<STR> TEST_SNAPNAME ,0.0,0.0,197
+scality_sofs_config = < None > ,1.0,0.0,198
+= <STR> ,1.0,0.0,199
+def_create_fake_mount self ,0.0,0.0,200
+self assertEqual self _driver local_path self TEST_VOLUME ,0.0,0.0,201
+FLAGS scality_sofs_volume_dir ,0.0,0.0,202
+ScalityDriverTestCase self setUp ,0.0,0.0,203
+def_check_prerequisites self ,0.0,0.0,204
+mount_path = FLAGS scality_sofs_mount_point ,1.0,0.0,205
+<STR> ,1.0,0.0,206
+self TEST_CONFIG <STR> close ,0.0,0.0,207
+e ,0.0,0.0,208
+<NUM> * <NUM> * <NUM> ,0.0,0.0,209
+is_visible ,0.0,0.0,210
+config = FLAGS scality_sofs_config ,1.0,0.0,211
+<STR> TEST_VOLSIZE ,0.0,0.0,212
+scality FLAGS scality_sofs_mount_point = self TEST_MOUNT ,1.0,0.0,213
+self _create_file snapshot_path ,0.0,0.0,214
+TEST_VOLNAME = <STR> ,1.0,0.0,215
+TEST_VOLNAME ,0.0,0.0,216
+TEST_VOLDIR = <STR> ,1.0,0.0,217
+<STR> ,1.0,0.0,218
+<STR> <NUM> ,0.0,0.0,219
+snapshot [ <STR> ] ,0.0,0.0,220
+ScalityDriverTestCase test TestCase ,0.0,0.0,221
+run_as_root = ,0.0,0.0,222
+self _create_fake_mount ,0.0,0.0,223
+stats = ,1.0,0.0,224
+setUp self ,1.0,0.0,225
+ScalityDriverTestCase self tearDown ,0.0,0.0,226
+self _remove_fake_mount ,0.0,0.0,227
+def_set_access_wrapper self is_visible ,0.0,0.0,228
+def_create_fake_config self ,0.0,0.0,229
+tearDown self ,1.0,0.0,230
+def_configure_driver self ,1.0,0.0,231
+scality FLAGS scality_sofs_config = None ,1.0,0.0,232
+<STR> ] ,1.0,0.0,233
+TEST_VOLSIZE = <STR> ,1.0,0.0,234
+self _makedirs voldir ,0.0,0.0,235
+test_setup_make_voldir self ,0.0,0.0,236
+TEST_MOUNT = <STR> ,1.0,0.0,237
+TEST_VOLUME = ,1.0,0.0,238
+scality_sofs_mount_point = $ state_path / scality ,0.0,0.0,239
+test_setup_missing_config self ,0.0,0.0,240
+Copyright c <NUM> Scality ,1.0,0.0,241
+Scality SOFS Volume Driver ,0.0,0.0,242
+test_local_path self ,0.0,0.0,243
+self _copy_file self local_path snapshot ,0.0,0.0,244
+self TEST_VOLNAME ,0.0,0.0,245
+self _driver do_setup None ,0.0,0.0,246
+Total option count <NUM> ,0.0,0.0,247

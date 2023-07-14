@@ -1,0 +1,124 @@
+total_tokens,line_level_label,line_score,row
+neutron openstack common db exception db_exc ,1.0,0.9999999999999999,1
+dhcp DictModel self call self context ,1.0,0.5811602983372656,2
+port = self call self context ,1.0,0.5811602983372656,3
+self call return_value = None ,1.0,0.4578142829265217,4
+network state If an expected failure occurs a None port returned ,0.0,0.38118557380103846,5
+If an expected failure occurs a None port returned ,0.0,0.38118557380103846,6
+retval = self _port_action plugin context <STR> port_dict ,1.0,0.38070016721953537,7
+def_port_action self plugin context port action ,0.0,0.38070016721953537,8
+plugin create_port context port ,1.0,0.38070016721953537,9
+plugin get_subnet context subnet_id ,1.0,0.38070016721953537,10
+self _port_action plugin context port <STR> ,1.0,0.38070016721953537,11
+retval = plugin create_port context port = port_dict ,0.0,0.38070016721953537,12
+plugin create_port context port ,1.0,0.38070016721953537,13
+self plugin get_network return_value = <STR> ,0.0,0.3712256336472926,14
+retval = self callbacks get_dhcp_port mock Mock ,0.0,0.35743128458232815,15
+<STR> mock ANY ,0.0,0.35743128458232815,16
+mock Mock ,0.0,0.35743128458232815,17
+LOG warning _ <STR> ,1.0,0.2945308520459548,18
+<STR> fake_network tenant_id ,0.0,0.2673430797016409,19
+self plugin update_port return_value = None ,0.0,0.25735415180868515,20
+msg =_ <STR> ,1.0,0.1868847460012323,21
+n_exc Invalid message = msg ,0.0,0.1868847460012323,22
+pass ,0.0,0.17536343786788341,23
+self plugin get_network side_effect = raise_get_network ,0.0,0.13030418453973439,24
+<STR> Create dhcp port information ,0.0,0.07974485208821072,25
+self plugin create_port side_effect = exc ,0.0,0.07167300526605178,26
+device_id = <STR> ,1.0,0.059226438408650786,27
+def_test_call_driver_failure self exc = None trace_level = <STR> ,0.0,0.05524030256506972,28
+exc = n_exc NetworkNotFound net_id = <STR> ,0.0,0.05524030256506972,29
+exc = exceptions Conflict ,1.0,0.05524030256506972,30
+self _test__ port_action_with_failures exc = db_exc DBError ,0.0,0.05524030256506972,31
+exc = None ,0.0,0.05524030256506972,32
+def_test_call_driver_failure self exc = None ,0.0,0.05524030256506972,33
+exc = n_exc SubnetNotFound subnet_id = <STR> ,0.0,0.05524030256506972,34
+exc = n_exc IpAddressGenerationFailure net_id = <STR> ,0.0,0.05524030256506972,35
+def_test__ port_action_with_failures self exc = None action = None ,0.0,0.05524030256506972,36
+self plugin create_port side_effect = raise_create_port ,0.0,0.01643270270098205,37
+self plugin get_subnet side_effect = ,0.0,0.01643270270098205,38
+subnet_id = port [ <STR> ] ,1.0,0.0,39
+<STR> network_id <STR> e ,1.0,0.0,40
+port = port ,0.0,0.0,41
+<STR> ,1.0,0.0,42
+test_create_port_catch_network_not_found self ,1.0,0.0,43
+self _test_call_driver_failure ,0.0,0.0,44
+trace_level = <STR> expected_sync = ,0.0,0.0,45
+test_get_dhcp_port_catch_ip_generation_failure_on_create_port self ,0.0,0.0,46
+n_exc SubnetNotFound ,0.0,0.0,47
+self assertTrue dhcp needs_resync ,1.0,0.0,48
+def_test_get_dhcp_port_with_failures self ,1.0,0.0,49
+test_get_dhcp_port_catch_subnet_not_found_on_create_port self ,0.0,0.0,50
+raise_get_network = n_exc NetworkNotFound net_id = <STR> ,0.0,0.0,51
+raise_create_port = n_exc NetworkNotFound net_id = <STR> ,0.0,0.0,52
+network_id = <STR> ,1.0,0.0,53
+test__ port_action_bad_action self ,1.0,0.0,54
+raise_create_port = n_exc IpAddressGenerationFailure net_id = <STR> ,0.0,0.0,55
+self make_msg <STR> ,0.0,0.0,56
+raise_create_port ,0.0,0.0,57
+raise_create_port = n_exc SubnetNotFound subnet_id = <STR> ,0.0,0.0,58
+host = <STR> ,1.0,0.0,59
+raise_get_network = None ,0.0,0.0,60
+host = self host ,0.0,0.0,61
+n_exc IpAddressGenerationFailure e ,1.0,0.0,62
+self assertIsNone retval ,0.0,0.0,63
+n_exc NetworkNotFound ,0.0,0.0,64
+test_get_dhcp_port_catch_not_found_on_get_network self ,1.0,0.0,65
+<STR> network_id <STR> e ,1.0,0.0,66
+network state ,0.0,0.0,67
+LOG warn _ <STR> ,1.0,0.0,68
+raise_get_network ,0.0,0.0,69
+% <STR> action ,0.0,0.0,70
+self _test_get_dhcp_port_with_failures ,1.0,0.0,71
+raise_create_port = None ,0.0,0.0,72
+db_exc DBError ,1.0,0.0,73
+<STR> ,1.0,0.0,74
+topic = self topic ,0.0,0.0,75
+test_get_dhcp_port_catch_network_not_found_on_create_port self ,0.0,0.0,76
+<STR> ,1.0,0.0,77
+self assertEqual expected_sync dhcp needs_resync ,1.0,0.0,78
+host = self host ,0.0,0.0,79
+<STR> fake_network ,1.0,0.0,80
+<STR> ] ,1.0,0.0,81
+expected_sync = ,0.0,0.0,82
+action ,0.0,0.0,83
+<STR> port ,0.0,0.0,84
+exceptions Conflict ,1.0,0.0,85
+test_create_port_catch_ip_generation_failure_reraise self ,0.0,0.0,86
+test_create_port_catch_db_error self ,0.0,0.0,87
+test_call_driver_conflict self ,1.0,0.0,88
+port = port ,0.0,0.0,89
+<STR> ,1.0,0.0,90
+db_exc DBError n_exc NetworkNotFound ,0.0,0.0,91
+action = = <STR> ,1.0,0.0,92
+trace_level = <STR> ,0.0,0.0,93
+self _test__ port_action_with_failures ,0.0,0.0,94
+n_exc SubnetNotFound ,1.0,0.0,95
+retval ,0.0,0.0,96
+port_body = ,1.0,0.0,97
+LOG warn _ <STR> ,1.0,0.0,98
+self assertIsNone self callbacks _port_action self plugin ,1.0,0.0,99
+test_create_port_catch_and_handle_ip_generation_failure self ,0.0,0.0,100
+exceptions Conflict ,1.0,0.0,101
+dhcp DictModel port ,1.0,0.0,102
+self assertIsNone self proxy create_dhcp_port port_body ,1.0,0.0,103
+n_exc SubnetNotFound n_exc IpAddressGenerationFailure e ,0.0,0.0,104
+action = <STR> ,1.0,0.0,105
+self assertRaises ,0.0,0.0,106
+<STR> ,1.0,0.0,107
+test_create_dhcp_port_none self ,1.0,0.0,108
+test_get_dhcp_port_none self ,1.0,0.0,109
+n_exc SubnetNotFound subnet_id = <STR> ,0.0,0.0,110
+test_create_port_catch_subnet_not_found self ,0.0,0.0,111
+port = ,0.0,0.0,112
+<STR> fake_fixed_ip<NUM> subnet_id ] ,1.0,0.0,113
+self assertIsNone self proxy get_dhcp_port <STR> ,1.0,0.0,114
+n_exc Invalid ,0.0,0.0,115
+self proxy create_dhcp_port port_body ,1.0,0.0,116
+port ,1.0,0.0,117
+topic = self topic ,0.0,0.0,118
+e n_exc IpAddressGenerationFailure ,1.0,0.0,119
+n_exc IpAddressGenerationFailure ,1.0,0.0,120
+dhcp_port ,1.0,0.0,121
+network_id = port [ <STR> ] ,1.0,0.0,122
+self make_msg <STR> ,0.0,0.0,123

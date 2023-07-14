@@ -1,0 +1,270 @@
+total_tokens,line_level_label,line_score,row
+License the specific language governing permissions limitations ,1.0,0.9999999999999999,1
+use this file compliance the License You may obtain ,1.0,0.8774318879337113,2
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.750476922307326,3
+Replace < host > above the IP address of the database used by the ,1.0,0.7479802365078017,4
+Unless required by applicable law agreed to writing software ,1.0,0.7265333802544613,5
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.6786743038895362,6
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.6349934265199092,7
+quantum openstack common log logging ,1.0,0.6068643347586956,8
+Database reconnection interval seconds - the initial connection to the ,1.0,0.5975193787189839,9
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.576001466016693,10
+For more details on use please refer to ,1.0,0.5751676631690947,11
+a copy of the License at ,1.0,0.5669677305058803,12
+Name of the network topology to be deployed by NOS ,0.0,0.5359211330800091,13
+Enable the use of eventlet ' s db_pool MySQL The flags sql_min_pool_size ,0.0,0.5071033150688593,14
+to the Network Operating System by PLUMgrid called NOS ,1.0,0.46277800706041133,15
+These are the admin credentials to manage control ,0.0,0.4146804016396506,16
+This line should be pointing to the NOS server ,1.0,0.3809073763332383,17
+context session begin subtransactions = ,1.0,0.3565992485323769,18
+This line MUST be changed to actually run the plugin ,1.0,0.3500805554990395,19
+Minimum number of SQL connections to keep a pool ,0.0,0.3428358471214082,20
+Maximum number of SQL connections to keep a pool ,0.0,0.3428358471214082,21
+http / / wiki openstack org / plumgrid - quantum ,1.0,0.3360982225969075,22
+subnet_details = self _get_subnet context subnet [ <STR> ] ,1.0,0.31559967422691165,23
+tenant_id = self _get_tenant_id_for_create context network [ <STR> ] ,1.0,0.31534862500860433,24
+tenant_id = self _get_tenant_id_for_create context ,1.0,0.3000059350159285,25
+create_port self context port ,1.0,0.284612329095206,26
+quantum openstack common jsonutils json ,1.0,0.27013713857469573,27
+create_subnet self context subnet ,1.0,0.2616634177470743,28
+QuantumPluginPLUMgridV<NUM> self create_port context ,1.0,0.2614904970939101,29
+context subnet ,1.0,0.2550898825242566,30
+context subnet_id subnet ,1.0,0.2550898825242566,31
+update_subnet self context subnet_id subnet ,1.0,0.2550898825242566,32
+QuantumPluginPLUMgridV<NUM> self get_network context net_id ,1.0,0.2526842264705222,33
+Snippets needed by the PLUMgrid Plugin ,1.0,0.2418058593848492,34
+initial_subnet = self _get_subnet context subnet_id ,1.0,0.241355807075491,35
+subnet_details = self _get_subnet context subnet_id ,1.0,0.241355807075491,36
+quantum db api db ,1.0,0.2378615240460159,37
+This plugin will forward authenticated REST API calls ,1.0,0.21907374031781324,38
+L<NUM> / L<NUM> virtual networks consisting of PLUMgrid Platform ,1.0,0.21856699603317212,39
+the PLUMgrid platform In other deployments ,1.0,0.2149505648406489,40
+QuantumPluginPLUMgridV<NUM> self delete_port context port_id ,1.0,0.2142588945398616,41
+delete_port self context port_id ,1.0,0.2142588945398616,42
+sql_max_pool_size sql_idle_timeout are relevant only this enabled ,0.0,0.20891625065936298,43
+quantum openstack common cfg ,1.0,0.20515438889119506,44
+context port_id port ,1.0,0.20396784737395998,45
+update_port self context port_id port ,1.0,0.20396784737395998,46
+under the License ,1.0,0.20238699443068553,47
+self delete_network context net_id ,1.0,0.19703519380881768,48
+delete_network self context net_id ,1.0,0.19703519380881768,49
+create_network self context network ,1.0,0.19618870536542588,50
+update_network self context net_id network ,1.0,0.19618870536542588,51
+net = QuantumPluginPLUMgridV<NUM> self create_network context ,1.0,0.192420304332995,52
+username = < nos - admin - username > ,1.0,0.18857908278539542,53
+quantum plugins plumgrid common exceptions plum_excep ,1.0,0.18809404484207176,54
+quantum common exceptions base_exec ,1.0,0.18809404484207176,55
+this known controller ,1.0,0.18477979970974429,56
+Extension API implementation ,1.0,0.18317133600966015,57
+to - <NUM> implies an infinite retry count ,1.0,0.18220384962398178,58
+context net_id ,0.0,0.18084601537275002,59
+delete_subnet self context subnet_id ,1.0,0.18084601537275002,60
+QuantumPluginPLUMgridV<NUM> self update_network context ,1.0,0.18084601537275002,61
+context subnet_id ,1.0,0.18084601537275002,62
+Authentification parameters the NOS server ,1.0,0.1797468506122106,63
+the NOS server ,0.0,0.1797468506122106,64
+LOG = logging getLogger __ name__ ,1.0,0.16025739008998519,65
+PLUMgridPluginV<NUM>TestCase self setUp self _plugin_name ,1.0,0.15051010748851543,66
+respdata = json loads resp_str ,1.0,0.13036110055648997,67
+sql_connection = sqlite / / ,1.0,0.11353135311736785,68
+LOG debug _ <STR> self server self port ,0.0,0.11027405067938365,69
+respdata ,1.0,0.10757646760717415,70
+This plugin implements Quantum v<NUM> APIs helps configure ,1.0,0.10090215803504093,71
+sql_max_retries = <NUM> ,1.0,0.09982326545666032,72
+sql_dbpool_enable = ,1.0,0.09658144186060683,73
+nos_username = cfg CONF PLUMgridNOS username ,1.0,0.09428954139269771,74
+quantum db db_base_plugin_v<NUM> ,1.0,0.08751940373805556,75
+LOG debug _ <STR> ,1.0,0.08715221867808769,76
+LOG debug _ <STR> ,1.0,0.08715221867808769,77
+db configure_db ,1.0,0.08397160631152215,78
+conn = httplib HTTPConnection self server self port ,1.0,0.08244186332169746,79
+nos_rest_conn self nos_url action data headers ,1.0,0.08121571231908375,80
+subnet = QuantumPluginPLUMgridV<NUM> self create_subnet ,1.0,0.08081740237433145,81
+network_name = network [ <STR> ] ,1.0,0.07900094993728825,82
+resp status httplib OK ,1.0,0.07808367729369904,83
+Update subnet core Quantum API ,0.0,0.0742438671514728,84
+subnet ,1.0,0.0742438671514728,85
+Delete subnet core Quantum API ,0.0,0.0742438671514728,86
+Create subnet core Quantum API ,0.0,0.0742438671514728,87
+LOG error _ <STR> ,1.0,0.07324475775462584,88
+LOG error _ <STR> ,1.0,0.07324475775462584,89
+original_net = QuantumPluginPLUMgridV<NUM> self get_network ,1.0,0.07183821109780938,90
+@ author Brenden Blanco bblanco @ plumgrid com PLUMgrid Inc ,1.0,0.06671488589981141,91
+@ author Edgar Magana emagana @ plumgrid com PLUMgrid Inc ,1.0,0.06671488589981141,92
+resp = conn getresponse ,1.0,0.06609282653761078,93
+conn close ,1.0,0.06380412762863354,94
+<STR> network_name ,1.0,0.06365825994462165,95
+tenant_id network [ <STR> ] ,1.0,0.06282256120853982,96
+self restHTTPConnection stop ,1.0,0.0607721094586944,97
+httplib ,1.0,0.05932003132044299,98
+Database reconnection retry times - event connectivity lost ,1.0,0.058432619812726336,99
+self rest_conn nos_rest_conn nos_url <STR> body_data headers ,1.0,0.05061640799581464,100
+nos_url body_data headers ,1.0,0.05061640799581464,101
+def_cleaning_nos_subnet_structure self body_data headers net_id ,1.0,0.05061640799581464,102
+conn request action nos_url body_data headers ,1.0,0.05061640799581464,103
+headers [ <STR> ,1.0,0.05061640799581464,104
+headers ,1.0,0.05061640799581464,105
+<STR> body_data headers ,0.0,0.05061640799581464,106
+self _cleaning_nos_subnet_structure body_data headers net_id ,1.0,0.05061640799581464,107
+headers = ,1.0,0.05061640799581464,108
+LOG warning _ <STR> ,1.0,0.048602657987299604,109
+<STR> tenant_id ,1.0,0.047479871215873236,110
+body_data = <STR> tenant_id ,1.0,0.047479871215873236,111
+tenant_id self topology_name ,1.0,0.047479871215873236,112
+tenant_id = <STR> ,1.0,0.047479871215873236,113
+tenant_id = initial_subnet [ <STR> ] ,1.0,0.047479871215873236,114
+create_network_body_data self tenant_id topology_name ,1.0,0.047479871215873236,115
+create_domain_body_data self tenant_id ,1.0,0.047479871215873236,116
+<STR> tenant_id ,1.0,0.047479871215873236,117
+body_data = self snippets create_domain_body_data tenant_id ,1.0,0.047479871215873236,118
+tenant_id = subnet_details [ <STR> ] ,1.0,0.047479871215873236,119
+message =_ <STR> ,1.0,0.046745498512790216,120
+message =_ <STR> ,1.0,0.046745498512790216,121
+self port = port ,1.0,0.04624366400250892,122
+Timeout seconds before idle sql connections are reaped ,0.0,0.04517411022000522,123
+LOG info _ <STR> nos_plumgrid ,1.0,0.044596198779174284,124
+LOG info _ <STR> ,1.0,0.044596198779174284,125
+sql_min_pool_size = <NUM> ,0.0,0.04212914150681618,126
+self assertEqual plugin _network_admin_state network network ,1.0,0.04179573008861254,127
+ret = resp status resp reason resp_str ,1.0,0.04154827892257463,128
+mock patch ,1.0,0.03859165635226291,129
+Config file Quantum PLUMgrid plugin ,1.0,0.031487771954182724,130
+body_data = json dumps data ,1.0,0.03059930432326912,131
+quantum tests unit test_db_plugin test_plugin ,1.0,0.027380158730272285,132
+port [ <STR> ] = ,1.0,0.02312183200125446,133
+def__ init__ self server port timeout ,1.0,0.02312183200125446,134
+port ,1.0,0.02312183200125446,135
+nos_server_port = < nos - port > ,1.0,0.02312183200125446,136
+Delete port core Quantum API ,0.0,0.02312183200125446,137
+Update port core Quantum API ,0.0,0.02312183200125446,138
+Create port core Quantum API ,0.0,0.02312183200125446,139
+resp_str = resp read ,1.0,0.02278463294931857,140
+resp resp_str ,1.0,0.02278463294931857,141
+cfg IntOpt <STR> default = <NUM> ,1.0,0.021140755004870497,142
+structure domain_structure ,1.0,0.020555638483843813,143
+nos_url = self snippets BASE_NOS_URL + net_id + structure ,1.0,0.020555638483843813,144
+cfg CONF register_opts nos_server_opts <STR> ,1.0,0.018490132440651615,145
+network = <STR> name ,1.0,0.015342689992666584,146
+network ,1.0,0.015342689992666584,147
+network ,1.0,0.015342689992666584,148
+Update network core Quantum API ,0.0,0.015342689992666584,149
+network [ <STR> ,1.0,0.015342689992666584,150
+network [ <STR> ] ,1.0,0.015342689992666584,151
+Create network core Quantum API ,0.0,0.015342689992666584,152
+network [ <STR> ] ,1.0,0.015342689992666584,153
+def_network_admin_state self network ,1.0,0.015342689992666584,154
+self _network_admin_state network ,1.0,0.015342689992666584,155
+net_id network ,1.0,0.015342689992666584,156
+Delete network core Quantum API ,0.0,0.015342689992666584,157
+sql_idle_timeout = <NUM> ,1.0,0.014606056025122771,158
+nos_url = self snippets BASE_NOS_URL + new_network [ <STR> ] ,1.0,0.011606885722237028,159
+new_network ,1.0,0.011606885722237028,160
+new_network = ,1.0,0.011606885722237028,161
+nos_url = self snippets BASE_NOS_URL + net [ <STR> ] ,1.0,0.01157428896024962,162
+net ,1.0,0.01157428896024962,163
+plugin = QuantumManager get_plugin ,1.0,0.011110350103279364,164
+quantum plugins plumgrid plumgrid_nos_plugin rest_connection ,1.0,0.0035477974265562683,165
+main quantum server ,0.0,0.0035477974265562683,166
+quantum plugins plumgrid plumgrid_nos_plugin plumgrid_nos_snippets ,1.0,0.0035477974265562683,167
+quantum manager QuantumManager ,1.0,0.0035477974265562683,168
+quantum plugins plumgrid plumgrid_nos_plugin plugin_ver VERSION ,1.0,0.0035477974265562683,169
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.002672498726088115,170
+sql_connection = mysql / / < user > < pass > @ < host > <NUM> / plumgrid_quantum ,0.0,0.0011589290159010278,171
+self rest_conn = rest_connection RestConnection nos_plumgrid ,1.0,0.0,172
+PLUMgridPluginV<NUM>TestCase ,1.0,0.0,173
+<STR> ret [ <NUM> ] ,1.0,0.0,174
+PLUMgridPluginV<NUM>TestCase test_plugin QuantumDbPluginV<NUM>TestCase ,1.0,0.0,175
+<STR> topology_name ,1.0,0.0,176
+servertimeout = <NUM> ,1.0,0.0,177
+new_subnet ,1.0,0.0,178
+new_subnet = QuantumPluginPLUMgridV<NUM> self update_subnet ,1.0,0.0,179
+PLUMgrid Quantum Virtual Network Plugin ,1.0,0.0,180
+self timeout = timeout ,1.0,0.0,181
+QuantumPluginPLUMgridV<NUM> self update_port ,1.0,0.0,182
+<STR> ,1.0,0.0,183
+action ,1.0,0.0,184
+domain_structure = [ <STR> ] ,1.0,0.0,185
+timeout = self timeout ,1.0,0.0,186
+nos_plumgrid = cfg CONF PLUMgridNOS nos_server ,1.0,0.0,187
+self topology_name = cfg CONF PLUMgridNOS topologyname ,1.0,0.0,188
+Example ,1.0,0.0,189
+sys ,1.0,0.0,190
+net_id = initial_subnet [ <STR> ] ,1.0,0.0,191
+self rest_conn nos_rest_conn nos_url ,1.0,0.0,192
+Test cases Quantum PLUMgrid Plug - ,1.0,0.0,193
+[ DATABASE ] ,0.0,0.0,194
+cfg StrOpt <STR> secret = ,1.0,0.0,195
+_ plugin_name = <STR> ,1.0,0.0,196
+plum_excep PLUMgridException err_message ,1.0,0.0,197
+nos_port = cfg CONF PLUMgridNOS nos_server_port ,1.0,0.0,198
+name = <STR> ,1.0,0.0,199
+nos_plumgrid ,1.0,0.0,200
+body_data ,1.0,0.0,201
+self server = server ,1.0,0.0,202
+urllib<NUM> HTTPError e ,1.0,0.0,203
+nos_port timeout ,0.0,0.0,204
+TestPlumgridNetworkAdminState PLUMgridPluginV<NUM>TestCase ,1.0,0.0,205
+self restHTTPConnection start ,1.0,0.0,206
+BASE_NOS_URL = <STR> ,1.0,0.0,207
+<STR> ,1.0,0.0,208
+body_data = <STR> ,1.0,0.0,209
+Quantum PLUMgrid Plug - PLUMgrid Virtual Technology ,1.0,0.0,210
+SystemExit _ <STR> ,1.0,0.0,211
+cfg IntOpt <STR> ,1.0,0.0,212
+ret ,1.0,0.0,213
+nos_url = self snippets BASE_NOS_URL + net_id ,1.0,0.0,214
+sql_max_pool_size = <NUM> ,1.0,0.0,215
+password = < nos - admin - password > ,1.0,0.0,216
+self restHTTPConnection = patch <STR> ,1.0,0.0,217
+cfg StrOpt <STR> ,1.0,0.0,218
+urllib<NUM> ,1.0,0.0,219
+nos_password = cfg CONF PLUMgridNOS password ,1.0,0.0,220
+pass ,1.0,0.0,221
+self rest_conn None ,1.0,0.0,222
+VERSION = <STR> ,1.0,0.0,223
+Internal PLUMgrid fuctions ,1.0,0.0,224
+<STR> admin_status_up ,1.0,0.0,225
+ret = <NUM> None None None ,1.0,0.0,226
+VERSION ,1.0,0.0,227
+net_id = subnet_details [ <STR> ] ,1.0,0.0,228
+setUp self ,1.0,0.0,229
+del_subnet = QuantumPluginPLUMgridV<NUM> self delete_subnet ,1.0,0.0,230
+plumgrid_plugin_config_path = <STR> ,1.0,0.0,231
+tearDown self ,1.0,0.0,232
+=_ <STR> ,1.0,0.0,233
+test_network_admin_state self ,1.0,0.0,234
+TestPlumgridPluginV<NUM>HTTPResponse test_plugin TestV<NUM>HTTPResponse ,1.0,0.0,235
+plumgrid_plugin_config_path ,0.0,0.0,236
+nos_server_opts = [ ,1.0,0.0,237
+database fails ,1.0,0.0,238
+def_get_plugin_version self ,1.0,0.0,239
+<STR> ,1.0,0.0,240
+[ PLUMgridNOS ] ,0.0,0.0,241
+err_message =_ <STR> ,1.0,0.0,242
+[ <STR> ] ,1.0,0.0,243
+Copyright <NUM> PLUMgrid Inc All Rights Reserved ,1.0,0.0,244
+PLUMgridPluginV<NUM>TestCase self tearDown ,1.0,0.0,245
+body_data = self snippets create_network_body_data ,1.0,0.0,246
+LOG Exception err_message ,1.0,0.0,247
+def__ init__ self ,1.0,0.0,248
+DataNOSPLUMgrid ,1.0,0.0,249
+nos_server = < nos - ip - address > ,1.0,0.0,250
+del_subnet ,1.0,0.0,251
+conn None ,1.0,0.0,252
+QuantumPluginPLUMgridV<NUM> db_base_plugin_v<NUM> QuantumDbPluginV<NUM> ,1.0,0.0,253
+TestPlumgridPluginPortsV<NUM> test_plugin TestPortsV<NUM> ,1.0,0.0,254
+PLUMgridException base_exec QuantumException ,1.0,0.0,255
+reconnect_interval = <NUM> ,1.0,0.0,256
+self snippets = plumgrid_nos_snippets DataNOSPLUMgrid ,1.0,0.0,257
+TestPlumgridPluginNetworksV<NUM> test_plugin TestNetworksV<NUM> ,1.0,0.0,258
+self nos_url = nos_url ,1.0,0.0,259
+PLUMgridConnectionFailed PLUMgridException ,1.0,0.0,260
+body_data = ,1.0,0.0,261
+ValueError ,1.0,0.0,262
+admin_status_up = ,1.0,0.0,263
+net_deleted = QuantumPluginPLUMgridV<NUM> ,1.0,0.0,264
+RestConnection ,1.0,0.0,265
+TestPlumgridPluginSubnetsV<NUM> test_plugin TestSubnetsV<NUM> ,1.0,0.0,266
+timeout = cfg CONF PLUMgridNOS servertimeout ,1.0,0.0,267
+topologyname = < nos - topology - name > ,0.0,0.0,268
+=_ <STR> ] ,1.0,0.0,269

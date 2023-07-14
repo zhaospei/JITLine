@@ -1,0 +1,328 @@
+total_tokens,line_level_label,line_score,row
+quantum db models_v<NUM> ,1.0,1.0,1
+quantum api v<NUM> attributes ,1.0,0.30266186871392475,2
+test_default_allocation_expiration self ,1.0,0.0,3
+self conf register_opt cfg StrOpt <STR> ,1.0,0.0,4
+def_validate_field self value regex ,0.0,0.0,5
+def_lease_relay_script_path self ,1.0,0.0,6
+mock_sock recv side_effect = Exception ,1.0,0.0,7
+device_delegate = delegate ,1.0,0.0,8
+topic = self topic ,1.0,0.0,9
+Network namespace isolation prevents the DHCP process notifying ,1.0,0.0,10
+sock close ,1.0,0.0,11
+index = = <NUM> ,1.0,0.0,12
+test_lease_relay_script_add self ,1.0,0.0,13
+self assertEqual expires reference + datetime timedelta seconds = <NUM> ,1.0,0.0,14
+msg = client_sock recv <NUM> ,1.0,0.0,15
+handler called_once_with network_id ip_address lease_remaining ,1.0,0.0,16
+mock_sock assert_has_calls [ mock call recv <NUM> ] ,1.0,0.0,17
+All Rights Reserved ,1.0,0.0,18
+test_update_fixed_ip_lease_expiration_invalid_address self ,1.0,0.0,19
+relay = dhcp_agent DhcpLeaseRelay handler ,1.0,0.0,20
+ip_address = ip_address ,1.0,0.0,21
+self assertTrue log called ,1.0,0.0,22
+mock patch <STR> mock_environ ,1.0,0.0,23
+def_handler self client_sock client_addr ,1.0,0.0,24
+cfg CONF register_opts DhcpLeaseRelay OPTS ,1.0,0.0,25
+use this file compliance the License You may obtain ,1.0,0.0,26
+mock_sock recv return_value = json_rep ,1.0,0.0,27
+[ mock call connect relay_path ,0.0,0.0,28
+datetime timedelta seconds = <NUM> ,0.0,0.0,29
+attributes UUID_PATTERN ,1.0,0.0,30
+<STR> ,1.0,0.0,31
+sock send jsonutils dumps data ,1.0,0.0,32
+mock_sys argv = [ ,1.0,0.0,33
+test_init_relay_socket_path_prev_socket_exists self ,1.0,0.0,34
+ip_allocation = q one ,1.0,0.0,35
+mock_eventlet assert_has_calls ,1.0,0.0,36
+self cast self context ,1.0,0.0,37
+ValueError _ <STR> % ,1.0,0.0,38
+host = self host ,0.0,0.0,39
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.0,40
+mock patch dhcp <STR> mock_sys ,1.0,0.0,41
+mock patch <STR> execute ,1.0,0.0,42
+test_lease_relay_script_add_socket_missing self ,1.0,0.0,43
+self unlink_p = mock patch <STR> ,1.0,0.0,44
+cmd = [ <STR> % pair pair env items ] + cmd ,1.0,0.0,45
+ip_address = sys argv [ <NUM> ] ,1.0,0.0,46
+update_lease_expiration self context * * kwargs ,1.0,0.0,47
+[ mock call recv <NUM> mock call close ] ,1.0,0.0,48
+plugin update_fixed_ip_lease_expiration context network_id ,1.0,0.0,49
+relay _handler ] ,0.0,0.0,50
+relay assert_has_mock_calls [ mock call run ] ,1.0,0.0,51
+execute self cmds addl_env = ,1.0,0.0,52
+re ,1.0,0.0,53
+self proxy update_lease_expiration <STR> <NUM> ,1.0,0.0,54
+self make_msg assert_called_once_with <STR> ,1.0,0.0,55
+test_init_relay_socket_path_no_prev_socket self ,1.0,0.0,56
+ip_address = ip_address lease_remaining = lease_remaining ,1.0,0.0,57
+sys ,1.0,0.0,58
+self assertEqual retval <STR> ,1.0,0.0,59
+LOG debug <STR> ,1.0,0.0,60
+mock_exists assert_called_once_with relay_path ,1.0,0.0,61
+lease_remaining = <NUM> ,1.0,0.0,62
+This method will only read the first <NUM> then close the ,1.0,0.0,63
+! / usr / / env python ,1.0,0.0,64
+LOG warn _ <STR> % e ,1.0,0.0,65
+timeutils utcnow override_time = None ,0.0,0.0,66
+domain socket to pass the information This handles message ,1.0,0.0,67
+setUp self ,1.0,0.0,68
+mock patch self proxy <STR> mock_cast ,1.0,0.0,69
+test_lease_relay_script_del self ,1.0,0.0,70
+test_validate_field_invalid self ,1.0,0.0,71
+exists assert_called_once_with cfg CONF dhcp_lease_relay_socket ,1.0,0.0,72
+sock connect dhcp_relay_socket ,1.0,0.0,73
+test_lease_relay_script_old self ,1.0,0.0,74
+self assertRaises OSError ,1.0,0.0,75
+<STR> ,1.0,0.0,76
+listener = eventlet listen cfg CONF dhcp_lease_relay_socket ,1.0,0.0,77
+path_exists ,1.0,0.0,78
+ip_address network_id host ,0.0,0.0,79
+self _test_lease_relay_script_helper <STR> <NUM> ,1.0,0.0,80
+cfg StrOpt <STR> ,1.0,0.0,81
+LOG exception _ <STR> ,1.0,0.0,82
+mock call listen return_value ,1.0,0.0,83
+TestDhcpLeaseRelay unittest TestCase ,1.0,0.0,84
+validate side_effect = ValueError ,1.0,0.0,85
+test_default_allocation_expiration self ,1.0,0.0,86
+context = augment_context context ,1.0,0.0,87
+mock_conn = mock Mock ,1.0,0.0,88
+test_handler_valid_data self ,1.0,0.0,89
+[ mock call listen cfg CONF dhcp_lease_relay_socket ,1.0,0.0,90
+os ,1.0,0.0,91
+mock call close ] ,0.0,0.0,92
+= <STR> ,1.0,0.0,93
+cfg CONF set_override <STR> <NUM> ,1.0,0.0,94
+exists return_value = ,1.0,0.0,95
+<STR> ,1.0,0.0,96
+match = re match regex value ,0.0,0.0,97
+mock patch <STR> mock_exists ,1.0,0.0,98
+self port subnet = subnet port ,1.0,0.0,99
+mock patch dhcp <STR> relay ,1.0,0.0,100
+value regex ,0.0,0.0,101
+mock_conn assert_has_calls ,1.0,0.0,102
+dhcp run ,0.0,0.0,103
+cfg CONF reset ,1.0,0.0,104
+ip_wrapper netns execute cmd ,1.0,0.0,105
+dm = dhcp Dnsmasq self conf FakeDualNetwork ,1.0,0.0,106
+self execute assert_called_once_with expected root_helper = <STR> ,1.0,0.0,107
+expires = QuantumManager get_plugin _default_allocation_expiration ,1.0,0.0,108
+mock_plugin assert_has_calls ,1.0,0.0,109
+dm spawn_process ,1.0,0.0,110
+cfg CONF set_override <STR> <NUM> ,1.0,0.0,111
+timeutils utcnow override_time = reference ,1.0,0.0,112
+self assertTrue mocks [ <STR> ] called ,1.0,0.0,113
+reference = datetime datetime <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ,1.0,0.0,114
+subnet_id = ip [ <STR> ] ,1.0,0.0,115
+enable assert_called_once_with <STR> ,1.0,0.0,116
+timeutils utcnow ,1.0,0.0,117
+execute self cmds ,1.0,0.0,118
+plug assert_called_once_with <STR> mock ANY ,1.0,0.0,119
+[ mock call get_active_networks ] ,1.0,0.0,120
+timeutils utcnow override_time = None ,1.0,0.0,121
+device_delegate = delegate ,1.0,0.0,122
+ip_address = netaddr IPAddress data [ <STR> ] ,1.0,0.0,123
+data = jsonutils loads msg ,1.0,0.0,124
+network_id = <STR> ,1.0,0.0,125
+dhcp Dnsmasq lease_update ,1.0,0.0,126
+lease_remaining = lease_remaining ,1.0,0.0,127
+self unlink assert_called_once_with ,1.0,0.0,128
+retval = relay _validate_field <STR> ,0.0,0.0,129
+exists return_value = ,1.0,0.0,130
+update_lease self network_id ip_address time_remaining ,1.0,0.0,131
+execute assert_called_once_with ,1.0,0.0,132
+OPTS = [ ,1.0,0.0,133
+eventlet spawn eventlet serve listener self _handler ,1.0,0.0,134
+QUANTUM_RELAY_SOCKET_PATH_KEY = <STR> ,1.0,0.0,135
+action ,1.0,0.0,136
+query = context session query models_v<NUM> IPAllocation ,1.0,0.0,137
+default = <STR> ,1.0,0.0,138
+os path join os path dirname sys argv [ <NUM> ] ,1.0,0.0,139
+ValueError e ,1.0,0.0,140
+fixed_ip = query one ,1.0,0.0,141
+expires = QuantumManager get_plugin _default_allocation_expiration ,1.0,0.0,142
+ip_address = kwargs get <STR> ,1.0,0.0,143
+mock_socket assert_called_once_with ,1.0,0.0,144
+reference = datetime datetime <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ,1.0,0.0,145
+q = q filter_by ,1.0,0.0,146
+fake_environ name default = None ,1.0,0.0,147
+mac_address = <STR> ,1.0,0.0,148
+exists assert_called_once_with ,1.0,0.0,149
+self unlink_p stop ,1.0,0.0,150
+enable assert_called_once_with <STR> ,1.0,0.0,151
+mock_cast assert_called ,1.0,0.0,152
+host = kwargs get <STR> ,1.0,0.0,153
+mock patch <STR> mock_socket ,1.0,0.0,154
+environ get name default ,1.0,0.0,155
+json_rep = jsonutils dumps ,1.0,0.0,156
+self lease_relay start ,1.0,0.0,157
+network_id = <STR> ,1.0,0.0,158
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.0,159
+def_test_lease_relay_script_helper self action lease_remaining ,1.0,0.0,160
+IndexError ,1.0,0.0,161
+expiration = timeutils utcnow + datetime timedelta lease_remaining ,0.0,0.0,162
+quantum agent linux dhcp ,1.0,0.0,163
+mock patch dhcp_agent LOG <STR> log ,1.0,0.0,164
+ip_address = port [ <STR> ] ,1.0,0.0,165
+Exception e ,1.0,0.0,166
+fake_argv index ,1.0,0.0,167
+Unless required by applicable law agreed to writing software ,1.0,0.0,168
+host = <STR> ,1.0,0.0,169
+self subnet subnet ,1.0,0.0,170
+self QUANTUM_NETWORK_ID_KEY self network ,1.0,0.0,171
+relay_path = <STR> ,1.0,0.0,172
+dhcp run ,0.0,0.0,173
+env = FOO = <NUM> BAR = <NUM> ,1.0,0.0,174
+LOG debug <STR> ,1.0,0.0,175
+self assertFalse handler called ,1.0,0.0,176
+expiration = self _default_allocation_expiration ,1.0,0.0,177
+mock patch dhcp sys <STR> argv ,1.0,0.0,178
+mock_sock assert_has_calls [ mock call recv <NUM> mock call close ] ,1.0,0.0,179
+match ,1.0,0.0,180
+<STR> % self _lease_relay_script_path ,1.0,0.0,181
+lease_remaining = kwargs get <STR> ,1.0,0.0,182
+receiving then calls the callback method ,1.0,0.0,183
+sock = socket socket socket AF_UNIX socket SOCK_STREAM ,1.0,0.0,184
+quantum openstack common jsonutils ,1.0,0.0,185
+os unlink cfg CONF dhcp_lease_relay_socket ,1.0,0.0,186
+self unlink = self unlink_p start ,1.0,0.0,187
+network_id = os environ get cls QUANTUM_NETWORK_ID_KEY ,1.0,0.0,188
+default = <STR> ,1.0,0.0,189
+lease_remaining = <NUM> ,1.0,0.0,190
+update_lease_expiration self network_id ip_address lease_remaining ,1.0,0.0,191
+cfg CONF reset ,1.0,0.0,192
+<STR> UNIX domain socket server processing lease updates ,1.0,0.0,193
+port [ <STR> ] ,1.0,0.0,194
+self assertFalse exists called ,1.0,0.0,195
+self make_msg <STR> ,1.0,0.0,196
+mock patch dhcp_agent <STR> mock_eventlet ,1.0,0.0,197
+mock patch db_base_plugin_v<NUM> <STR> log ,1.0,0.0,198
+Quantum directly This works around the limitation by using the ,1.0,0.0,199
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.0,200
+<STR> ,1.0,0.0,201
+lease_update cls ,1.0,0.0,202
+<NUM> ,0.0,0.0,203
+ip_wrapper netns execute cmd addl_env = env ,1.0,0.0,204
+lease_remaining = data [ <STR> ] ,1.0,0.0,205
+update_context = context Context <STR> ] ,1.0,0.0,206
+] ,0.0,0.0,207
+self plugin_rpc update_lease_expiration network_id ip_address ,1.0,0.0,208
+network_id = network_id ,1.0,0.0,209
+a copy of the License at ,1.0,0.0,210
+os path exists cfg CONF dhcp_lease_relay_socket ,1.0,0.0,211
+value ,1.0,0.0,212
+test_start self ,1.0,0.0,213
+port_id = port [ <STR> ] ,1.0,0.0,214
+<STR> ] ,1.0,0.0,215
+mock_exists return_value = path_exists ,1.0,0.0,216
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.0,217
+mock patch <STR> exists ,1.0,0.0,218
+mock_environ get side_effect = fake_environ ,1.0,0.0,219
+test_update_lease_expiration self ,1.0,0.0,220
+test_update_fixed_ip_lease_expiration self ,1.0,0.0,221
+Copyright c <NUM> Openstack LLC ,1.0,0.0,222
+mock_sock assert_has_calls ,1.0,0.0,223
+under the License ,1.0,0.0,224
+plugin = QuantumManager get_plugin ,1.0,0.0,225
+relay = dhcp_agent DhcpLeaseRelay None ,1.0,0.0,226
+exc NoResultFound ,1.0,0.0,227
+family = socket AF_UNIX ,1.0,0.0,228
+mock_sock = mock Mock ,1.0,0.0,229
+self assertTrue mocks [ <STR> ] called ,1.0,0.0,230
+action = sys argv [ <NUM> ] ,1.0,0.0,231
+<STR> ,1.0,0.0,232
+ip_address lease_remaining ,1.0,0.0,233
+json_rep = jsonutils dumps network_id = network_id ,1.0,0.0,234
+<STR> Handle incoming lease relay stream connection ,1.0,0.0,235
+dm spawn_process ,1.0,0.0,236
+mac_address = mac_address ,1.0,0.0,237
+self assertGreater ,0.0,0.0,238
+network_id = self _validate_field data [ <STR> ] ,0.0,0.0,239
+subnet_id = ip [ <STR> ] ,1.0,0.0,240
+self assertRaises ValueError ,1.0,0.0,241
+update_fixed_ip_lease_expiration self context network_id ,1.0,0.0,242
+<STR> network_id ,1.0,0.0,243
+relay start ,0.0,0.0,244
+[ <STR> % pair pair addl_env items ] + ,1.0,0.0,245
+connection The limit exists to limit the impact of misbehaving ,1.0,0.0,246
+self parent namespace = <STR> ,1.0,0.0,247
+mock call spawn mock_eventlet serve ,1.0,0.0,248
+LOG warn _ <STR> ,1.0,0.0,249
+test_init_relay_socket_path_prev_socket_unlink_failure self ,1.0,0.0,250
+self _test_lease_relay_script_helper <STR> <NUM> ,1.0,0.0,251
+environ = ,1.0,0.0,252
+plugin update_fixed_ip_lease_expiration ,1.0,0.0,253
+self callback network_id ip_address lease_remaining ,1.0,0.0,254
+test_validate_field_valid self ,1.0,0.0,255
+argv __ getitem__ side_effect = fake_argv ,1.0,0.0,256
+self assertTrue log mock_calls ,1.0,0.0,257
+<STR> network_id ip_address ,0.0,0.0,258
+dhcp_relay_socket = os environ get cls QUANTUM_RELAY_SOCKET_PATH_KEY ,1.0,0.0,259
+subnet [ <STR> ] ,1.0,0.0,260
+test_handler_invalid_data self ,1.0,0.0,261
+socket ,1.0,0.0,262
+QUANTUM_NETWORK_ID_KEY = <STR> ,1.0,0.0,263
+timeutils utcnow override_time = reference ,0.0,0.0,264
+dm = dhcp Dnsmasq self conf FakeDualNetwork ,1.0,0.0,265
+test_execute_env_var_prepend self ,1.0,0.0,266
+mock call send json_rep ,0.0,0.0,267
+update_context ,1.0,0.0,268
+self execute assert_called_once_with expected ,1.0,0.0,269
+start self ,1.0,0.0,270
+self QUANTUM_RELAY_SOCKET_PATH_KEY ,1.0,0.0,271
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.0,272
+plug assert_called_once_with <STR> mock ANY ,1.0,0.0,273
+ip_allocation expiration - timeutils utcnow ,1.0,0.0,274
+<STR> relay_path ,1.0,0.0,275
+mac_address ,1.0,0.0,276
+action <STR> ,1.0,0.0,277
+os path exists dhcp_relay_socket ,1.0,0.0,278
+ip_address = <STR> ,1.0,0.0,279
+client_sock close ,1.0,0.0,280
+LOG warn _ <STR> % msg ,1.0,0.0,281
+mac_address = sys argv [ <NUM> ] ,1.0,0.0,282
+data = network_id = network_id mac_address = mac_address ,1.0,0.0,283
+License the specific language governing permissions limitations ,1.0,0.0,284
+socket AF_UNIX socket SOCK_STREAM ,1.0,0.0,285
+timeutils utcnow ,1.0,0.0,286
+ip_address ,1.0,0.0,287
+fixed_ip expiration = expiration ,1.0,0.0,288
+ip_address lease_remaining ,1.0,0.0,289
+[ <STR> ,1.0,0.0,290
+handler = mock Mock ,1.0,0.0,291
+plugin = manager QuantumManager get_plugin ,1.0,0.0,292
+ip_address = <STR> ,1.0,0.0,293
+action = = <STR> ,1.0,0.0,294
+root_helper = <STR> ,1.0,0.0,295
+textwrap ,1.0,0.0,296
+def__ init__ self lease_update_callback ,1.0,0.0,297
+lease_remaining = os environ get <STR> <NUM> ,1.0,0.0,298
+self callback = lease_update_callback ,1.0,0.0,299
+self netns_cmd execute [ <STR> ] env ,1.0,0.0,300
+mock_plugin assert_has_calls ,1.0,0.0,301
+clients ,1.0,0.0,302
+env = ,1.0,0.0,303
+sys exit ,0.0,0.0,304
+family = socket AF_UNIX ,1.0,0.0,305
+cfg CONF dhcp_lease_relay_socket ,1.0,0.0,306
+time_remaining ,0.0,0.0,307
+path_exists = ,0.0,0.0,308
+test_handler_other_exception self ,1.0,0.0,309
+self unlink side_effect = OSError ,1.0,0.0,310
+mock patch relay <STR> validate ,1.0,0.0,311
+network_id = network_id ,1.0,0.0,312
+cfg CONF register_opts dhcp_agent DhcpLeaseRelay OPTS ,1.0,0.0,313
+OSError ,1.0,0.0,314
+[ mock call get_active_networks ] ,1.0,0.0,315
+network_id = kwargs get <STR> ,1.0,0.0,316
+self conf dhcp_lease_relay_socket ,1.0,0.0,317
+ip_address = ip_address ,1.0,0.0,318
+self lease_relay = DhcpLeaseRelay self update_lease ,1.0,0.0,319
+q = update_context session query models_v<NUM> IPAllocation ,1.0,0.0,320
+query = query filter_by network_id = network_id ip_address = ip_address ,1.0,0.0,321
+mock_socket return_value = mock_conn ,1.0,0.0,322
+relay _handler mock_sock mock Mock ,1.0,0.0,323
+tearDown self ,1.0,0.0,324
+DhcpLeaseRelay ,1.0,0.0,325
+@ ,1.0,0.0,326
+self assertEqual expires reference + datetime timedelta seconds = <NUM> ,1.0,0.0,327

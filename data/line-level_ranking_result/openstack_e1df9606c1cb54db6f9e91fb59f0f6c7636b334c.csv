@@ -1,0 +1,697 @@
+total_tokens,line_level_label,line_score,row
+param context security context ,1.0,1.0,1
+param ctxt security context ,1.0,0.6737677886302783,2
+param image_meta image returned by nova image glance that ,1.0,0.5022187679027176,3
+context = nova_context get_admin_context ,1.0,0.4999999999999999,4
+spawn self context instance image_id ,1.0,0.4999999999999999,5
+fake_image_fetch_to_raw context image_id file_path ,1.0,0.4999999999999999,6
+manage_image_cache self context ,1.0,0.4999999999999999,7
+db instance_create context get_admin_context ,1.0,0.4999999999999999,8
+spawn self context instance image_meta ,1.0,0.4999999999999999,9
+nova context ,1.0,0.4999999999999999,10
+self powervm_connection spawn context get_admin_context ,1.0,0.4999999999999999,11
+instances = db instance_get_all_by_host context host ,1.0,0.4999999999999999,12
+self _powervm spawn context instance image_meta [ <STR> ] ,1.0,0.4999999999999999,13
+db instance_update context db_instance [ <STR> ] ,1.0,0.4999999999999999,14
+def_create_image context instance image_id ,1.0,0.4999999999999999,15
+db instance_destroy context db_instance [ <STR> ] ,1.0,0.4999999999999999,16
+_ create_image context instance image_id ,1.0,0.4999999999999999,17
+images fetch_to_raw context image_id file_path ,1.0,0.4999999999999999,18
+nova context nova_context ,1.0,0.4999999999999999,19
+returns string - - vhost name None case none found ,0.0,0.36555069349237146,20
+<STR> Updates compute manager resource info on ComputeNode table ,0.0,0.3255017803477159,21
+nova openstack common log logging ,1.0,0.2728345735492649,22
+Manage the driver ' s local image cache ,0.0,0.2511093839513588,23
+defines the image which to boot this instance ,1.0,0.2511093839513588,24
+update_available_resource self ctxt host ,1.0,0.17376778863027834,25
+self profile_attributes update kwargs ,0.0,0.15675384529709635,26
+self attributes update kwargs ,0.0,0.15675384529709635,27
+self port = port ,0.0,0.1543012005567952,28
+port = connection port ,1.0,0.1543012005567952,29
+nova utils ,1.0,0.14313300174227664,30
+stdout stderr = utils ssh_execute self _connection cmd ,1.0,0.14313300174227664,31
+def__ init__ self * * kwargs ,0.0,0.12229044280665362,32
+num_cpu the number of virtual CPUs the domain ,0.0,0.1039828960909026,33
+LOG error _ <STR> % ,1.0,0.08507486602859558,34
+a copy of the License at ,1.0,0.08346834404142502,35
+def__ init__ self host username password port = <NUM> ,1.0,0.0771506002783976,36
+LOG = logging getLogger __ name__ ,1.0,0.0625203908014392,37
+BaseOperator __ init__ self ivm_connection ,1.0,0.0625203908014392,38
+PowerVMDriver self __ init__ ,1.0,0.0625203908014392,39
+default = None ,0.0,0.054641340246378914,40
+default = <STR> ,1.0,0.054641340246378914,41
+param block_device_info Information about block devices to be ,0.0,0.04839317866916343,42
+use this file compliance the License You may obtain ,1.0,0.04524553009349194,43
+This function should use the data there to guide ,0.0,0.04524553009349194,44
+self all_attrs get key ,0.0,0.042892946061331094,45
+param device_name device name the cfgdev command will run ,1.0,0.04272275767395994,46
+License the specific language governing permissions limitations ,1.0,0.04096268153131232,47
+self stubs Set images <STR> fake_image_fetch_to_raw ,1.0,0.036708481262537805,48
+self stubs Set operator <STR> ,1.0,0.036708481262537805,49
+self stubs Set FakeIVMOperator <STR> x y None ,1.0,0.036708481262537805,50
+hasher update buf ,1.0,0.034463402490442725,51
+project_id = instance [ <STR> ] ,1.0,0.016099986065971933,52
+user_id project_id ,0.0,0.016099986065971933,53
+This method called when nova - compute launches ,0.0,0.00630608596174768,54
+memory_info = self _operator get_memory_info ,0.0,0.0,55
+lpar ,1.0,0.0,56
+lpar [ key ] = value ,1.0,0.0,57
+self _connection = common ssh_connect connection ,1.0,0.0,58
+self run_command self command chsysstate <STR> ,1.0,0.0,59
+size = <NUM> ,1.0,0.0,60
+reboot self instance network_info reboot_type ,1.0,0.0,61
+PowerVMDriverTestCase self setUp ,1.0,0.0,62
+PowerVMConnectionFailed exception NovaException ,1.0,0.0,63
+plug_vifs self instance network_info ,1.0,0.0,64
+cmd = self command lsmap <STR> ,1.0,0.0,65
+cmd = self command chsysstate <STR> ,1.0,0.0,66
+<STR> total_procs ,0.0,0.0,67
+re search r <STR> instance ] ,1.0,0.0,68
+stdout stderr = common ssh_command_as_root ,1.0,0.0,69
+param reboot_type Either a HARD SOFT reboot ,0.0,0.0,70
+nova virt driver ,1.0,0.0,71
+cmd = self command lssyscfg <STR> ,1.0,0.0,72
+found_vg ,1.0,0.0,73
+<STR> <NUM> <NUM> ,1.0,0.0,74
+common ftp_put_command self connection_data source_path ,1.0,0.0,75
+instance_exists self instance_name ,1.0,0.0,76
+run_cfg_dev self device_name ,1.0,0.0,77
+cf_splitter = shlex shlex conf_data posix = ,0.0,0.0,78
+start_lpar self instance_name ,1.0,0.0,79
+POWERVM_SHUTDOWN = <STR> ,1.0,0.0,80
+PowerVMLPARInstanceNotFound exception NovaException ,1.0,0.0,81
+size = size / <NUM> + <NUM> * <NUM> ,1.0,0.0,82
+message =_ <STR> ,1.0,0.0,83
+max_proc_units = cpus_max ,1.0,0.0,84
+lv_name ,1.0,0.0,85
+LPAR_PROFILE_ATTRS = ,0.0,0.0,86
+get_info self instance ,1.0,0.0,87
+param vhost the vhost name ,1.0,0.0,88
+<STR> Method to transfer a file via ftp ,0.0,0.0,89
+chan = ssh_connection _transport open_session ,0.0,0.0,90
+powervm_opts = [ ,0.0,0.0,91
+PowerVMDriverTestCase test TestCase ,1.0,0.0,92
+param device output device name ,1.0,0.0,93
+stderr = chan makefile_stderr <STR> bufsize ,0.0,0.0,94
+state = self powervm_connection get_info self instance [ <STR> ] ,1.0,0.0,95
+LOG info _ <STR> ,1.0,0.0,96
+POWERVM_SHUTDOWN power_state SHUTDOWN ,1.0,0.0,97
+self _host_stats ,1.0,0.0,98
+<STR> Get memory info ,0.0,0.0,99
+BaseOperator ,0.0,0.0,100
+mem the memory KBytes used by the domain ,0.0,0.0,101
+nova compute power_state ,1.0,0.0,102
+returns - - instances names ,1.0,0.0,103
+self _operator remove_logical_volume disk_name ,1.0,0.0,104
+match = re search r <STR> vg ,1.0,0.0,105
+final_path = <STR> % uncomp_path source_cksum ,1.0,0.0,106
+time ,1.0,0.0,107
+finalPath size ,1.0,0.0,108
+attached to the instance ,0.0,0.0,109
+size % <NUM> ! = <NUM> ,1.0,0.0,110
+megabyte = <NUM> * <NUM> ,1.0,0.0,111
+final_path size ,1.0,0.0,112
+time sleep <NUM> ,0.0,0.0,113
+<STR> disk_total ,1.0,0.0,114
+value ,0.0,0.0,115
+self _update_host_stats ,0.0,0.0,116
+suspend self instance ,1.0,0.0,117
+image_meta = ,0.0,0.0,118
+get_disk_name_by_vhost self vhost ,1.0,0.0,119
+self _operator stop_lpar instance_name ,1.0,0.0,120
+self _powervm power_off instance [ <STR> ] ,1.0,0.0,121
+output ,1.0,0.0,122
+test_list_instances self ,1.0,0.0,123
+host_stats = self get_host_stats refresh = ,1.0,0.0,124
+instances = self powervm_connection list_instances ,0.0,0.0,125
+megabyte_size < = avail_size ,1.0,0.0,126
+cfg StrOpt <STR> ,1.0,0.0,127
+Exception ,1.0,0.0,128
+lpar LPAR name = instance_name ,1.0,0.0,129
+LOG debug _ <STR> % image_id ,1.0,0.0,130
+nova virt powervm operator ,1.0,0.0,131
+timeout_count ,0.0,0.0,132
+megabyte_size = size / megabyte ,1.0,0.0,133
+LOG exception _ <STR> % instance_name ,1.0,0.0,134
+<STR> ,1.0,0.0,135
+Retrieves the IP address of the dom<NUM> ,0.0,0.0,136
+POWERVM_MAX_MEM = <NUM> ,1.0,0.0,137
+nova db ,1.0,0.0,138
+<STR> ,1.0,0.0,139
+nova virt powervm constants ,1.0,0.0,140
+inst_name = instance [ <STR> ] ,1.0,0.0,141
+destroy self instance network_info block_device_info = None ,1.0,0.0,142
+match None ,1.0,0.0,143
+<STR> Run a remote command using an active ssh connection ,1.0,0.0,144
+returns string - - disk name ,1.0,0.0,145
+mem_max = mem + constants POWERVM_MAX_MEM ,1.0,0.0,146
+cpus_units_min = decimal Decimal cpus_min / decimal Decimal <NUM> ,1.0,0.0,147
+instance_hex_id = <STR> % instance_id ,0.0,0.0,148
+vgs = self run_command self command lsvg ,1.0,0.0,149
+Test suite PowerVMDriver ,0.0,0.0,150
+<STR> + BaseCommand rmdev self args ,1.0,0.0,151
+param connection an active paramiko SSHClient connection ,1.0,0.0,152
+The configuration data a string representation of ,0.0,0.0,153
+cmd = self command cfgdev <STR> % device_name ,1.0,0.0,154
+<STR> % args ,1.0,0.0,155
+exception PowerVMFileTransferFailed ,1.0,0.0,156
+param remote_dir path to remote destination ,1.0,0.0,157
+param connection common Connection the ,1.0,0.0,158
+output [ <NUM> ] ,1.0,0.0,159
+ftp close ,0.0,0.0,160
+information to connect to the remote ,0.0,0.0,161
+pause self instance ,1.0,0.0,162
+passwd = connection password ,1.0,0.0,163
+cpu_info = self _operator get_cpu_info ,0.0,0.0,164
+output = self run_command <STR> % final_path check_exit_code = ,1.0,0.0,165
+self run_command self command mksyscfg <STR> % conf_data ,1.0,0.0,166
+key self all_attrs keys ,0.0,0.0,167
+LOG exception _ <STR> % e ,0.0,0.0,168
+May <NUM> < http / / www redbooks ibm com / abstracts / sg<NUM> html > ,0.0,0.0,169
+hasher = hashlib md<NUM> ,1.0,0.0,170
+POWERVM_MAX_CPUS = <NUM> ,1.0,0.0,171
+the cache remove images which are no longer of interest ,0.0,0.0,172
+<STR> Initialize anything that necessary the driver to function ,0.0,0.0,173
+stdin write <STR> ,0.0,0.0,174
+% <STR> join vgs ,0.0,0.0,175
+setUp self ,1.0,0.0,176
+Connection ,1.0,0.0,177
+self all_attrs [ key ] = value ,0.0,0.0,178
+cfgdev self args = <STR> ,1.0,0.0,179
+param instance_name LPAR instance name ,1.0,0.0,180
+self host = host ,0.0,0.0,181
+POWERVM_NOSTATE power_state NOSTATE ,1.0,0.0,182
+self all_attrs = self attributes items ,0.0,0.0,183
+mem_min = mem constants POWERVM_MIN_MEM ,1.0,0.0,184
+exception PowerVMFileTransferFailed file_path = local_path ,1.0,0.0,185
+run_command self cmd check_exit_code = ,1.0,0.0,186
+self _powervm instance_exists instance_name ,1.0,0.0,187
+self command = command IVMCommand ,1.0,0.0,188
+lpar_instance = self _get_instance instance_name ,1.0,0.0,189
+re ,1.0,0.0,190
+instance_name self list_instances ,1.0,0.0,191
+name = inst_name lpar_env = <STR> ,1.0,0.0,192
+param connection a Connection ,1.0,0.0,193
+mkvdev self args = <STR> ,1.0,0.0,194
++ self profile_attributes items ,0.0,0.0,195
+ftp storbinary <STR> + name f ,0.0,0.0,196
+self _host_stats = ,0.0,0.0,197
+pass ,1.0,0.0,198
+nova flags ,1.0,0.0,199
+instances ,1.0,0.0,200
+host_power_action self host action ,1.0,0.0,201
+attribs = item split <STR> item cf_splitter ,0.0,0.0,202
+found_vg = None ,1.0,0.0,203
+<STR> Get CPU info ,0.0,0.0,204
+output [ <NUM> ] ,0.0,0.0,205
+max_mem the maximum memory KBytes allowed ,0.0,0.0,206
+def__ getitem__ self key ,0.0,0.0,207
+nova exception nova_exception ,1.0,0.0,208
+py meth ` ~ nova network manager NetworkManager get_instance_nw_info ` ,1.0,0.0,209
+lv_name = self run_command cmd ,1.0,0.0,210
+param network_info ,1.0,0.0,211
+self _operator stop instance_name ,1.0,0.0,212
+cmd = <STR> % uncomp_path ,1.0,0.0,213
+test_instance_exists self ,1.0,0.0,214
+exception PowerVMInsufficientCPU ,1.0,0.0,215
+IVMCommand BaseCommand ,0.0,0.0,216
+key value self all_attrs items ,0.0,0.0,217
+LOG exception <STR> ,1.0,0.0,218
+lpar = LPAR ,0.0,0.0,219
+buf = img_file read block_size ,1.0,0.0,220
+self powervm_connection = powervm_driver PowerVMDriver ,1.0,0.0,221
+exception PowerVMLPARInstanceCleanupFailed ,1.0,0.0,222
+<STR> <NUM> ,1.0,0.0,223
+IVMOperator BaseOperator ,1.0,0.0,224
+LOG debug _ <STR> % instance [ <STR> ] ,1.0,0.0,225
+<STR> disk_avail ,0.0,0.0,226
+remove_lpar self instance_name ,1.0,0.0,227
+BaseCommand ,0.0,0.0,228
+POWERVM_HYPERVISOR_VERSION = <STR> ,1.0,0.0,229
+ftp = ftplib FTP host = connection host ,1.0,0.0,230
+<STR> Attach disk name to a specific vhost ,1.0,0.0,231
+returns string - - the name of the new logical volume ,1.0,0.0,232
+<STR> Run a remote command root using an active ssh connection ,1.0,0.0,233
+Returns a containing ,1.0,0.0,234
+self profile_attributes = [ k None ] k ,0.0,0.0,235
+cf_splitter whitespace = <STR> ,0.0,0.0,236
+layer a ,0.0,0.0,237
+def_get_instance self instance_name ,1.0,0.0,238
+PowerVMInsufficientCPU exception NovaException ,1.0,0.0,239
+<STR> <NUM> ,1.0,0.0,240
+cpu_time the CPU time used nanoseconds ,0.0,0.0,241
+LOG debug _ <STR> ,1.0,0.0,242
+LOG debug _ <STR> % instance_name ,1.0,0.0,243
+param instance_id LPAR instance ,1.0,0.0,244
+returns LPAR ,0.0,0.0,245
+ftp_put_command connection local_path remote_dir ,1.0,0.0,246
+<STR> ,1.0,0.0,247
+self _operator = get_powervm_operator ,1.0,0.0,248
+file_path = os path join FLAGS powervm_img_local_path ,1.0,0.0,249
+fake_lpar instance_name ,1.0,0.0,250
+get_num_instances self ,1.0,0.0,251
+os ,1.0,0.0,252
+param command List of commands ,1.0,0.0,253
+[ <STR> ] ,1.0,0.0,254
+raises PowerVMLPARInstanceNotFound ,1.0,0.0,255
+self assertTrue <STR> instances ,1.0,0.0,256
+returns paramiko SSHClient - - an active ssh connection ,0.0,0.0,257
+param source_path source file path ,1.0,0.0,258
+create_logical_volume self size ,1.0,0.0,259
+stdout stderr ,0.0,0.0,260
+PowerVMFileTransferFailed exception NovaException ,1.0,0.0,261
+Create a new instance / VM / domain on powerVM ,0.0,0.0,262
+cpus_min = cpus constants POWERVM_MIN_CPUS ,1.0,0.0,263
+def__ init__ self connection ,1.0,0.0,264
+cmd = self command lsdev <STR> % sea ,1.0,0.0,265
+run_command_as_root self command check_exit_code = ,1.0,0.0,266
+stderr = stderr ,1.0,0.0,267
+password = connection password ,1.0,0.0,268
+lpar_id = <NUM> desired_mem = <NUM> ,0.0,0.0,269
+% resource_type instance_name ,1.0,0.0,270
+self _cleanup instance_name ,1.0,0.0,271
+<STR> % comp_path ,1.0,0.0,272
+disk_total disk_used disk_avail = [ <NUM> <NUM> <NUM> ] ,0.0,0.0,273
+self assertFalse self powervm_connection instance_exists name ,0.0,0.0,274
+FLAGS powervm_mgr_type = = <STR> ,1.0,0.0,275
+<STR> + BaseCommand lsmap self args ,1.0,0.0,276
+cmd = <STR> % comp_path ,1.0,0.0,277
+mklv self args = <STR> ,1.0,0.0,278
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.0,279
+f = local_path <STR> ,1.0,0.0,280
+source_cksum = hasher hexdigest ,1.0,0.0,281
+attach_disk_to_vhost self disk vhost ,1.0,0.0,282
+LOG exception _ <STR> ,1.0,0.0,283
+<STR> avail_procs ,0.0,0.0,284
+get_memory_info self ,0.0,0.0,285
+timeout_count pop ,0.0,0.0,286
+get_powervm_operator ,1.0,0.0,287
+including catching up currently running VM ' s on the given host <STR> ,1.0,0.0,288
+disk_total + = d_total ,0.0,0.0,289
+<STR> Stop a running LPAR ,0.0,0.0,290
+exit_status ! = - <NUM> ,0.0,0.0,291
+vg output ,1.0,0.0,292
+self all_attrs [ key ] = None ,0.0,0.0,293
+power_off self instance ,1.0,0.0,294
+info = self powervm_connection get_info self instance ,1.0,0.0,295
+PowerVMNoSpaceLeftOnVolumeGroup exception NovaException ,1.0,0.0,296
+POWERVM_HYPERVISOR_TYPE = <STR> ,1.0,0.0,297
+<STR> Receives a LPAR data creates a LPAR instance ,0.0,0.0,298
+FakeIVMOperator ,0.0,0.0,299
+exception PowerVMLPARAttributeNotFound key ,1.0,0.0,300
+power_on self instance_name ,1.0,0.0,301
+<STR> + BaseCommand cfgdev self args = args ,1.0,0.0,302
+nova_exception ProcessExecutionError ,1.0,0.0,303
+lpar = LPAR load_from_conf_data output [ <NUM> ] ,0.0,0.0,304
+cmd = self command lsmap <STR> ,1.0,0.0,305
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.0,306
+list_instances self ,1.0,0.0,307
+param local_path path to the local file ,1.0,0.0,308
+<STR> avail_mem ,0.0,0.0,309
+destroy self instance_name ,1.0,0.0,310
+lpar_inst = LPAR LPAR ,1.0,0.0,311
+output = self run_command <STR> ,1.0,0.0,312
+paramiko ,1.0,0.0,313
+to_string self exclude_attribs = [ ] ,0.0,0.0,314
+self _operator start_lpar instance [ <STR> ] ,1.0,0.0,315
+test_destroy self ,1.0,0.0,316
+ssh_connect connection ,1.0,0.0,317
+nova virt powervm lpar ,1.0,0.0,318
+<STR> ,1.0,0.0,319
+output = self run_command cmd ,1.0,0.0,320
+returns - cpu info total_procs avail_procs ,0.0,0.0,321
+mem = instance [ <STR> ] ,1.0,0.0,322
+LPAR_ATTRS = ,0.0,0.0,323
+lssyscfg self args = <STR> ,1.0,0.0,324
+raises PowerVMFileTransferFailed ,1.0,0.0,325
+the driver handle either IVM HMC managed systems ,0.0,0.0,326
+lpar_names ,1.0,0.0,327
+total_procs avail_procs = output [ <NUM> ] split <STR> ,0.0,0.0,328
+init_host self host ,1.0,0.0,329
+d_total d_used d_avail = re findall r <STR> ,0.0,0.0,330
+IVMOperator common Connection FLAGS powervm_mgr ,1.0,0.0,331
+<STR> Return the vhost name by the instance ,0.0,0.0,332
+None ,1.0,0.0,333
+returns of the virtual ethernet adapter ,1.0,0.0,334
+ssh = paramiko SSHClient ,0.0,0.0,335
+network_info = None block_device_info = None ,1.0,0.0,336
+Runs specific commands on an IVM managed system ,0.0,0.0,337
+stdout read splitlines ,1.0,0.0,338
+rmsyscfg self args = <STR> ,1.0,0.0,339
+instance_hex_id vhosts ,0.0,0.0,340
+returns - disk info disk_total disk_used disk_avail ,0.0,0.0,341
+FLAGS = flags FLAGS ,0.0,0.0,342
+nova virt powervm lpar LPAR ,1.0,0.0,343
+cmd = <STR> % source_path device ,1.0,0.0,344
+LPAR ,1.0,0.0,345
+param lv_name a logical volume name ,1.0,0.0,346
+The driver connects to an Integrated Virtualization Manager IVM to ,0.0,0.0,347
+PowerVMImageCreationFailed exception NovaException ,1.0,0.0,348
+self run_command cmd ,1.0,0.0,349
+param size size of the logical volume ,1.0,0.0,350
+task_state = db_instance [ <STR> ] ,1.0,0.0,351
+remove_disk self disk_name ,1.0,0.0,352
+lpar_instance None ,0.0,0.0,353
+file_name = <STR> ] ,1.0,0.0,354
+found_vg = vg_name ,1.0,0.0,355
+<STR> <NUM> ,1.0,0.0,356
+bufsize = - <NUM> ,1.0,0.0,357
+data [ <STR> ] = constants POWERVM_HYPERVISOR_VERSION ,0.0,0.0,358
+PowerVMLPARInstanceCleanupFailed exception NovaException ,1.0,0.0,359
+<STR> Run cfgdev command a specific device ,0.0,0.0,360
+] ,0.0,0.0,361
+param source_path path to source file ,1.0,0.0,362
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.0,363
+sea = output [ <NUM> ] ,1.0,0.0,364
+vg vgs ,0.0,0.0,365
+username = connection username ,1.0,0.0,366
+unpause self instance ,1.0,0.0,367
+exception PowerVMConnectionFailed ,1.0,0.0,368
+size = output [ <NUM> ] ,1.0,0.0,369
+FLAGS powervm_mgr_passwd ,0.0,0.0,370
+LOG debug _ <STR> % disk_name ,1.0,0.0,371
+param command String the command to run ,1.0,0.0,372
+Searches the shared ethernet adapter returns ,0.0,0.0,373
+<STR> Removes the lv the connection between its associated vscsi ,1.0,0.0,374
+buf > <NUM> ,1.0,0.0,375
+exit_status = chan recv_exit_status ,0.0,0.0,376
+finalPath = <STR> ,1.0,0.0,377
+check_exit_code = check_exit_code ,1.0,0.0,378
+conf_data = [ ] ,0.0,0.0,379
+data = ,0.0,0.0,380
+param resource_type the of resources to ,0.0,0.0,381
+infos ,1.0,0.0,382
+image_meta [ <STR> ,1.0,0.0,383
+PowerVMLPARCreationFailed exception NovaException ,1.0,0.0,384
+remote_path ,0.0,0.0,385
+self powervm_connection destroy self instance None ,1.0,0.0,386
+% vg ,0.0,0.0,387
+raises PowerVMConnectionFailed ,1.0,0.0,388
+lpar_id = self _get_instance instance_name [ <STR> ] ,1.0,0.0,389
+disk_avail + = d_avail ,0.0,0.0,390
+% instance_name ,1.0,0.0,391
+self instance = self _create_instance ,1.0,0.0,392
+power_on self instance ,1.0,0.0,393
+def_create_instance self ,1.0,0.0,394
+param conf_data string containing the LPAR configuration data ,1.0,0.0,395
+instance = instance ,1.0,0.0,396
+get_info self instance_name ,1.0,0.0,397
+lpar_instance ,1.0,0.0,398
+<STR> Removes a LPAR ,1.0,0.0,399
+POWERVM_CPU_INFO = <STR> ,1.0,0.0,400
+power_off self instance_name ,1.0,0.0,401
+cmd = self command mkvdev <STR> % disk vhost ,1.0,0.0,402
+POWERVM_POWER_STATE = ,1.0,0.0,403
+<STR> + BaseCommand mklv self args ,1.0,0.0,404
+state = self _powervm get_info instance_name [ <STR> ] ,1.0,0.0,405
+param instance_name Instance name ,1.0,0.0,406
+<STR> + BaseCommand mkvdev self args = args ,1.0,0.0,407
+POWERVM_MIN_CPUS = <NUM> ,1.0,0.0,408
+<STR> join conf_data ,0.0,0.0,409
+self _operator remove_lpar instance_name ,1.0,0.0,410
+<STR> disk_used ,0.0,0.0,411
+conf_data = lpar to_string ,0.0,0.0,412
+shlex ,1.0,0.0,413
+<STR> Return a LPAR by its instance name ,1.0,0.0,414
+<STR> ,1.0,0.0,415
+nova virt powervm command ,1.0,0.0,416
+desired_proc_units = cpus_units ,1.0,0.0,417
+param vhost a vhost name ,1.0,0.0,418
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.0,419
+FLAGS register_opts powervm_opts ,1.0,0.0,420
+def__ setitem__ self key value ,0.0,0.0,421
+self run_command self command rmsyscfg <STR> ,1.0,0.0,422
+desired_procs = cpus max_procs = cpus_max ,1.0,0.0,423
+Unless required by applicable law agreed to writing software ,1.0,0.0,424
+nova openstack common cfg ,1.0,0.0,425
+instance_name = instance_name ,1.0,0.0,426
+instance_name = instance [ <STR> ] ,1.0,0.0,427
+test_get_info self ,1.0,0.0,428
+cf_splitter whitespace_split = ,0.0,0.0,429
+returns - memory info total_mem avail_mem ,0.0,0.0,430
+related to other calls into the driver The prime example to clean ,0.0,0.0,431
+lsdev self args = <STR> ,1.0,0.0,432
+<STR> Constructor ,0.0,0.0,433
+self assertEqual info [ <STR> ] power_state RUNNING ,0.0,0.0,434
+vhost = self _operator get_vhost_by_instance_id lpar_id ,1.0,0.0,435
+exception PowerVMInsufficientFreeMemory ,1.0,0.0,436
+param disk the disk name ,0.0,0.0,437
+self username = username ,0.0,0.0,438
+lpar_instance = self _operator get_lpar instance_name ,1.0,0.0,439
+create_lpar self lpar ,1.0,0.0,440
+fake_get_powervm_operator ,0.0,0.0,441
+% vhost ,0.0,0.0,442
+Return the names of the instances known to the virtualization ,0.0,0.0,443
+data [ <STR> ] = constants POWERVM_CPU_INFO ,0.0,0.0,444
+refer to the IBM Redbook [ <NUM> ] publication ,0.0,0.0,445
+copy_file_to_device self sourcePath device ,1.0,0.0,446
+load_from_conf_data conf_data ,0.0,0.0,447
+<STR> Start a LPAR instance ,0.0,0.0,448
+cpus = instance [ <STR> ] ,1.0,0.0,449
+<STR> Get the current status of an LPAR instance ,1.0,0.0,450
+lsmap self args = <STR> ,1.0,0.0,451
+<STR> Method to connect to remote system using ssh protocol ,0.0,0.0,452
+megabyte_size = size / megabyte + <NUM> ,1.0,0.0,453
+img_file = file source_path <STR> ,1.0,0.0,454
+stdout = chan makefile <STR> bufsize ,0.0,0.0,455
+nova virt powervm common ,1.0,0.0,456
+the partition / its selected profile ,0.0,0.0,457
+lpar_instance ,1.0,0.0,458
+param instance Instance returned by DB layer ,1.0,0.0,459
+nova exception ,1.0,0.0,460
+nova compute vm_states ,1.0,0.0,461
+ssh ,0.0,0.0,462
+exception PowerVMLPARCreationFailed ,1.0,0.0,463
+self assertTrue self powervm_connection instance_exists name ,0.0,0.0,464
+stdout strip splitlines ,1.0,0.0,465
+self _powervm = operator PowerVMOperator ,1.0,0.0,466
+<STR> ] ,1.0,0.0,467
+name = os path split local_path [ <NUM> ] ,0.0,0.0,468
+[ ] ,0.0,0.0,469
+def_cleanup self instance_name ,1.0,0.0,470
+= <STR> ,1.0,0.0,471
+f close ,0.0,0.0,472
+Exception e ,1.0,0.0,473
+self _operator create_lpar lpar_inst ,1.0,0.0,474
+under the License ,1.0,0.0,475
+test_spawn self ,1.0,0.0,476
+PowerVM LPAR configuration attributes ,1.0,0.0,477
+exception PowerVMLPARInstanceNotFound ,1.0,0.0,478
+host_state self ,1.0,0.0,479
+nova virt powervm driver powervm_driver ,1.0,0.0,480
+stdin = chan makefile <STR> bufsize ,0.0,0.0,481
+<STR> None ,0.0,0.0,482
+self _powervm get_host_stats refresh = refresh ,1.0,0.0,483
+file_path remote_path ,1.0,0.0,484
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.0,485
+Some drivers chose to cache images instances on disk This method ,0.0,0.0,486
+<STR> Creates a logical volume a minimum size ,1.0,0.0,487
+raises PowerVMNoSpaceLeftOnVolumeGroup ,1.0,0.0,488
+LOG warn _ <STR> ,1.0,0.0,489
+% instance [ <STR> ] ,1.0,0.0,490
+lpar_id = self _operator get_lpar instance [ <STR> ] ,1.0,0.0,491
+source_cksum ! = output [ <NUM> ] ,1.0,0.0,492
+block_size = <NUM>x<NUM> ,1.0,0.0,493
+PowerVMInsufficientFreeMemory exception NovaException ,1.0,0.0,494
+vhosts [ instance_hex_id ] ,0.0,0.0,495
+disk_name = self _operator get_disk_name_by_vhost vhost ,1.0,0.0,496
+ssh ,0.0,0.0,497
+LOG debug _ <STR> % exit_status ,1.0,0.0,498
+<STR> Get the disk usage information ,0.0,0.0,499
+cmd = self command mklv <STR> % found_vg size / <NUM> ,1.0,0.0,500
+LOG debug _ <STR> % file_path ,1.0,0.0,501
+chan exec_command <STR> ,0.0,0.0,502
+list_instances_detail self ,1.0,0.0,503
+param host hostname that compute manager currently running ,0.0,0.0,504
+def__ delitem__ self key ,0.0,0.0,505
+param command string containing the command to run ,1.0,0.0,506
+db_instance [ <STR> ] powervm_instances ,0.0,0.0,507
+returns Tuple - - a of stdout stderr ,0.0,0.0,508
+mksyscfg self args = <STR> ,1.0,0.0,509
+get_vhost_by_instance_id self instance_id ,1.0,0.0,510
+def__ init__ self ,1.0,0.0,511
+conf_data append <STR> % key value ,0.0,0.0,512
+perform PowerVM Logical Partition LPAR deployment management ,0.0,0.0,513
+disk_name = self _operator create_logical_volume size ,1.0,0.0,514
+stdin flush ,0.0,0.0,515
+self assertEqual info [ <STR> ] <NUM> ,0.0,0.0,516
+<STR> + BaseCommand rmvdev self args = args ,1.0,0.0,517
+self list_instances ,0.0,0.0,518
+def_create_lpar_instance instance ,1.0,0.0,519
+min_mem = mem_min desired_mem = mem ,1.0,0.0,520
+self _operator start instance_name ,1.0,0.0,521
+self run_command self command rmdev <STR> % disk_name ,0.0,0.0,522
+an opportunity to do management of that cache which isn ' t directly ,0.0,0.0,523
+cmd = self command lsvg <STR> ,1.0,0.0,524
+copy_image_file self sourcePath remotePath ,1.0,0.0,525
+disk_info = self _operator get_disk_info ,1.0,0.0,526
+size % megabyte ! = <NUM> ,1.0,0.0,527
+POWERVM_MIN_MEM = <NUM> ,1.0,0.0,528
+ftp cwd remote_dir ,0.0,0.0,529
+<STR> Virtual ethernet adapter ,0.0,0.0,530
+fake_get_powervm_operator ,1.0,0.0,531
+<STR> Returns the disk name attached to a vhost ,1.0,0.0,532
+stop_lpar self instance_name ,1.0,0.0,533
+<STR> A connection to an IBM PowerVM Virtualization system ,0.0,0.0,534
+POWERVM_RUNNING power_state RUNNING ,1.0,0.0,535
+copy_file_to_device self source_path device ,1.0,0.0,536
+cmd = self command rmvdev <STR> % lv_name ,1.0,0.0,537
+consists of name / value pairs which are command separated ,0.0,0.0,538
+max_mem = <NUM> max_procs = <NUM> ,0.0,0.0,539
+sharing_mode = <STR> min_procs = cpus_min ,1.0,0.0,540
+PowerVMOperator ,1.0,0.0,541
+nova virt powervm driver PowerVMDriver ,1.0,0.0,542
+@ ,0.0,0.0,543
+vhost_by_instance_id self instance_id_hex ,1.0,0.0,544
+name = self instance [ <STR> ] ,1.0,0.0,545
+For more detailed information about PowerVM virtualization ,0.0,0.0,546
+check_exit_code exit_status ! = <NUM> ,0.0,0.0,547
+lshwres self args = <STR> ,1.0,0.0,548
+instances = [ instance instance lpar_instances ,1.0,0.0,549
+<STR> Reboot the specified instance ,1.0,0.0,550
+<STR> % instance_name ,1.0,0.0,551
+stdout = stdout ,1.0,0.0,552
+eth_id = self _operator get_virtual_eth_adapter_id ,1.0,0.0,553
+cmd = <STR> join cmd ,0.0,0.0,554
+nova virt images ,1.0,0.0,555
+<STR> Copy file to VIOS decompress it its new size name ,1.0,0.0,556
+<STR> LPAR configuration data parser ,1.0,0.0,557
+self _powervm power_on instance [ <STR> ] ,1.0,0.0,558
+exception PowerVMImageCreationFailed ,1.0,0.0,559
+state = constants POWERVM_POWER_STATE [ lpar_instance [ <STR> ] ] ,1.0,0.0,560
+powervm_instances = self list_instances ,1.0,0.0,561
+self _host_stats = data ,0.0,0.0,562
+<STR> Integrated Virtualization Manager IVM Operator ,0.0,0.0,563
+legacy_nwinfo self ,0.0,0.0,564
+% final_path check_exit_code = ,1.0,0.0,565
+ssh_command_as_root ssh_connection cmd check_exit_code = ,1.0,0.0,566
+<STR> Destroy shutdown delete the specified instance ,0.0,0.0,567
+self instance image_meta ,1.0,0.0,568
+self _powervm destroy instance [ <STR> ] ,1.0,0.0,569
+self _connection command check_exit_code = check_exit_code ,1.0,0.0,570
+uncomp_path = comp_path rstrip <STR> ,1.0,0.0,571
+db_instance instances ,1.0,0.0,572
+its ,0.0,0.0,573
+the creation of the new instance ,1.0,0.0,574
+cmd = <STR> % uncomp_path final_path ,1.0,0.0,575
+total_mem avail_mem = output [ <NUM> ] split <STR> ,0.0,0.0,576
+POWERVM_NOSTATE = <STR> ,1.0,0.0,577
+min_proc_units = cpus_units_min ,1.0,0.0,578
+% instance_name ,1.0,0.0,579
+nova_exception ProcessExecutionError exit_code = exit_status ,1.0,0.0,580
+get_host_ip_addr self ,1.0,0.0,581
+exception PowerVMImageCreationFailed ,1.0,0.0,582
+PowerVMLPARAttributeNotFound exception NovaException ,1.0,0.0,583
+<STR> Removes a disk ,0.0,0.0,584
+cmd = self command lshwres ,1.0,0.0,585
+file_name ,1.0,0.0,586
+<STR> state ,1.0,0.0,587
+get_cpu_info self ,1.0,0.0,588
+self _operator attach_disk_to_vhost disk_name vhost ,1.0,0.0,589
+ssh connect connection host ,0.0,0.0,590
+cpus_units = decimal Decimal cpus / decimal Decimal <NUM> ,1.0,0.0,591
+the attributes of a Logical Partition The attributes ,0.0,0.0,592
+cpus_max = cpus + constants POWERVM_MAX_CPUS ,1.0,0.0,593
+user = connection username ,1.0,0.0,594
+exception PowerVMNoSpaceLeftOnVolumeGroup ,1.0,0.0,595
+vhosts = item split <STR> item output ,0.0,0.0,596
+self _cleanup instance [ <STR> ] ,1.0,0.0,597
+fake_lpar instance_name ,1.0,0.0,598
+POWERVM_RUNNING = <STR> ,1.0,0.0,599
+returns LPAR - - LPAR ,0.0,0.0,600
+self attributes = [ k None ] k self LPAR_ATTRS ,0.0,0.0,601
+data [ <STR> ] ,1.0,0.0,602
+<STR> PowerVM Logical Partition LPAR ,0.0,0.0,603
+<NUM> ,1.0,0.0,604
+self connection_data = connection ,1.0,0.0,605
+nova test ,1.0,0.0,606
+list_lpar_instances self ,1.0,0.0,607
+state = = power_state RUNNING ,1.0,0.0,608
+Simple representing a logical partition the attributes ,0.0,0.0,609
+def__ init__ self ivm_connection ,1.0,0.0,610
+nova compute task_states ,1.0,0.0,611
+virtual_eth_adapters = <STR> % eth_id ,1.0,0.0,612
+<STR> Copy file to device ,1.0,0.0,613
+Indicate the driver requires the legacy network_info ,0.0,0.0,614
+ssh set_missing_host_key_policy paramiko AutoAddPolicy ,0.0,0.0,615
+lpar_instances = self _operator list_lpar_instances ,1.0,0.0,616
+disk_used + = d_used ,0.0,0.0,617
+key exclude_attribs value None ,0.0,0.0,618
+remote_file_name size = self _operator copy_image_file ,1.0,0.0,619
+copy_image_file self source_path remote_path ,1.0,0.0,620
+resume self instance ,1.0,0.0,621
+lpar_names = self run_command self command lssyscfg <STR> ,1.0,0.0,622
+disk_name ,1.0,0.0,623
+raises nova exception ProcessExecutionError ,1.0,0.0,624
+data [ <STR> ] = constants POWERVM_HYPERVISOR_TYPE ,0.0,0.0,625
+hashlib ,1.0,0.0,626
+LOG debug _ <STR> ,1.0,0.0,627
+vg_name avail_size = match groups ,1.0,0.0,628
+uptime = <NUM> state = <STR> ,0.0,0.0,629
+decimal ,1.0,0.0,630
+<STR> List existent LPAR instances names ,0.0,0.0,631
+chsysstate self args = <STR> ,1.0,0.0,632
+exception PowerVMLPARInstanceNotFound ,1.0,0.0,633
+self _operator copy_file_to_device remote_file_name disk_name ,1.0,0.0,634
+param lpar LPAR ,0.0,0.0,635
+message =_ <STR> ,1.0,0.0,636
+timeout_count = <NUM> ,0.0,0.0,637
+get_host_stats self refresh = ,1.0,0.0,638
+Copyright <NUM> IBM ,1.0,0.0,639
+get_virtual_eth_adapter_id self ,1.0,0.0,640
+PowerVMDriver driver ComputeDriver ,1.0,0.0,641
+output ,1.0,0.0,642
+refresh ,0.0,0.0,643
+comp_path = remote_path + os path basename source_path ,1.0,0.0,644
+remote_path = FLAGS powervm_img_remote_path ,1.0,0.0,645
+nova virt powervm exception ,1.0,0.0,646
+<STR> Method to execute remote command root ,0.0,0.0,647
+self assertEqual state power_state RUNNING ,0.0,0.0,648
+def_update_host_stats self ,0.0,0.0,649
+data [ <STR> ,1.0,0.0,650
+state = self get_info instance [ <STR> ] ,1.0,0.0,651
+state the running state one of the power_state codes ,0.0,0.0,652
+[ <NUM> ] IBM Redbook IBM PowerVM Virtualization Introduction Configuration ,0.0,0.0,653
+FLAGS powervm_mgr_user ,0.0,0.0,654
+self run_command_as_root cmd ,1.0,0.0,655
+lsvg self args = <STR> ,1.0,0.0,656
+<STR> total_mem ,0.0,0.0,657
+self flags powervm_img_local_path = <STR> ,1.0,0.0,658
+LOG exception _ <STR> % ,1.0,0.0,659
+<STR> + BaseCommand lsvg self args ,1.0,0.0,660
+remove_logical_volume self lv_name ,1.0,0.0,661
+LOG exception _ <STR> ,1.0,0.0,662
+output ,1.0,0.0,663
+task_state [ task_states DELETING task_states SPAWNING ] ,0.0,0.0,664
+ftplib ,1.0,0.0,665
+param disk a disk name ,1.0,0.0,666
+cpus > avail_cpus ,1.0,0.0,667
+lpar_names ,0.0,0.0,668
+get_disk_info self ,1.0,0.0,669
+<STR> PowerVM main operator ,0.0,0.0,670
+<STR> vm_states DELETED ,0.0,0.0,671
+key value attribs items ,0.0,0.0,672
+self LPAR_PROFILE_ATTRS ,0.0,0.0,673
+output ,1.0,0.0,674
+cmd = <STR> ,1.0,0.0,675
+avail_cpus = host_stats [ <STR> ] ,1.0,0.0,676
+output = self run_command_as_root cmd ,1.0,0.0,677
+self _powervm list_instances ,1.0,0.0,678
+<STR> + BaseCommand lsdev self args ,1.0,0.0,679
+infos = [ ] ,0.0,0.0,680
+whenever admin executes <STR> ,0.0,0.0,681
+Example name = lpar_name lpar_id = <NUM> lpar_env = aixlinux ,0.0,0.0,682
+timeout_count = = <NUM> ,0.0,0.0,683
+self _powervm get_info instance [ <STR> ] ,1.0,0.0,684
+The PowerVMOperator intented to wrapper operations ,1.0,0.0,685
+rmdev self args = <STR> ,1.0,0.0,686
+FakeIVMOperator ,1.0,0.0,687
+get_lpar self instance_name resource_type = <STR> ,1.0,0.0,688
+mem > host_stats [ <STR> ] ,1.0,0.0,689
+max_mem = mem_max proc_mode = <STR> ,1.0,0.0,690
+_ create_lpar_instance instance ,1.0,0.0,691
+param remote_path remote file path ,1.0,0.0,692
+infos append driver InstanceInfo instance_name state ,0.0,0.0,693
+instance [ <STR> ] ,1.0,0.0,694
+self password = password ,0.0,0.0,695
+rmvdev self args = <STR> ,1.0,0.0,696

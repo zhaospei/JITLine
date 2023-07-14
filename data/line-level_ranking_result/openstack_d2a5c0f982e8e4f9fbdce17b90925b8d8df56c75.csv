@@ -1,0 +1,1091 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,1.0,1.0,1
+License the specific language governing permissions limitations ,1.0,0.9996743568151915,2
+You may obtain a copy of the License at ,1.0,0.9192651899827423,3
+See the License the specific language governing permissions ,1.0,0.8779696206458407,4
+a copy of the License at ,1.0,0.7916099024819503,5
+use this file compliance the License You may obtain ,1.0,0.6741851580670271,6
+you may use this file compliance the License ,1.0,0.6177419045077914,7
+the routers are hosted on l<NUM> agents When the routers are ,0.0,0.5569576405716962,8
+limitations under the License ,1.0,0.5419172720274502,9
+neutron openstack common log logging ,1.0,0.5411857167195999,10
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.5173128078795692,11
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.4914245697993156,12
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.4905918555851346,13
+a logging driver It stores the created resources on OFC returns ,0.0,0.4880286174528358,14
+<STR> Notify the agents that are hosting the routers ,0.0,0.48760246319278744,15
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.4286713582081239,16
+distributed under the License distributed on an <STR> BASIS ,1.0,0.4286713582081239,17
+Licensed under the Apache License Version <NUM> <NUM> the <STR> ,1.0,0.42021253585820545,18
+neutron common log call_log ,1.0,0.3969350530599763,19
+res = self client post path body = body ,1.0,0.32926951378684466,20
+ctx_elevated = context elevated ,1.0,0.32495819853494534,21
+subnet = self plugin _get_subnet context fixed_ip [ <STR> ] ,1.0,0.32249758900064907,22
+context ofc_tenant_id ,0.0,0.3133374013232287,23
+ofc_tenant_id = self _get_ofc_id context <STR> tenant_id ,1.0,0.3133374013232287,24
+Change to [ <STR> ] this migration applies to plugins ,1.0,0.3122055816056417,25
+The difference the superclass l<NUM>_db that this method ,0.0,0.31000789778412347,26
+OFCException self __ init__ * * kwargs ,0.0,0.30692138197196117,27
+ports = self get_ports context elevated filters = device_filter ,1.0,0.3046462279540596,28
+List of enabled router providers ,0.0,0.30319075117146016,29
+@ call_log log ,1.0,0.3000985882830331,30
+router_id = sa Column sa String <NUM> ,1.0,0.2994358164498884,31
+sa Column <STR> sa String length = <NUM> nullable = ,1.0,0.29125868329585675,32
+sa Column <STR> sa String length = <NUM> nullable = ,1.0,0.29125868329585675,33
+port = driver add_interface context router_id port ,1.0,0.288344526489821,34
+provider = sa Column sa String <NUM> ,1.0,0.2881470634926263,35
+schedule_router self context router ,1.0,0.28089540151218334,36
+LOG = logging getLogger __ name__ ,1.0,0.2792495915563857,37
+res = self client post path body = None ,1.0,0.2792305578243549,38
+ports = self get_ports_count context elevated ,1.0,0.276759010121285,39
+self plugin deactivate_port context port ,1.0,0.27379008470112515,40
+ret = self client post path body = body ,1.0,0.27061469962172136,41
+mock call exists_ofc_tenant ctx self _tenant_id ,0.0,0.2635493247601491,42
+fips = self get_floatingips_count context elevated ,1.0,0.26284233152580855,43
+mock call request <STR> headers ,1.0,0.2626743899630533,44
+driver delete_interface context router_id port ,1.0,0.2625526603765285,45
+attributes RESOURCE_ATTRIBUTE_MAP update ,0.0,0.2624544273312542,46
+self plugin activate_port_if_ready context port ,1.0,0.25609969622319795,47
+under the License ,1.0,0.254191049330222,48
+OFC raises an exception it different expected status ,0.0,0.2538724705750175,49
+l<NUM>_rpc_agent_api L<NUM>AgentNotify router_deleted context ,1.0,0.25000914873965446,50
+self l<NUM>_rpc_notifier router_deleted context ,1.0,0.25000914873965446,51
+self adminContext = context get_admin_context ,0.0,0.24917723140423298,52
+self client put ofc_router_inf_id body = body ,1.0,0.24491146547449386,53
+port = self deactivate_port context port ,1.0,0.24286238520391185,54
+driver delete_router context router_id router ,1.0,0.2367607942632361,55
+driver update_router context router_id old_rtr new_rtr ,1.0,0.2367607942632361,56
+driver delete_interface context router_id gw_port ,1.0,0.2367607942632361,57
+driver = self _get_router_driver_by_id context router_id ,1.0,0.2367607942632361,58
+mock call getresponse ,0.0,0.23654420175963192,59
+create_ofc_router self context tenant_id router_id name = None ,1.0,0.2360758557240893,60
+This driver can be used only unit tests but also real testing ,0.0,0.23569783366749847,61
+driver create_router context tenant_id new_router ,1.0,0.23543602690223567,62
+hosted on l<NUM> agents there no need to notify ,0.0,0.2335367833675696,63
+self plugin _update_resource_status context <STR> port_id ,1.0,0.2303078301099055,64
+self plugin _update_resource_status context <STR> ,1.0,0.2303078301099055,65
+self ofc delete_ofc_router context router_id router ,1.0,0.22675940837821484,66
+self ofc add_ofc_router_interface context router_id ,1.0,0.22675940837821484,67
+self ofc update_ofc_router_route context router_id ,1.0,0.22675940837821484,68
+self ofc create_ofc_router context tenant_id router_id ,1.0,0.22675940837821484,69
+self ofc delete_ofc_router_interface context router_id port_id ,1.0,0.22675940837821484,70
+self err_msg = kwargs get <STR> ,1.0,0.22666786247741147,71
+self _exists_ofc_item context <STR> router_id ,1.0,0.22628021795278522,72
+self status = kwargs get <STR> ,1.0,0.22614159879015255,73
+context driver new_router [ <STR> ] ,0.0,0.22547204130597398,74
+context driver new_rtr [ <STR> ] ,0.0,0.22547204130597398,75
+context driver old_rtr [ <STR> ] ,0.0,0.22547204130597398,76
+def_get_gw_port_detail self context driver gw_port_id ,1.0,0.22547204130597398,77
+port = handler context port ,0.0,0.22517199672598465,78
+If autocheck enabled it checks whether the specified resource exists ,0.0,0.22101322965076736,79
+Default router provider to use ,0.0,0.2199865337832576,80
+def_get_router_for_floatingip self context internal_port ,1.0,0.21988193462039307,81
+path = <STR> % ofc_tenant_id ,1.0,0.21793111936773701,82
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND either express ,1.0,0.21697636136210632,83
+ret = self client get path ,0.0,0.21694592753734887,84
+_ notification called L<NUM> db plugin routers regardless ,0.0,0.21649300034765662,85
+set_context * * kwargs ,1.0,0.2158796225169785,86
+self ofc exists_ofc_tenant context tenant_id ,0.0,0.21547065542095273,87
+self ofc ensure_ofc_tenant context tenant_id ,0.0,0.21547065542095273,88
+self ofc delete_ofc_tenant context tenant_id ,1.0,0.21547065542095273,89
+self ofc delete_ofc_tenant context tenant_id ,0.0,0.21547065542095273,90
+ofc_router_id = self driver create_router ofc_tenant_id router_id ,1.0,0.21288565218392685,91
+neutron openstack common excutils ,1.0,0.21115295919166144,92
+delete_interface self context router_id port ,1.0,0.2106688835699544,93
+add_interface self context router_id port ,1.0,0.2106688835699544,94
+add_ofc_router_interface self context router_id port_id port ,1.0,0.2106688835699544,95
+self create_ofc_tenant context tenant_id ,1.0,0.204740507216624,96
+neutron api v<NUM> attributes attr ,1.0,0.20193985721613378,97
+tenant_id = self _get_tenant_id_for_create context router [ <STR> ] ,1.0,0.2007224186211509,98
+self activate_port_if_ready context port ,1.0,0.19938013061269222,99
+handler context port ,0.0,0.19938013061269222,100
+create_router_port self context port ,1.0,0.19938013061269222,101
+delete_router_port self context port ,1.0,0.19938013061269222,102
+res = mock Mock ,1.0,0.19934159108206934,103
+context <STR> router_id new_status ,0.0,0.19433740386831155,104
+ofc_tenant_id = self driver convert_ofc_tenant_id ,1.0,0.19163291363040305,105
+This method filters routers hosted by l<NUM> agents ,0.0,0.19141220149602534,106
+res status = status ,0.0,0.18722935423243892,107
+remove_router_interface self context router_id interface_info ,1.0,0.18586205071745113,108
+self _check_router_in_use context router_id ,1.0,0.184877017456662,109
+update_router self context router_id old_router new_router ,1.0,0.184877017456662,110
+def_get_gw_port self context router_id ,1.0,0.184877017456662,111
+delete_router self context router_id router ,1.0,0.184877017456662,112
+rdb get_provider_by_router context session router_id ,0.0,0.184877017456662,113
+provider = self _get_provider_by_router_id context router_id ,1.0,0.184877017456662,114
+gw_port = self _get_gw_port context router_id ,1.0,0.184877017456662,115
+router = RouterMixin self get_router context router_id ,1.0,0.184877017456662,116
+add_router_interface self context router_id interface_info ,1.0,0.184877017456662,117
+add_router_to_l<NUM>_agent self context router_id ,1.0,0.184877017456662,118
+old_rtr = RouterMixin self get_router context router_id ,1.0,0.184877017456662,119
+delete_ofc_router self context router_id router ,1.0,0.184877017456662,120
+context router_id ,1.0,0.184877017456662,121
+update_ofc_router_route self context router_id new_routes ,1.0,0.184877017456662,122
+def_get_router_driver_by_id self context router_id ,1.0,0.184877017456662,123
+delete_router self context router_id ,1.0,0.184877017456662,124
+context router_id router ,1.0,0.184877017456662,125
+update_router self context router_id router ,1.0,0.184877017456662,126
+RouterMixin self delete_router context router_id ,1.0,0.184877017456662,127
+self _del_ofc_item context <STR> router_id ,1.0,0.184877017456662,128
+def_check_router_in_use self context router_id ,1.0,0.184877017456662,129
+exists_ofc_router self context router_id ,1.0,0.184877017456662,130
+def_get_provider_by_router_id self context router_id ,1.0,0.184877017456662,131
+context <STR> router_id nconst ROUTER_STATUS_ERROR ,0.0,0.184877017456662,132
+context router_id interface_info ,1.0,0.184877017456662,133
+ofc_router_id = self _get_ofc_id context <STR> router_id ,1.0,0.184877017456662,134
+self _add_ofc_item context <STR> router_id ofc_router_id ,0.0,0.184877017456662,135
+delete_ofc_router_interface self context router_id port_id ,1.0,0.184877017456662,136
+context method router_ids operation data ,1.0,0.18481642427469883,137
+def_notification self context method router_ids operation data ,1.0,0.18481642427469883,138
+neutron openstack common importutils ,1.0,0.1839323782507779,139
+nets = NECPluginV<NUM> self get_networks context filters = filters ,0.0,0.1838250970000968,140
+create_router self context router ,1.0,0.1835522500956615,141
+new_router = RouterMixin self create_router context ,1.0,0.1835522500956615,142
+create_router self context tenant_id router ,1.0,0.1835522500956615,143
+context <STR> port_id new_status ,0.0,0.1830486509110494,144
+ofc OFCClient do_request <STR> inf_path body = body ,0.0,0.1829794582230074,145
+def__ init__ self * * kwargs ,1.0,0.18293641011076403,146
+get_extended_resources self version ,1.0,0.18281732433746725,147
+subnet_db = self _get_subnet context internal_subnet_id ,1.0,0.18234924275537495,148
+router_intf_qry = context session query models_v<NUM> Port ,1.0,0.18224146381320597,149
+router_gw_qry = context session query models_v<NUM> Port ,1.0,0.18224146381320597,150
+self err_code = kwargs get <STR> ,1.0,0.1810482824035129,151
+neutron common utils ,1.0,0.180930972406626,152
+mock patch ofc_client OFCClient <STR> ,1.0,0.17779817042758075,153
+neutron openstack common uuidutils ,1.0,0.17584913911769526,154
+ensure_ofc_tenant self context tenant_id ,1.0,0.17358826449939985,155
+rdb add_router_provider_binding context session ,0.0,0.17358826449939985,156
+ofc_inf_id = self _get_ofc_id context <STR> port_id ,1.0,0.17358826449939985,157
+RouterMixin self delete_router context new_router [ <STR> ] ,1.0,0.17358826449939985,158
+l<NUM>_rpc_agent_api L<NUM>AgentNotify routers_updated context router_ids ,1.0,0.17358826449939985,159
+def_check_ofc_tenant_in_use self context tenant_id ,1.0,0.17358826449939985,160
+obj_db = obj_getter context ,0.0,0.17358826449939985,161
+obj_updater context request ,0.0,0.17358826449939985,162
+context session begin subtransactions = ,1.0,0.17358826449939985,163
+context session nconst ROUTER_PROVIDER_L<NUM>AGENT router_ids ,0.0,0.17358826449939985,164
+context host router_ids ,1.0,0.17358826449939985,165
+rdb get_router_count_by_provider context session ,0.0,0.17358826449939985,166
+self exists_ofc_tenant context tenant_id ,0.0,0.17358826449939985,167
+auto_schedule_routers self context host router_ids ,1.0,0.17358826449939985,168
+context router_ids <STR> ,1.0,0.17358826449939985,169
+self _add_ofc_item context <STR> port_id ofc_inf_id ,0.0,0.17358826449939985,170
+def_cleanup_ofc_tenant self context tenant_id ,1.0,0.17358826449939985,171
+self _update_resource_status context <STR> ,1.0,0.17358826449939985,172
+self get_networks_count context filters = filters ,0.0,0.17358826449939985,173
+self _get_provider_by_router_id context router = = ,0.0,0.17358826449939985,174
+context router_ids active ,1.0,0.17358826449939985,175
+self _check_ofc_tenant_in_use context tenant_id ,1.0,0.17358826449939985,176
+context router ,1.0,0.17358826449939985,177
+self _del_ofc_item context <STR> port_id ,0.0,0.17358826449939985,178
+self _cleanup_ofc_tenant context tenant_id ,0.0,0.17358826449939985,179
+def_get_sync_routers self context router_ids = None active = None ,1.0,0.17358826449939985,180
+context session <STR> ,1.0,0.17358826449939985,181
+ofc_net_id = self _get_ofc_id context <STR> ,1.0,0.17358826449939985,182
+neutron plugins nec common ofc_client ,1.0,0.1723357655816142,183
+neutron plugins nec common ofc_client ,1.0,0.1723357655816142,184
+create_router self ofc_tenant_id router_id description ,1.0,0.16100187537735275,185
+network_id = internal_port [ <STR> ] ,1.0,0.15806032762701347,186
+self saved_attr_map [ resource ] = attrs copy ,0.0,0.15654612063988177,187
+self ofc_network_dict [ ofc_network_id ] update data ,0.0,0.15313036629439217,188
+response = client do_request <STR> body = ,1.0,0.15148649333794847,189
+only lists routers hosted on l<NUM> - agents ,0.0,0.15075026519445395,190
+attributes RESOURCE_ATTRIBUTE_MAP = self saved_attr_map ,0.0,0.14879333879226345,191
+OpenFlow vrouter does support NAT so we need to exclude them ,0.0,0.14704157341297097,192
+resource attrs attributes RESOURCE_ATTRIBUTE_MAP iteritems ,0.0,0.1451430020105615,193
+sa ForeignKey <STR> ondelete = <STR> ,1.0,0.14407353174631315,194
+sa PrimaryKeyConstraint <STR> ,1.0,0.14407353174631315,195
+sa UniqueConstraint <STR> ,1.0,0.14407353174631315,196
+sa ForeignKeyConstraint [ <STR> ] ,1.0,0.14407353174631315,197
+sqlalchemy sa ,1.0,0.14407353174631315,198
+<STR> res status ,0.0,0.14213603784579923,199
+conn assert_has_calls expected ,1.0,0.14192982638694074,200
+inf update <STR> ip_address ,0.0,0.14190220651909316,201
+obj_db update request ,0.0,0.14190220651909316,202
+inf update <STR> mac_address ,0.0,0.14190220651909316,203
+revision identifiers used by Alembic ,1.0,0.14153940573383642,204
+% ofc_tenant_id ,0.0,0.13974913682382886,205
+self ofc_tenant_dict [ ofc_tenant_id ] ,1.0,0.13974913682382886,206
+self ofc_router_dict [ ofc_id ] = <STR> ofc_tenant_id ,0.0,0.13974913682382886,207
+ofc_tenant_id self ofc_tenant_dict ,0.0,0.13974913682382886,208
+self ofc_network_dict [ ofc_id ] = <STR> ofc_tenant_id ,0.0,0.13974913682382886,209
+ofc_tenant_id self ofc_tenant_dict ,0.0,0.13974913682382886,210
+* * kwargs ,1.0,0.13463914256290588,211
+* * kwargs ,1.0,0.13463914256290588,212
+arg_list = None * * kwargs ,0.0,0.13463914256290588,213
+implied ,1.0,0.1343149599894794,214
+neutron api v<NUM> attributes ,1.0,0.13425805286917045,215
+client = ofc_client OFCClient ,0.0,0.1294661986634685,216
+excutils save_and_reraise_exception ,1.0,0.12635475599655782,217
+neutron common exceptions q_exc ,1.0,0.12538198440691048,218
+neutron plugins nec common exceptions nexc ,1.0,0.12538198440691048,219
+LOG error _ <STR> exc ,1.0,0.12474187006657661,220
+self assertEqual data [ <STR> ] expected ,1.0,0.12239329605486568,221
+self client delete ofc_router_inf_id ,1.0,0.12226760509620387,222
+self client delete ofc_router_id ,1.0,0.12226760509620387,223
+self client delete ofc_router_route_id ,1.0,0.12226760509620387,224
+neutron api extensions ,1.0,0.12207282241127147,225
+neutron plugins nec common constants nconst ,1.0,0.1212978857360695,226
+neutron common constants ,1.0,0.1212978857360695,227
+<STR> attributes ATTR_NOT_SPECIFIED ,1.0,0.12055222081216102,228
+LOG debug _ <STR> router_id ,1.0,0.11916181427212252,229
+res read return_value = resbody ,1.0,0.11843976770603126,230
+conn getresponse return_value = res ,0.0,0.1175731495879587,231
+request [ resource ] = status = status ,0.0,0.1147774139716799,232
+self plugin = plugin ,1.0,0.11343913122101132,233
+default = nconst DEFAULT_ROUTER_PROVIDERS ,0.0,0.11312091661630533,234
+default = nconst DEFAULT_ROUTER_PROVIDER ,0.0,0.11312091661630533,235
+ofc_id = <STR> + network_id [ - <NUM> ] ,0.0,0.11176665750602019,236
+<STR> network_id ,1.0,0.11176665750602019,237
+<STR> + network_id [ - <NUM> ] ,0.0,0.11176665750602019,238
+network_id = external_network_id ,1.0,0.11176665750602019,239
+expected = [ ,1.0,0.11116513627956667,240
+expected = [ <STR> routes_path + <STR> + ,0.0,0.11116513627956667,241
+LOG error reason ,0.0,0.11023283989163597,242
+self mox StubOutWithMock ofc_client OFCClient <STR> ,1.0,0.10960898329813444,243
+ROUTER_DRIVERS [ driver ] = driver_klass plugin ofc_manager ,0.0,0.10860334241707982,244
+ext_mgr = extensions PluginAwareExtensionManager get_instance ,1.0,0.10836699035426206,245
+neutron extensions l<NUM> ,1.0,0.10836699035426206,246
+Router_provider extensions ExtensionDescriptor ,1.0,0.10836699035426206,247
+neutron plugins nec extensions router_provider ext_provider ,1.0,0.10836699035426206,248
+LOG debug _ <STR> ,1.0,0.10787306131486038,249
+LOG debug _ <STR> ,1.0,0.10787306131486038,250
+LOG debug _ <STR> routes ,1.0,0.10787306131486038,251
+LOG debug _ <STR> route_id ,1.0,0.10787306131486038,252
+LOG debug _ <STR> if_id ,1.0,0.10787306131486038,253
+ret = self driver add_router_interface router_path net_path ,0.0,0.10740875906147795,254
+L<NUM>AgentSchedulerDbMixin self schedule_router ,0.0,0.1073071370127835,255
+def__ init__ self plugin ofc_manager ,1.0,0.1050168331583638,256
+driver_klass = importutils import_class ROUTER_DRIVER_MAP [ driver ] ,0.0,0.10461007679028278,257
+version = = <STR> ,1.0,0.10434238108608282,258
+self addCleanup mock patch stopall ,1.0,0.10229886962290982,259
+self plugin_notifier_p = mock patch NOTIFIER ,0.0,0.10229886962290982,260
+self ofc_manager_p = mock patch OFC_MANAGER ,0.0,0.10229886962290982,261
+conn = mock Mock ,0.0,0.10229886962290982,262
+mock patch test_nec_plugin OFC_MANAGER start ,0.0,0.10229886962290982,263
+mock ,1.0,0.10229886962290982,264
+neutron plugins nec common config ,1.0,0.10127696076218531,265
+<STR> join [ dest network nexthop dest netmask ] ,0.0,0.10112394250280325,266
+ret = self driver create_router tenant_path description r ,1.0,0.10023566969687206,267
+body = body AndReturn inf ,0.0,0.10007791192497947,268
+body = body AndReturn <STR> route_id ,0.0,0.10007791192497947,269
+self ofc create_ofc_tenant self ctx t ,0.0,0.10003975663929425,270
+q_exc BadRequest resource = <STR> msg = msg ,1.0,0.09955736985555487,271
+config CONF set_override <STR> ,1.0,0.09884172968480334,272
+ofc_router_id = res [ <STR> ] ,1.0,0.09704272145915951,273
+This method called l<NUM>_db get_assoc_data ,0.0,0.09605479030266846,274
+query = query join <STR> ,0.0,0.09594328098363522,275
+query = query column in_ router_ids ,1.0,0.09521612903022143,276
+e = self assertRaises nexc OFCException client do_request ,0.0,0.09498605323527255,277
+e = self assertRaises exctype client do_request ,0.0,0.09498605323527255,278
+ofc OFCClient do_request <STR> routes_path AndReturn data ,0.0,0.09412970607332695,279
+self ofc driver router_nat_supported ,0.0,0.09376616772812707,280
+self assertEqual self ofc driver ofc_router_route_dict <NUM> ,0.0,0.09376616772812707,281
+self ofc driver disable_autocheck ,0.0,0.09376616772812707,282
+self ofc driver enable_autocheck ,0.0,0.09376616772812707,283
+<STR> ROUTER_DRIVER_MAP keys ,1.0,0.09220787877111553,284
+LOG info _ <STR> ROUTER_DRIVERS keys ,1.0,0.09220787877111553,285
+ROUTER_DRIVER_MAP keys ,0.0,0.09220787877111553,286
+<STR> ROUTER_DRIVER_MAP keys ,1.0,0.09220787877111553,287
+ret = self driver list_router_routes router_path ,0.0,0.09027168410061037,288
+ret = self driver add_router_route router_path <STR> ,0.0,0.09027168410061037,289
+column = RouterProvider router_id ,0.0,0.0891984833598713,290
+downgrade active_plugins = None options = None ,1.0,0.08880424171660278,291
+exc status = = httplib CONFLICT ,0.0,0.0870365012777705,292
+neutron tests unit test_extension_extraroute test_ext_route ,0.0,0.08545407609474676,293
+neutron tests unit nec test_nec_plugin ,1.0,0.08545407609474676,294
+added removed = utils diff_list_of_dict old_routes new_routes ,0.0,0.08409450762968274,295
+added removed = utils diff_list_of_dict cur_routes new_routes ,0.0,0.08409450762968274,296
+ofc OFCClient do_request <STR> infs_path ,0.0,0.08290154629802791,297
+ofc OFCClient do_request <STR> router_path ,0.0,0.08290154629802791,298
+ofc OFCClient do_request <STR> post_path ,0.0,0.08290154629802791,299
+ofc OFCClient do_request <STR> routes_path ,0.0,0.08290154629802791,300
+ofc OFCClient do_request <STR> route_path ,0.0,0.08290154629802791,301
+ofc OFCClient do_request <STR> inf_path ,0.0,0.08290154629802791,302
+conn request side_effect = socket error ,0.0,0.08279868517544581,303
+LOG error _ <STR> ,1.0,0.08279868517544581,304
+<STR> Query routers their gw ports l<NUM> agent ,0.0,0.08250790637874503,305
+external_gateway_info = None set_context = ,0.0,0.08124047995407263,306
+external_gateway_info = None set_context = ,0.0,0.08124047995407263,307
+set_context ,0.0,0.08124047995407263,308
+LOG warning msg <STR> port ,0.0,0.08037414608527227,309
+get_namespace cls ,1.0,0.08004723818342269,310
+path + <STR> ] ,1.0,0.07818198254390811,311
+path + <STR> + ofc_router_id ,0.0,0.07818198254390811,312
+path = <STR> % ofc_router_id ,1.0,0.07818198254390811,313
+sqlalchemy orm exc sa_exc ,1.0,0.07384987233167842,314
+op drop_table <STR> ,1.0,0.07366668206641837,315
+self ofc create_ofc_network self ctx t n ,0.0,0.07334968149922891,316
+self assertTrue ndb get_ofc_item self ctx session <STR> n ,1.0,0.07297663343737201,317
+self assertFalse ndb get_ofc_item self ctx session <STR> r ,1.0,0.07297663343737201,318
+self assertFalse ndb get_ofc_item self ctx session ,1.0,0.07297663343737201,319
+router = ndb get_ofc_item self ctx session <STR> r ,1.0,0.07297663343737201,320
+self assertTrue ndb get_ofc_item self ctx session <STR> r ,1.0,0.07297663343737201,321
+self assertTrue ndb get_ofc_item self ctx session ,1.0,0.07297663343737201,322
+body = <STR> nexthop ,0.0,0.07252601610927005,323
+plugin network_scheduler = None ,1.0,0.0711717782227588,324
+old_resource_map get resource ,1.0,0.0709999210390075,325
+ext_subnet = self _get_subnet ctx_elevated ext_subnet_id ,1.0,0.07087684526511191,326
+get_name cls ,1.0,0.07034121221973884,327
+model =_get_resource_model resource old_style ,1.0,0.06986999581316712,328
+model =_get_resource_model resource old_style ,1.0,0.06986999581316712,329
+reason =_ <STR> % exc ,1.0,0.06937733960732098,330
+reason =_ <STR> % exc ,1.0,0.06937733960732098,331
+router_providers = l<NUM> - agent openflow ,0.0,0.0689771823343541,332
+self assertTrue self ofc exists_ofc_router self ctx r ,0.0,0.0688875139220701,333
+self ofc delete_ofc_router self ctx r <STR> t ,0.0,0.0688875139220701,334
+self ofc update_ofc_router_route self ctx r routes ,0.0,0.0688875139220701,335
+self ofc delete_ofc_router_interface self ctx r p [ <STR> ] ,0.0,0.0688875139220701,336
+self ofc create_ofc_router self ctx t r <STR> ,0.0,0.0688875139220701,337
+self ofc add_ofc_router_interface self ctx r p [ <STR> ] p ,0.0,0.0688875139220701,338
+self assertFalse self ofc exists_ofc_router self ctx r ,0.0,0.0688875139220701,339
+self ofc create_ofc_router self ctx t r ,1.0,0.0688875139220701,340
+self mox = mox Mox ,1.0,0.06821936498692699,341
+handler = handlers get device_owner ,0.0,0.06789306481395614,342
+gw_port = self _get_port ctx_elevated gw_port_id ,1.0,0.06778234807229185,343
+attr is_attr_set provider ,1.0,0.06768180434696336,344
+upgrade active_plugins = None options = None ,1.0,0.06732068821472179,345
+route_dict [ key ] = r [ <STR> ] ,0.0,0.0650884399909695,346
+route_id = route_dict [ key ] ,1.0,0.0650884399909695,347
+key = <STR> ] ,1.0,0.0650884399909695,348
+<STR> Stub OFC driver testing ,0.0,0.06430193882830466,349
+desc = <STR> % router_id name ,1.0,0.062487591224689484,350
+cur_routes append r ,0.0,0.06144547313031813,351
+routes append <STR> ,0.0,0.06144547313031813,352
+device_id = router_id ,1.0,0.06092505947783321,353
+Copyright <NUM> NEC Corporation All rights reserved ,1.0,0.0605596928417246,354
+device_owner = l<NUM>_db DEVICE_OWNER_ROUTER_GW count ,1.0,0.05965902958017735,355
+oldNotify = plugin l<NUM>_rpc_notifier ,1.0,0.05671956561050566,356
+plugin l<NUM>_rpc_notifier = notifyApi ,1.0,0.05671956561050566,357
+plugin = NeutronManager get_plugin ,1.0,0.05671956561050566,358
+plugin = manager NeutronManager get_plugin ,1.0,0.05671956561050566,359
+load_driver plugin ofc_manager ,0.0,0.05671956561050566,360
+plugin l<NUM>_rpc_notifier = oldNotify ,1.0,0.05671956561050566,361
+test_config [ <STR> ] = plugin ,1.0,0.05671956561050566,362
+plugin = <STR> ,1.0,0.05671956561050566,363
+self plugin _update_resource_status ,1.0,0.05671956561050566,364
+plugin ,1.0,0.05671956561050566,365
+setUp self plugin = None ,1.0,0.05671956561050566,366
+plugin router_scheduler = None ,1.0,0.05671956561050566,367
+def_test_do_request self status resbody data exctype = None ,1.0,0.056321476161938715,368
+nexc OFCException reason = reason ,1.0,0.05486830943238037,369
+hosta_id = self _get_agent_id constants AGENT_TYPE_L<NUM> ,1.0,0.05195774735895041,370
+self driver update_router_interface inf_path ip_address = ip_address ,0.0,0.05188377680657416,371
+self driver add_router_route ofc_router_id r [ <STR> ] ,0.0,0.05188377680657416,372
+self driver delete_router ofc_router_id ,1.0,0.05188377680657416,373
+ofc_manager driver router_supported ,0.0,0.05188377680657416,374
+ofc_routes = self driver list_router_routes ofc_router_id ,1.0,0.05188377680657416,375
+self driver delete_router_interface ofc_inf_id ,1.0,0.05188377680657416,376
+self driver delete_router_interface inf_path ,1.0,0.05188377680657416,377
+driver enabled_providers ,1.0,0.05188377680657416,378
+driver = get_driver_by_provider provider ,0.0,0.05188377680657416,379
+self driver update_router_interface inf_path ip_address mac_address ,0.0,0.05188377680657416,380
+self driver update_router_interface inf_path mac_address = mac_address ,0.0,0.05188377680657416,381
+self driver delete_router router_path ,1.0,0.05188377680657416,382
+self driver delete_router_route route_id ,1.0,0.05188377680657416,383
+has_gw_port driver floating_ip_support ,0.0,0.05188377680657416,384
+ofc_inf_id = self driver add_router_interface ,1.0,0.05188377680657416,385
+driver = <STR> ,1.0,0.05188377680657416,386
+self driver delete_router_route route_path ,1.0,0.05188377680657416,387
+gw_port_id driver need_gw_info ,0.0,0.05188377680657416,388
+neutron db l<NUM>_gwmode_db ,1.0,0.051628917562282786,389
+neutron db db_base_plugin_v<NUM> ,1.0,0.051628917562282786,390
+neutron db extraroute_db ,1.0,0.051628917562282786,391
+neutron db l<NUM>_gwmode_db ,1.0,0.051628917562282786,392
+neutron db migration ,1.0,0.051628917562282786,393
+neutron plugins nec db router rdb ,1.0,0.051628917562282786,394
+neutron db l<NUM>_db ,1.0,0.051628917562282786,395
+neutron db l<NUM>_rpc_base ,1.0,0.051628917562282786,396
+neutron db agentschedulers_db ,1.0,0.051628917562282786,397
+neutron db models_v<NUM> ,1.0,0.051628917562282786,398
+neutron db extraroute_db ,1.0,0.051628917562282786,399
+self addCleanup self ofc_manager_p stop ,0.0,0.05075570859910437,400
+self addCleanup self plugin_notifier_p stop ,0.0,0.05075570859910437,401
+<STR> body = ,0.0,0.050038955962489744,402
+body = None AndReturn router ,0.0,0.050038955962489744,403
+body = ,1.0,0.050038955962489744,404
+body = <STR> _ofc n ,0.0,0.050038955962489744,405
+body = <STR> self _extract_ofc_network_id ofc_net_id ,1.0,0.050038955962489744,406
+body [ <STR> ] = ip_address ,0.0,0.050038955962489744,407
+body = <STR> mac_address ,0.0,0.050038955962489744,408
+body = <STR> ip_address ,0.0,0.050038955962489744,409
+body [ <STR> ] = mac_address ,0.0,0.050038955962489744,410
+body = <STR> destination ,0.0,0.050038955962489744,411
+_ supported_extension_aliases = [ <STR> ,1.0,0.04949824417761877,412
+_ supported_extension_aliases = [ <STR> ,1.0,0.04949824417761877,413
+pass ,1.0,0.048502807543244805,414
+pass ,1.0,0.048502807543244805,415
+query count ,1.0,0.046828303920634355,416
+router [ <STR> ] get ext_provider ROUTER_PROVIDER ,0.0,0.046409139840607,417
+them get methods ,0.0,0.046409139840607,418
+port_id = internal_port [ <STR> ] ,1.0,0.04629367012099326,419
+model ,0.0,0.045279214614766625,420
+status [ <NUM> <NUM> <NUM> ] ,0.0,0.04509331638663971,421
+self _test_do_request status None None ,0.0,0.04509331638663971,422
+def_format_error_message self status detail ,0.0,0.04509331638663971,423
+request = <STR> status ,0.0,0.04509331638663971,424
+exc nexc OFCException ,1.0,0.0419431848911308,425
+nexc OFCException nexc OFCConsistencyBroken exc ,1.0,0.0419431848911308,426
+nexc OFCException nexc OFCConsistencyBroken exc ,1.0,0.0419431848911308,427
+nec_router load_driver self self ofc ,1.0,0.04188239092155291,428
+self ofc = ofc_manager ,1.0,0.04188239092155291,429
+_ plugin_name = PLUGIN_NAME ,0.0,0.04105736966649935,430
+_ plugin_name = test_nec_plugin PLUGIN_NAME ,0.0,0.04105736966649935,431
+_ plugin_name = PLUGIN_NAME ,0.0,0.04105736966649935,432
+router = orm relationship l<NUM>_db Router uselist = ,0.0,0.04068327213267073,433
+self assertEqual routes ret ,0.0,0.03838790729403622,434
+self assertEqual ret inf_path ,0.0,0.03838790729403622,435
+r ret [ <STR> ] ,1.0,0.03838790729403622,436
+self assertEqual ret route_path ,0.0,0.03838790729403622,437
+self assertEqual ret router_path ,1.0,0.03838790729403622,438
+ret [ <STR> ] ,1.0,0.03838790729403622,439
+msg =_ <STR> ,1.0,0.037483294328577194,440
+msg = _ <STR> ,1.0,0.037483294328577194,441
+router_id = port [ <STR> ] ,1.0,0.03708061907055455,442
+netaddr IPNetwork port [ <STR> ] prefixlen ,0.0,0.035613831355991825,443
+port [ <STR> ] = new_status ,1.0,0.035252252524941984,444
+binding = RouterProvider provider = provider router_id = router_id ,0.0,0.03492179672262124,445
+mox ,1.0,0.034109682493463495,446
+self mox ReplayAll ,0.0,0.034109682493463495,447
+self mox VerifyAll ,0.0,0.034109682493463495,448
+self addCleanup self mox UnsetStubs ,1.0,0.034109682493463495,449
+netaddr IPAddress nexthop ,0.0,0.03230902538947973,450
+sa_exc NoResultFound ,1.0,0.03190668744054761,451
+self _test_do_request <NUM> json dumps [ <NUM> <NUM> <NUM> ] [ <NUM> <NUM> <NUM> ] ,0.0,0.03049711256306584,452
+resbody = json dumps <STR> <NUM> ,1.0,0.03049711256306584,453
+query = session query RouterProvider router_id ,1.0,0.02859515158487444,454
+self saved_attr_map = ,0.0,0.02824111798010239,455
+self _add_router_to_l<NUM>_agent hosta_id ,1.0,0.027496326399824182,456
+reason =_ <STR> % e ,1.0,0.027434154716190186,457
+LOG warn reason ,0.0,0.027434154716190186,458
+LOG warn reason ,0.0,0.027434154716190186,459
+reason =_ <STR> ,1.0,0.027434154716190186,460
+reason =_ <STR> % e ,1.0,0.027434154716190186,461
+neutron tests base ,1.0,0.02643373412821372,462
+OFCClientTest base BaseTestCase ,1.0,0.02643373412821372,463
+headers = <STR> ,1.0,0.026130188203421365,464
+port [ <STR> ] ,1.0,0.0257918661132924,465
+port_id = port [ <STR> ] ,1.0,0.0257918661132924,466
+conn = connection_type self host self port * * certs ,1.0,0.0257918661132924,467
+conn = connection_type self host self port ,0.0,0.0257918661132924,468
+port [ <STR> ] ,1.0,0.0257918661132924,469
+conn = connection_type self host self port * * certs ,0.0,0.0257918661132924,470
+port ,1.0,0.0257918661132924,471
+mac_address = port [ <STR> ] ,1.0,0.0257918661132924,472
+fixed_ip = port [ <STR> ] [ <NUM> ] ,1.0,0.0257918661132924,473
+conn = connection_type self host self port ,1.0,0.0257918661132924,474
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.024689057778202003,475
+obj_getter = self <STR> % resource ,0.0,0.02459078119840049,476
+old_resource_map [ resource ] ,1.0,0.02459078119840049,477
+obj_updater = NECPluginV<NUM> self <STR> % resource ,0.0,0.02459078119840049,478
+neutron api rpc agentnotifiers l<NUM>_rpc_agent_api ,1.0,0.02434874644155924,479
+neutron api rpc agentnotifiers l<NUM>_rpc_agent_api ,1.0,0.02434874644155924,480
+router_id = router_id provider = provider ,0.0,0.022577505914524298,481
+l<NUM> RouterInUse router_id = router_id ,1.0,0.022577505914524298,482
+filter_by router_id = router_id ,1.0,0.022577505914524298,483
+def_get_route_id self dest nexthop ,0.0,0.022487060146780303,484
+route_id = self _get_route_id dest nexthop ,0.0,0.022487060146780303,485
+nexthop = <STR> ,1.0,0.022487060146780303,486
+add_router_route self ofc_router_id destination nexthop ,0.0,0.022487060146780303,487
+<STR> nexthop ,0.0,0.022487060146780303,488
+data data > <NUM> ,0.0,0.022456319550598024,489
+data = json loads data ,1.0,0.022456319550598024,490
+def_get_port_handler self operation device_owner ,0.0,0.021483924973349142,491
+device_owner = l<NUM>_db DEVICE_OWNER_ROUTER_INTF ,1.0,0.021483924973349142,492
+binding = session query RouterProvider ,0.0,0.020997490121903085,493
+op create_table ,1.0,0.020640549385533793,494
+return_value = conn ,0.0,0.020530428128799183,495
+params [ <STR> ] = data ,0.0,0.01961746421088222,496
+reset_all self ,0.0,0.01851820963125426,497
+self reset_all ,0.0,0.01851820963125426,498
+message =_ <STR> ,1.0,0.018130887704223365,499
+message =_ <STR> ,1.0,0.018130887704223365,500
+<STR> self deactivate_port ,0.0,0.01769038847792722,501
+self assertEqual response data ,1.0,0.017689643915485193,502
+query = session query RouterProvider ,0.0,0.017306398627612286,503
+query =_get_router_providers_query query provider router_ids ,0.0,0.017306398627612286,504
+query = session query RouterProvider filter_by provider = provider ,0.0,0.017306398627612286,505
+query = query filter_by provider = provider ,0.0,0.017306398627612286,506
+net_path = <STR> % _ofc t _ofc n ,1.0,0.017137074960867582,507
+LOG warning ,0.0,0.01709898564340267,508
+LOG warning _ <STR> ,1.0,0.01709898564340267,509
+backref = orm backref <STR> uselist = ,0.0,0.01654366601075616,510
+certs = <STR> self cert_file ,1.0,0.01636385114642532,511
+certs = <STR> self cert_file ,1.0,0.01636385114642532,512
+ofc_network_id split <STR> [ <NUM> ] ,0.0,0.016174123184017918,513
+k v exc_checks items ,0.0,0.014890408681115536,514
+k v self ofc_router_route_dict items ,0.0,0.014890408681115536,515
+<STR> nmodels OFCRouterMapping ,0.0,0.014203486485219834,516
+migration should_run active_plugins migration_for_plugins ,1.0,0.013614885327242615,517
+binding ,1.0,0.012344290808096941,518
+binding provider ,0.0,0.012344290808096941,519
+session add binding ,0.0,0.012344290808096941,520
+contextlib nested ,1.0,0.011756891249661165,521
+[ <STR> router router_id ,0.0,0.011288752957262149,522
+router_id = intf_p [ <STR> ] ,1.0,0.011288752957262149,523
+add_router_provider_binding session provider router_id ,0.0,0.011288752957262149,524
+router_id ,1.0,0.011288752957262149,525
+get_provider_by_router session router_id ,1.0,0.011288752957262149,526
+router_id = router [ <STR> ] ,1.0,0.011288752957262149,527
+ofc_id = <STR> + router_id [ - <NUM> ] ,0.0,0.011288752957262149,528
+device_filter = <STR> [ router_id ] ,1.0,0.011288752957262149,529
+<STR> router_id ,1.0,0.011288752957262149,530
+router_filter = <STR> [ router_id ] ,1.0,0.011288752957262149,531
+<STR> data ,0.0,0.01122815977529901,532
+self assertEqual data e ,0.0,0.01122815977529901,533
+data = <STR> description ,0.0,0.01122815977529901,534
+data =_ <STR> ,1.0,0.01122815977529901,535
+json loads data ,0.0,0.01122815977529901,536
+data ,0.0,0.01122815977529901,537
+data ,0.0,0.01122815977529901,538
+data = <STR> self _get_route_id route [ <NUM> ] route [ <NUM> ] ,0.0,0.01122815977529901,539
+migration_for_plugins = [ ,1.0,0.010268599305210398,540
+dest = netaddr IPNetwork dest ,0.0,0.009821965242699427,541
+netaddr IPNetwork destination ,0.0,0.009821965242699427,542
+ip_address ! = netaddr IPNetwork ip_address ,0.0,0.009821965242699427,543
+netaddr ,1.0,0.009821965242699427,544
+new_status ,0.0,0.009460386411649587,545
+router [ <STR> ] = new_status ,0.0,0.009460386411649587,546
+new_status = nconst ROUTER_STATUS_ERROR ,0.0,0.009460386411649587,547
+new_router [ <STR> ] = new_status ,1.0,0.009460386411649587,548
+new_status = nconst ROUTER_STATUS_ACTIVE ,1.0,0.009460386411649587,549
+def_get_router_providers_query query provider = None router_ids = None ,0.0,0.008653199313806143,550
+router query ] ,1.0,0.008653199313806143,551
+query ,1.0,0.008653199313806143,552
+[ router [ <NUM> ] router query ] ,1.0,0.008653199313806143,553
+params = <STR> _ <STR> ,0.0,0.008389304435583207,554
+nexc OFCException * * params ,0.0,0.008389304435583207,555
+params [ <STR> ,1.0,0.008389304435583207,556
+nets ,1.0,0.00637132093300345,557
+db_base_plugin_v<NUM> NeutronDbPluginV<NUM> register_dict_extend_funcs ,1.0,0.005545622085781513,558
+alembic op ,1.0,0.0046900861098876775,559
+[ config PROVIDER default_router_provider ] & ,0.0,0.004440495985242045,560
+provider = config PROVIDER default_router_provider ,0.0,0.004440495985242045,561
+<STR> config PROVIDER default_router_provider ,0.0,0.004440495985242045,562
+<STR> config PROVIDER router_providers ,0.0,0.004440495985242045,563
+enabled_providers = config PROVIDER router_providers + ,0.0,0.004440495985242045,564
+config PROVIDER default_router_provider ROUTER_DRIVER_MAP ,0.0,0.004440495985242045,565
+<STR> Get a router a requested floating IP ,0.0,0.004185459067290189,566
+one ,1.0,0.0038186163718215635,567
+const DEVICE_OWNER_ROUTER_INTF self delete_router_port ,0.0,0.003067301781500973,568
+const DEVICE_OWNER_ROUTER_GW self create_router_port ,0.0,0.003067301781500973,569
+const DEVICE_OWNER_ROUTER_GW self delete_router_port ,0.0,0.003067301781500973,570
+const DEVICE_OWNER_ROUTER_INTF self create_router_port ,0.0,0.003067301781500973,571
+RouterMixin self remove_router_interface ,0.0,0.0009850332607891394,572
+port_info = <STR> ] ,1.0,0.00016004571920204578,573
+port_id port_info ,0.0,0.00016004571920204578,574
+get_updated cls ,1.0,0.0001352402499400567,575
+PROVIDER_L<NUM>AGENT = nconst ROUTER_PROVIDER_L<NUM>AGENT ,0.0,0.0,576
+<STR> DRIVER_PATH % <STR> ,1.0,0.0,577
+ROUTER_DRIVER_MAP = ,0.0,0.0,578
+self _process_gw_port new_router [ <STR> ] new_routes ,0.0,0.0,579
+plugin_str = <STR> ,1.0,0.0,580
+OvsAgentSchedulerTestCase test_l<NUM>_plugin L<NUM>NatTestCaseMixin ,1.0,0.0,581
+get_description cls ,1.0,0.0,582
+OFCManagerFilterTest OFCManagerTestBase ,0.0,0.0,583
+added_routes = [ ] ,1.0,0.0,584
+OvsDhcpAgentNotifierTestCase test_l<NUM>_plugin L<NUM>NatTestCaseMixin ,1.0,0.0,585
+test_agent_scheduler OvsAgentSchedulerTestCase ,0.0,0.0,586
+if_id = <STR> + uuidutils generate_uuid [ - <NUM> ] ,1.0,0.0,587
+self ofc_tenant_dict [ ofc_id ] = <STR> tenant_id ,0.0,0.0,588
+% ofc_id ,0.0,0.0,589
+<STR> ] ,1.0,0.0,590
+connection_type = self get_connection_type ,1.0,0.0,591
+list_router_routes self ofc_router_id ,1.0,0.0,592
+mac_address ,0.0,0.0,593
+test_plugin NeutronDbPluginV<NUM>TestCase ,1.0,0.0,594
+routes = [ <STR> k ,1.0,0.0,595
+L<NUM>AgentNotifyAPI l<NUM>_rpc_agent_api L<NUM>AgentNotifyAPI ,1.0,0.0,596
+TremaFilterDriver ,0.0,0.0,597
+httplib ,1.0,0.0,598
+json ,1.0,0.0,599
+<STR> ,1.0,0.0,600
+<STR> + port_id [ - <NUM> ] ,0.0,0.0,601
+added_routes ,0.0,0.0,602
+plugin_str = test_nec_plugin PLUGIN_NAME ,0.0,0.0,603
+exc_checks = <STR> <NUM> ,0.0,0.0,604
+certs = x certs [ x ] x certs certs [ x ] None ,1.0,0.0,605
+get_connection self ,1.0,0.0,606
+self use_ssl certs ,1.0,0.0,607
+NecPluginV<NUM>TestCase NecPluginV<NUM>TestCaseBase ,1.0,0.0,608
+ofc_id ,1.0,0.0,609
+self autocheck = ,1.0,0.0,610
+% ofc_port_id ,1.0,0.0,611
+% ofc_network_id ,1.0,0.0,612
+use_stop_each = ,0.0,0.0,613
+<STR> ,1.0,0.0,614
+handler ,0.0,0.0,615
+Exception _ <STR> ,1.0,0.0,616
+provider None ,1.0,0.0,617
+TremaPortBaseDriver TremaDriverBase TremaFilterDriver ,0.0,0.0,618
+l<NUM>_rpc_agent_api L<NUM>AgentNotify ,1.0,0.0,619
+test_plugin NeutronDbPluginV<NUM>TestCase ,1.0,0.0,620
+<STR> ,1.0,0.0,621
+PFCV<NUM>DriverTest PFCDriverTestBase ,1.0,0.0,622
+<STR> + tenant_id [ - <NUM> ] ,1.0,0.0,623
+OvsAgentSchedulerTestCase self setUp self plugin_str ,1.0,0.0,624
+candidate routers floating IP association ,0.0,0.0,625
+self _extend_router_dict_provider router_res ,1.0,0.0,626
+request = ,0.0,0.0,627
+self ofc_router_route_dict = ,0.0,0.0,628
+ROUTER_DRIVERS = ,0.0,0.0,629
+filters = tenant_id = [ tenant_id ] ,0.0,0.0,630
+test_add_router_interface self ,1.0,0.0,631
+<STR> ,1.0,0.0,632
+gw_info gw_info [ <STR> ] ,0.0,0.0,633
+agent RESOURCE_ATTRIBUTE_MAP ,0.0,0.0,634
+ValueError TypeError ,1.0,0.0,635
+L<NUM>_HOSTA ,0.0,0.0,636
+httplib HTTPConnection ,1.0,0.0,637
+tenant_id = router [ <STR> ] ,1.0,0.0,638
+agent_routers = rdb get_routers_by_provider ,0.0,0.0,639
+subnet_id = internal_subnet_id ,0.0,0.0,640
+self router arg_list = <STR> ,1.0,0.0,641
+test_agent_scheduler OvsL<NUM>AgentNotifierTestCase ,1.0,0.0,642
+router [ <STR> ] ,1.0,0.0,643
+test_nec_plugin NecPluginV<NUM>TestCaseBase ,1.0,0.0,644
+connection_type = httplib HTTPConnection ,0.0,0.0,645
+self _set_nec_ini ,0.0,0.0,646
+PROVIDER_OPENFLOW ROUTER_DRIVER_PATH + <STR> ,0.0,0.0,647
+DEFAULT_ROUTER_PROVIDER = ROUTER_PROVIDER_L<NUM>AGENT ,0.0,0.0,648
+n = uuidutils generate_uuid ,1.0,0.0,649
+detail = <STR> ,1.0,0.0,650
+L<NUM>RpcCallback ,1.0,0.0,651
+test_do_request_<NUM>_no_body self ,1.0,0.0,652
+external_gateway_info = external_gateway_info ,0.0,0.0,653
+None ,1.0,0.0,654
+setUp self ,1.0,0.0,655
+routes ,1.0,0.0,656
+l<NUM>_rpc_agent_api L<NUM>AgentNotify = notifyApi ,1.0,0.0,657
+test_add_router_to_l<NUM>_agent_for_openflow_router self ,1.0,0.0,658
+oldNotify = l<NUM>_rpc_agent_api L<NUM>AgentNotify ,1.0,0.0,659
+test_agent_ext_plugin AgentDBTestMixIn ,0.0,0.0,660
+extraroute_db ExtraRoute_db_mixin ,1.0,0.0,661
+router_ids ,1.0,0.0,662
+self agentscheduler_dbMinxin = manager NeutronManager get_plugin ,1.0,0.0,663
+OvsL<NUM>AgentNotifierTestCase self setUp self plugin_str ,1.0,0.0,664
+<STR> None ,1.0,0.0,665
+RouterDriverBase ,1.0,0.0,666
+NecRouterL<NUM>AgentTestCase self setUp self _plugin_name ,0.0,0.0,667
+filters = router_filter ,1.0,0.0,668
+ROUTER_DRIVERS ,1.0,0.0,669
+self port_handlers = ,0.0,0.0,670
+self assertFalse ret_b ,0.0,0.0,671
+l<NUM>_rpc_agent_api L<NUM>AgentNotify routers_updated ,1.0,0.0,672
+NecPluginV<NUM>TestCase test_plugin NeutronDbPluginV<NUM>TestCase ,1.0,0.0,673
+self ofc_network_dict [ ofc_network_id ] ,1.0,0.0,674
+test_agent_scheduler OvsDhcpAgentNotifierTestCase ,1.0,0.0,675
+intf_p [ <STR> ] = = internal_subnet_id ,0.0,0.0,676
+agentschedulers_db L<NUM>AgentSchedulerDbMixin ,1.0,0.0,677
+ofc_router_inf_id self ofc_router_inf_dict ,0.0,0.0,678
+route_id = <STR> + uuidutils generate_uuid [ - <NUM> ] ,1.0,0.0,679
+SystemExit <NUM> ,0.0,0.0,680
+ofc_id = <STR> + port_id [ - <NUM> ] ,0.0,0.0,681
+test_delete_router_interface self ,1.0,0.0,682
+arg_list = external_gateway_info ,0.0,0.0,683
+l<NUM>_rpc_agent_api L<NUM>AgentNotify = oldNotify ,1.0,0.0,684
+test_config [ <STR> ] = ,1.0,0.0,685
+self addCleanup self restore_attribute_map ,0.0,0.0,686
+<STR> ] ,1.0,0.0,687
+test_do_request_<NUM>_string self ,1.0,0.0,688
+ROUTER_STATUS_ERROR = <STR> ,1.0,0.0,689
+Copyright c <NUM> OpenStack Foundation ,1.0,0.0,690
+self ext_api = test_extensions setup_extensions_middleware ext_mgr ,0.0,0.0,691
+nexc RouterOverLimit provider = PROVIDER_OPENFLOW ,0.0,0.0,692
+router ,1.0,0.0,693
+r added ,0.0,0.0,694
+primary_key = ,0.0,0.0,695
+<STR> description ,0.0,0.0,696
+nec_router L<NUM>AgentNotifyAPI ,0.0,0.0,697
+TremaPortMACBaseDriver TremaDriverBase TremaFilterDriver ,0.0,0.0,698
+tenant_id ,0.0,0.0,699
+OFC_MANAGER = <STR> ,1.0,0.0,700
+add_router_interface self ofc_router_id ofc_net_id ,1.0,0.0,701
+test_router_auto_schedule_with_l<NUM>agent_and_openflow self ,0.0,0.0,702
+need_gw_info = ,0.0,0.0,703
+desc ,0.0,0.0,704
+abc ,1.0,0.0,705
+old_rtr [ <STR> ] = self _get_gw_port_detail ,0.0,0.0,706
+l<NUM>_gwmode_db L<NUM>_NAT_db_mixin ,1.0,0.0,707
+self router arg_list = <STR> r<NUM> ,0.0,0.0,708
+filters = device_filter ,1.0,0.0,709
+L<NUM>AgentSchedulerDbMixin agentschedulers_db L<NUM>AgentSchedulerDbMixin ,1.0,0.0,710
+ofc_id self ofc_router_dict ,0.0,0.0,711
+OvsAgentSchedulerTestCaseBase test_l<NUM>_plugin L<NUM>NatTestCaseMixin ,1.0,0.0,712
+DhcpRpcCallback L<NUM>RpcCallback ,1.0,0.0,713
+PROVIDER_L<NUM>AGENT ROUTER_DRIVER_PATH + <STR> ,0.0,0.0,714
+AgentSchedulerTestMixIn ,0.0,0.0,715
+<STR> <NUM> ,0.0,0.0,716
+get_connection_type self ,1.0,0.0,717
+filters = <STR> [ tenant_id ] ,1.0,0.0,718
+TremaPortBaseDriver TremaDriverBase TremaFilterDriverMixin ,0.0,0.0,719
+ofc_router_route_id self ofc_router_route_dict ,0.0,0.0,720
+infs_path = router_path + <STR> ,0.0,0.0,721
+r = uuidutils generate_uuid ,1.0,0.0,722
+OvsDhcpAgentNotifierTestCase self setUp ,1.0,0.0,723
+get_random_params self ,0.0,0.0,724
+OvsL<NUM>AgentNotifierTestCase test_l<NUM>_plugin L<NUM>NatTestCaseMixin ,1.0,0.0,725
+TremaFilterDriverMixin ,1.0,0.0,726
+Revision ID <NUM>a<NUM>a<NUM>f<NUM> ,1.0,0.0,727
+_ router_ids = [ r [ <STR> ] r router_list ] ,1.0,0.0,728
+<STR> % ofc_router_id ,1.0,0.0,729
+mac_address = <STR> ,1.0,0.0,730
+route_path = routes_path + <STR> + route_id ,0.0,0.0,731
+httplib HTTPSConnection ,1.0,0.0,732
+OvsL<NUM>AgentNotifierTestCase self setUp ,1.0,0.0,733
+restore_attribute_map self ,1.0,0.0,734
+OvsDhcpAgentNotifierTestCase self setUp self plugin_str ,1.0,0.0,735
+ofc_id self ofc_port_dict ,1.0,0.0,736
+provider ROUTER_DRIVERS ,0.0,0.0,737
+STATUS_ERROR = nconst ROUTER_STATUS_ERROR ,0.0,0.0,738
+route_id = self _get_route_id <STR> ,1.0,0.0,739
+get_router_count_by_provider session provider tenant_id = None ,0.0,0.0,740
+self assertFalse l<NUM>_agents_<NUM> [ <STR> ] ,0.0,0.0,741
+self ofc_router_route_dict [ route_id ] = <STR> ofc_router_id ,0.0,0.0,742
+self ofc_router_dict > = MAX_NUM_OPENFLOW_ROUTER ,0.0,0.0,743
+ofc_router_inf_id self ofc_router_inf_dict ,0.0,0.0,744
+<STR> ] ,1.0,0.0,745
+nexc RouterOverLimit ,0.0,0.0,746
+NecL<NUM>AgentSchedulerWithOpenFlowRouter self setUp ,0.0,0.0,747
+RouterProvider models_v<NUM> model_base BASEV<NUM> ,1.0,0.0,748
+L<NUM>_HOSTA = test_agent_scheduler L<NUM>_HOSTA ,0.0,0.0,749
+self _get_route_id route [ <NUM> ] route [ <NUM> ] ,0.0,0.0,750
+self _register_agent_states ,0.0,0.0,751
+self assertEqual router ofc_id <STR> + r [ - <NUM> ] ,0.0,0.0,752
+RouterOverLimit qexc Conflict ,0.0,0.0,753
+_ <STR> % ,1.0,0.0,754
+r<NUM> r<NUM> ,1.0,0.0,755
+exc_checks ,0.0,0.0,756
+self _test_floatingip_with_invalid_create_port self _plugin_name ,1.0,0.0,757
+test_add_router_route self ,1.0,0.0,758
+self assertFalse ret_a ,0.0,0.0,759
+Copyright <NUM> OpenStack Foundation ,1.0,0.0,760
+ROUTER_DRIVER_MAP [ PROVIDER_OPENFLOW ] ,0.0,0.0,761
+ip_address ,0.0,0.0,762
+gw_info ,1.0,0.0,763
+DEFAULT_ROUTER_PROVIDERS = [ ROUTER_PROVIDER_L<NUM>AGENT ROUTER_PROVIDER_OPENFLOW ] ,0.0,0.0,764
+OvsDhcpAgentNotifierTestCase OvsAgentSchedulerTestCaseBase ,1.0,0.0,765
+<STR> ,1.0,0.0,766
+handler ,0.0,0.0,767
+exc_checks = <STR> None ,0.0,0.0,768
+k [ <STR> ] ,1.0,0.0,769
+self ofc_port_dict = ,0.0,0.0,770
+new_router [ <STR> ] = self _get_gw_port_detail ,0.0,0.0,771
+<STR> DRIVER_PATH % <STR> ,1.0,0.0,772
+self autocheck = ,0.0,0.0,773
+get_alias cls ,1.0,0.0,774
+default_router_provider = l<NUM> - agent ,0.0,0.0,775
+exc_checks = None ,0.0,0.0,776
+self ofc_router_dict = ,1.0,0.0,777
+self patch_remote_calls use_stop_each ,1.0,0.0,778
+l<NUM> ROUTERS [ extend_router_dict_provider ] ,0.0,0.0,779
+errmsg =_ <STR> ,1.0,0.0,780
+gw_port ,0.0,0.0,781
+ROUTER_PROVIDER_ATTRIBUTE = ,0.0,0.0,782
+ofc_router_id self ofc_router_dict ,0.0,0.0,783
+self router ,1.0,0.0,784
+router_nat_supported = ,1.0,0.0,785
+test_router_auto_schedule_only_with_openflow_router self ,0.0,0.0,786
+router_list = [ r r router_list ,1.0,0.0,787
+<STR> interface_info ,1.0,0.0,788
+t = uuidutils generate_uuid ,1.0,0.0,789
+OvsAgentSchedulerTestCaseBase self setUp self plugin_str ,1.0,0.0,790
+Create Date <NUM> - <NUM> - <NUM> <NUM> <NUM> <NUM> <NUM> ,1.0,0.0,791
+l<NUM>_db Router tenant_id = = tenant_id ,0.0,0.0,792
+tenant_id ,0.0,0.0,793
+NecRouterOpenFlowTestCase NecRouterL<NUM>AgentTestCase ,0.0,0.0,794
+test_list_router_routes self ,1.0,0.0,795
+ofc_network_id self ofc_network_dict ,0.0,0.0,796
+NecRouterL<NUM>AgentTestCase test_ext_route ExtraRouteDBTestCase ,1.0,0.0,797
+nexc ProviderNotFound provider = provider ,0.0,0.0,798
+routes = [ <STR> ,1.0,0.0,799
+self _process_gw_port router [ <STR> ] added_routes ,0.0,0.0,800
+ofc_id = <STR> + tenant_id [ - <NUM> ] ,0.0,0.0,801
+r [ <STR> ] ,1.0,0.0,802
+resbody = <STR> ,1.0,0.0,803
+test_agent_ext_plugin AgentDBTestMixIn ,1.0,0.0,804
+ofc_router_id self ofc_router_dict ,1.0,0.0,805
+self addCleanup self _clean_nec_ini ,1.0,0.0,806
+DhcpRpcCallback ,1.0,0.0,807
+nec_router PROVIDER_OPENFLOW ,0.0,0.0,808
+ofc_net_id self ofc_network_dict ,0.0,0.0,809
+test_do_request_socket_error self ,1.0,0.0,810
+test_router_interface self ,1.0,0.0,811
+handlers = self port_handlers [ operation ] ,0.0,0.0,812
+external_gateway_info = external_gateway_info ,0.0,0.0,813
+self ofc_router_inf_dict [ if_id ] = <STR> ofc_router_id ,0.0,0.0,814
+subnet_db [ <STR> ] ,1.0,0.0,815
+@ ,1.0,0.0,816
+new_rtr = RouterMixin self update_router ,1.0,0.0,817
+RouterOpenFlowDriver RouterDriverBase ,0.0,0.0,818
+self setup_nec_plugin_base use_stop_each = ,1.0,0.0,819
+ROUTER_DRIVER_PATH = <STR> ,1.0,0.0,820
+l<NUM> ExternalGatewayForFloatingIPNotFound ,0.0,0.0,821
+<STR> ROUTER_PROVIDER ,0.0,0.0,822
+expected_code = <NUM> ,1.0,0.0,823
+self _extend_router_dict_provider new_router provider ,1.0,0.0,824
+ofc_router_id ofc_net_id ip_address mac_address ,0.0,0.0,825
+<STR> ,1.0,0.0,826
+<STR> [ l<NUM>_db DEVICE_OWNER_ROUTER_INTF ] ,1.0,0.0,827
+patch_remote_calls self use_stop = ,1.0,0.0,828
+L<NUM>_HOSTB = test_agent_scheduler L<NUM>_HOSTB ,0.0,0.0,829
+cfg CONF register_opts provider_opts <STR> ,1.0,0.0,830
+<STR> ,1.0,0.0,831
+router_db provider ,1.0,0.0,832
+<STR> port_id ,1.0,0.0,833
+inf = <STR> _ofc p ,0.0,0.0,834
+ROUTER_PROVIDER_ATTRIBUTE ,0.0,0.0,835
+test_exists_ofc_router self ,1.0,0.0,836
+sqlalchemy orm ,1.0,0.0,837
+inf = self ofc_router_inf_dict [ ofc_router_inf_id ] ,0.0,0.0,838
+test_agent_scheduler OvsAgentSchedulerTestCase ,1.0,0.0,839
+<STR> % internal_subnet_id ,0.0,0.0,840
+ports ,1.0,0.0,841
+router_intf_ports = router_intf_qry filter_by ,1.0,0.0,842
+test_do_request_error_no_body self ,1.0,0.0,843
+RouterProviderMismatch qexc Conflict ,1.0,0.0,844
+<STR> % ofc_id ,0.0,0.0,845
+[ provider ] ,0.0,0.0,846
+Exception _ <STR> ,1.0,0.0,847
+test_agent_scheduler OvsDhcpAgentNotifierTestCase ,0.0,0.0,848
+r [ <STR> ] ,1.0,0.0,849
+test_do_request_error_string_body self ,1.0,0.0,850
+router_list ,1.0,0.0,851
+update_router_interface self ofc_router_inf_id ,1.0,0.0,852
+provider = <STR> ,1.0,0.0,853
+<STR> ,1.0,0.0,854
+PROVIDER_OPENFLOW = nconst ROUTER_PROVIDER_OPENFLOW ,0.0,0.0,855
+tenant = uuidutils generate_uuid ,1.0,0.0,856
+get_provider_with_default provider ,0.0,0.0,857
+destination [ route [ <STR> ] route ,0.0,0.0,858
+t r _n = self get_random_params ,1.0,0.0,859
+RouterExternalGatewayNotSupported qexc BadRequest ,1.0,0.0,860
+provider_opts = [ ,0.0,0.0,861
+self router arg_list = <STR> ,1.0,0.0,862
+<STR> self activate_port_if_ready ,0.0,0.0,863
+self router arg_list = <STR> ,0.0,0.0,864
+r<NUM> [ <STR> ] ,1.0,0.0,865
+if_id ,0.0,0.0,866
+<STR> ] ,1.0,0.0,867
+cfg ListOpt <STR> ,1.0,0.0,868
+test_floatingip_with_invalid_create_port self ,1.0,0.0,869
+@ abc abstractmethod ,1.0,0.0,870
+router_db provider [ <STR> ] ,1.0,0.0,871
+r [ <STR> ] agent_routers ] ,0.0,0.0,872
+ip_address mac_address ,0.0,0.0,873
+self assertIsNone e k ,0.0,0.0,874
+router = <STR> _ofc r ,1.0,0.0,875
+new_rtr [ <STR> ] = self _get_gw_port_detail ,0.0,0.0,876
+router_ids =_router_ids ,1.0,0.0,877
+<STR> router ,1.0,0.0,878
+self ofc_port_dict [ ofc_port_id ] ,1.0,0.0,879
+test_agent_scheduler OvsL<NUM>AgentNotifierTestCase ,1.0,0.0,880
+nec_router RouterMixin ,0.0,0.0,881
+PFCRouterDriverMixin ,1.0,0.0,882
+handlers [ <STR> ] ,1.0,0.0,883
+def_process_gw_port self gw_info routes ,1.0,0.0,884
+ROUTER_PROVIDER_L<NUM>AGENT = <STR> ,0.0,0.0,885
+OFCManagerTestWithOldMapping self setUp ,0.0,0.0,886
+nec_router L<NUM>AgentSchedulerDbMixin ,1.0,0.0,887
+self ofc_filter_dict = ,0.0,0.0,888
+<STR> destination ,0.0,0.0,889
+added_routes [ ] ,0.0,0.0,890
+self assertEqual <NUM> ret_a ,0.0,0.0,891
+self assertEqual L<NUM>_HOSTA l<NUM>_agents [ <STR> ] ,1.0,0.0,892
+cur_routes = [ ] ,0.0,0.0,893
+intf_p router_intf_ports ,1.0,0.0,894
+NecPluginV<NUM>TestCaseBase ,1.0,0.0,895
+v [ <STR> ] = = ofc_router_id ] ,1.0,0.0,896
+l<NUM>_agents_<NUM> = self _list_l<NUM>_agents_hosting_router ,1.0,0.0,897
+ip_address mac_address ,0.0,0.0,898
+r [ <STR> ] ,1.0,0.0,899
+L<NUM>AgentNotifyAPI self _notification ,0.0,0.0,900
+disable_autocheck self ,0.0,0.0,901
+external_network_id ,1.0,0.0,902
+enable_autocheck self ,0.0,0.0,903
+% ip_address ,0.0,0.0,904
+new_routes = new_router [ <STR> ] [ ] ,0.0,0.0,905
+NecL<NUM>AgentSchedulerWithOpenFlowRouter ,0.0,0.0,906
+provider = old_rtr [ ext_provider ROUTER_PROVIDER ] ,0.0,0.0,907
+<STR> % destination ,0.0,0.0,908
+r<NUM> r<NUM> ,0.0,0.0,909
+self autocheck ,0.0,0.0,910
+expected_provider = nconst ROUTER_PROVIDER_L<NUM>AGENT ,0.0,0.0,911
+OvsAgentSchedulerTestCase OvsAgentSchedulerTestCaseBase ,1.0,0.0,912
+ROUTER_PROVIDER = <STR> ,1.0,0.0,913
+MAX_NUM_OPENFLOW_ROUTER = <NUM> ,0.0,0.0,914
+=_ <STR> ,1.0,0.0,915
+<STR> router ,1.0,0.0,916
+router_ids ,1.0,0.0,917
+new_rtr ,1.0,0.0,918
+PROVIDER_OPENFLOW ROUTER_DRIVER_MAP ,0.0,0.0,919
+dest = <STR> ,1.0,0.0,920
+self ofc_tenant_dict = ,0.0,0.0,921
+router_list ,1.0,0.0,922
+self _test_do_request <NUM> resbody errmsg nexc OFCException ,1.0,0.0,923
+=_ <STR> ,1.0,0.0,924
+self ofc_network_dict = ,0.0,0.0,925
+L<NUM>AgentSchedulerDbMixin self auto_schedule_routers ,1.0,0.0,926
+setUp self ,1.0,0.0,927
+need_gw_info = ,0.0,0.0,928
+<STR> [ l<NUM>_db DEVICE_OWNER_ROUTER_GW ] ,1.0,0.0,929
+test_create_ofc_router self ,1.0,0.0,930
+self ofc_router_route_dict [ ofc_router_route_id ] ,0.0,0.0,931
+tenant router network ,0.0,0.0,932
+test_update_router_interface self ,1.0,0.0,933
+route routes ] ,1.0,0.0,934
+get_router_providers session provider = None router_ids = None ,0.0,0.0,935
+_ <STR> ,1.0,0.0,936
+neutron manager ,1.0,0.0,937
+delete_router self ofc_router_id ,1.0,0.0,938
+@ author Akihiro Motoki ,1.0,0.0,939
+router_supported = ,1.0,0.0,940
+external_network_id = external_network_id ,1.0,0.0,941
+L<NUM>AgentSchedulerDbMixin self add_router_to_l<NUM>_agent ,0.0,0.0,942
+ip_address = None mac_address = None ,1.0,0.0,943
+OFCRouterMapping model_base BASEV<NUM> NeutronId OFCId ,0.0,0.0,944
+conn ,1.0,0.0,945
+ofc_network_id self ofc_network_dict ,0.0,0.0,946
+contextlib ,1.0,0.0,947
+ROUTER_PROVIDER_OPENFLOW = <STR> ,0.0,0.0,948
+cfg StrOpt <STR> ,1.0,0.0,949
+l<NUM>_rpc = l<NUM>_rpc_base L<NUM>RpcCallbackMixin ,1.0,0.0,950
+<STR> ,1.0,0.0,951
+self ofc_router_route_dict values ] ,0.0,0.0,952
+l<NUM>_gwmode_db L<NUM>_NAT_db_mixin ,1.0,0.0,953
+RouterMixin extraroute_db ExtraRoute_db_mixin ,1.0,0.0,954
+self ofc_router_inf_dict [ ofc_router_inf_id ] ,0.0,0.0,955
+t r n = self get_random_params ,1.0,0.0,956
+<STR> ip_address ,0.0,0.0,957
+test_delete_router_route self ,1.0,0.0,958
+route_id ,1.0,0.0,959
+NecRouterOpenFlowTestCase self setUp ,1.0,0.0,960
+down_revision = <STR> ,1.0,0.0,961
+PROVIDER = cfg CONF PROVIDER ,0.0,0.0,962
+STATUS_ACTIVE = nconst ROUTER_STATUS_ACTIVE ,0.0,0.0,963
+r ofc_routes ,1.0,0.0,964
+connection_type = httplib HTTPSConnection ,0.0,0.0,965
+NOTIFIER = <STR> ,1.0,0.0,966
+RouterMixin self add_router_interface ,0.0,0.0,967
+<STR> NEC OpenFlow Router ,0.0,0.0,968
+router_supported = ,1.0,0.0,969
+setup_nec_plugin_base self use_stop_all = ,1.0,0.0,970
+self setup_nec_plugin_base ,1.0,0.0,971
+route routes ] ,1.0,0.0,972
+PFCV<NUM>Driver PFCRouterDriverMixin PFCDriverBase ,1.0,0.0,973
+description = <STR> ,1.0,0.0,974
+provider ,0.0,0.0,975
+self use_ssl certs ,0.0,0.0,976
+self _test_do_request <NUM> <STR> ,1.0,0.0,977
+p = uuidutils generate_uuid ,1.0,0.0,978
+routes = [ <STR> ] ,1.0,0.0,979
+ret_b = l<NUM>_rpc sync_routers self adminContext host = L<NUM>_HOSTB ,1.0,0.0,980
+fips ,0.0,0.0,981
+gw_info = <STR> ] ,1.0,0.0,982
+route_dict = ,1.0,0.0,983
+get_driver_by_provider provider ,0.0,0.0,984
+tenant_path = <STR> %_ofc t ,1.0,0.0,985
+<STR> % ofc_net_id ,0.0,0.0,986
+self ofc_router_inf_dict [ ofc_router_inf_id ] = ,0.0,0.0,987
+ext_subnet_id = gw_port [ <STR> ] ,1.0,0.0,988
+test_do_request_other_success_codes self ,1.0,0.0,989
+<STR> ROUTER_DRIVER_MAP ,0.0,0.0,990
+r removed ,0.0,0.0,991
+exctype ,0.0,0.0,992
+test_delete_router self ,1.0,0.0,993
+% ofc_router_id ,1.0,0.0,994
+floating_ip_support self ,0.0,0.0,995
+self assertEqual <NUM> l<NUM>_agents [ <STR> ] ,0.0,0.0,996
+AgentSchedulerTestMixIn ,0.0,0.0,997
+<STR> provider ,0.0,0.0,998
+self _test_do_request <NUM> None None ,0.0,0.0,999
+provider ,1.0,0.0,1000
+ret_a = l<NUM>_rpc sync_routers self adminContext host = L<NUM>_HOSTA ,1.0,0.0,1001
+self ofc_port_dict [ ofc_id ] = <STR> ofc_network_id ,1.0,0.0,1002
+def_extract_ofc_network_id self ofc_network_id ,1.0,0.0,1003
+self assertIn r<NUM> [ <STR> ] r ret_a ] ,0.0,0.0,1004
+cascade = <STR> ,1.0,0.0,1005
+<STR> route [ <NUM> ] ,0.0,0.0,1006
+<STR> % ofc_router_route_id ,0.0,0.0,1007
+self assertEqual v e k ,0.0,0.0,1008
+ofc_id self ofc_tenant_dict ,0.0,0.0,1009
+ROUTER_STATUS_ACTIVE = <STR> ,1.0,0.0,1010
+certs = x certs [ x ] x certs certs [ x ] None ,1.0,0.0,1011
+use_stop_all use_stop_each ,0.0,0.0,1012
+router = uuidutils generate_uuid ,1.0,0.0,1013
+ip_address = <STR> ,1.0,0.0,1014
+revision = <STR> ,1.0,0.0,1015
+self ofc_router_dict [ ofc_router_id ] ,1.0,0.0,1016
+<STR> PROVIDER_OPENFLOW ,0.0,0.0,1017
+network = uuidutils generate_uuid ,1.0,0.0,1018
+get_routers_by_provider session provider router_ids = None ,0.0,0.0,1019
+delete_router_interface self ofc_router_inf_id ,1.0,0.0,1020
+self _test_do_request <NUM> None errmsg nexc OFCException exc_checks ,1.0,0.0,1021
+l<NUM>_rpc_notifier = l<NUM>_rpc_agent_api L<NUM>AgentNotify ,1.0,0.0,1022
+test_do_request_error_json_body self ,1.0,0.0,1023
+self l<NUM>_rpc_notifier routers_updated ,1.0,0.0,1024
+def_extend_router_dict_provider self router_res provider ,1.0,0.0,1025
+<STR> ofc_net_id ,0.0,0.0,1026
+arg_list = <STR> + arg_list ,1.0,0.0,1027
+OFCManagerRouterTest OFCManagerTestBase ,0.0,0.0,1028
+ip_address = <STR> ] ,1.0,0.0,1029
+has_gw_port = router_gw_qry filter_by ,1.0,0.0,1030
+post_path = <STR> % tenant_path ,1.0,0.0,1031
+socket ,1.0,0.0,1032
+router_ids = rdb get_routers_by_provider ,1.0,0.0,1033
+routes_path = router_path + <STR> ,1.0,0.0,1034
+OvsL<NUM>AgentNotifierTestCase OvsAgentSchedulerTestCaseBase ,1.0,0.0,1035
+old_routes = old_router [ <STR> ] [ ] ,0.0,0.0,1036
+p = <STR> uuidutils generate_uuid ,1.0,0.0,1037
+__metaclass__ = abc ABCMeta ,1.0,0.0,1038
+router_list = RouterMixin self _get_sync_routers ,1.0,0.0,1039
+<STR> detail ,0.0,0.0,1040
+test_router_route self ,1.0,0.0,1041
+provider ! = nconst ROUTER_PROVIDER_L<NUM>AGENT ,0.0,0.0,1042
+self ofc_manager_p start ,0.0,0.0,1043
+nexc RouterProviderMismatch ,0.0,0.0,1044
+added removed ,0.0,0.0,1045
+provider = get_provider_with_default ,0.0,0.0,1046
+tenant_id ,0.0,0.0,1047
+test_agent_scheduler OvsAgentSchedulerTestCaseBase ,1.0,0.0,1048
+ofc_id self ofc_network_dict ,0.0,0.0,1049
+router_res [ ext_provider ROUTER_PROVIDER ] = provider ,0.0,0.0,1050
+self _process_gw_port old_router [ <STR> ] old_routes ,0.0,0.0,1051
+delete_router_route self ofc_router_route_id ,1.0,0.0,1052
+Revises <NUM>a<NUM>f<NUM>af<NUM> ,1.0,0.0,1053
+l<NUM>_agents = self _list_l<NUM>_agents_hosting_router ,1.0,0.0,1054
+router ,1.0,0.0,1055
+<STR> mac_address ,0.0,0.0,1056
+get_driver_by_provider provider ,0.0,0.0,1057
+ondelete = <STR> ,1.0,0.0,1058
+ofc_port_id self ofc_port_dict ,0.0,0.0,1059
+RouterL<NUM>AgentDriver RouterDriverBase ,0.0,0.0,1060
+self l<NUM>_rpc_notifier = nec_router L<NUM>AgentNotifyAPI ,1.0,0.0,1061
+ProviderNotFound qexc NotFound ,1.0,0.0,1062
+self assertNotIn r<NUM> [ <STR> ] r ret_a ] ,0.0,0.0,1063
+external_gateway_info ,0.0,0.0,1064
+neutron plugins nec nec_router ,1.0,0.0,1065
+self ofc_router_inf_dict = ,0.0,0.0,1066
+new_router ,1.0,0.0,1067
+test_delete_ofc_router self ,1.0,0.0,1068
+extend_router_dict_provider self router_res router_db ,1.0,0.0,1069
+test_create_router self ,1.0,0.0,1070
+test_do_request_<NUM>_json_value self ,1.0,0.0,1071
+% ofc_router_inf_id ,0.0,0.0,1072
+internal_subnet_id ,0.0,0.0,1073
+conn = self get_connection ,0.0,0.0,1074
+routes = [ ] ,0.0,0.0,1075
+ports [ <NUM> ] ,1.0,0.0,1076
+lazy = <STR> ,1.0,0.0,1077
+inf_path = <STR> % router_path _ofc p ,0.0,0.0,1078
+ROUTER_DRIVERS [ provider ] ,0.0,0.0,1079
+new_routes ,0.0,0.0,1080
+nconst ROUTER_PROVIDER_L<NUM>AGENT ,0.0,0.0,1081
+use_stop ,0.0,0.0,1082
+self plugin_notifier_p start ,0.0,0.0,1083
+handler = self _get_port_handler <STR> ] ,0.0,0.0,1084
+provider new_router [ <STR> ] ,0.0,0.0,1085
+] ,0.0,0.0,1086
+router_nat_supported = ,1.0,0.0,1087
+TremaPortMACBaseDriver TremaDriverBase TremaFilterDriverMixin ,0.0,0.0,1088
+router_path = <STR> % _ofc t _ofc r ,0.0,0.0,1089
+exc_checks ,0.0,0.0,1090

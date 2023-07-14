@@ -1,0 +1,249 @@
+total_tokens,line_level_label,line_score,row
+admin_ctx = context context is_admin context elevated ,0.0,1.0,1
+<STR> Schedule the network to new agents ,0.0,0.6697240548226268,2
+adminContext = context context is_admin ,0.0,0.5939757727728614,3
+context method payload agent host agent topic ,0.0,0.5274859938429991,4
+mock patch manager NeutronManager <STR> ,1.0,0.4435647663901615,5
+mock patch manager NeutronManager ,1.0,0.4435647663901615,6
+self notifier _fanout_message mock ANY mock ANY mock ANY ,0.0,0.42171733738755746,7
+mock ANY network agents mock ANY mock ANY ,0.0,0.42171733738755746,8
+self notifier _cast_message mock ANY mock ANY mock ANY ,0.0,0.42171733738755746,9
+mock patch self notify <STR> mock_cast ,0.0,0.4089773579045232,10
+mock patch self notify <STR> ,0.0,0.4089773579045232,11
+def_cast_message self context method payload host ,0.0,0.36797350051403005,12
+def_notification_host self context method payload host ,0.0,0.36797350051403005,13
+mock_util_p = mock patch utils <STR> ,0.0,0.3364868921281532,14
+mock_log_p = mock patch dhcp_rpc_agent_api <STR> ,0.0,0.3364868921281532,15
+mock patch utils <STR> ,0.0,0.3364868921281532,16
+mock patch self notifier <STR> g ,0.0,0.3364868921281532,17
+mock patch self notifier <STR> f ,0.0,0.3364868921281532,18
+mock_fanout_p = mock patch self notifier <STR> ,0.0,0.3364868921281532,19
+mock patch dhcp_rpc_agent_api LOG ,0.0,0.3364868921281532,20
+mock_cast_p = mock patch self notifier <STR> ,0.0,0.3364868921281532,21
+mock patch ,0.0,0.3364868921281532,22
+context elevated ,0.0,0.33546921933937485,23
+topic = <STR> % agent topic agent host ,1.0,0.322326673367142,24
+agents associated the network ,0.0,0.3206640196695084,25
+def_notification self context method payload network_id ,0.0,0.2932338616931418,26
+def_get_enabled_agents self context network agents method payload ,0.0,0.2932338616931418,27
+self _fanout_message context method payload ,0.0,0.2932338616931418,28
+def_notification_fanout self context method payload ,0.0,0.2932338616931418,29
+context network agents method payload ,0.0,0.2932338616931418,30
+def_fanout_message self context method payload ,0.0,0.2932338616931418,31
+def_notify_agents self context method payload network_id ,0.0,0.2932338616931418,32
+self _notification_fanout context method payload ,0.0,0.2932338616931418,33
+new_agents = self plugin schedule_network context network [ ] ,0.0,0.2724947912003214,34
+self _notify_agents context method_name data network_id ,0.0,0.2724947912003214,35
+context <STR> [ network_id ] ,0.0,0.2724947912003214,36
+context <STR> ,0.0,0.2724947912003214,37
+self _notify_agents context method_name ,0.0,0.2724947912003214,38
+def_schedule_network self context network existing_agents ,0.0,0.2724947912003214,39
+context [ network_id ] ,0.0,0.2724947912003214,40
+self _notification context method_name data network_id ,0.0,0.2724947912003214,41
+agents = self _get_enabled_dhcp_agents context network_id ,0.0,0.2724947912003214,42
+self _notification_host context <STR> ,0.0,0.2724947912003214,43
+def_get_enabled_dhcp_agents self context network_id ,0.0,0.2724947912003214,44
+context self make_msg method ,1.0,0.2724947912003214,45
+context <STR> ,0.0,0.2724947912003214,46
+self _notification context method_name ,0.0,0.2724947912003214,47
+agents = plugin get_dhcp_agents_hosting_networks context [ network_id ] ,0.0,0.2724947912003214,48
+self _cast_message context <STR> ,0.0,0.2724947912003214,49
+topic = <STR> % topic host ,0.0,0.25088872125545764,50
+neutron openstack common timeutils ,1.0,0.22968864980975348,51
+mock_get_plugin return_value = mock_plugin = mock Mock ,0.0,0.21601414157466062,52
+self notify _notification mock Mock <STR> ,0.0,0.2130629115722616,53
+def__ init__ self topic = topics DHCP_AGENT plugin = None ,0.0,0.1839108451463385,54
+def__ init__ self topic = topics DHCP_AGENT ,1.0,0.1839108451463385,55
+agent = mock Mock ,0.0,0.1762914218516751,56
+agent<NUM> heartbeat_timestamp = datetime datetime <NUM> <NUM> <NUM> <NUM> <NUM> ,0.0,0.1707210590666692,57
+topic = <STR> % topics DHCP_AGENT host ,1.0,0.16808046550521258,58
+agent_notifiers = manager NeutronManager _instance plugin ,0.0,0.15162923131722528,59
+manager NeutronManager _instance ,1.0,0.15162923131722528,60
+dhcp_agent_notifier = agent_notifiers get const AGENT_TYPE_DHCP ,1.0,0.1430775720950151,61
+mock ANY <STR> ,0.0,0.1405724457957744,62
+enabled_agent = mock Mock ,0.0,0.1405724457957744,63
+disabled_agent = mock Mock ,0.0,0.1405724457957744,64
+self notifier _notify_agents mock Mock method ,0.0,0.1405724457957744,65
+self notifier _notify_agents mock ANY ,0.0,0.1405724457957744,66
+self _test_notification [ mock Mock ] ,0.0,0.1405724457957744,67
+mock ANY network existing_agents ,0.0,0.1405724457957744,68
+dhcp_rpc_agent_api DhcpAgentNotifyAPI plugin = mock Mock ,0.0,0.1405724457957744,69
+neutron common constants const ,0.0,0.12811530213495348,70
+g return_value = [ agent ] ,0.0,0.11116067183462669,71
+plugin = manager NeutronManager get_plugin ,1.0,0.10707787426200441,72
+neutron manager ,1.0,0.10707787426200441,73
+self _plugin = manager NeutronManager get_plugin ,1.0,0.10707787426200441,74
+topic = topics DHCP_AGENT ,0.0,0.09334082668444554,75
+datetime ,1.0,0.08536052953338442,76
+mock_get_agents return_value = [ disabled_agent enabled_agent ] ,0.0,0.07544169577877922,77
+mock_get_agents return_value = agents ,0.0,0.07544169577877922,78
+self notifier plugin get_ports_count return_value = port_count ,0.0,0.07544169577877922,79
+self notifier plugin schedule_network return_value = new_agents ,0.0,0.07544169577877922,80
+<STR> network_id host ,0.0,0.07473963882082581,81
+<STR> network_id host ,0.0,0.07473963882082581,82
+host ,0.0,0.07473963882082581,83
+<STR> network_id host ,0.0,0.07473963882082581,84
+<STR> admin_state_up host ,0.0,0.07473963882082581,85
+<STR> network_id host ,0.0,0.07473963882082581,86
+self notify = dhcp_rpc_agent_api DhcpAgentNotifyAPI ,0.0,0.07249046577641483,87
+result = self notify _get_enabled_dhcp_agents <STR> ,0.0,0.07249046577641483,88
+network = self plugin get_network admin_ctx network_id ,0.0,0.07055500788772104,89
+agents = self _schedule_network admin_ctx network agents ,0.0,0.07055500788772104,90
+self assertEqual expected_errors self mock_log error call_count ,0.0,0.051261975714695096,91
+LOG error _ <STR> ,1.0,0.051261975714695096,92
+LOG error _ <STR> ,1.0,0.051261975714695096,93
+self assertEqual expected_warnings self mock_log warn call_count ,0.0,0.050272747991119054,94
+LOG warn _ <STR> ,1.0,0.050272747991119054,95
+payload = payload ,0.0,0.0414781409855836,96
+self mock_log = mock_log_p start ,0.0,0.0372970564704044,97
+self mock_fanout = mock_fanout_p start ,0.0,0.0372970564704044,98
+self mock_cast = mock_cast_p start ,0.0,0.0372970564704044,99
+self mock_util = mock_util_p start ,0.0,0.0372970564704044,100
+agent chosen_agents ,0.0,0.03571897605584748,101
+agent is_active = ,0.0,0.03571897605584748,102
+agent agents ,0.0,0.03571897605584748,103
+new_agents = [ agent ] existing_agents = [ ] ,0.0,0.03571897605584748,104
+self _test_notification [ agent ] ,0.0,0.03571897605584748,105
+agent heartbeat_timestamp = timeutils utcnow ,0.0,0.03571897605584748,106
+new_agents = None existing_agents = [ agent ] ,0.0,0.03571897605584748,107
+self _test__ get_enabled_agents network agents = [ agent ] ,0.0,0.03571897605584748,108
+agent [ <STR> ] ,0.0,0.03571897605584748,109
+agent admin_state_up = ,0.0,0.03571897605584748,110
+agent enabled_agents ,0.0,0.03571897605584748,111
+agent new_agents ,0.0,0.03571897605584748,112
+agent = agents_db Agent ,0.0,0.03571897605584748,113
+<STR> payload ,0.0,0.0207390704927918,114
+<STR> payload ,0.0,0.0207390704927918,115
+neutron db agents_db ,1.0,0.0018570915769827354,116
+<STR> len_enabled_agents ,1.0,0.0,117
+test__ schedule_network self ,1.0,0.0,118
+self assertEqual mock_cast call_count <NUM> ,0.0,0.0,119
+test_notification_logs_error_for_no_enabled_agents self ,0.0,0.0,120
+fanout_required = method = = <STR> no_agents ,0.0,0.0,121
+<STR> active_agents ,1.0,0.0,122
+network = <STR> ] ,0.0,0.0,123
+agents = self plugin get_dhcp_agents_hosting_networks ,0.0,0.0,124
+self _plugin ,0.0,0.0,125
+<STR> network_id ,0.0,0.0,126
+self assertEqual result [ enabled_agent ] ,0.0,0.0,127
+contextlib nested ,0.0,0.0,128
+<STR> mock_log ,0.0,0.0,129
+def_test_notification self agents ,0.0,0.0,130
+enabled_agents = [ x x agents x admin_state_up ] ,0.0,0.0,131
+active_agents = [ x x agents x is_active ] ,0.0,0.0,132
+agents ,1.0,0.0,133
+active_agents ! = agents ,0.0,0.0,134
+[ x x agents x admin_state_up ] ,0.0,0.0,135
+agent<NUM> heartbeat_timestamp = timeutils utcnow ,0.0,0.0,136
+expected_warnings = <NUM> expected_errors = <NUM> ,0.0,0.0,137
+network = plugin get_network adminContext network_id ,0.0,0.0,138
+obj_type + <STR> ] ,0.0,0.0,139
+self cast ,1.0,0.0,140
+agents = None port_count = <NUM> ,0.0,0.0,141
+test_get_enabled_dhcp_agents_filters_disabled_agents self ,0.0,0.0,142
+<STR> ,1.0,0.0,143
+fanout_required ,0.0,0.0,144
+<STR> network_id ,1.0,0.0,145
+disabled_agent admin_state_up = ,0.0,0.0,146
+<STR> method ,0.0,0.0,147
+network_id ,0.0,0.0,148
+test_notification_logs_warning_for_inactive_agents self ,0.0,0.0,149
+self plugin constants DHCP_AGENT_SCHEDULER_EXT_ALIAS ,0.0,0.0,150
+dhcp_agent_notifier _plugin = None ,0.0,0.0,151
+<STR> ,0.0,0.0,152
+expected_scheduling = <NUM> expected_casts = <NUM> ,0.0,0.0,153
+method = = <STR> ,0.0,0.0,154
+self _test__ notify_agents <STR> ,0.0,0.0,155
+mock_get_agents ,0.0,0.0,156
+obj_type + <STR> ] ,0.0,0.0,157
+new_agents = None existing_agents = None ,0.0,0.0,158
+<STR> agents ,0.0,0.0,159
+LOG warning _ <STR> ,1.0,0.0,160
+num_ports > <NUM> network [ <STR> ] > = <NUM> ,0.0,0.0,161
+self _test_notification [ ] ,0.0,0.0,162
+enabled_agents = self _get_enabled_agents ,0.0,0.0,163
+contextlib ,1.0,0.0,164
+method ! = <STR> utils is_extension_supported ,0.0,0.0,165
+test_notification_sends_cast_for_enabled_agent self ,0.0,0.0,166
+<STR> mock_get_plugin ,0.0,0.0,167
+plugin self ,0.0,0.0,168
+test__ notify_agents_cast_required_wo_scheduling_on_subnet_create self ,0.0,0.0,169
+chosen_agents = plugin schedule_network adminContext network ,0.0,0.0,170
+plugin constants DHCP_AGENT_SCHEDULER_EXT_ALIAS ,0.0,0.0,171
+test__ notify_agents_fanout_required self ,0.0,0.0,172
+<STR> ] ,0.0,0.0,173
+<STR> ,1.0,0.0,174
+network_id ,0.0,0.0,175
+test__ get_enabled_agents_with_notification_required self ,0.0,0.0,176
+self assertEqual <NUM> self mock_fanout call_count ,0.0,0.0,177
+schedule_required = method = = <STR> ,0.0,0.0,178
+<STR> network_id ,1.0,0.0,179
+self assertEqual expected_scheduling f call_count ,0.0,0.0,180
+% <STR> method ,0.0,0.0,181
+agent<NUM> admin_state_up = ,0.0,0.0,182
+test__ schedule_network_no_existing_agents self ,0.0,0.0,183
+new_agents = None existing_agents = [ ] ,0.0,0.0,184
+test__ notify_agents_cast_required_with_scheduling self ,0.0,0.0,185
+test__ get_enabled_agents self ,0.0,0.0,186
+def_test__ get_enabled_agents self network ,0.0,0.0,187
+self assertEqual expected_casts self mock_cast call_count ,0.0,0.0,188
+len_enabled_agents = enabled_agents ,0.0,0.0,189
+<STR> network_id ,1.0,0.0,190
+len_active_agents = active_agents ,0.0,0.0,191
+self notifier = ,0.0,0.0,192
+test__ fanout_message self ,0.0,0.0,193
+expected_scheduling = <NUM> expected_casts = <NUM> ,0.0,0.0,194
+no_agents = utils is_extension_supported ,0.0,0.0,195
+test__ notify_agents_no_action self ,0.0,0.0,196
+def_test__ notify_agents self method ,0.0,0.0,197
+notification_required = ,0.0,0.0,198
+self _cast_message ,0.0,0.0,199
+network_id = network [ <STR> ] ,0.0,0.0,200
+self _plugin None ,0.0,0.0,201
+agent<NUM> = agents_db Agent ,0.0,0.0,202
+test__ get_enabled_agents_with_inactive_ones self ,0.0,0.0,203
+<STR> ,0.0,0.0,204
+test__ schedule_network_no_new_agents self ,0.0,0.0,205
+cast_required ,0.0,0.0,206
+existing_agents ,0.0,0.0,207
+network = <STR> ,0.0,0.0,208
+new_agents None ,0.0,0.0,209
+self assertEqual new_agents + existing_agents agents ,0.0,0.0,210
+schedule_required ,1.0,0.0,211
+self _plugin = plugin ,0.0,0.0,212
+expected_casts = <NUM> expected_warnings = <NUM> ,0.0,0.0,213
+self _test__ get_enabled_agents network [ ] port_count = <NUM> ,0.0,0.0,214
+dhcp_agent_notifier ,0.0,0.0,215
+<STR> ,0.0,0.0,216
+def_test__ schedule_network self network ,1.0,0.0,217
+self _test__ schedule_network network ,0.0,0.0,218
+enabled_agents ,0.0,0.0,219
+self assertEqual <NUM> self mock_cast call_count ,0.0,0.0,220
+% <STR> len_active_agents ,1.0,0.0,221
+cast_required = method ! = <STR> ,0.0,0.0,222
+<STR> admin_state_up ,0.0,0.0,223
+mock_plugin <STR> ,0.0,0.0,224
+self assertEqual mock_log call_count <NUM> ,0.0,0.0,225
+network [ <STR> ] ,0.0,0.0,226
+m<NUM> m<NUM> mock_get_agents ,0.0,0.0,227
+chosen_agents ,0.0,0.0,228
+expected_warnings = <NUM> expected_errors = <NUM> ,0.0,0.0,229
+expected_casts = <NUM> expected_warnings = <NUM> ,0.0,0.0,230
+@ ,1.0,0.0,231
+enabled_agents = self notifier _get_enabled_agents ,0.0,0.0,232
+new_agents + existing_agents ,0.0,0.0,233
+enabled_agents ,0.0,0.0,234
+new_agents = [ ] ,0.0,0.0,235
+new_agents ,0.0,0.0,236
+self _test__ get_enabled_agents network ,0.0,0.0,237
+agents = [ agent<NUM> agent<NUM> ] ,0.0,0.0,238
+len_active_agents < len_enabled_agents ,0.0,0.0,239
+<STR> ,0.0,0.0,240
+test__ notify_agents_cast_required_wo_scheduling_on_port_update self ,0.0,0.0,241
+self assertEqual agents enabled_agents ,0.0,0.0,242
+test__ cast_message self ,0.0,0.0,243
+notification_required ,0.0,0.0,244
+agents = self notifier _schedule_network ,0.0,0.0,245
+active_agents = [ x x agents x is_active ] ,0.0,0.0,246
+num_ports = self plugin get_ports_count ,0.0,0.0,247
+self _notification_host ,0.0,0.0,248

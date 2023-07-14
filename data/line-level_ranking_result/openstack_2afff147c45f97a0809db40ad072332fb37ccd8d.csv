@@ -1,0 +1,55 @@
+total_tokens,line_level_label,line_score,row
+version = <NUM> <NUM> ,0.0,1.0,1
+mock patch dhcp Dnsmasq <STR> conf_fn ,1.0,0.6911915652574538,2
+i = subnet_idx_map get ip subnet_id ,0.0,0.3937134534854776,3
+ip port fixed_ips ,1.0,0.29653495231369403,4
+port device_owner = = <STR> ,1.0,0.29653495231369403,5
+def__ init__ self ,1.0,0.27873046482676883,6
+<STR> join ips ,0.0,0.21162050647028458,7
+ports = [ FakePort<NUM> FakePort<NUM> FakePort<NUM> FakeRouterPort ,1.0,0.20393295533378472,8
+tag tag<NUM> option dns - server <NUM> <NUM> <NUM> <NUM> ,0.0,0.12563248310775993,9
+tag tag<NUM> option dns - server <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <STR> lstrip ,0.0,0.12563248310775993,10
+self safe assert_called_once_with <STR> expected ,1.0,0.10476940407130887,11
+expected = <STR> ,1.0,0.05186497542973583,12
+i ips dhcp_ips items ,0.0,0.04471066847926506,13
+options append self _format_option i ,1.0,0.0,14
+FakeV<NUM>MultipleAgentsWithoutDnsProvided ,1.0,0.0,15
+tag tag<NUM> option router <NUM> <NUM> <NUM> <NUM> ,0.0,0.0,16
+<STR> ] ,0.0,0.0,17
+subnet_idx_map [ subnet ] = i ,0.0,0.0,18
+subnets = [ FakeV<NUM>SubnetMultipleAgentsWithoutDnsProvided ] ,1.0,0.0,19
+<STR> ,0.0,0.0,20
+FakeV<NUM>SubnetMultipleAgentsWithDnsProvided ,1.0,0.0,21
+dm _output_opts_file ,1.0,0.0,22
+tag tag<NUM> option router <NUM> <NUM> <NUM> <NUM> <STR> lstrip ,0.0,0.0,23
+fixed_ips = [ FakeIPAllocation <STR> ,1.0,0.0,24
+self extra_dhcp_opts = [ ] ,1.0,0.0,25
+dns_nameservers = [ ] ,1.0,0.0,26
+cidr = <STR> ,1.0,0.0,27
+= <STR> ,1.0,0.0,28
+test_output_opts_file_multiple_agents_without_dns_provided self ,0.0,0.0,29
+host_routes = [ ] ,0.0,0.0,30
+i None ,0.0,0.0,31
+namespace = <STR> ,1.0,0.0,32
+subnets = [ FakeV<NUM>SubnetMultipleAgentsWithDnsProvided ] ,1.0,0.0,33
+ips > <NUM> ,1.0,0.0,34
+FakeV<NUM>SubnetMultipleAgentsWithoutDnsProvided ,1.0,0.0,35
+admin_state_up = ,1.0,0.0,36
+FakeV<NUM>MultipleAgentsWithDnsProvided ,1.0,0.0,37
+dhcp_ips [ i ] append ip ip_address ,0.0,0.0,38
+collections ,0.0,0.0,39
+device_owner = <STR> ,1.0,0.0,40
+FakeV<NUM>MultipleAgentsWithDnsProvided ,1.0,0.0,41
+gateway_ip = <STR> ,1.0,0.0,42
+subnet_idx_map = ,0.0,0.0,43
+FakeV<NUM>MultipleAgentsWithoutDnsProvided ,1.0,0.0,44
+conf_fn return_value = <STR> ,1.0,0.0,45
+dhcp_ips = collections defaultdict ,0.0,0.0,46
+enable_dhcp = ,1.0,0.0,47
+dm = dhcp Dnsmasq self conf ,1.0,0.0,48
+ip_version = <NUM> ,1.0,0.0,49
+FakePortMultipleAgents<NUM> ,1.0,0.0,50
+dns_nameservers = [ <STR> ] ,1.0,0.0,51
+test_output_opts_file_multiple_agents_with_dns_provided self ,0.0,0.0,52
+FakePortMultipleAgents<NUM> FakePortMultipleAgents<NUM> ] ,0.0,0.0,53
+mac_address = <STR> ,1.0,0.0,54

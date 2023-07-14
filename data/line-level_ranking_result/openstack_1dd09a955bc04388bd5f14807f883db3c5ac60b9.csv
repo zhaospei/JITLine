@@ -1,0 +1,461 @@
+total_tokens,line_level_label,line_score,row
+number of times to rescan iSER target to find volume ,1.0,1.0,1
+use this file compliance the License You may obtain ,1.0,0.6724553138785112,2
+to discovery need be Discovery may be completely removed future ,0.0,0.5,3
+<STR> Executes commands relating to ISER volumes ,0.0,0.5,4
+Unless required by applicable law agreed to writing software ,1.0,0.5,5
+iser target user - land tool to use string value ,1.0,0.5,6
+lun = <NUM> # For tgtadm the controller lun <NUM> dev starts at lun <NUM> ,0.0,0.37261380553433887,7
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.17879757990795525,8
+self stubs Set os path <STR> lambda_ ,1.0,0.0,9
+self configuration iser_ip_address tid iser_name lun ,1.0,0.0,10
+vol_id = name split <STR> [ <NUM> ] ,0.0,0.0,11
+< / target > ,0.0,0.0,12
+target_lun the lun of the iSER target ,0.0,0.0,13
+volume_path = os path join CONF volumes_dir vol_uuid_file ,1.0,0.0,14
+cmds = [ ] ,0.0,0.0,15
+iser_properties [ <STR> ] ,1.0,0.0,16
+<STR> ,1.0,0.0,17
+parsed = line split ,0.0,0.0,18
+create_iser_target self name tid lun path ,0.0,0.0,19
+LOG debug msg ,0.0,0.0,20
+self configuration volume_group ,1.0,0.0,21
+target_iqn the IQN of the iSER target ,0.0,0.0,22
+setUp self ,1.0,0.0,23
+exception DeviceUnavailable path = host_device ,0.0,0.0,24
+ensure_export self context volume ,0.0,0.0,25
+TgtAdmTestCase test TestCase TargetAdminTestCase ,0.0,0.0,26
+self _execute self _cmd * args run_as_root = * * kwargs ,0.0,0.0,27
+target_portal the portal of the iSER target ,0.0,0.0,28
+location = volume [ <STR> ] ,1.0,0.0,29
+results = location split <STR> ,0.0,0.0,30
+Number of iser target ids per host integer value ,1.0,0.0,31
+data [ <STR> ] = self VERSION ,1.0,0.0,32
+volume = <STR> ,1.0,0.0,33
+fake_execute cmd *_args * *_kwargs ,1.0,0.0,34
+All Rights Reserved ,0.0,0.0,35
+self script_template % self get_script_params ,0.0,0.0,36
+TgtAdm TargetAdmin ,1.0,0.0,37
+target iqn lun ,0.0,0.0,38
+f write volume_conf ,0.0,0.0,39
+chap_auth = self _iser_authentication <STR> chap_username ,0.0,0.0,40
+self set_execute execute ,1.0,0.0,41
+iser_driver _do_iser_discovery volume ,0.0,0.0,42
+<STR> % name path chap_auth ,0.0,0.0,43
+properties [ <STR> ] = results [ <NUM> ] ,0.0,0.0,44
+auth_method auth_username auth_secret = auth split ,0.0,0.0,45
+<STR> % ip self configuration iser_port ,1.0,0.0,46
+IndexError ValueError ,0.0,0.0,47
+LOG info _ <STR> % vol_id ,0.0,0.0,48
+tries ! = <NUM> ,0.0,0.0,49
+integer value ,1.0,0.0,50
+self verify_cmds cmds ,0.0,0.0,51
+message =_ <STR> ,1.0,0.0,52
+<STR> tries ,0.0,0.0,53
+ISERTargetRemoveFailed CinderException ,1.0,0.0,54
+self configuration iser_ip_address target ,1.0,0.0,55
+shutil rmtree self persist_tempdir ,0.0,0.0,56
+< target % s > ,0.0,0.0,57
+os path exists host_device ,0.0,0.0,58
+os path exists host_device ,0.0,0.0,59
+FakeIserHelper ,0.0,0.0,60
+= <STR> ,1.0,0.0,61
+volume_driver = cinder volume drivers lvm LVMISCSIDriver cinder volume drivers lvm LVMISERDriver ,0.0,0.0,62
+self _ensure_iser_targets context volume [ <STR> ] ,1.0,0.0,63
+volume [ <STR> ] ,1.0,0.0,64
+TgtAdm ,0.0,0.0,65
+context ,0.0,0.0,66
+FakeIserHelper ,1.0,0.0,67
+properties [ <STR> ] = results [ <NUM> ] split <STR> [ <NUM> ] ,0.0,0.0,68
+def_run self * args * * kwargs ,1.0,0.0,69
+properties [ <STR> ] = ,0.0,0.0,70
+result = iser_driver _get_iser_properties volume ,0.0,0.0,71
+tid [ - <NUM> ] ,0.0,0.0,72
+LOG debug _ <STR> % location ,1.0,0.0,73
+iser_target = self db volume_get_iscsi_target_num ,0.0,0.0,74
+check_exit_code = [ <NUM> <NUM> ] ,0.0,0.0,75
+an ietadm discovery ,0.0,0.0,76
+] ,0.0,0.0,77
+ISERTargetNotFoundForVolume NotFound ,0.0,0.0,78
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.0,79
+LVMVolumeDriver __ init__ self * args * * kwargs ,1.0,0.0,80
+host ,0.0,0.0,81
+tid = self _get_target iqn ,1.0,0.0,82
+properties [ <STR> ] ,0.0,0.0,83
+run_commands self ,0.0,0.0,84
+iqn line ,0.0,0.0,85
+iqn = location [ <NUM> ] ,0.0,0.0,86
+properties [ <STR> ] = auth_method ,0.0,0.0,87
+model_update [ <STR> ] = self _iser_location ,0.0,0.0,88
+volume_path ,0.0,0.0,89
+iser_driver _execute = * a * * kw \ ,0.0,0.0,90
+location ,0.0,0.0,91
+s [ <STR> ] split <STR> [ <NUM> ] ,0.0,0.0,92
+cinder utils ,1.0,0.0,93
+<STR> % chap name password ,0.0,0.0,94
+old_name None ,1.0,0.0,95
+check_exit_code = ,0.0,0.0,96
+iser_properties = init_conn [ <STR> ] ,0.0,0.0,97
+cfg StrOpt <STR> ,1.0,0.0,98
+host_iser_targets = self db iscsi_target_count_by_host context ,0.0,0.0,99
+self _stats = data ,1.0,0.0,100
+old_name = old_name ,1.0,0.0,101
+self assertEquals result [ <STR> ,1.0,0.0,102
+out = ,1.0,0.0,103
+self persist_tempdir = tempfile mkdtemp ,1.0,0.0,104
+Base iSER target admin helpers ,0.0,0.0,105
+re ,1.0,0.0,106
+self configuration iser_helper = = <STR> ,1.0,0.0,107
+<STR> self target_name ,0.0,0.0,108
+Exception e ,1.0,0.0,109
+def_do_iser_discovery self volume ,0.0,0.0,110
+iser_target = <NUM> ,1.0,0.0,111
+volume_id the of the volume currently used by xen ,0.0,0.0,112
+self script_template = None ,0.0,0.0,113
+os path isfile volume_path ,0.0,0.0,114
+% <STR> e ,0.0,0.0,115
+portals = [ <STR> p split <STR> [ <NUM> ] ,0.0,0.0,116
+init_conn = self initialize_connection volume connector ,0.0,0.0,117
+shutil ,1.0,0.0,118
+exception ISERTargetRemoveFailed volume_id = vol_id ,0.0,0.0,119
+old_name = kwargs get <STR> None ,0.0,0.0,120
+self run_commands ,0.0,0.0,121
+LOG error _ <STR> ,1.0,0.0,122
+location = volume [ <STR> ,0.0,0.0,123
+self path = <STR> ,1.0,0.0,124
+` ` provider_auth ` ` ,0.0,0.0,125
+auth ,0.0,0.0,126
+iqn = <STR> % CONF iser_target_prefix ,1.0,0.0,127
+self clear_cmds ,0.0,0.0,128
+iser_driver = driver ISERDriver configuration = configuration ,1.0,0.0,129
+self lun = <NUM> ,1.0,0.0,130
+iser_port = <NUM> ,1.0,0.0,131
+pass ,0.0,0.0,132
+Copyright c <NUM> Mellanox Technologies All rights reserved ,0.0,0.0,133
+test_do_iscsi_discovery self ,0.0,0.0,134
+line script split <STR> ,0.0,0.0,135
+None None ,0.0,0.0,136
+<STR> <NUM> ,1.0,0.0,137
+time sleep tries * * <NUM> ,0.0,0.0,138
+chap_auth = None * * kwargs ,0.0,0.0,139
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.0,140
+out ,0.0,0.0,141
+remove_iser_target self tid lun vol_id * * kwargs ,1.0,0.0,142
+<STR> host_device ,0.0,0.0,143
+tgtadm show_target self tid iqn = self target_name ,0.0,0.0,144
+remove_export self context volume ,1.0,0.0,145
+LOG debug _ <STR> cmd ,1.0,0.0,146
+self stubs Set os <STR> ,0.0,0.0,147
+iser_name = <STR> % self configuration iser_target_prefix ,1.0,0.0,148
+self db iscsi_target_create_safe context target ,0.0,0.0,149
+backing - store % s ,0.0,0.0,150
+= <STR> ,1.0,0.0,151
+volume_driver = cinder volume drivers lvm LVMISCSIDriver ,0.0,0.0,152
+<STR> iSER target administration ,0.0,0.0,153
+<STR> % CONF iser_ip_address <STR> ,0.0,0.0,154
+os ,1.0,0.0,155
+target out splitlines ,0.0,0.0,156
+TgtAdmTestCase self tearDown ,1.0,0.0,157
+<STR> % name path ,0.0,0.0,158
+exception ProcessExecutionError exc ,1.0,0.0,159
+err =_ <STR> ,1.0,0.0,160
+iser_driver = driver ISERDriver ,1.0,0.0,161
+tgtadm set_execute self fake_execute ,1.0,0.0,162
+p out splitlines p startswith <STR> ] ,0.0,0.0,163
+self flags iser_helper = <STR> ,1.0,0.0,164
+ISERTargetAttachFailed CinderException ,1.0,0.0,165
+old_name = self _fix_id_migration context volume ,0.0,0.0,166
+FakeISERDriver self __ init__ execute = self fake_execute ,0.0,0.0,167
+clear_cmds self ,0.0,0.0,168
+volume_name = old_name ,1.0,0.0,169
+target_discovered boolean indicating whether discovery was used ,0.0,0.0,170
+volume_name ,0.0,0.0,171
+tries = <NUM> ,1.0,0.0,172
+present contains the iSER target information the same ,0.0,0.0,173
+present meaning no authentication auth_method = = ` CHAP ` ,0.0,0.0,174
+<STR> % host_device ,0.0,0.0,175
+None ,1.0,0.0,176
+os unlink volume_path ,0.0,0.0,177
+self tid + = <NUM> ,0.0,0.0,178
+location ,0.0,0.0,179
+self _execute <STR> ,1.0,0.0,180
+<STR> ,1.0,0.0,181
+volume [ <STR> ] ,1.0,0.0,182
+volume_name target ,0.0,0.0,183
+driver iser ,0.0,0.0,184
+def_new_target self name tid * * kwargs ,0.0,0.0,185
+self assertEqual a b ,1.0,0.0,186
+get_script self ,0.0,0.0,187
+CONF register_opts iser_helper_opt ,1.0,0.0,188
+msg =_ <STR> ,1.0,0.0,189
+LVMISERDriver LVMISCSIDriver driver ISERDriver ,0.0,0.0,190
+vol_uuid_file ,1.0,0.0,191
+properties [ <STR> ] = ,0.0,0.0,192
+backend_name = self configuration safe_get <STR> ,1.0,0.0,193
+self verify ,0.0,0.0,194
+self _check_valid_device host_device ,0.0,0.0,195
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.0,196
+self cmds append string join cmd ,0.0,0.0,197
+self tgtadm remove_iser_target iser_target <NUM> volume [ <STR> ] ,1.0,0.0,198
+target_num xrange <NUM> target_end ,0.0,0.0,199
+We make use of model provider properties follows ,0.0,0.0,200
+TargetAdminTestCase setUp self ,0.0,0.0,201
+msg = _ <STR> % ,1.0,0.0,202
+def_update_volume_status self ,1.0,0.0,203
+out err = self _execute <STR> run_as_root = ,0.0,0.0,204
+<STR> Initializes the connection returns connection info ,0.0,0.0,205
+string ,1.0,0.0,206
+ISERTestCase ISCSITestCase ,0.0,0.0,207
+prefix iser volumes string value ,1.0,0.0,208
+LVMVolumeDriver set_execute self execute ,1.0,0.0,209
+The port that the iSER daemon listening on string ,1.0,0.0,210
+name ,0.0,0.0,211
+<STR> self lun ,0.0,0.0,212
+def_ensure_iser_targets self context host ,0.0,0.0,213
+old_persist_file = None ,0.0,0.0,214
+<STR> Gets iser configuration ,0.0,0.0,215
+def_get_iser_properties self volume ,0.0,0.0,216
+LOG error _ <STR> exc stderr ,0.0,0.0,217
+iser_target_prefix = iqn <NUM> - <NUM> org iser openstack ,1.0,0.0,218
+<STR> None ,1.0,0.0,219
+out _err = self _execute <STR> ,1.0,0.0,220
+self configuration volume_driver ,1.0,0.0,221
+CONF import_opt <STR> ,0.0,0.0,222
+chap_password ,0.0,0.0,223
+lun = <NUM> ,1.0,0.0,224
+self vol_id = <STR> ,1.0,0.0,225
+default = <STR> ,1.0,0.0,226
+self script_template = <STR> join [ ,0.0,0.0,227
+show_target self tid iqn = None * * kwargs ,1.0,0.0,228
+cinder test ,1.0,0.0,229
+iser_driver _do_iser_discovery = v <STR> ,0.0,0.0,230
+iser_ip_address = $ my_ip ,1.0,0.0,231
+volume = out split ,0.0,0.0,232
+host_device = <STR> % ,0.0,0.0,233
+present contains a space - separated triple ,0.0,0.0,234
+tgtadm remove_iser_target self tid self lun self vol_id ,1.0,0.0,235
+iqn None ,0.0,0.0,236
+chap_username = utils generate_username ,0.0,0.0,237
+portals = = <NUM> length_iqn = = <NUM> ,0.0,0.0,238
+data = ,1.0,0.0,239
+The iser driver returns a driver_volume_type of <STR> ,0.0,0.0,240
+exception CinderException _ <STR> ,0.0,0.0,241
+line strip ,0.0,0.0,242
+script = self get_script ,0.0,0.0,243
+<NUM> volume_path chap_auth ,0.0,0.0,244
+volume_path = os path join volumes_dir vol_id ,1.0,0.0,245
+<STR> % ,0.0,0.0,246
+target = <STR> target_num ,0.0,0.0,247
+iser_helper_opt = [ cfg StrOpt <STR> ,1.0,0.0,248
+default = <NUM> ,1.0,0.0,249
+We ideally get saved information the volume entity but fall back ,0.0,0.0,250
+self _run_iscsiadm iser_properties <STR> ,0.0,0.0,251
+* args * * kwargs ,0.0,0.0,252
+a b cmds self cmds ,0.0,0.0,253
+out err = self _execute <STR> ,1.0,0.0,254
+oslo config cfg ,1.0,0.0,255
+Example value ,0.0,0.0,256
+<STR> ] ,1.0,0.0,257
+exception ProcessExecutionError err ,1.0,0.0,258
+def_check_valid_device self path ,0.0,0.0,259
+flags DECLARE <STR> ,0.0,0.0,260
+self flags volumes_dir = self persist_tempdir ,0.0,0.0,261
+= <STR> ,1.0,0.0,262
+self _cmd = cmd ,0.0,0.0,263
+length_iqn = [ s s portals ,0.0,0.0,264
+stripped_portal = iser_properties [ <STR> ] split <STR> [ <NUM> ] ,0.0,0.0,265
+reason = _ <STR> ,1.0,0.0,266
+exception ISERTargetCreateFailed volume_id = vol_id ,0.0,0.0,267
+iser_properties = None ,1.0,0.0,268
+LOG debug _ <STR> ,1.0,0.0,269
+self assertEquals result [ <STR> ] <NUM> ,1.0,0.0,270
+f = volume_path <STR> ,1.0,0.0,271
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.0,272
+data [ <STR> ] = <NUM> ,1.0,0.0,273
+num_iser_scan_tries = <NUM> ,1.0,0.0,274
+test_target_admin self ,1.0,0.0,275
+<STR> ,1.0,0.0,276
+<NUM> ,1.0,0.0,277
+stripped_portal = = ,0.0,0.0,278
+exception ProcessExecutionError e ,1.0,0.0,279
+os path ,1.0,0.0,280
+<STR> chap_username chap_password ,0.0,0.0,281
+TgtAdmTestCase self setUp ,1.0,0.0,282
+<STR> self path ,0.0,0.0,283
+` ` provider_location ` ` ,0.0,0.0,284
+fake_get_target obj iqn ,0.0,0.0,285
+NotImplementedError ,0.0,0.0,286
+def__ init__ self cmd execute ,1.0,0.0,287
+properties [ <STR> ] = <NUM> ,0.0,0.0,288
+old_name = None ,1.0,0.0,289
+configuration append_config_values mox IgnoreArg ,1.0,0.0,290
+<STR> ] ,0.0,0.0,291
+out = self _run_iscsiadm_bare [ <STR> ] ,0.0,0.0,292
+volumes_dir = CONF volumes_dir ,1.0,0.0,293
+def__ init__ self execute = utils execute ,1.0,0.0,294
+chap_auth None ,0.0,0.0,295
+data [ <STR> ] = backend_name <STR> ,1.0,0.0,296
+iser_properties [ <STR> ] ,1.0,0.0,297
+get_script_params self ,1.0,0.0,298
+chap_auth ,0.0,0.0,299
+def_delete_logicalunit self tid lun * * kwargs ,0.0,0.0,300
+a copy of the License at ,1.0,0.0,301
+properties [ <STR> ] = results [ <NUM> ] ,0.0,0.0,302
+ISERDriver self __ init__ * args * * kwargs ,1.0,0.0,303
+verify_cmds self cmds ,0.0,0.0,304
+volume = <STR> <STR> ,1.0,0.0,305
+self _run_iscsiadm iser_properties <STR> ,0.0,0.0,306
+self lun self path ,0.0,0.0,307
+<STR> ] ,1.0,0.0,308
+<STR> ,1.0,0.0,309
+configuration iser_ip_address = <STR> ,1.0,0.0,310
+tries > = self configuration num_iser_scan_tries ,1.0,0.0,311
+<STR> tries ,0.0,0.0,312
+under the License ,1.0,0.0,313
+LOG = logging getLogger __ name__ ,1.0,0.0,314
+value ,1.0,0.0,315
+get_target_admin ,1.0,0.0,316
+f close ,0.0,0.0,317
+def__ init__ self * args * * kwargs ,1.0,0.0,318
+cmds append line ,0.0,0.0,319
+cmd = <STR> % <STR> path ,0.0,0.0,320
+create_export self context volume ,0.0,0.0,321
+data [ <STR> ] = <STR> ,1.0,0.0,322
+properties ,1.0,0.0,323
+err exit_code [ <NUM> ] ,0.0,0.0,324
+` CHAP ` the only auth_method use at the moment ,0.0,0.0,325
+auth_method auth_username auth_password ,0.0,0.0,326
+LOG warn _ <STR> ,1.0,0.0,327
+tempfile ,1.0,0.0,328
+out info = self _execute * cmd run_as_root = ,1.0,0.0,329
+exception NotFound ,1.0,0.0,330
+s [ <STR> ] ] ,1.0,0.0,331
+exception NotFound ,1.0,0.0,332
+iser_target = <NUM> # dummy value when using TgtAdm ,0.0,0.0,333
+tid ,1.0,0.0,334
+exception InvalidParameterValue ,1.0,0.0,335
+cinder exception ,1.0,0.0,336
+initialize_connection self volume connector ,0.0,0.0,337
+def__ init__ self ,1.0,0.0,338
+model_update ,1.0,0.0,339
+iser_num_targets = <NUM> ,1.0,0.0,340
+exc exit_code [ <NUM> <NUM> ] ,0.0,0.0,341
+self tgtadm iser TgtAdm ,1.0,0.0,342
+iser_helper = tgtadm ,1.0,0.0,343
+Copyright <NUM> OpenStack Foundation ,1.0,0.0,344
+self tid = <NUM> ,1.0,0.0,345
+<STR> ,0.0,0.0,346
+lines = out split <STR> ,0.0,0.0,347
+% s ,1.0,0.0,348
+tearDown self ,0.0,0.0,349
+verify self ,0.0,0.0,350
+properties = ,0.0,0.0,351
+@ ,0.0,0.0,352
+out info = None None ,0.0,0.0,353
+old_persist_file None os path exists old_persist_file ,0.0,0.0,354
+line lines ,0.0,0.0,355
+self _iscsiadm_update iser_properties ,0.0,0.0,356
+target ,1.0,0.0,357
+OSError ,1.0,0.0,358
+volume_name = volume [ <STR> ] ,1.0,0.0,359
+model_update = ,1.0,0.0,360
+run_as_root = ,0.0,0.0,361
+data [ <STR> ] = self configuration reserved_percentage ,1.0,0.0,362
+conf set_default <STR> ,0.0,0.0,363
+tid = parsed [ <NUM> ] ,0.0,0.0,364
+fileutils ensure_tree CONF volumes_dir ,1.0,0.0,365
+self tgtadm create_iser_target iser_name iser_target ,1.0,0.0,366
+test_get_iscsi_properties self ,0.0,0.0,367
+tgtadm create_iser_target self target_name self tid ,0.0,0.0,368
+def_get_target self iqn ,1.0,0.0,369
+the authentication details Right now either auth_method ,0.0,0.0,370
+chap_password = utils generate_password ,0.0,0.0,371
+<STR> self tid ,1.0,0.0,372
+meaning use CHAP the specified credentials ,0.0,0.0,373
+volume [ <STR> ] None ,1.0,0.0,374
+def_delete_target self tid * * kwargs ,0.0,0.0,375
+self stubs Set iser TgtAdm <STR> self fake_get_target ,0.0,0.0,376
+fake_init obj ,1.0,0.0,377
+tid None ,0.0,0.0,378
+License the specific language governing permissions limitations ,1.0,0.0,379
+self target_name = <STR> ,1.0,0.0,380
+self tgtadm set_execute execute ,1.0,0.0,381
+TargetAdminTestCase ,0.0,0.0,382
+driver_name = <STR> ,1.0,0.0,383
+TargetAdmin ,1.0,0.0,384
+data [ <STR> ] = ,1.0,0.0,385
+<NUM> ,1.0,0.0,386
+iser_target ,0.0,0.0,387
+LOG info _ <STR> ,1.0,0.0,388
+auth = volume [ <STR> ] ,1.0,0.0,389
+self tgtadm = iser get_target_admin ,1.0,0.0,390
+TgtAdm self __ init__ <STR> execute ,1.0,0.0,391
+cfg IntOpt <STR> ,1.0,0.0,392
+i e <STR> ,1.0,0.0,393
+properties [ <STR> ] = auth_secret ,0.0,0.0,394
+old_persist_file = os path join volumes_dir old_name ,1.0,0.0,395
+The of the driver data defined in_get_iser_properties ,0.0,0.0,396
+ISERDriver ISCSIDriver ,1.0,0.0,397
+properties [ <STR> ] = auth_username ,0.0,0.0,398
+exception InvalidVolume reason = msg ,1.0,0.0,399
+info None ,0.0,0.0,400
+volume_conf = <STR> ,1.0,0.0,401
+def_attach_volume self context volume connector ,0.0,0.0,402
+self _run_iscsiadm iser_properties ,0.0,0.0,403
+vol_uuid_file = CONF volume_name_template % vol_id ,1.0,0.0,404
+conf set_default <STR> <NUM> ,0.0,0.0,405
+cinder openstack common log logging ,1.0,0.0,406
+configuration = mox MockObject conf Configuration ,1.0,0.0,407
+LOG debug _ <STR> ,1.0,0.0,408
+iser_target = self db volume_allocate_iscsi_target context ,0.0,0.0,409
+create_iser_target self * args * * kwargs ,1.0,0.0,410
+def_new_logicalunit self tid lun path * * kwargs ,0.0,0.0,411
+out err = self _execute <STR> ,1.0,0.0,412
+The port that the iSER daemon listening on integer ,1.0,0.0,413
+def_iser_location self ip target iqn lun = None ,0.0,0.0,414
+<STR> volume [ <STR> ] ,1.0,0.0,415
+<STR> host_device ,0.0,0.0,416
+tid = self tgtadm create_iser_target iser_name ,1.0,0.0,417
+host_iser_targets > = self configuration iser_num_targets ,1.0,0.0,418
+LOG warn _ <STR> ,0.0,0.0,419
+model_update [ <STR> ] = self _iser_authentication ,0.0,0.0,420
+iser_properties get <STR> <NUM> ,1.0,0.0,421
+os unlink old_persist_file ,0.0,0.0,422
+volume_path = <STR> % self configuration volume_group ,1.0,0.0,423
+data [ <STR> ,1.0,0.0,424
+data [ <STR> ,1.0,0.0,425
+set_execute self execute ,1.0,0.0,426
+cinder volume utils volume_utils ,1.0,0.0,427
+iser_properties get <STR> ,1.0,0.0,428
+cinder brick iser iser ,1.0,0.0,429
+CONF iser_helper = = <STR> ,1.0,0.0,430
+chap_auth = None ,0.0,0.0,431
+[ <STR> ,1.0,0.0,432
+volume [ <STR> ] ,1.0,0.0,433
+cinder openstack common fileutils ,1.0,0.0,434
+Helper code the iSER volume driver ,0.0,0.0,435
+self tid ,1.0,0.0,436
+tries = tries + <NUM> ,0.0,0.0,437
+fake_execute self * cmd * * kwargs ,0.0,0.0,438
+def_iser_authentication self chap name password ,0.0,0.0,439
+ISERTargetCreateFailed CinderException ,1.0,0.0,440
+iqn = <STR> % CONF iser_target_prefix vol_id ,1.0,0.0,441
+<STR> iser_properties ,1.0,0.0,442
+FakeISERDriver FakeISCSIDriver ,0.0,0.0,443
+self cmds = [ ] ,0.0,0.0,444
+CONF = cfg CONF ,1.0,0.0,445
+self _execute = execute ,1.0,0.0,446
+iqn ,0.0,0.0,447
+location = self _do_iser_discovery volume ,0.0,0.0,448
+target_end = self configuration iser_num_targets + <NUM> ,1.0,0.0,449
+The properties are ,0.0,0.0,450
+self tgtadm show_target iser_target iqn = iqn ,0.0,0.0,451
+iser_properties = self _get_iser_properties volume ,1.0,0.0,452
+<STR> % ,1.0,0.0,453
+host_device = None ,0.0,0.0,454
+self assertEqual cmds self cmds ,0.0,0.0,455
+tgtadm = iser get_target_admin ,1.0,0.0,456
+check_exit_code = [ <NUM> <NUM> <NUM> ] [ <NUM> ] <STR> ,0.0,0.0,457
+iser_properties host_device ,0.0,0.0,458
+<STR> e stderr ,0.0,0.0,459
+<STR> ,1.0,0.0,460

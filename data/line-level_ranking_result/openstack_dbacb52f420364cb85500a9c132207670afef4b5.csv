@@ -1,0 +1,570 @@
+total_tokens,line_level_label,line_score,row
+You may obtain a copy of the License at ,1.0,1.0,1
+a copy of the License at ,1.0,0.9168859715781721,2
+License the specific language governing permissions limitations ,1.0,0.9160515241969424,3
+See the License the specific language governing permissions ,1.0,0.8891965600852973,4
+Unless required by applicable law agreed to writing software ,1.0,0.8721360055037585,5
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.7285780520718005,6
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.6944101332082899,7
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.6885443946257562,8
+distributed under the License distributed on an <STR> BASIS ,1.0,0.6885443946257562,9
+neutron openstack common log ,1.0,0.670451113535275,10
+use this file compliance the License You may obtain ,1.0,0.6676387428809338,11
+you may use this file compliance the License ,1.0,0.6064715446171606,12
+limitations under the License ,1.0,0.5910717481133233,13
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.5861636141597331,14
+Licensed under the Apache License Version <NUM> <NUM> the <STR> ,1.0,0.5642167840016783,15
+resource = copy copy resource ,0.0,0.5624458337124802,16
+resource = copy copy resource ,0.0,0.5624458337124802,17
+This gives the controller an option to re - sync it ' s persistent store ,1.0,0.507763151953926,18
+This gives the controller an option to re - sync it ' s persistent store ,1.0,0.507763151953926,19
+This driver relays the network create update delete ,0.0,0.4969124781137195,20
+context = qcontext get_admin_context ,1.0,0.4263037309965678,21
+context = qcontext get_admin_context ,0.0,0.4263037309965678,22
+port = NeutronRestProxyV<NUM> self get_port context port_id ,1.0,0.4107804213021713,23
+neutron ' s current view of that data ,1.0,0.397956212911135,24
+neutron ' s current view of that data ,1.0,0.397956212911135,25
+LOG = log getLogger __ name__ ,1.0,0.39696869456989453,26
+under the License ,1.0,0.3835712330490571,27
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND either express ,1.0,0.38071154178174504,28
+net = NeutronRestProxyV<NUM> self get_network context net_id ,1.0,0.3640268547830072,29
+subnet = NeutronRestProxyV<NUM> self get_subnet context ,1.0,0.35956927677504885,30
+subnet = self get_subnet context subnet_id ,1.0,0.35956927677504885,31
+net = context network current ,0.0,0.35733994285011056,32
+self _unplug_port context port_id ,0.0,0.34817973194471835,33
+def_unplug_port self context port_id ,1.0,0.34817973194471835,34
+hostid = porttracker_db get_port_hostid context ,1.0,0.34282368909848926,35
+hostid = porttracker_db get_port_hostid context port [ <STR> ] ,1.0,0.34282368909848926,36
+port [ <STR> ] = context _binding host ,0.0,0.3202152521574945,37
+def__ init__ self server_timeout = None ,1.0,0.3103100723363453,38
+def__ init__ self timeout = <NUM> ,1.0,0.3103100723363453,39
+def__ init__ self servers ssl auth neutron_id timeout = <NUM> ,1.0,0.3103100723363453,40
+network = self get_network context net_id ,1.0,0.3088883357684505,41
+network = NeutronRestProxyV<NUM> self get_network context ,1.0,0.3088883357684505,42
+port = context current ,1.0,0.3022014238355538,43
+self _send_create_network context current ,1.0,0.3022014238355538,44
+self _send_delete_network context current ,0.0,0.3022014238355538,45
+self _send_update_network context current ,1.0,0.3022014238355538,46
+create_port_postcommit self context ,1.0,0.28788187819315414,47
+def_get_all_subnets_json_for_network self net_id context = None ,0.0,0.28215401969654597,48
+def_get_all_subnets_json_for_network self net_id context = None ,0.0,0.28215401969654597,49
+operations to the Big Switch Controller ,1.0,0.27985519422396665,50
+delete_port_postcommit self context ,1.0,0.2787176287168539,51
+new_port = self _extend_port_dict_binding context new_port ,1.0,0.27293759583323673,52
+self _extend_port_dict_binding context new_port ,1.0,0.27293759583323673,53
+new_port = self _extend_port_dict_binding context new_port ,1.0,0.27293759583323673,54
+update_network_postcommit self context ,1.0,0.26753343262100643,55
+subnets = self _get_subnets_by_network context ,0.0,0.26286368153613965,56
+subnets = self _get_subnets_by_network context ,0.0,0.26286368153613965,57
+tenant_id = self _get_tenant_id_for_create context ,1.0,0.2623155255139512,58
+LOG debug _ <STR> port_id ,1.0,0.2493079451791934,59
+fl_ips = self get_floatingips context ,1.0,0.24670692542067854,60
+context session begin subtransactions = ,1.0,0.24670692542067854,61
+def_get_router_intf_details self context intf_id subnet_id ,0.0,0.24670692542067854,62
+def_send_update_network self network context ,1.0,0.24670692542067854,63
+def_extend_port_dict_binding self context port ,1.0,0.24670692542067854,64
+old_host_id = porttracker_db get_port_hostid context ,1.0,0.24670692542067854,65
+def_prepare_port_for_controller self context ,1.0,0.24670692542067854,66
+neutron context ctx ,1.0,0.24670692542067854,67
+context None ,1.0,0.24670692542067854,68
+def_get_network_with_floatingips self network context = None ,0.0,0.24670692542067854,69
+def_send_create_network self network context = None ,1.0,0.24670692542067854,70
+delete_network_postcommit self context ,1.0,0.24670692542067854,71
+self _send_create_network new_net context ,1.0,0.24670692542067854,72
+context network [ <STR> ] ,0.0,0.24670692542067854,73
+self _send_delete_network orig_net context ,1.0,0.24670692542067854,74
+create_network_postcommit self context ,1.0,0.24670692542067854,75
+update_port_postcommit self context ,1.0,0.24670692542067854,76
+new_port = NeutronRestProxyV<NUM> self update_port context ,1.0,0.24670692542067854,77
+context ,0.0,0.24670692542067854,78
+def_send_delete_network self network context = None ,0.0,0.24670692542067854,79
+def_send_update_network self network context = None ,1.0,0.24670692542067854,80
+def_get_router_intf_details self context intf_id subnet_id ,0.0,0.24670692542067854,81
+def_extend_port_dict_binding self context port ,1.0,0.24670692542067854,82
+context None ,1.0,0.24670692542067854,83
+def_get_mapped_network_with_subnets self network context = None ,0.0,0.24670692542067854,84
+def_get_mapped_network_with_subnets self network context = None ,0.0,0.24670692542067854,85
+context ,0.0,0.24670692542067854,86
+port = self _prepare_port_for_controller context ,0.0,0.24670692542067854,87
+NeutronRestProxyV<NUM> self update_port context ,1.0,0.24670692542067854,88
+def_get_network_with_floatingips self network context = None ,0.0,0.24670692542067854,89
+context session begin subtransactions = ,1.0,0.24670692542067854,90
+self get_floatingips context ,1.0,0.24670692542067854,91
+context network [ <STR> ] ,1.0,0.24670692542067854,92
+oslo config cfg ,1.0,0.21631111507207598,93
+data update <STR> routers ,1.0,0.2126877776799544,94
+resource = PORTS_PATH % tenant_id network_id port_id ,1.0,0.1940009131259068,95
+resource = ATTACHMENT_PATH % tenant_id network_id port_id ,1.0,0.1940009131259068,96
+resource = ATTACHMENT_PATH % tenant_id net_id port_id ,1.0,0.1940009131259068,97
+ml<NUM>_config cfg CONF set_override opt val <STR> ,0.0,0.18158346141017345,98
+vlan_config cfg CONF set_override <STR> ,1.0,0.18158346141017345,99
+actx = ctx get_admin_context ,1.0,0.17959680557577967,100
+admin_context = qcontext get_admin_context ,1.0,0.17959680557577967,101
+admin_context = qcontext get_admin_context ,0.0,0.17959680557577967,102
+cfg StrOpt <STR> default = None secret = ,1.0,0.17478238867044177,103
+rest_update_port self tenant_id network_id port port_id ,1.0,0.17087108591352976,104
+hostid cfg CONF NOVA <STR> + v [ ] ,0.0,0.17060839236761294,105
+hostid cfg CONF NOVA <STR> + v [ ] ,0.0,0.17060839236761294,106
+implied ,0.0,0.1672209593373245,107
+server_ssl = cfg CONF RESTPROXY server_ssl ,1.0,0.15879450490268732,108
+excutils save_and_reraise_exception ,1.0,0.15154962507434122,109
+LOG debug _ <STR> ,1.0,0.14783513865515358,110
+LOG debug _ <STR> ,1.0,0.14783513865515358,111
+LOG debug _ <STR> ,1.0,0.14783513865515358,112
+self segmentation_types = <STR> join cfg CONF ml<NUM> type_drivers ,0.0,0.14531130069823073,113
+neutron plugins ml<NUM> drivers type_vlan vlan_config ,1.0,0.14226788646977148,114
+phys_vrange = <STR> join [ PHYS_NET VLAN_START VLAN_END ] ,0.0,0.14117936784018675,115
+neutron plugins ml<NUM> driver_api api ,1.0,0.13801599811269893,116
+neutron tests unit bigswitch test_restproxy_plugin trp ,1.0,0.13409746111335494,117
+neutron tests unit test_db_plugin ,1.0,0.13409746111335494,118
+neutron tests unit ml<NUM> test_ml<NUM>_plugin PLUGIN_NAME ML<NUM>_PLUGIN ,1.0,0.13409746111335494,119
+<STR> Pushes data to network ctrl networks / ports ports / attachments ,1.0,0.13275839809315554,120
+<STR> Pushes data to network ctrl networks / ports ports / attachments ,1.0,0.13275839809315554,121
+resource = PORT_RESOURCE_PATH % net [ <STR> ] ,1.0,0.1320580255232606,122
+self rest_action <STR> resource errstr = errstr ,1.0,0.11862600369516536,123
+self rest_action <STR> resource data errstr ,1.0,0.11862600369516536,124
+self servers rest_action <STR> resource data errstr ,1.0,0.11862600369516536,125
+self servers rest_action <STR> resource data errstr ,1.0,0.11862600369516536,126
+self servers rest_unplug_interface tenant_id net_id port_id ,1.0,0.11708140661720293,127
+rest_unplug_interface self tenant_id net_id port_id ,1.0,0.11708140661720293,128
+self ssl = cfg CONF RESTPROXY server_ssl ,1.0,0.11664306679618996,129
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.11470467026724547,130
+subnet_dict = self _make_subnet_dict subnet ,1.0,0.1128623513543703,131
+subnet subnets [ ] ,0.0,0.1128623513543703,132
+mapped_subnet = self _map_state_and_status subnet ,1.0,0.1128623513543703,133
+subnet_dict = self _make_subnet_dict subnet ,0.0,0.1128623513543703,134
+subnet [ <STR> ] ,0.0,0.1128623513543703,135
+subnet [ <STR> ] ,0.0,0.1128623513543703,136
+mapped_subnet = self _map_state_and_status subnet ,1.0,0.1128623513543703,137
+subnet subnets ,0.0,0.1128623513543703,138
+subnet subnets ,0.0,0.1128623513543703,139
+subnet subnets [ ] ,0.0,0.1128623513543703,140
+resource get <STR> ,0.0,0.10867416515503542,141
+resource get <STR> ,0.0,0.10867416515503542,142
+device_id = new_port get <STR> ,1.0,0.10562508667783582,143
+device_id = port get <STR> ,1.0,0.10562508667783582,144
+port_id ,0.0,0.10147280652401672,145
+mapped_port port_id ,0.0,0.10147280652401672,146
+hostid ,0.0,0.09611676367780603,147
+override = self _check_hostvif_override hostid ,0.0,0.09611676367780603,148
+def_check_hostvif_override self hostid ,0.0,0.09611676367780603,149
+port [ portbindings HOST_ID ] = hostid ,1.0,0.09611676367780603,150
+hostid ,0.0,0.09611676367780603,151
+def_check_hostvif_override self hostid ,0.0,0.09611676367780603,152
+override = self _check_hostvif_override hostid ,0.0,0.09611676367780603,153
+rest_create_port self net port ,1.0,0.09501470925694197,154
+self servers rest_create_port net [ <STR> ] ,1.0,0.09501470925694197,155
+self servers rest_create_port net mapped_port ,1.0,0.09501470925694197,156
+api MechanismDriver ,0.0,0.0934742676775715,157
+resource = ATTACHMENT_PATH % tenant_id net_id port [ <STR> ] ,1.0,0.092528106601971,158
+resource = ATTACHMENT_PATH % tenant_id net_id port [ <STR> ] ,1.0,0.092528106601971,159
+neutron plugins ml<NUM> config ml<NUM>_config ,1.0,0.08337594879865302,160
+cfg_vif_type = cfg CONF NOVA vif_type lower ,0.0,0.0823461739553684,161
+cfg_vif_type = cfg CONF NOVA vif_type lower ,0.0,0.0823461739553684,162
+test_update_port_status_build self ,1.0,0.08191623619128333,163
+<STR> resource ,1.0,0.07691950650876969,164
+resource [ <STR> ] ,0.0,0.07691950650876969,165
+resource ,1.0,0.07691950650876969,166
+def_map_state_and_status self resource ,0.0,0.07691950650876969,167
+<STR> resource ,1.0,0.07691950650876969,168
+resource ,1.0,0.07691950650876969,169
+resource [ <STR> ] ,1.0,0.07691950650876969,170
+<STR> resource ,1.0,0.07691950650876969,171
+<STR> resource ,1.0,0.07691950650876969,172
+resource = <STR> ,1.0,0.07691950650876969,173
+resource [ <STR> ] ,0.0,0.07691950650876969,174
+resource [ <STR> ] const NET_STATUS_ACTIVE ,1.0,0.07691950650876969,175
+resource = <STR> ,1.0,0.07691950650876969,176
+def_map_state_and_status self resource ,0.0,0.07691950650876969,177
+def_warn_on_state_status self resource ,1.0,0.07691950650876969,178
+def_warn_on_state_status self resource ,1.0,0.07691950650876969,179
+resource [ <STR> ,1.0,0.07691950650876969,180
+resource [ <STR> ] const NET_STATUS_ACTIVE ,1.0,0.07691950650876969,181
+resource [ <STR> ,1.0,0.07691950650876969,182
+resource [ <STR> ] ,1.0,0.07691950650876969,183
+self neutron_id = cfg CONF RESTPROXY neutron_id ,1.0,0.0744916286899027,184
+v cfg CONF NOVA vif_types ,0.0,0.0744916286899027,185
+v cfg CONF NOVA vif_types ,0.0,0.0744916286899027,186
+neutron_id = cfg CONF RESTPROXY neutron_id ,1.0,0.0744916286899027,187
+timeout = cfg CONF RESTPROXY server_timeout ,1.0,0.0744916286899027,188
+self addCleanup ml<NUM>_config cfg CONF reset ,0.0,0.0744916286899027,189
+cfg StrOpt <STR> secret = ,1.0,0.0744916286899027,190
+servers = cfg CONF RESTPROXY servers ,1.0,0.0744916286899027,191
+cfg Error _ <STR> ,1.0,0.0744916286899027,192
+sync_data = cfg CONF RESTPROXY sync_data ,0.0,0.0744916286899027,193
+server_auth = cfg CONF RESTPROXY server_auth ,1.0,0.0744916286899027,194
+servers = cfg CONF RESTPROXY servers ,1.0,0.0744916286899027,195
+cfg CONF RESTPROXY sync_data ,1.0,0.0744916286899027,196
+self auth = cfg CONF RESTPROXY server_auth ,1.0,0.0744916286899027,197
+self addCleanup vlan_config cfg CONF reset ,0.0,0.0744916286899027,198
+timeout = cfg CONF RESTPROXY server_timeout ,1.0,0.0744916286899027,199
+patch plugin_obj servers ,0.0,0.07448007940354691,200
+data [ <STR> device_id ,1.0,0.07387042803157008,201
+device_id = port [ <STR> ,1.0,0.07387042803157008,202
+device_id = <STR> port ,0.0,0.07387042803157008,203
+device_id = <STR> port ,0.0,0.07387042803157008,204
+new_port device_id ,0.0,0.07387042803157008,205
+port [ <STR> ] device_id ,1.0,0.07387042803157008,206
+device_id ,0.0,0.07387042803157008,207
+self servers rest_update_port orig_port [ <STR> ] ,1.0,0.07255140198590664,208
+bigswitch = neutron plugins ml<NUM> drivers mech_bigswitch driver BigSwitchMechanismDriver ,0.0,0.07085700239412714,209
+tenant_id = net [ <STR> ] ,1.0,0.07074711910775486,210
+[ phys_vrange ] ,0.0,0.07035969583189577,211
+rest_update_port self tenant_id net_id port ,1.0,0.06939827938951354,212
+webob exc HTTPClientError code = res status_int ,0.0,0.06615987306731239,213
+webob exc HTTPInternalServerError code ,1.0,0.06615987306731239,214
+webob exc ,1.0,0.06615987306731239,215
+* * kwargs ,0.0,0.06559477293930588,216
+kwargs = <STR> ,1.0,0.06559477293930588,217
+arg_list * * kwargs ,0.0,0.06559477293930588,218
+self port * * kwargs port ,1.0,0.06559477293930588,219
+kwargs = <STR> ,1.0,0.06559477293930588,220
+* * kwargs ,1.0,0.06559477293930588,221
+neutron extensions portbindings ,1.0,0.06266880525600547,222
+base_uri = BASE_URI name = <STR> ,1.0,0.06066098753807688,223
+def_make_port self fmt net_id expected_res_status = None arg_list = None ,0.0,0.05575949854832233,224
+rest_create_port self tenant_id net_id port ,1.0,0.05548479033558974,225
+self rest_create_port tenant_id net_id port ,1.0,0.05548479033558974,226
+mapped_network = self _get_mapped_network_with_subnets net ,0.0,0.05513851901455354,227
+mapped_network = self _get_mapped_network_with_subnets net ,0.0,0.05513851901455354,228
+net all_networks ,0.0,0.05513851901455354,229
+self servers rest_delete_port net [ <STR> ] port [ <STR> ] ,1.0,0.05513851901455354,230
+self servers rest_plug_interface net [ <STR> ] ,0.0,0.05513851901455354,231
+port [ <STR> ] = net ,1.0,0.05513851901455354,232
+net all_networks ,0.0,0.05513851901455354,233
+self servers rest_update_port port [ <STR> ] ,1.0,0.053789679296312225,234
+self servers rest_update_port new_port [ <STR> ] ,1.0,0.053789679296312225,235
+orig_port get <STR> ,0.0,0.05051638133586014,236
+orig_port get <STR> ,0.0,0.05051638133586014,237
+self _delete <STR> ] ,0.0,0.04316189925165159,238
+self servers = ServerPool servers server_ssl server_auth neutron_id ,1.0,0.04215143810639619,239
+neutron plugins bigswitch db porttracker_db ,1.0,0.040874390463758764,240
+neutron plugins bigswitch plugin NeutronRestProxyV<NUM>Base ,1.0,0.040874390463758764,241
+neutron plugins bigswitch plugin RemoteRestError ,1.0,0.040874390463758764,242
+etc / neutron / plugins / bigswitch / restproxy ini ,1.0,0.040874390463758764,243
+neutron plugins bigswitch plugin ServerPool ,1.0,0.040874390463758764,244
+self servers rest_create_port port [ <STR> ] ,1.0,0.03987619024238842,245
+pass ,1.0,0.038068536300567196,246
+new_port get <STR> ,0.0,0.03175465864626573,247
+net_id = port get <STR> ,1.0,0.03175465864626573,248
+net_id = port get <STR> ,1.0,0.03175465864626573,249
+port get <STR> ,0.0,0.03175465864626573,250
+new_port get <STR> ,0.0,0.03175465864626573,251
+port = self _get_ports n [ <STR> ] [ <NUM> ] ,1.0,0.029258106047434493,252
+mapped_port = self _extend_port_dict_binding admin_context ,1.0,0.026230670412561122,253
+prepped_port = self _extend_port_dict_binding actx port ,1.0,0.026230670412561122,254
+opt val ml<NUM>_opts items ,0.0,0.025033988933343233,255
+host_id = port [ portbindings HOST_ID ] ,1.0,0.023611292551886116,256
+host_id = <STR> ,0.0,0.023611292551886116,257
+old_host_id ! = host_id ,0.0,0.023611292551886116,258
+porttracker_db put_port_hostid actx port [ <STR> ] host_id ,1.0,0.023611292551886116,259
+routers append mapped_router ,0.0,0.023608715227427263,260
+routers append mapped_router ,0.0,0.023608715227427263,261
+ports append mapped_port ,0.0,0.023553729532949274,262
+ports append mapped_port ,0.0,0.023553729532949274,263
+port router_ports ,0.0,0.023485815505353388,264
+port router_ports ,0.0,0.023485815505353388,265
+router_ports = NeutronRestProxyV<NUM> ,1.0,0.023485815505353388,266
+router_ports = self get_ports admin_context ,1.0,0.023485815505353388,267
+reason = <STR> ,1.0,0.023188543270971473,268
+interfaces append intf_details ,0.0,0.022688356009609053,269
+interfaces append intf_details ,0.0,0.022688356009609053,270
+self servers append self server_proxy_for * server_port ,1.0,0.018780600345547033,271
+networks append net_fl_ips ,0.0,0.018780600345547033,272
+networks append flips_n_ports ,0.0,0.018780600345547033,273
+subnets_details append mapped_subnet ,0.0,0.018780600345547033,274
+subnets_details append mapped_subnet ,0.0,0.018780600345547033,275
+orig_port [ <STR> ] ,0.0,0.018761722689594404,276
+orig_port [ <STR> ] ,0.0,0.018761722689594404,277
+self servers rest_unplug_interface orig_port [ <STR> ] ,0.0,0.018761722689594404,278
+initialize self server_timeout = None ,1.0,0.01803124270551528,279
+tenant_id = network [ <STR> ] ,1.0,0.015608600093201322,280
+self servers rest_delete_network tenant_id net_id ,1.0,0.015608600093201322,281
+tenant_id = network [ <STR> ] ,1.0,0.015608600093201322,282
+tenant_id = orig_net [ <STR> ] ,1.0,0.015608600093201322,283
+self servers rest_update_network tenant_id net_id net_fl_ips ,1.0,0.015608600093201322,284
+tenant_id = = <STR> ,1.0,0.015608600093201322,285
+rest_plug_interface self tenant_id net_id port ,1.0,0.015608600093201322,286
+self servers rest_create_network tenant_id mapped_network ,1.0,0.015608600093201322,287
+self servers rest_update_network tenant_id net_id net_fl_ips ,1.0,0.015608600093201322,288
+self servers rest_create_network tenant_id mapped_network ,1.0,0.015608600093201322,289
+tenant_id = port [ <STR> ] ,1.0,0.015608600093201322,290
+self servers rest_delete_network tenant_id net_id ,1.0,0.015608600093201322,291
+self _plugin_name = plugin_name ,1.0,0.013862927332549969,292
+setUp self plugin_name = None ,1.0,0.01329351660446498,293
+plugin_name ,0.0,0.01329351660446498,294
+mock_plug_interface side_effect = RemoteRestError ,0.0,0.011659055935955131,295
+@ author Sumit Naiksatam sumitnaiksatam @ gmail com Big Switch Networks Inc ,1.0,0.010247136420388193,296
+all_networks = self get_networks admin_context [ ] ,1.0,0.010225770005596336,297
+self get_networks admin_context [ ] ,1.0,0.010225770005596336,298
+spl ! = <NUM> spl [ sp split <STR> <NUM> ,1.0,0.008507888937849092,299
+subnets = self _get_all_subnets_json_for_network network [ <STR> ] ,0.0,0.006600794922844781,300
+subnets = self _get_all_subnets_json_for_network network [ <STR> ] ,0.0,0.006600794922844781,301
+routers = [ ] ,1.0,0.0048281148818802334,302
+<STR> routers ,0.0,0.0048281148818802334,303
+routers = [ ] ,1.0,0.0048281148818802334,304
+ports = [ ] ,0.0,0.004773129187402241,305
+net_fl_ips [ <STR> ] = ports ,0.0,0.004773129187402241,306
+ports = [ ] ,0.0,0.004773129187402241,307
+flips_n_ports [ <STR> ] = ports ,0.0,0.004773129187402241,308
+intf_details = self _get_router_intf_details admin_context ,1.0,0.003907755664062018,309
+intf_details = self _get_router_intf_details admin_context ,1.0,0.003907755664062018,310
+self _create_port <STR> ] ,1.0,0.0,311
+port [ <STR> ] = ,0.0,0.0,312
+<STR> [ <STR> ] ,0.0,0.0,313
+data = ,1.0,0.0,314
+self auth = auth ,0.0,0.0,315
+self get_ports admin_context ,1.0,0.0,316
+send_routers = ,0.0,0.0,317
+mapped_network = self _get_mapped_network_with_subnets network ,0.0,0.0,318
+subnet_id = port [ <STR> ] ,1.0,0.0,319
+net_id = intf_id ,0.0,0.0,320
+filters = net_filter [ ] ,0.0,0.0,321
+network ,0.0,0.0,322
+<STR> Mechanism Driver Big Switch Networks Controller ,0.0,0.0,323
+<STR> networks ,1.0,0.0,324
+mapped_subnet = self _map_state_and_status subnet_dict ,1.0,0.0,325
+test_rollback_on_port_attach self ,0.0,0.0,326
+cfg_vif_type ,0.0,0.0,327
+timeout = server_timeout ,1.0,0.0,328
+<STR> remote_interface_id ,1.0,0.0,329
+server port s rsplit <STR> ,1.0,0.0,330
+timeout BASE_URI ,0.0,0.0,331
+network [ <STR> ,1.0,0.0,332
+<STR> mapped_subnet ,0.0,0.0,333
+<STR> self ssl ,1.0,0.0,334
+servers = s rsplit <STR> ,0.0,0.0,335
+self ssl = ssl ,1.0,0.0,336
+port_update = <STR> ,0.0,0.0,337
+mapped_port = self _map_state_and_status port ,1.0,0.0,338
+<STR> host ,1.0,0.0,339
+network [ external_net EXTERNAL ] = self _network_is_external ,0.0,0.0,340
+server_port servers ,1.0,0.0,341
+network [ <STR> ] = subnets ,1.0,0.0,342
+port ,1.0,0.0,343
+servers = None ,0.0,0.0,344
+self server_proxy_for server port ,1.0,0.0,345
+network = self _map_state_and_status network ,1.0,0.0,346
+net_id = network [ <STR> ] ,1.0,0.0,347
+net_filter = <STR> ] ,0.0,0.0,348
+flips_n_ports ,0.0,0.0,349
+mapped_router [ <STR> ] = interfaces ,0.0,0.0,350
+subnets_details = [ ] ,0.0,0.0,351
+self rest_plug_interface new_port [ <STR> ] ,0.0,0.0,352
+self assertEqual <STR> ] ,1.0,0.0,353
+test_rollback_for_port_detach self ,0.0,0.0,354
+subnet_id ,0.0,0.0,355
+res status_int > = <NUM> ,0.0,0.0,356
+<STR> ] ,1.0,0.0,357
+net_id ,0.0,0.0,358
+self timeout = timeout ,1.0,0.0,359
+filters = router_filter [ ] ,0.0,0.0,360
+<STR> mock_plug_interface ,0.0,0.0,361
+mapped_port [ <STR> ] = ,0.0,0.0,362
+errstr =_ <STR> ,1.0,0.0,363
+network [ <STR> ] = fl_ips ,1.0,0.0,364
+self get_routers admin_context [ ] ,1.0,0.0,365
+data = <STR> ,1.0,0.0,366
+test_rollback_for_port_delete self ,0.0,0.0,367
+base_uri = <STR> ,0.0,0.0,368
+mapped_port = self _map_state_and_status new_port ,1.0,0.0,369
+all_routers = NeutronRestProxyV<NUM> ,1.0,0.0,370
+data = <STR> port ,1.0,0.0,371
+network [ <STR> ] = self <STR> ,0.0,0.0,372
+remote_interface_id ,0.0,0.0,373
+LOG warning _ <STR> host ,1.0,0.0,374
+RemoteRestError ,1.0,0.0,375
+NeutronRestProxyV<NUM> self update_port ,1.0,0.0,376
+expected_code = ,0.0,0.0,377
+servers = server port server port servers ,0.0,0.0,378
+ctrl_update_required = ,1.0,0.0,379
+router_filter = ,1.0,0.0,380
+external_net_db External_net_db_mixin ,1.0,0.0,381
+<STR> intf_id ,0.0,0.0,382
+port [ portbindings CAPABILITIES ] = ,1.0,0.0,383
+port_update ,0.0,0.0,384
+setUp self ,1.0,0.0,385
+v ,0.0,0.0,386
+<STR> ,1.0,0.0,387
+mapped_network = self _get_mapped_network_with_subnets network ,0.0,0.0,388
+<STR> headers ,1.0,0.0,389
+LOG warning _ <STR> ,1.0,0.0,390
+portbindings VIF_TYPE_IVS ,1.0,0.0,391
+cfg_vif_type = portbindings VIF_TYPE_OVS ,1.0,0.0,392
+mock_plug_interface ,0.0,0.0,393
+cfg_vif_type portbindings VIF_TYPE_OVS ,1.0,0.0,394
+TestBigSwitchMechDriverBase ,0.0,0.0,395
+mapped_network = self _get_mapped_network_with_subnets new_net ,0.0,0.0,396
+net_ports = NeutronRestProxyV<NUM> ,1.0,0.0,397
+NeutronRestProxyV<NUM> db_base_plugin_v<NUM> NeutronDbPluginV<NUM> ,0.0,0.0,398
+self port network_id = n [ <STR> ] ,0.0,0.0,399
+<STR> self supported_extension_aliases ,1.0,0.0,400
+port_update = <STR> ,0.0,0.0,401
+override ,0.0,0.0,402
+self neutron_id = neutron_id ,1.0,0.0,403
+def_send_all_data self ,0.0,0.0,404
+port net_ports ,0.0,0.0,405
+subnets ,0.0,0.0,406
+net_filter = <STR> [ net_id ] ,1.0,0.0,407
+mapped_router = self _map_state_and_status router ,1.0,0.0,408
+ml<NUM>_opts = ,0.0,0.0,409
+<STR> intf_id ,0.0,0.0,410
+plugin_obj = NeutronManager get_plugin ,1.0,0.0,411
+external_net_db External_net_db_mixin ,1.0,0.0,412
+subnets_details = [ ] ,0.0,0.0,413
+host = = <STR> ,1.0,0.0,414
+self assertEqual port [ <STR> ] ,1.0,0.0,415
+Copyright <NUM> Big Switch Networks Inc ,1.0,0.0,416
+port ,1.0,0.0,417
+network = self _map_state_and_status network ,1.0,0.0,418
+net_id = network [ <STR> ] ,1.0,0.0,419
+arg_list = arg_list ,0.0,0.0,420
+routerrule_db RouterRule_db_mixin ,1.0,0.0,421
+cfg_vif_type = override ,0.0,0.0,422
+mapped_router = self _map_state_and_status router ,1.0,0.0,423
+LOG warning _ <STR> host ,1.0,0.0,424
+arg_list + = <STR> ,0.0,0.0,425
+All Rights Reserved ,1.0,0.0,426
+self setUp ML<NUM>_PLUGIN ,0.0,0.0,427
+override ,0.0,0.0,428
+subnets ,0.0,0.0,429
+LOG warning _ <STR> ,1.0,0.0,430
+VLAN_END = <NUM> ,0.0,0.0,431
+send_ports ,0.0,0.0,432
+networks = [ ] ,0.0,0.0,433
+res = self _create_port fmt net_id expected_res_status ,0.0,0.0,434
+flips_n_ports = ,0.0,0.0,435
+mapped_port = self _map_state_and_status port ,1.0,0.0,436
+data ,1.0,0.0,437
+<STR> networks ,1.0,0.0,438
+network [ <STR> ,1.0,0.0,439
+data = ,0.0,0.0,440
+self servers ,1.0,0.0,441
+TestBigSwitchMechDriverPortsV<NUM> test_db_plugin TestPortsV<NUM> ,0.0,0.0,442
+LOG warning _ <STR> ,1.0,0.0,443
+<STR> mapped_network ,0.0,0.0,444
+NeutronRestProxyV<NUM> NeutronRestProxyV<NUM>Base ,1.0,0.0,445
+<STR> ,1.0,0.0,446
+TestBigSwitchMechDriverNetworksV<NUM> test_db_plugin TestNetworksV<NUM> ,0.0,0.0,447
+<STR> self ssl ,1.0,0.0,448
+mapped_port ,0.0,0.0,449
+net_filter = <STR> [ net_id ] ,1.0,0.0,450
+setUp self ,1.0,0.0,451
+cfg_vif_type = portbindings VIF_TYPE_OVS ,1.0,0.0,452
+portbindings CAP_PORT_FILTER ,1.0,0.0,453
+servers ,1.0,0.0,454
+port [ portbindings VIF_TYPE ] = cfg_vif_type ,1.0,0.0,455
+self servers = ServerPool server_timeout BASE_URI ,1.0,0.0,456
+] ,0.0,0.0,457
+new_port ,1.0,0.0,458
+interfaces = [ ] ,0.0,0.0,459
+prepped_port = self _map_state_and_status prepped_port ,1.0,0.0,460
+ctrl_update_required ,1.0,0.0,461
+PHYS_NET = <STR> ,1.0,0.0,462
+subnets_details ,0.0,0.0,463
+self port port ,1.0,0.0,464
+self assertEqual port [ <STR> ,1.0,0.0,465
+mapped_network ,0.0,0.0,466
+self assertEqual self port_create_status <STR> ,1.0,0.0,467
+network [ <STR> ] = fl_ips ,1.0,0.0,468
+mapped_port = self _map_state_and_status new_port ,1.0,0.0,469
+self servers = ServerPool server_timeout ,1.0,0.0,470
+cfg_vif_type ,0.0,0.0,471
+self port_create_status = <STR> ,1.0,0.0,472
+network ,1.0,0.0,473
+<STR> ,1.0,0.0,474
+portbindings VIF_TYPE_IVS ,1.0,0.0,475
+network [ external_net EXTERNAL ] = self _network_is_external ,0.0,0.0,476
+TestBigSwitchMechDriverPortsV<NUM> self setUp ,0.0,0.0,477
+NeutronRestProxyV<NUM>Base db_base_plugin_v<NUM> NeutronDbPluginV<NUM> ,0.0,0.0,478
+TestBigSwitchMechDriverBase ,0.0,0.0,479
+mapped_subnet = self _map_state_and_status subnet_dict ,1.0,0.0,480
+supported_extension_aliases = [ <STR> ] ,1.0,0.0,481
+VIF_TYPE = portbindings VIF_TYPE_OVS ,1.0,0.0,482
+portbindings HOST_ID prepped_port ,1.0,0.0,483
+TestBigSwitchMechDriverBase trp BigSwitchProxyPluginV<NUM>TestCase ,1.0,0.0,484
+subnet_id = port [ <STR> ] ,1.0,0.0,485
+prepped_port ,1.0,0.0,486
+timeout None ,1.0,0.0,487
+net_fl_ips = self _get_network_with_floatingips mapped_network ,0.0,0.0,488
+ctrl_update_required = ,1.0,0.0,489
+net_id = intf_id ,0.0,0.0,490
+filters = net_filter [ ] ,0.0,0.0,491
+prepped_port [ portbindings HOST_ID ] = = <STR> ,0.0,0.0,492
+server_timeout None ,1.0,0.0,493
+routerrule_db RouterRule_db_mixin ,1.0,0.0,494
+port [ portbindings VIF_TYPE ] = cfg_vif_type ,1.0,0.0,495
+net_id = port [ <STR> ] ,1.0,0.0,496
+<STR> mapped_network ,0.0,0.0,497
+<STR> ] ,1.0,0.0,498
+s = = <NUM> s servers SYNTAX_ERROR_MESSAGE ,0.0,0.0,499
+mapped_router [ <STR> ] = interfaces ,0.0,0.0,500
+router all_routers ,0.0,0.0,501
+data = <STR> ,1.0,0.0,502
+test_port_vif_details self ,1.0,0.0,503
+port ,1.0,0.0,504
+interfaces = [ ] ,0.0,0.0,505
+self servers = [ ] ,1.0,0.0,506
+<STR> ,1.0,0.0,507
+<STR> ] ,1.0,0.0,508
+test_rollback_for_port_delete self ,1.0,0.0,509
+network [ <STR> ] ,1.0,0.0,510
+port [ <STR> ] None ,0.0,0.0,511
+<STR> ,0.0,0.0,512
+<STR> self supported_extension_aliases ,1.0,0.0,513
+net_fl_ips = self _get_network_with_floatingips mapped_network ,0.0,0.0,514
+port net_ports ,0.0,0.0,515
+networks = [ ] ,0.0,0.0,516
+sync_data ,1.0,0.0,517
+self servers = [ ,1.0,0.0,518
+data ,0.0,0.0,519
+<STR> ,0.0,0.0,520
+servers None _ <STR> ,0.0,0.0,521
+send_routers ,1.0,0.0,522
+cfg_vif_type portbindings VIF_TYPE_OVS ,1.0,0.0,523
+flips_n_ports = self _get_network_with_floatingips ,0.0,0.0,524
+fl_ips = NeutronRestProxyV<NUM> ,1.0,0.0,525
+new_port [ <STR> ] ,1.0,0.0,526
+net_id ,0.0,0.0,527
+self port network_id = n [ <STR> ] port ,0.0,0.0,528
+self deserialize fmt res ,0.0,0.0,529
+data = <STR> ,1.0,0.0,530
+self network n ,1.0,0.0,531
+portbindings CAP_PORT_FILTER ,1.0,0.0,532
+port [ portbindings CAPABILITIES ] = ,1.0,0.0,533
+subnet_id ,0.0,0.0,534
+router all_routers ,0.0,0.0,535
+<STR> ] ,1.0,0.0,536
+self port network_id = n [ <STR> ] ,0.0,0.0,537
+send_floating_ips ,1.0,0.0,538
+BigSwitchMechanismDriver NeutronRestProxyV<NUM>Base ,1.0,0.0,539
+router_filter = ,1.0,0.0,540
+v ,1.0,0.0,541
+port_update ,0.0,0.0,542
+portbindings HOST_ID port <STR> port ,1.0,0.0,543
+new_port [ <STR> ] ,0.0,0.0,544
+portbindings VIF_TYPE_IVS ,1.0,0.0,545
+<STR> [ <STR> ] ,0.0,0.0,546
+self native_bulk_support = ,0.0,0.0,547
+<STR> mapped_subnet ,0.0,0.0,548
+<STR> headers ,1.0,0.0,549
+net_ports = self get_ports admin_context ,1.0,0.0,550
+network [ <STR> ] ,1.0,0.0,551
+net_filter = <STR> ] ,0.0,0.0,552
+errstr =_ <STR> ,1.0,0.0,553
+self timeout = timeout ,1.0,0.0,554
+<STR> ,1.0,0.0,555
+port [ <STR> ] ,0.0,0.0,556
+filters = router_filter [ ] ,0.0,0.0,557
+subnets_details ,0.0,0.0,558
+cfg_vif_type = override ,0.0,0.0,559
+network [ <STR> ] ,1.0,0.0,560
+all_networks = NeutronRestProxyV<NUM> ,1.0,0.0,561
+port [ <STR> ] port ,0.0,0.0,562
+sp servers split <STR> ] ,0.0,0.0,563
+def_send_all_data self send_ports = send_floating_ips = ,1.0,0.0,564
+network [ <STR> ] = subnets ,0.0,0.0,565
+mapped_port [ <STR> ] = ,0.0,0.0,566
+VLAN_START = <NUM> ,0.0,0.0,567
+all_routers = self get_routers admin_context [ ] ,1.0,0.0,568
+self assertEqual port [ <STR> ] self VIF_TYPE ,0.0,0.0,569

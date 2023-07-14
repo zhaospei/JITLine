@@ -1,0 +1,660 @@
+total_tokens,line_level_label,line_score,row
+like DNAT SNAT Use this mode you do want to adopt DVR ,0.0,1.0,1
+- legacy this preserves the existing behavior where the L<NUM> agent ,0.0,0.9659695559166289,2
+- dvr this mode enables DVR functionality must be used an L<NUM> ,0.0,0.7399730185965416,3
+self call context ,0.0,0.719943561354101,4
+Needed by the agent when operating DVR / DVR_SNAT mode ,0.0,0.7013082618080633,5
+Needed by the L<NUM> service when dealing DVR ,0.0,0.5982177981872303,6
+The working mode the agent Allowed values are ,0.0,0.5965743507212221,7
+ip_rule = mock patch <STR> start ,1.0,0.5757119598212515,8
+ip_dev = mock patch <STR> start ,1.0,0.5757119598212515,9
+device addr add net version ip_cidr net broadcast ,1.0,0.5017382690170057,10
+deployed on a centralized networking node to provide L<NUM> services ,0.0,0.47540966993012174,11
+node single - host deployments e g devstack ,0.0,0.4753531873017169,12
+device addr delete net version ip_cidr ,1.0,0.45686939517081504,13
+neutron agent linux ovs_lib # noqa ,1.0,0.4190899602640699,14
+- dvr_snat this enables centralized SNAT support conjunction ,0.0,0.39777504018374255,15
+DVR This mode must be used an L<NUM> agent running on a centralized ,0.0,0.39607313662772126,16
+device neigh delete net version ip mac ,1.0,0.39014242579942177,17
+add_arp_entry self context payload ,1.0,0.3896000365551198,18
+get_ports_by_subnet self context subnet_id ,1.0,0.3896000365551198,19
+self context network_id ,1.0,0.3896000365551198,20
+get_agent_gateway_port self context fip_net ,1.0,0.3896000365551198,21
+self plugin_rpc get_ports_by_subnet self context ,1.0,0.3896000365551198,22
+del_arp_entry self context payload ,1.0,0.3896000365551198,23
+int_ports append <STR> _uuid ,0.0,0.36087873976302776,24
+self subnet_id_list append _uuid ,0.0,0.36087873976302776,25
+subnet_id_list append _uuid ,0.0,0.36087873976302776,26
+version = <STR> ,0.0,0.35563916822710884,27
+device neigh add net version ip mac ,1.0,0.35563916822710884,28
+check_exit_code = root_helper = self conf root_helper ,1.0,0.29801733727410923,29
+self mock_ip_dev = mock MagicMock ,0.0,0.2879218847534681,30
+ri = mock MagicMock ,1.0,0.2879218847534681,31
+ri router = mock Mock ,1.0,0.2879218847534681,32
+ri iptables_manager ipv<NUM> [ <STR> ] = mock MagicMock ,1.0,0.2879218847534681,33
+self mock_rule = mock MagicMock ,0.0,0.2879218847534681,34
+LOG debug <STR> d name ,1.0,0.2856993006984379,35
+LOG debug <STR> ns ,1.0,0.2856993006984379,36
+LOG debug <STR> ex_gw_port ,1.0,0.2856993006984379,37
+Remove the rules This safe because ,1.0,0.2854928043579354,38
+use_namespaces then the agent can ,1.0,0.2840972578664433,39
+ri = l<NUM>_agent RouterInfo router_id self conf root_helper ,1.0,0.267528927883665,40
+self make_msg <STR> host = self host ,0.0,0.2670164266499579,41
+NAT rules will be their own namespace ,1.0,0.2502513850811707,42
+ip_wrapper netns execute cmd check_exit_code = ,1.0,0.24209350324831427,43
+self conf use_namespaces ,1.0,0.2394275968722197,44
+self conf enable_metadata_proxy ,1.0,0.2394275968722197,45
+self conf use_namespaces ,1.0,0.2394275968722197,46
+agent = l<NUM>_agent L<NUM>NATAgent HOSTNAME self conf ,1.0,0.2394275968722197,47
+self conf agent_mode = = <STR> ,1.0,0.2394275968722197,48
+ri = l<NUM>_agent RouterInfo router [ <STR> ] self conf root_helper ,1.0,0.2394275968722197,49
+self conf enable_metadata_proxy ,1.0,0.2394275968722197,50
+<STR> self conf agent_mode ,0.0,0.2394275968722197,51
+self conf router_delete_namespaces ,1.0,0.2394275968722197,52
+self conf use_namespaces router = router ,1.0,0.2394275968722197,53
+agent = l<NUM>_agent L<NUM>NATAgent HOSTNAME self conf ,1.0,0.2394275968722197,54
+self conf use_namespaces router = router ,1.0,0.2394275968722197,55
+self conf use_namespaces None ,0.0,0.2394275968722197,56
+bridge = self conf external_network_bridge ,1.0,0.2394275968722197,57
+ri = l<NUM>_agent RouterInfo router [ <STR> ] self conf root_helper ,1.0,0.2394275968722197,58
+bridge = self conf external_network_bridge ,1.0,0.2394275968722197,59
+ns_ipd route add_gateway gateway table = snat_idx ,1.0,0.2320686853170746,60
+network_id = fip_net host = self host ,1.0,0.2253225850857073,61
+agent that runs on a compute host ,0.0,0.22052369210187128,62
+Floating IP namespace adds gateway port ,1.0,0.19995139336779008,63
+<STR> Create Floating IP gateway port ,1.0,0.19025069611293705,64
+self mock_ip_dev neigh delete assert_called_once_with ,1.0,0.1872193911753273,65
+cmd = [ <STR> % interface_name ] ,1.0,0.18350376284642475,66
+ri fip_<NUM>_rtr table = <NUM> ,1.0,0.17126453690181864,67
+ns_ipd route delete_gateway table = snat_idx ,1.0,0.17126453690181864,68
+device route delete_gateway ri fip_<NUM>_rtr table = FIP_RT_TBL ,1.0,0.17126453690181864,69
+device route add_gateway ri fip_<NUM>_rtr table = FIP_RT_TBL ,1.0,0.17126453690181864,70
+eventlet spawn_n self _arping ns_name interface_name ip_address ,1.0,0.1591739846602759,71
+eventlet spawn_n self _arping ri interface_name ip_address ,1.0,0.1591739846602759,72
+self mock_ip_dev route add_gateway assert_called_once_with ,1.0,0.1527161336030144,73
+self send_arp assert_called_once_with ri ns_name interface_name ,1.0,0.1527161336030144,74
+self send_arp assert_called_once_with fip_ns_name interface_name ,1.0,0.1527161336030144,75
+self send_arp assert_called_once_with ri interface_name ,1.0,0.1527161336030144,76
+self mock_ip_dev neigh add assert_called_once_with ,1.0,0.1527161336030144,77
+iptables_manager apply ,1.0,0.14687728249572024,78
+floating_ip = fip_cidr split <STR> [ <NUM> ] ,1.0,0.1444495786789487,79
+agent _destroy_fip_namespace namespaces [ <NUM> ] ,1.0,0.14368613867472332,80
+self mock_ip get_namespaces return_value = namespaces ,1.0,0.14368613867472332,81
+namespaces = [ <STR> ] ,1.0,0.14368613867472332,82
+action = = <STR> interface_name ,1.0,0.138842462515154,83
+def_handle_router_fip_nat_rules self ri interface_name action ,1.0,0.138842462515154,84
+only configure one router otherwise each router ' s ,1.0,0.13447148043376217,85
+<NUM> <NUM> - DVR support new L<NUM> plugin methods added ,0.0,0.1297980970771588,86
+fips = port get <STR> [ ] ,0.0,0.12944654769768102,87
+self _set_subnet_info port ,1.0,0.12944654769768102,88
+port [ <STR> ] interface_name ,1.0,0.12944654769768102,89
+port [ <STR> ] internal_cidr ,1.0,0.12944654769768102,90
+port router_ports ,1.0,0.12944654769768102,91
+port_id = port [ <STR> ] ,1.0,0.12944654769768102,92
+port = self get_internal_port ri subnet_id ,1.0,0.12944654769768102,93
+<STR> port ,0.0,0.12944654769768102,94
+network_id = port [ <STR> ] ,1.0,0.12944654769768102,95
+port [ <STR> ] ,1.0,0.12944654769768102,96
+port snat_ports ,1.0,0.12944654769768102,97
+interface_name = self get_snat_int_device_name port [ <STR> ] ,1.0,0.12944654769768102,98
+port ,1.0,0.12944654769768102,99
+Request port creation Plugin then creates ,1.0,0.12944654769768102,100
+mac_address = port [ <STR> ] ,1.0,0.12944654769768102,101
+[ <STR> ] port interface_name ,1.0,0.12944654769768102,102
+self _internal_network_added snat_ns_name port [ <STR> ] ,1.0,0.12944654769768102,103
+fips = port [ <STR> ] ,1.0,0.12944654769768102,104
+agent internal_network_removed ri port ,1.0,0.12944654769768102,105
+internal_network_added self ri port ,1.0,0.12944654769768102,106
+subnet_id = port [ <STR> ] ,1.0,0.12944654769768102,107
+snat_ip = self _map_internal_interfaces ri port snat_ports ,1.0,0.12944654769768102,108
+ip port [ <STR> ] ,1.0,0.12944654769768102,109
+interface_name = self get_internal_device_name port [ <STR> ] ,1.0,0.12944654769768102,110
+agent internal_network_added ri port ,1.0,0.12944654769768102,111
+port = agent get_internal_port ri self subnet_id_list [ <NUM> ] ,1.0,0.12944654769768102,112
+snat_port = self _map_internal_interfaces ri port ,1.0,0.12944654769768102,113
+self _snat_redirect_remove ri port interface_name ,1.0,0.12944654769768102,114
+self _internal_network_added ns_name port [ <STR> ] ,1.0,0.12944654769768102,115
+port = <STR> network_id ,1.0,0.12944654769768102,116
+internal_cidr = port [ <STR> ] ,1.0,0.12944654769768102,117
+def_set_subnet_arp_info self ri port ,1.0,0.12944654769768102,118
+internal_network_removed self ri port ,1.0,0.12944654769768102,119
+LOG exception msg ,1.0,0.1283472888490765,120
+LOG exception msg % namespace ,1.0,0.1283472888490765,121
+floating_ips = [ i i floating_ips i [ <STR> ] = = self host ] ,0.0,0.11266129254285366,122
+ex_gw_port [ <STR> ] = = self host ,0.0,0.11266129254285366,123
+ri ex_gw_port [ <STR> ] = = self host ,0.0,0.11266129254285366,124
+agent host = HOSTNAME ,1.0,0.11266129254285366,125
+ex_gw_port ri router [ <STR> ] = = self host ,1.0,0.11266129254285366,126
+ri router [ <STR> ] = = self host ,1.0,0.11266129254285366,127
+pass ,0.0,0.10729163774912133,128
+LOG exception _ <STR> ,1.0,0.10546462111361574,129
+snat_idx = netaddr IPNetwork sn_port [ <STR> ] value ,1.0,0.10089109470660856,130
+cfg StrOpt <STR> ,1.0,0.09325293119286931,131
+ri router [ <STR> ] __ nonzero__ = self ,0.0,0.08187384016210113,132
+Route Table index FIPs ,1.0,0.08148034731368453,133
+ROUTER_<NUM>_FIP_DEV_PREFIX + router_id [ self driver DEV_NAME_LEN ] ,1.0,0.0710356587911534,134
+FIP_<NUM>_ROUTER_DEV_PREFIX + router_id [ self driver DEV_NAME_LEN ] ,1.0,0.0710356587911534,135
+net = netaddr IPNetwork ip_cidr ,1.0,0.06298311649663685,136
+gateway = self _map_internal_interfaces ri p snat_ports ,1.0,0.06080414841525601,137
+gateway ,0.0,0.06080414841525601,138
+def_snat_redirect_add self ri gateway sn_port sn_int ,1.0,0.06080414841525601,139
+self _snat_redirect_add ri gateway [ <STR> ] [ <NUM> ] ,1.0,0.06080414841525601,140
+ports [ <NUM> ] [ <STR> ] = self subnet_id_list [ <NUM> ] ,1.0,0.055579678826627836,141
+agent _set_subnet_arp_info ri ports [ <NUM> ] ,1.0,0.055579678826627836,142
+ports = ri router get l<NUM>_constants INTERFACE_KEY [ ] ,1.0,0.055579678826627836,143
+self driver plug ex_gw_port [ <STR> ] ,1.0,0.04293432777970817,144
+self driver unplug snat_interface namespace = ns_name ,1.0,0.04293432777970817,145
+self driver init_l<NUM> interface_name [ ex_gw_port [ <STR> ] ] ,1.0,0.04293432777970817,146
+self driver unplug d name namespace = ns ,1.0,0.04293432777970817,147
+SNAT_INT_DEV_PREFIX + port_id [ self driver DEV_NAME_LEN ] ,1.0,0.04293432777970817,148
+self driver unplug d name namespace = namespace ,1.0,0.04293432777970817,149
+self driver unplug d name ,1.0,0.04293432777970817,150
+self driver plug ex_gw_port [ <STR> ] ,1.0,0.04293432777970817,151
+FIP_EXT_DEV_PREFIX + port_id [ self driver DEV_NAME_LEN ] ,1.0,0.04293432777970817,152
+self make_msg <STR> ,0.0,0.04169384156425061,153
+<NUM> <NUM> - DVR support new L<NUM> agent methods added ,0.0,0.038469146190619176,154
+distributed ,0.0,0.03665340900085823,155
+distributed ,0.0,0.03665340900085823,156
+distributed = ,0.0,0.03665340900085823,157
+distributed = ,0.0,0.03665340900085823,158
+def_arping self ns_name interface_name ip_address distributed = ,0.0,0.03665340900085823,159
+ns_ip netns delete ns ,0.0,0.03450325757231289,160
+ns_ip netns delete namespace ,0.0,0.03450325757231289,161
+self assertEqual self mock_driver plug call_count <NUM> ,1.0,0.03199847514689803,162
+self assertEqual self mock_driver init_l<NUM> call_count <NUM> ,1.0,0.03199847514689803,163
+self assertEqual self mock_driver unplug call_count <NUM> ,1.0,0.03199847514689803,164
+LOG error _ <STR> ,0.0,0.02978170879970188,165
+floating_ip = fip [ <STR> ] ,1.0,0.029276900585191643,166
+rule_pr = ri floating_ips_dict [ floating_ip ] ,1.0,0.029276900585191643,167
+interface_name floating_ip ,1.0,0.029276900585191643,168
+fip_cidr = floating_ip + FLOATING_IP_CIDR_SUFFIX ,1.0,0.029276900585191643,169
+ri floating_ips_dict [ floating_ip ] = rule_pr ,1.0,0.029276900585191643,170
+floating_ip ri floating_ips_dict ,1.0,0.029276900585191643,171
+fip_<NUM>_rtr_name = self get_fip_int_device_name ri router_id ,1.0,0.028101331011445244,172
+fip_<NUM>_rtr_name = agent get_fip_int_device_name ri router_id ,1.0,0.028101331011445244,173
+get_snat_ns_name self router_id ,1.0,0.028101331011445244,174
+interface_name = self get_rtr_int_device_name ri router_id ,1.0,0.028101331011445244,175
+get_rtr_int_device_name self router_id ,1.0,0.028101331011445244,176
+SNAT_NS_PREFIX + router_id ,1.0,0.028101331011445244,177
+<STR> + router_id ,1.0,0.028101331011445244,178
+ri = self router_info get router_id ,1.0,0.028101331011445244,179
+rtr_<NUM>_fip_name = self get_rtr_int_device_name ri router_id ,1.0,0.028101331011445244,180
+get_fip_int_device_name self router_id ,1.0,0.028101331011445244,181
+router_id =_uuid ,1.0,0.028101331011445244,182
+rtr_<NUM>_fip_name = agent get_rtr_int_device_name ri router_id ,1.0,0.028101331011445244,183
+router_id = payload [ <STR> ] ,1.0,0.028101331011445244,184
+router_id = router [ <STR> ] ,1.0,0.028101331011445244,185
+msg =_ <STR> % ns ,1.0,0.02288266773546076,186
+msg =_ <STR> ,1.0,0.02288266773546076,187
+rule = <STR> ,1.0,0.008508791486366187,188
+ri iptables_manager ipv<NUM> [ <STR> ] add_rule * rule ,1.0,0.008508791486366187,189
+ri iptables_manager ipv<NUM> [ <STR> ] add_rule * rule ,1.0,0.008508791486366187,190
+iptables_manager ipv<NUM> [ <STR> ] add_rule * rule ,1.0,0.008508791486366187,191
+d ns_ip get_devices exclude_loopback = ,1.0,0.00504295603722327,192
+<STR> Configures NAT rules Floating IPs DVR ,1.0,0.0013955464914921702,193
+namespace = namespace ,1.0,0.0,194
+self _update_arp_entry ri ip mac subnet_id <STR> ,1.0,0.0,195
+p [ <STR> ] ,1.0,0.0,196
+f fips ,1.0,0.0,197
+def_create_agent_gateway_port self ri network_id ,1.0,0.0,198
+interface_name = self get_internal_device_name port_id ,1.0,0.0,199
+agent_gw_port = <STR> ,1.0,0.0,200
+self _destroy_namespace ns ,1.0,0.0,201
+ip_wrapr netns execute [ <STR> ,1.0,0.0,202
+self _send_gratuitous_arp_packet ,1.0,0.0,203
+d name startswith FIP_EXT_DEV_PREFIX ,1.0,0.0,204
+interface_name = self get_external_device_name ex_gw_port [ <STR> ] ,1.0,0.0,205
+ri router [ <STR> ] ,1.0,0.0,206
+self utils_exec assert_any_call ,0.0,0.0,207
+ROUTER_<NUM>_FIP_DEV_PREFIX = <STR> ,1.0,0.0,208
+<STR> ,1.0,0.0,209
+interface_name ip_address ,1.0,0.0,210
+prefix = SNAT_INT_DEV_PREFIX ,1.0,0.0,211
+ri perform_snat_action self _handle_router_snat_rules ,1.0,0.0,212
+internal_network_added self ri network_id port_id ,1.0,0.0,213
+self create_rtr_<NUM>_fip_link ri floating_ips [ <NUM> ] ,1.0,0.0,214
+test_process_router_cent_floating_ip_add self ,1.0,0.0,215
+def_internal_network_added self ns_name network_id port_id ,1.0,0.0,216
+p [ <STR> ] ,0.0,0.0,217
+internal_ports [ <NUM> ] ,1.0,0.0,218
+<STR> ,1.0,0.0,219
+int_dev [ <NUM> ] link set_up ,1.0,0.0,220
+p [ <STR> ] = = subnet_id ] ,1.0,0.0,221
+self subnet_id_list = [ ] ,0.0,0.0,222
+def_destroy_fip_namespace self ns ,1.0,0.0,223
+internal_port [ <STR> ] ,1.0,0.0,224
+ri snat_iptables_manager = ,1.0,0.0,225
+namespace = <STR> ,1.0,0.0,226
+ip_wrapper = ip_lib IPWrapper self root_helper namespace = ns_name ,1.0,0.0,227
+ex_gw_port [ <STR> ] interface_name ,1.0,0.0,228
+<STR> ,1.0,0.0,229
+internal_cidrs = None ,0.0,0.0,230
+<STR> HOSTNAME ,1.0,0.0,231
+ri fip_<NUM>_rtr None ,1.0,0.0,232
+ns startswith NS_PREFIX ,1.0,0.0,233
+self _send_gratuitous_arp_packet ,1.0,0.0,234
+<STR> ] ,1.0,0.0,235
+subnet_id = arp_table [ <STR> ] ,1.0,0.0,236
+self fullsync = ,1.0,0.0,237
+<STR> _uuid ] ,1.0,0.0,238
+self dist_fip_count = <NUM> ,1.0,0.0,239
+def_destroy_router_namespace self namespace ,1.0,0.0,240
+id_name = self get_internal_device_name p [ <STR> ] ,1.0,0.0,241
+FIP_PR_START = <NUM> ,1.0,0.0,242
+self fip_priorities = FIP_PR_START FIP_PR_END ,1.0,0.0,243
+agent_gateway_added self ns_name ex_gw_port ,1.0,0.0,244
+<STR> ,1.0,0.0,245
+ri fip_<NUM>_rtr = FIP_LL_PREFIX + self local_ips pop ,0.0,0.0,246
+get_snat_interfaces self ri ,1.0,0.0,247
+agent internal_network_removed ri port_id cidr ,0.0,0.0,248
+ri dist_fip_count = <NUM> ,1.0,0.0,249
+self _send_gratuitous_arp_packet ri interface_name ip_address ,1.0,0.0,250
+Rule priority FIPs ,1.0,0.0,251
+<NUM> <STR> ,1.0,0.0,252
+<STR> self agent_gateway_port ,1.0,0.0,253
+ex_gw_port [ <STR> ] ,1.0,0.0,254
+test_del_arp_entry self ,1.0,0.0,255
+ex_gw_port [ <STR> ] ,1.0,0.0,256
+<STR> % sn_int ] ,0.0,0.0,257
+ex_gw_port [ <STR> ] interface_name ,1.0,0.0,258
+fip ri router get l<NUM>_constants FLOATINGIP_KEY [ ] ,1.0,0.0,259
+floating_ips = ri router get l<NUM>_constants FLOATINGIP_KEY [ ] ,1.0,0.0,260
+ip_dev return_value = self mock_ip_dev ,0.0,0.0,261
+floating_ips = ri router get l<NUM>_constants FLOATINGIP_KEY [ ] ,1.0,0.0,262
+ri ,0.0,0.0,263
+def_test_process_router_floating_ip_addresses_add self ri ,1.0,0.0,264
+<STR> ] ,1.0,0.0,265
+ip_lib device_exists interface_name ,1.0,0.0,266
+topic = self topic ,0.0,0.0,267
+self _destroy_metadata_proxy ns [ NS_PREFIX ] ns ,1.0,0.0,268
+internal_ns_interface_added self ip_cidr ,1.0,0.0,269
+<STR> [ ] ,1.0,0.0,270
+match_port [ <NUM> ] ,1.0,0.0,271
+self _external_gateway_added ri ex_gw_port gw_interface_name ,1.0,0.0,272
+ns startswith SNAT_NS_PREFIX ,1.0,0.0,273
+fip floating_ips ,1.0,0.0,274
+device = ip_lib IPDevice rtr_<NUM>_fip_name self root_helper ,1.0,0.0,275
+ri router get l<NUM>_constants SNAT_ROUTER_INTF_KEY [ ] ,1.0,0.0,276
+self _update_arp_entry ri ip [ <STR> ] ,1.0,0.0,277
+self assertIsNone no_port ,0.0,0.0,278
+ip [ <STR> ,1.0,0.0,279
+namespace = ns_name ,1.0,0.0,280
+def_external_gateway_added self ri ex_gw_port interface_name ,1.0,0.0,281
+self _test_process_router_floating_ip_addresses_add ri agent ,1.0,0.0,282
+def_router_append_interface router count = <NUM> ip_version = <NUM> ,1.0,0.0,283
+ns startswith FIP_NS_PREFIX ,1.0,0.0,284
+ri router get return_value = [ <STR> ,1.0,0.0,285
+internal_network_removed self ri port_id internal_cidr ,0.0,0.0,286
+ip_wrapper_root = ip_lib IPWrapper self root_helper ,1.0,0.0,287
+interface_name = self get_internal_device_name port_id ,1.0,0.0,288
+<STR> mac ,1.0,0.0,289
+subnet_id <STR> ,1.0,0.0,290
+floating_ip_added_dist self ri fip ,1.0,0.0,291
+ip_rule_rtr delete_rule_priority rule_pr ,1.0,0.0,292
+internal_cidrs snat_ns_name ,0.0,0.0,293
+ip_wrapper = ip_wrapper_root ensure_namespace name ,1.0,0.0,294
+ri floating_ips_dict [ <STR> ] = FIP_PRI ,1.0,0.0,295
+self agent_fip_count = <NUM> ,1.0,0.0,296
+self get_fip_ns_name network_id ,1.0,0.0,297
+- del_arp_entry ,0.0,0.0,298
+operation = = <STR> ,1.0,0.0,299
+floating_ips self agent_gateway_port None ,1.0,0.0,300
+self _create_namespace fip_ns_name ,1.0,0.0,301
+fip = ,0.0,0.0,302
+<STR> [ ] ,1.0,0.0,303
+self _destroy_router_namespace ns ,1.0,0.0,304
+internal_cidrs interface_name ,1.0,0.0,305
+RuntimeError ,1.0,0.0,306
+<STR> ,1.0,0.0,307
+<STR> ] ,1.0,0.0,308
+ri iptables_manager ipv<NUM> [ <STR> ,1.0,0.0,309
+test_process_router_floating_ip_addresses_add self IPDevice ,1.0,0.0,310
+self internal_network_removed ri p [ <STR> ] ,0.0,0.0,311
+router = self _prepare_router_data ,1.0,0.0,312
+agent internal_network_added ri network_id ,0.0,0.0,313
+prefix = EXTERNAL_DEV_PREFIX ,1.0,0.0,314
+ri ,0.0,0.0,315
+def_send_gratuitous_arp_packet self ri interface_name ip_address ,1.0,0.0,316
+ns_ipr netns execute [ <STR> ,1.0,0.0,317
+self _set_subnet_arp_info ri p ,1.0,0.0,318
+router_list = [ <STR> ] ,1.0,0.0,319
+def_send_gratuitous_arp_packet self ns_name interface_name ip_address ,1.0,0.0,320
+RPC_API_VERSION = <STR> ,1.0,0.0,321
+ip_wrapper = ip_wrapper_root ensure_namespace ri ns_name ,1.0,0.0,322
+FIP_PRI = <NUM> ,1.0,0.0,323
+gw_ip = ex_gw_port [ <STR> ] ,1.0,0.0,324
+namespace = ri ns_name ,1.0,0.0,325
+namespace = ri ns_name ,1.0,0.0,326
+<STR> % ,1.0,0.0,327
+root_helper = self root_helper ,1.0,0.0,328
+interface_name = self get_external_device_name ex_gw_port [ <STR> ] ,1.0,0.0,329
+interface_name ,1.0,0.0,330
+self _send_gratuitous_arp_packet ns_name ,1.0,0.0,331
+prefix = INTERNAL_DEV_PREFIX ,1.0,0.0,332
+internal_ports = ri router get l<NUM>_constants INTERFACE_KEY [ ] ,1.0,0.0,333
+subnet_id = subnet_id ,1.0,0.0,334
+self agent_fip_count = self agent_fip_count - <NUM> ,1.0,0.0,335
+FakeDev <STR> ] ,0.0,0.0,336
+fip_id =_uuid ,1.0,0.0,337
+agent IPDevice ,0.0,0.0,338
+self local_ips = <NUM> <NUM> ,0.0,0.0,339
+SNAT_INT_DEV_PREFIX = <STR> ,1.0,0.0,340
+self floating_ip_removed_dist ri ip_cidr ,1.0,0.0,341
+- get_agent_gateway_port ,1.0,0.0,342
+ip_address = ex_gw_port [ <STR> [ <NUM> ] ,1.0,0.0,343
+self internal_ns_interface_added ri rtr_<NUM>_fip + <STR> ,1.0,0.0,344
+ri router get return_value = [ fip ] ,1.0,0.0,345
+get_fip_ext_device_name self port_id ,1.0,0.0,346
+get_snat_int_device_name self port_id ,1.0,0.0,347
+test_agent_gateway_added self ,1.0,0.0,348
+ns_name = ri ns_name ,1.0,0.0,349
+port_id =_uuid ,1.0,0.0,350
+l<NUM>_constants DEVICE_OWNER_ROUTER_INTF ,0.0,0.0,351
+ip_rule add_rule_from fixed_ip FIP_RT_TBL rule_pr ,1.0,0.0,352
+ri interface_name fip_ip ,1.0,0.0,353
+ns_ip = ip_lib IPWrapper self root_helper namespace = namespace ,1.0,0.0,354
+port_id cidr mac ,0.0,0.0,355
+iptables_manager ipv<NUM> [ <STR> ,1.0,0.0,356
+self _router_append_interface router count = num_internal_ports ,1.0,0.0,357
+iptables_manager = ri iptables_manager ,1.0,0.0,358
+preserve_ips = [ ] ,0.0,0.0,359
+no_port = agent get_internal_port ri FAKE_ID ,1.0,0.0,360
+internal_cidr mac_address ,0.0,0.0,361
+self mock_driver unplug assert_called_with <STR> ,1.0,0.0,362
+router = self _prepare_router_data num_internal_ports = <NUM> ,1.0,0.0,363
+self device_exists return_value = ,1.0,0.0,364
+internal_cidr mac_address ,0.0,0.0,365
+- add_arp_entry ,0.0,0.0,366
+self name = name ,1.0,0.0,367
+<STR> % i ,1.0,0.0,368
+self internal_network_added ri p [ <STR> ] ,1.0,0.0,369
+def_destroy_snat_namespace self ns ,1.0,0.0,370
+subnet_id_list ,0.0,0.0,371
+self floating_ips_dict = ,1.0,0.0,372
+def_arping self ri interface_name ip_address ,1.0,0.0,373
+subnet_id = fixed_ip [ <STR> ] ,1.0,0.0,374
+<STR> _uuid ,1.0,0.0,375
+self plugin_rpc get_agent_gateway_port ,1.0,0.0,376
+ri dist_fip_count = = <NUM> ,1.0,0.0,377
+iptables_manager IptablesManager ,1.0,0.0,378
+SNAT_INT_DEV_PREFIX ,1.0,0.0,379
+test_ports = [ <STR> ,1.0,0.0,380
+test_process_router self ,1.0,0.0,381
+ip_wrapper netns execute [ <STR> ] ,1.0,0.0,382
+self _create_namespace snat_ns_name ,1.0,0.0,383
+subnet_ports = ,1.0,0.0,384
+def_destroy_router_namespace self ns ,1.0,0.0,385
+subnet_id = self subnet_id_list [ i ] ,0.0,0.0,386
+agent agent_gateway_port = ,1.0,0.0,387
+fip_ns_name = self get_fip_ns_name fip [ <STR> ] ,1.0,0.0,388
+ri router [ <STR> ] = ,1.0,0.0,389
+interface_name ns_name ,1.0,0.0,390
+router = self _prepare_router_data enable_snat = ,1.0,0.0,391
+[ test_port ] ,1.0,0.0,392
+d name startswith SNAT_INT_DEV_PREFIX ,1.0,0.0,393
+<STR> _uuid ,1.0,0.0,394
+self agent_fip_count = self agent_fip_count + <NUM> ,1.0,0.0,395
+ex_gw_port = self _get_ex_gw_port ri ,1.0,0.0,396
+ri router [ <STR> ] ex_gw_port ,1.0,0.0,397
+subnet_id =_uuid ,1.0,0.0,398
+agent _router_added router [ <STR> ] router ,0.0,0.0,399
+ip_cidr = ip_address + FLOATING_IP_CIDR_SUFFIX ,1.0,0.0,400
+agent agent_gateway_port = agent_gw_port ,1.0,0.0,401
+def_router_append_interface router subnet_id_list = [ ] count = <NUM> ,1.0,0.0,402
+router_ports = ri router get l<NUM>_constants INTERFACE_KEY [ ] ,1.0,0.0,403
+agent_mode = legacy ,0.0,0.0,404
+internal_cidrs snat_ports ,0.0,0.0,405
+self _create_dvr_gateway ri ex_gw_port ,1.0,0.0,406
+test_get_internal_port self ,1.0,0.0,407
+test_create_rtr_<NUM>_fip_link self ,1.0,0.0,408
+router [ l<NUM>_constants FLOATINGIP_KEY ] = fake_floatingips [ <STR> ] ,1.0,0.0,409
+i num_internal_ports ,0.0,0.0,410
+self _destroy_metadata_proxy ns [ NS_PREFIX ] ns ,0.0,0.0,411
+test__ set_subnet_arp_info self ,1.0,0.0,412
+interface_name = agent get_snat_int_device_name port_id ,1.0,0.0,413
+device = ip_lib IPDevice fip_<NUM>_rtr_name self root_helper ,1.0,0.0,414
+self _snat_redirect_remove ri p internal_interface ,1.0,0.0,415
+self mock_ip add_veth assert_called_with rtr_<NUM>_fip_name ,1.0,0.0,416
+self plugin_api get_ports_by_subnet return_value = test_ports ,1.0,0.0,417
+<STR> ] ,1.0,0.0,418
+internal_cidrs ns_name preserve_ips ,0.0,0.0,419
+ns_ipd = ip_lib IPDevice sn_int self root_helper ,1.0,0.0,420
+res_port = agent _map_internal_interfaces ri ,1.0,0.0,421
+device route add_route fip_cidr ri rtr_<NUM>_fip ,1.0,0.0,422
+<NUM> FIP_PRI ,0.0,0.0,423
+self assertEqual self subnet_id_list [ <NUM> ] subnet_id ,0.0,0.0,424
+agent agent_gateway_added fip_ns_name agent_gw_port ,1.0,0.0,425
+arp_table = payload [ <STR> ] ,1.0,0.0,426
+<STR> _uuid ] ,0.0,0.0,427
+test_port = <STR> ,1.0,0.0,428
+fip_ns_name = agent get_fip_ns_name fip [ <STR> ] ,1.0,0.0,429
+floating_ips = self get_floating_ips ri ,1.0,0.0,430
+ip_cidr = ip + <STR> ,1.0,0.0,431
+snat_ip ,0.0,0.0,432
+[ <STR> ] ,1.0,0.0,433
+ri iptables_manager ipv<NUM> [ <STR> ,1.0,0.0,434
+create_rtr_<NUM>_fip_link self ri network_id ,1.0,0.0,435
+ri router [ <STR> ] ,1.0,0.0,436
+<STR> ,1.0,0.0,437
+prefix = EXTERNAL_DEV_PREFIX ,0.0,0.0,438
+snat_ports = self get_snat_interfaces ri ,1.0,0.0,439
+iptables_manager = ri snat_iptables_manager ,1.0,0.0,440
+self local_ips add ri rtr_<NUM>_fip rsplit <STR> <NUM> [ <NUM> ] ,0.0,0.0,441
+<STR> _uuid ] ,0.0,0.0,442
+fip_statuses ,1.0,0.0,443
+snat_ports = [ <STR> ,1.0,0.0,444
+ip_wrapr = ip_lib IPWrapper self root_helper namespace = ri ns_name ,1.0,0.0,445
+self _destroy_fip_namespace fip_ns_name ,1.0,0.0,446
+count = num_internal_ports ,1.0,0.0,447
+<STR> ,1.0,0.0,448
+ipd route add_gateway gw_ip ,1.0,0.0,449
+subnet_id = subnet_id_list [ i ] ,0.0,0.0,450
+self mock_rule add_rule_from assert_called_with <STR> ,1.0,0.0,451
+<STR> self subnet_id_list [ <NUM> ] ,0.0,0.0,452
+FIP_PR_END = FIP_PR_START + <NUM> ,1.0,0.0,453
+snat_ns_name = self get_snat_ns_name ri router [ <STR> ] ,1.0,0.0,454
+SNAT_NS_PREFIX = <STR> ,1.0,0.0,455
+fake_floatingips = <STR> [ ,1.0,0.0,456
+test_floating_ip_added_dist self ,1.0,0.0,457
+self assertIsNone res_ip ,0.0,0.0,458
+self _test_process_router ri ,1.0,0.0,459
+gw_ip ,1.0,0.0,460
+get_internal_port self ri subnet_id ,1.0,0.0,461
+root_helper = self root_helper namespace = snat_ns_name ,1.0,0.0,462
+test_destroy_fip_namespace self ,1.0,0.0,463
+self _destroy_snat_namespace ns_name ,1.0,0.0,464
+<STR> ] ] ,1.0,0.0,465
+prefix = SNAT_INT_DEV_PREFIX ,1.0,0.0,466
+subnet_id ,0.0,0.0,467
+rtr_<NUM>_fip_name ri ns_name ,0.0,0.0,468
+FIP_EXT_DEV_PREFIX = <STR> ,1.0,0.0,469
+internal_cidrs interface_name ,1.0,0.0,470
+<STR> subnet_id ] ,1.0,0.0,471
+<STR> ] ,1.0,0.0,472
+interface_name prefix ,1.0,0.0,473
+<STR> ,1.0,0.0,474
+int_ports = [ ] ,1.0,0.0,475
+self _destroy_fip_namespace ns ,1.0,0.0,476
+ip_cidr <STR> interface_name ] ,1.0,0.0,477
+rule_pr = self fip_priorities pop ,1.0,0.0,478
+self internal_network_removed ri p ,1.0,0.0,479
+router = self _prepare_router_data ,1.0,0.0,480
+payload = <STR> ] ,1.0,0.0,481
+self _snat_redirect_add ri snat_ip [ <STR> ] [ <NUM> ] ,1.0,0.0,482
+prefix = <STR> ,0.0,0.0,483
+match_port = [ p p snat_ports ,1.0,0.0,484
+ri router [ <STR> ] ,1.0,0.0,485
+ri fip_<NUM>_rtr = None ,1.0,0.0,486
+FIP_RT_TBL = <NUM> ,1.0,0.0,487
+p ri internal_ports ,1.0,0.0,488
+RPC_API_VERSION = <STR> ,0.0,0.0,489
+test_process_cent_router self ,1.0,0.0,490
+def_destroy_namespace self ns ,1.0,0.0,491
+fixed_ip = fip [ <STR> ] ,1.0,0.0,492
+ri dist_fip_count = ri dist_fip_count + <NUM> ,1.0,0.0,493
+self mock_ip get_devices return_value = [ FakeDev <STR> ,1.0,0.0,494
+fip_<NUM>_rtr_name fip_ns_name ,1.0,0.0,495
+<STR> cidr ,1.0,0.0,496
+ip_rule return_value = self mock_rule ,0.0,0.0,497
+namespace = ns ,1.0,0.0,498
+self _destroy_snat_namespace ns ,1.0,0.0,499
+<STR> % i ,1.0,0.0,500
+self agent_gateway_added fip_ns_name self agent_gateway_port ,1.0,0.0,501
+ns_name = self get_snat_ns_name ri router [ <STR> ] ,1.0,0.0,502
+interface_name ,1.0,0.0,503
+get_floating_ips self ri ,1.0,0.0,504
+ns_ipr delete_rule_priority snat_idx ,1.0,0.0,505
+snat_ports ,1.0,0.0,506
+<STR> port_id ,0.0,0.0,507
+fip = <STR> _uuid ,1.0,0.0,508
+self _create_agent_gateway_port ri floating_ips [ <NUM> ] ,1.0,0.0,509
+dvr_gw_port = <STR> ,1.0,0.0,510
+<STR> _uuid ,0.0,0.0,511
+- get_ports_by_subnet ,0.0,0.0,512
+<STR> network_id ,1.0,0.0,513
+self _update_arp_entry ri fixed_ip [ <STR> ] ,1.0,0.0,514
+ip_wrapper_root = ip_lib IPWrapper self root_helper ,1.0,0.0,515
+agent _create_dvr_gateway ri dvr_gw_port interface_name ,1.0,0.0,516
+self _delete_namespace ns_ip ns ,1.0,0.0,517
+ri rtr_<NUM>_fip = FIP_LL_PREFIX + self local_ips pop ,0.0,0.0,518
+router = ri router ,1.0,0.0,519
+self _send_gratuitous_arp_packet fip_ns_name ,1.0,0.0,520
+router [ <STR> ] = ,1.0,0.0,521
+ns_ip = ip_lib IPWrapper self root_helper namespace = ns ,1.0,0.0,522
+ri router [ <STR> ] = ,1.0,0.0,523
+self get_snat_int_device_name snat_port [ <STR> ] ,1.0,0.0,524
+fip_ns_name = ,1.0,0.0,525
+router [ <STR> ] = ,1.0,0.0,526
+self fip_<NUM>_rtr = None ,1.0,0.0,527
+agent router_deleted None router [ <STR> ] ,1.0,0.0,528
+test_process_router_dist_floating_ip_add self ,1.0,0.0,529
+internal_interface = self get_internal_device_name p [ <STR> ] ,1.0,0.0,530
+p [ <STR> ] ,1.0,0.0,531
+network_id =_uuid ,1.0,0.0,532
+int_dev = ip_wrapper add_veth rtr_<NUM>_fip_name ,1.0,0.0,533
+ri rtr_<NUM>_fip = None ,1.0,0.0,534
+def__ init__ self name ,1.0,0.0,535
+self mock_ip_dev neigh add never_called ,0.0,0.0,536
+ip_rule_rtr = ip_lib IpRule self root_helper namespace = ri ns_name ,1.0,0.0,537
+ip_wrapper netns execute [ <STR> ,1.0,0.0,538
+interface_name = ,1.0,0.0,539
+self _set_subnet_info self agent_gateway_port ,1.0,0.0,540
+self _destroy_router_namespace ns ,1.0,0.0,541
+interface_name INTERNAL_DEV_PREFIX ,1.0,0.0,542
+RuntimeError ,0.0,0.0,543
+fip_id = floating_ips [ <NUM> ] [ <STR> ] ,0.0,0.0,544
+l<NUM>_constants DEVICE_OWNER_DVR_INTERFACE ,1.0,0.0,545
+snat_port ,1.0,0.0,546
+agent add_arp_entry None payload ,1.0,0.0,547
+snat_ports = ri router get l<NUM>_constants SNAT_ROUTER_INTF_KEY [ ] ,1.0,0.0,548
+self assertEqual test_port res_port ,0.0,0.0,549
+floating_ips ri dist_fip_count = = <NUM> ,1.0,0.0,550
+=_ <STR> ,1.0,0.0,551
+ri ns_name interface_name fip_ip ,1.0,0.0,552
+router [ l<NUM>_constants FLOATINGIP_KEY ] = fake_fip [ <STR> ] ,1.0,0.0,553
+def_create_dvr_gateway self ri ex_gw_port gw_interface_name ,1.0,0.0,554
+self snat_ports = [ ] ,1.0,0.0,555
+<STR> ri router ,1.0,0.0,556
+fip_ns_name = self get_fip_ns_name self _fetch_external_net_id ,1.0,0.0,557
+fixed_ip p [ <STR> ] ,1.0,0.0,558
+FIP_NS_PREFIX + ext_net_id ,1.0,0.0,559
+self _internal_network_added ri ns_name network_id port_id ,1.0,0.0,560
+internal_cidrs ri ns_name ,0.0,0.0,561
+self floating_ip_added_dist ri fip ,1.0,0.0,562
+res_ip = agent _map_internal_interfaces ri ,1.0,0.0,563
+fip_cidr = <STR> ,1.0,0.0,564
+match_port ,1.0,0.0,565
+ip_rule = ip_lib IpRule self root_helper namespace = ri ns_name ,1.0,0.0,566
+<STR> ,1.0,0.0,567
+test_process_dist_router self ,1.0,0.0,568
+<STR> ,1.0,0.0,569
+fake_fip = <STR> _uuid ,1.0,0.0,570
+FIP_LL_PREFIX = <STR> ,1.0,0.0,571
+self mock_rule delete_rule_priority assert_called_with FIP_PRI ,0.0,0.0,572
+ri rtr_<NUM>_fip None ,1.0,0.0,573
+agent get_fip_ext_device_name port_id ,1.0,0.0,574
+Exception ,1.0,0.0,575
+ns_ipr = ip_lib IpRule self root_helper namespace = ri ns_name ,1.0,0.0,576
+def_delete_namespace self ns_ip ns ,1.0,0.0,577
+device = ip_lib IPDevice interface_name self root_helper ,1.0,0.0,578
+def_create_namespace self name ,1.0,0.0,579
+ipd = ip_lib IPDevice interface_name self root_helper ,1.0,0.0,580
+ri internal_port ,1.0,0.0,581
+test_add_arp_entry self ,1.0,0.0,582
+def_map_internal_interfaces self ri int_port snat_ports ,1.0,0.0,583
+prefix = FIP_EXT_DEV_PREFIX ,1.0,0.0,584
+namespace = fip_ns_name ,1.0,0.0,585
+self fip_priorities add rule_pr ,1.0,0.0,586
+agent floating_ip_removed_dist ri fip_cidr ,1.0,0.0,587
+self _handle_router_fip_nat_rules ri rtr_<NUM>_fip_name <STR> ,1.0,0.0,588
+def_snat_redirect_remove self ri sn_port sn_int ,1.0,0.0,589
+test_port [ <STR> ] = <NUM> ,1.0,0.0,590
+fip_ns_name = self get_fip_ns_name network_id ,1.0,0.0,591
+ri snat_ports = snat_ports ,1.0,0.0,592
+ri router [ <STR> ] ri ex_gw_port ,0.0,0.0,593
+self assertNotEqual test_port res_ip ,0.0,0.0,594
+self assertNotEqual self subnet_id_list [ <NUM> ] subnet_id ,0.0,0.0,595
+ip_version = <NUM> ,1.0,0.0,596
+self rtr_<NUM>_fip = None ,1.0,0.0,597
+FIP_<NUM>_ROUTER_DEV_PREFIX = <STR> ,1.0,0.0,598
+get_fip_ns_name self ext_net_id ,1.0,0.0,599
+self agent_gateway_port = None ,1.0,0.0,600
+snat_interface = ,1.0,0.0,601
+router_list = [ <STR> ,1.0,0.0,602
+ip_wrapper netns execute [ <STR> ] ,1.0,0.0,603
+<STR> ,1.0,0.0,604
+FIP_NS_PREFIX = <STR> ,1.0,0.0,605
+self _router_append_interface router self subnet_id_list ,1.0,0.0,606
+arp_table = <STR> ,1.0,0.0,607
+f [ <STR> ] = = subnet_id ,1.0,0.0,608
+prefix = prefix ,0.0,0.0,609
+internal_cidrs snat_ports ,0.0,0.0,610
+device route delete_route fip_cidr ri rtr_<NUM>_fip ,1.0,0.0,611
+ri snat_ports ,1.0,0.0,612
+<STR> _uuid ,1.0,0.0,613
+self local_ips add ri fip_<NUM>_rtr rsplit <STR> <NUM> [ <NUM> ] ,0.0,0.0,614
+self internal_network_added ri p ,1.0,0.0,615
+ri rtr_<NUM>_fip ,1.0,0.0,616
+rule_pr = None ,1.0,0.0,617
+ip = arp_table [ <STR> ] ,1.0,0.0,618
+operation = = <STR> ,1.0,0.0,619
+ri router [ <STR> ] = [ ,1.0,0.0,620
+p subnet_ports ,1.0,0.0,621
+[ <STR> ] p id_name ,0.0,0.0,622
+namespace = ri ns_name ,1.0,0.0,623
+ri dist_fip_count = ri dist_fip_count - <NUM> ,1.0,0.0,624
+floating_ips ,1.0,0.0,625
+agent get_fip_ns_name network_id ,1.0,0.0,626
+self internal_ns_interface_added ri fip_<NUM>_rtr + <STR> ,1.0,0.0,627
+agent create_rtr_<NUM>_fip_link ri fip [ <STR> ] ,1.0,0.0,628
+ip_wrapper = ip_lib IPWrapper self root_helper ,1.0,0.0,629
+self _send_gratuitous_arp_packet ns_name interface_name ip_address ,1.0,0.0,630
+ri router = <STR> ,1.0,0.0,631
+fixed_ip = int_port [ <STR> ] [ <NUM> ] ,1.0,0.0,632
+agent del_arp_entry None payload ,1.0,0.0,633
+test_floating_ip_removed_dist self ,1.0,0.0,634
+preserve_ips ,0.0,0.0,635
+<STR> interface_name ,1.0,0.0,636
+subnet_id = fips [ <NUM> ] [ <STR> ] ,1.0,0.0,637
+def_test_process_router self ri ,1.0,0.0,638
+ri perform_snat_action self _handle_router_snat_rules ,1.0,0.0,639
+floating_ip_removed_dist self ri fip_cidr ,1.0,0.0,640
+self get_fip_ext_device_name self agent_gateway_port [ <STR> ] ,1.0,0.0,641
+test__ map_internal_interfaces self ,1.0,0.0,642
+self agent_gateway_port = ,1.0,0.0,643
+self _create_namespace ri ns_name ,1.0,0.0,644
+ns_ipr add_rule_from sn_port [ <STR> ] snat_idx snat_idx ,1.0,0.0,645
+ri router [ <STR> ] = None ,1.0,0.0,646
+self agent_fip_count = = <NUM> ,1.0,0.0,647
+self agent_gateway_port ,1.0,0.0,648
+FakeDev ,1.0,0.0,649
+ip_lib device_exists snat_interface ,1.0,0.0,650
+self mock_ip_dev route delete_route assert_called_with fip_cidr ,1.0,0.0,651
+agent floating_ip_added_dist ri fip ,1.0,0.0,652
+self _external_gateway_added ri ex_gw_port interface_name ,1.0,0.0,653
+test_create_dvr_gateway self ,1.0,0.0,654
+def_update_arp_entry self ri ip mac subnet_id operation ,1.0,0.0,655
+mac = arp_table [ <STR> ] ,1.0,0.0,656
+d name startswith FIP_<NUM>_ROUTER_DEV_PREFIX ,1.0,0.0,657
+namespace = ns_name ,1.0,0.0,658
+None ,0.0,0.0,659

@@ -1,0 +1,135 @@
+total_tokens,line_level_label,line_score,row
+<STR> Enables / Disables the compute service on this host ,0.0,1.0,1
+number of arguments the libvirt python library ,0.0,0.8604417624729336,2
+<STR> Sets the specified host ' s ability to accept new instances ,0.0,0.8510655772185243,3
+registerCloseCallback self cb opaque * args * * kwargs ,0.0,0.5891619686352236,4
+domainEventRegisterAny self * args * * kwargs ,0.0,0.5546740477998396,5
+<STR> Validates that a connection to libvirt exist ,0.0,0.4150042904561483,6
+service_obj Service get_by_compute_host self ctxt ,1.0,0.40582975123610887,7
+mock patch service_obj Service <STR> ,1.0,0.3993368346636066,8
+mock patch service_obj Service <STR> ,1.0,0.3993368346636066,9
+nova objects service service_obj ,0.0,0.3896667764468885,10
+nova objects service service_obj ,1.0,0.3896667764468885,11
+the libvirt python library ,0.0,0.34008399517364113,12
+mock patch libvirt <STR> ,0.0,0.30209132370903424,13
+mock patch libvirt libvirtError <STR> ,0.0,0.30209132370903424,14
+<STR> mock MagicMock ,0.0,0.20985658323680778,15
+service_mock = mock MagicMock ,0.0,0.20985658323680778,16
+mock patch conn <STR> return_value = self conn ,0.0,0.20985658323680778,17
+mox IgnoreArg AndReturn mock MagicMock ,0.0,0.20985658323680778,18
+mock patch self conn <STR> ,1.0,0.20985658323680778,19
+<STR> mock MagicMock ,0.0,0.20985658323680778,20
+return_value = mock MagicMock ,0.0,0.20985658323680778,21
+mock patch conn <STR> ,1.0,0.20985658323680778,22
+service_obj Service get_by_compute_host mox IgnoreArg ,1.0,0.1894802514266417,23
+self mox StubOutWithMock service_obj Service ,0.0,0.1894802514266417,24
+service_mock __ getitem__ return_value = ,1.0,0.17994437099580143,25
+service_mock __ getitem__ return_value = ,1.0,0.17994437099580143,26
+service_mock_failed_conn __ getitem__ return_value = ,1.0,0.17994437099580143,27
+self assertRaises exception HypervisorUnavailable ,1.0,0.1379624645213317,28
+self assertRaises exception HypervisorUnavailable ,0.0,0.1379624645213317,29
+side_effect = libvirt libvirtError <STR> ,0.0,0.1364272864142083,30
+self set_host_enabled CONF host _error ,0.0,0.12062820514785788,31
+self set_host_enabled CONF host is_connected ,0.0,0.10516390229010542,32
+set_host_enabled self host enabled ,0.0,0.10516390229010542,33
+contextlib nested ,0.0,0.10374578285359153,34
+self mox StubOutWithMock libvirt <STR> ,1.0,0.09223474047224771,35
+libvirt openAuth mox IgnoreArg mox IgnoreArg ,0.0,0.09223474047224771,36
+self mox StubOutWithMock libvirt libvirtError <STR> ,0.0,0.09223474047224771,37
+libvirt libvirtError <STR> ,1.0,0.09223474047224771,38
+self assertTrue service_mock disabled ,1.0,0.08762597374103248,39
+self assertFalse service_mock disabled ,1.0,0.08762597374103248,40
+self assertFalse service_mock disabled ,1.0,0.08762597374103248,41
+service_mock disabled return_value = ,0.0,0.08762597374103248,42
+self assertTrue service_mock disabled ,1.0,0.08762597374103248,43
+self assertTrue service_mock disabled ,1.0,0.08762597374103248,44
+self assertTrue service_mock disabled ,0.0,0.08762597374103248,45
+self assertTrue service_mock disabled ,0.0,0.08762597374103248,46
+service_mock disabled return_value = ,0.0,0.08762597374103248,47
+self assertTrue service_mock disabled ,1.0,0.08762597374103248,48
+service_mock_failed_conn disabled return_value = ,0.0,0.08762597374103248,49
+side_effect = TypeError <STR> ,0.0,0.04419254594196059,50
+side_effect = set_close_callback ,0.0,0.04419254594196059,51
+side_effect = AttributeError <STR> ,0.0,0.04419254594196059,52
+registerCloseCallback self cb opaque ,0.0,0.03448792083545034,53
+self connection set_host_enabled <STR> ,0.0,0.00593775214591566,54
+self connection set_host_enabled <STR> ,0.0,0.00593775214591566,55
+self connection _set_host_enabled ,1.0,0.00593775214591566,56
+connection = conn _get_connection ,0.0,0.00593775214591566,57
+self assertTrue connection ,0.0,0.00593775214591566,58
+self connection _set_host_enabled <STR> ,1.0,0.00593775214591566,59
+even when registerCloseCallback method missing ,0.0,0.0019010731611609356,60
+service_mock disabled_reason endswith disabled_reason ,1.0,0.0004984014357953225,61
+service_mock disabled_reason endswith reason ,0.0,0.0004984014357953225,62
+test_set_host_enabled self ,0.0,0.0,63
+pass ,0.0,0.0,64
+conn _connect mox IgnoreArg mox IgnoreArg AndReturn ,0.0,0.0,65
+self mox StubOutWithMock conn <STR> ,1.0,0.0,66
+conn set_host_enabled <STR> ,0.0,0.0,67
+conn _close_callback conn _wrapped_conn <STR> ,1.0,0.0,68
+self _set_host_enabled disable_reason =_error ,1.0,0.0,69
+self assertEqual <STR> ,0.0,0.0,70
+<STR> ,1.0,0.0,71
+self mox UnsetStubs ,0.0,0.0,72
+service_mock disabled_reason <STR> ,0.0,0.0,73
+conn _wrapped_conn ,1.0,0.0,74
+self assertEqual service_mock disabled_reason <STR> ,0.0,0.0,75
+self mox ReplayAll ,0.0,0.0,76
+WithSideEffects set_close_callback ,0.0,0.0,77
+conn get_num_instances ,0.0,0.0,78
+disable_reason = <STR> ,1.0,0.0,79
+even when registerCloseCallback method has a different ,0.0,0.0,80
+conn _get_connection ,0.0,0.0,81
+def_set_host_enabled self enabled ,1.0,0.0,82
+<STR> AndReturn service_mock_failed_conn ,1.0,0.0,83
+wrapped_conn ,0.0,0.0,84
+disable_reason = enabled ,0.0,0.0,85
+mocks_list = [ service_mock service_mock_failed_conn ] ,0.0,0.0,86
+conn set_host_enabled <STR> ,0.0,0.0,87
+disabled_reason = <STR> ,1.0,0.0,88
+self mox StubOutWithMock conn _conn <STR> ,1.0,0.0,89
+self close_callback conn _conn <NUM> None ,0.0,0.0,90
+FakeConn ,0.0,0.0,91
+conn get_num_instances ,0.0,0.0,92
+self close_callback self conn <NUM> None ,0.0,0.0,93
+<STR> ,0.0,0.0,94
+disable_service = enabled ,0.0,0.0,95
+self assertTrue self close_callback ,0.0,0.0,96
+self assertEqual service_mock disabled_reason <STR> ,1.0,0.0,97
+conn set_host_enabled <STR> ,0.0,0.0,98
+return_value = mocks_list pop ,0.0,0.0,99
+self assertEqual <STR> conn _set_host_enabled ,1.0,0.0,100
+enabled ,0.0,0.0,101
+mox IgnoreArg mox IgnoreArg ,0.0,0.0,102
+self assertEqual <STR> ,0.0,0.0,103
+conn _wrapped_conn = FakeConn ,0.0,0.0,104
+self assertEqual <STR> conn _set_host_enabled ,1.0,0.0,105
+self assertIsNone conn set_host_enabled <STR> ,1.0,0.0,106
+test_internal_set_host_enabled self ,1.0,0.0,107
+is_connected = wrapped_conn ,0.0,0.0,108
+conn get_num_instances ,0.0,0.0,109
+self _set_host_enabled wrapped_conn disable_reason ,1.0,0.0,110
+disable_service = enabled ,0.0,0.0,111
+reason = <STR> ,1.0,0.0,112
+disable_reason = DISABLE_REASON_UNDEFINED ,0.0,0.0,113
+self assertIsNone conn _set_host_enabled ,1.0,0.0,114
+conn get_num_instances ,0.0,0.0,115
+conn _connect mox IgnoreArg mox IgnoreArg AndReturn conn _conn ,0.0,0.0,116
+conn _get_new_connection ,0.0,0.0,117
+mox IgnoreArg AndRaise ,0.0,0.0,118
+return_value = service_mock ,0.0,0.0,119
+return_value = service_mock ,0.0,0.0,120
+FakeConn ,0.0,0.0,121
+self assertTrue self close_callback ,0.0,0.0,122
+conn _conn registerCloseCallback ,0.0,0.0,123
+mox IgnoreArg mox IgnoreArg AndRaise TypeError ,0.0,0.0,124
+conn _conn registerCloseCallback mox IgnoreArg mox IgnoreArg ,0.0,0.0,125
+service_mock disabled_reason <STR> ,0.0,0.0,126
+getLibVersion self ,0.0,0.0,127
+conn _close_callback conn _wrapped_conn <STR> ,0.0,0.0,128
+disable_service = enabled ,0.0,0.0,129
+disable_reason = DISABLE_REASON_UNDEFINED ,0.0,0.0,130
+conn _get_connection ,0.0,0.0,131
+<NUM> * <NUM> * <NUM> + <NUM> * <NUM> + <NUM> ,0.0,0.0,132
+<STR> AndReturn service_mock ,0.0,0.0,133
+disable_reason = DISABLE_REASON_UNDEFINED ,0.0,0.0,134

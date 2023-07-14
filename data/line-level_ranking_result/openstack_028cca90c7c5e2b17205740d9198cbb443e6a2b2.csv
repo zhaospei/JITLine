@@ -1,0 +1,63 @@
+total_tokens,line_level_label,line_score,row
+report_st assert_called_with self agent context ,0.0,1.0,1
+self state_rpc report_state self context ,0.0,0.8700166440920346,2
+mock patch self agent state_rpc ,0.0,0.7135585834410241,3
+mock patch <STR> ,1.0,0.7135585834410241,4
+def__ init__ self f ,1.0,0.7004937955438127,5
+neutron common constants n_const ,1.0,0.43096668125346077,6
+neutron openstack common loopingcall ,1.0,0.38546969586818963,7
+<STR> cfg CONF host ,0.0,0.3476140325404184,8
+segment [ api PHYSICAL_NETWORK ] mappings ,1.0,0.27535286378806934,9
+re match pattern segment [ api PHYSICAL_NETWORK ] ,1.0,0.22700662779361083,10
+neutron agent common config ,1.0,0.20977446014393744,11
+new = MockFixedIntervalLoopingCall ,1.0,0.1499468144365437,12
+self agent_state pop <STR> None ,0.0,0.13260413621564623,13
+config register_agent_state_opts_helper cfg CONF ,0.0,0.08319619363510672,14
+pattern mappings ,0.0,0.04834623599445849,15
+neutron db agents_db ,1.0,0.04079695880746103,16
+HyperVNeutronPlugin agents_db AgentDbMixin ,0.0,0.04079695880746103,17
+agents_db AgentExtRpcCallback ] ,1.0,0.04079695880746103,18
+heartbeat start interval = report_interval ,0.0,0.001993023894129107,19
+start self interval = <NUM> ,0.0,0.001993023894129107,20
+q_rpc PluginRpcDispatcher [ self ] ,1.0,0.0,21
+<STR> ] ,0.0,0.0,22
+db_base_plugin_v<NUM> NeutronDbPluginV<NUM> ,0.0,0.0,23
+def_report_state self ,0.0,0.0,24
+self _physical_network_mappings [ re pattern ] = vswitch ,0.0,0.0,25
+compre self _physical_network_mappings ,0.0,0.0,26
+<STR> ] ,1.0,0.0,27
+<STR> ] ,0.0,0.0,28
+self _set_agent_state ,0.0,0.0,29
+self _physical_network_mappings [ pattern ] ,0.0,0.0,30
+self agent_state = ,0.0,0.0,31
+pattern self _physical_network_mappings ,0.0,0.0,32
+HyperVNeutronPlugin db_base_plugin_v<NUM> NeutronDbPluginV<NUM> ,0.0,0.0,33
+compre match phys_network_name ,0.0,0.0,34
+<STR> ,1.0,0.0,35
+self f ,0.0,0.0,36
+self f = f ,0.0,0.0,37
+self agent _report_state ,0.0,0.0,38
+test_report_state self ,0.0,0.0,39
+self agent agent_state ,0.0,0.0,40
+q_rpc PluginRpcDispatcher [ self ,0.0,0.0,41
+fake_agent_state = ,0.0,0.0,42
+<STR> report_st ,0.0,0.0,43
+def_set_agent_state self ,0.0,0.0,44
+self state_rpc = agent_rpc PluginReportStateAPI topics PLUGIN ,0.0,0.0,45
+Exception ex ,1.0,0.0,46
+report_interval ,0.0,0.0,47
+<STR> ,0.0,0.0,48
+<STR> n_const AGENT_TYPE_HYPERV ,0.0,0.0,49
+re ,0.0,0.0,50
+report_interval = CONF AGENT report_interval ,0.0,0.0,51
+re match pattern phys_network_name ,0.0,0.0,52
+<STR> n_const L<NUM>_AGENT_TOPIC ,0.0,0.0,53
+self agent_state ,0.0,0.0,54
+heartbeat = loopingcall LoopingCall self _report_state ,0.0,0.0,55
+LOG exception _ <STR> ex ,1.0,0.0,56
+self _physical_network_mappings ,0.0,0.0,57
+self _physical_network_mappings [ pattern ] = vswitch ,0.0,0.0,58
+MockFixedIntervalLoopingCall ,1.0,0.0,59
+self agent_state = fake_agent_state ,0.0,0.0,60
+self assertNotIn <STR> self agent agent_state ,0.0,0.0,61
+self _physical_network_mappings [ compre ] ,0.0,0.0,62

@@ -1,0 +1,358 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,1.0,1.0,1
+License the specific language governing permissions limitations ,1.0,0.9622497058223595,2
+Method used to wipe old volumes valid options are none ,0.0,0.6600770139649637,3
+Size MiB to wipe at start of old volumes <NUM> = > ,0.0,0.6596108528432494,4
+cinder openstack common log logging ,1.0,0.6157028612357146,5
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.6088613582930085,6
+a copy of the License at ,1.0,0.5947242416710046,7
+use this file compliance the License You may obtain ,1.0,0.5580905852286645,8
+lun = <NUM> # For tgtadm the controller lun <NUM> dev starts at lun <NUM> ,1.0,0.4933783070026568,9
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.4733114288346596,10
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.46936747077662805,11
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.45149878479129113,12
+copy_image_to_volume self context volume image_service image_id ,0.0,0.4484926803387109,13
+BlockDeviceDriver self __ init__ * args * * kwargs ,1.0,0.4020484626577504,14
+def__ init__ self * args * * kwargs ,1.0,0.36753364989468623,15
+<STR> backend_name self __ class__ __ name__ ,0.0,0.33576467021566764,16
+def_iscsi_location self ip target iqn lun = None device = None ,1.0,0.32540021496517624,17
+volume_info = self db volume_get context volume [ <STR> ] ,1.0,0.3091892300144653,18
+self db iscsi_target_create_safe context target ,1.0,0.3005030975307971,19
+def_ensure_iscsi_targets self context host ,1.0,0.2993456089394634,20
+LOG debug <STR> volume_info ,1.0,0.2689700558280783,21
+lst = api volume_get_all_by_host context get_admin_context ,0.0,0.2669399878170909,22
+host_iscsi_targets = self db iscsi_target_count_by_host context ,1.0,0.26419025949141767,23
+iscsi_target = self db volume_allocate_iscsi_target context ,1.0,0.26419025949141767,24
+self drv copy_image_to_volume context TEST_VOLUME TEST_IMAGE_SERVICE ,0.0,0.26076135148778995,25
+os path exists path AndReturn ,0.0,0.25885550390598566,26
+context get_admin_context ,1.0,0.2506039655431667,27
+self mox StubOutWithMock context <STR> ,1.0,0.2498526808742601,28
+cinder context ,1.0,0.2470368063168494,29
+LOG debug <STR> ,1.0,0.2420839067227639,30
+dict_of_devices_sizes [ device ] = self _get_device_size device ,0.0,0.23435869854682298,31
+List of available devices value ,0.0,0.2329538119345081,32
+remove_export self context volume ,1.0,0.21128035173994347,33
+ensure_export self context volume ,1.0,0.20526479107198822,34
+self _ensure_iscsi_targets context volume [ <STR> ] ,1.0,0.20526479107198822,35
+copy_volume_to_image self context volume image_service image_meta ,0.0,0.20526479107198822,36
+create_export self context volume ,1.0,0.20526479107198822,37
+target iqn lun device ,0.0,0.19764377039894704,38
+self mox StubOutWithMock os path <STR> ,1.0,0.19212846317313545,39
+device size dict_of_devices_sizes iteritems ,0.0,0.18875295595587258,40
+under the License ,1.0,0.1873634157056674,41
+context ,0.0,0.1871519696541633,42
+self drv copy_volume_to_image context TEST_VOLUME TEST_IMAGE_SERVICE ,0.0,0.1871519696541633,43
+image_utils upload_volume context TEST_IMAGE_SERVICE ,0.0,0.1871519696541633,44
+param context ,0.0,0.1871519696541633,45
+image_utils upload_volume context ,0.0,0.1871519696541633,46
+image_utils fetch_to_raw context TEST_IMAGE_SERVICE ,1.0,0.1871519696541633,47
+image_utils fetch_to_raw context ,1.0,0.1871519696541633,48
+LOG info <STR> % volume [ <STR> ] device ,0.0,0.18170786280212312,49
+LOG = logging getLogger __ name__ ,1.0,0.17375658615779935,50
+image_id ,0.0,0.16961850743309612,51
+terminate_connection self volume connector * * kwargs ,0.0,0.16239327942168608,52
+cinder brick iscsi iscsi ,1.0,0.1575603908992991,53
+cinder db sqlalchemy api ,1.0,0.15325914877377292,54
+path = volume [ <STR> ] split <STR> ,0.0,0.14754057337077187,55
+iscsi_target = <NUM> # NOTE jdg Not used by tgtadm ,1.0,0.14404791829873936,56
+cinder image image_utils ,1.0,0.13795435815860912,57
+device = self find_appropriate_size_device volume [ <STR> ] ,0.0,0.13529217069114471,58
+<STR> Synchronously recreates an export a logical volume ,0.0,0.13332530662680742,59
+path [ <NUM> ] ,1.0,0.12942775195294695,60
+path = self drv local_path TEST_VOLUME<NUM> AndReturn <STR> ,0.0,0.12942775195294695,61
+os path ,1.0,0.12942775195294695,62
+os path exists dev_path ,1.0,0.12942775195294695,63
+cinder utils ,1.0,0.12833284626736555,64
+<STR> % ip self configuration iscsi_port ,1.0,0.12411679730053073,65
+self _copy_volume self local_path src_vref device ,1.0,0.12389992099182132,66
+device = self find_appropriate_size_device src_vref [ <STR> ] ,0.0,0.12389992099182132,67
+device free_devices ,0.0,0.11717934927341149,68
+dev_size = dict_of_devices_sizes [ device ] ,0.0,0.11717934927341149,69
+possible_device = device ,0.0,0.11717934927341149,70
+device ,0.0,0.11717934927341149,71
+self _get_device_size device * <NUM> ,1.0,0.11717934927341149,72
+device used_devices ,0.0,0.11717934927341149,73
+device available_devices ,0.0,0.11717934927341149,74
+self configuration host ,0.0,0.11219363928530009,75
+self configuration host = <STR> ,1.0,0.11219363928530009,76
+self configuration host \ ,0.0,0.11219363928530009,77
+host ,0.0,0.11219363928530009,78
+create_cloned_volume self volume src_vref ,0.0,0.10712824433135601,79
+delete_volume self volume ,1.0,0.10476870558452013,80
+LOG error _ <STR> ,0.0,0.09735919286286963,81
+cinder test ,0.0,0.09691095401674281,82
+TestBlockDeviceDriver cinder test TestCase ,0.0,0.09691095401674281,83
+self drv delete_volume TEST_VOLUME<NUM> ,0.0,0.08665588416677196,84
+default = [ ] ,0.0,0.0853619071031227,85
+default = <NUM> ,0.0,0.0853619071031227,86
+default = <STR> ,1.0,0.0853619071031227,87
+self assertEquals self drv create_cloned_volume TEST_VOLUME TEST_SRC ,1.0,0.08229485119515914,88
+self mox StubOutWithMock api <STR> ,1.0,0.07903673349405071,89
+cinder exception ,1.0,0.07890704432012385,90
+cinder exception ,1.0,0.07890704432012385,91
+self assertRaises cinder exception CinderException ,1.0,0.07890704432012385,92
+cinder volume driver ISCSIDriver ,1.0,0.07799765808045271,93
+cinder volume driver ,1.0,0.07799765808045271,94
+cinder / volume / drivers / block_device py ,0.0,0.07799765808045271,95
+Options defined cinder volume drivers block_device ,0.0,0.07799765808045271,96
+cinder volume drivers block_device BlockDeviceDriver ,0.0,0.07799765808045271,97
+iscsi_target = self db volume_get_iscsi_target_num ,1.0,0.07703828983722567,98
+check_for_setup_error self ,0.0,0.06937005598995029,99
+chap_password = utils generate_password ,1.0,0.06844800960474666,100
+chap_username = utils generate_username ,1.0,0.06844800960474666,101
+pass ,1.0,0.06689484588643307,102
+LOG info _ <STR> % volume [ <STR> ] ,1.0,0.06452851352872968,103
+initialize_connection volume connector ,1.0,0.0638997842663782,104
+initialize_connection self volume connector ,1.0,0.0638997842663782,105
+self mox ReplayAll ,1.0,0.06270071122014031,106
+self mox StubOutWithMock ISCSIDriver <STR> ,1.0,0.06270071122014031,107
+self configuration = mox MockAnything ,0.0,0.06270071122014031,108
+self mox StubOutWithMock self drv <STR> ,1.0,0.06270071122014031,109
+self mox StubOutWithMock image_utils <STR> ,1.0,0.06270071122014031,110
+mox ,1.0,0.06270071122014031,111
+self mox StubOutWithMock self configuration <STR> ,1.0,0.06270071122014031,112
+self assertEquals result ,1.0,0.05125490012855467,113
+result = self drv create_volume TEST_VOLUME ,0.0,0.05125490012855467,114
+self tgtadm iscsi LioAdm ,1.0,0.04883777711834192,115
+self tgtadm iscsi TgtAdm ,1.0,0.04883777711834192,116
+self tgtadm iscsi TgtAdm ,1.0,0.04883777711834192,117
+self tgtadm = iscsi get_target_admin ,1.0,0.04883777711834192,118
+LOG info _ <STR> ,1.0,0.04641569211093396,119
+LOG info _ <STR> ] ,1.0,0.04641569211093396,120
+connector [ <STR> ] ,0.0,0.04578696284858246,121
+lun = <NUM> ,1.0,0.04415158308616011,122
+self configuration iscsi_ip_address tid iscsi_name lun ,1.0,0.04415158308616011,123
+model_update [ <STR> ] = self _iscsi_authentication ,1.0,0.04382254311582605,124
+backend_name = self configuration safe_get <STR> ,0.0,0.04051005827942952,125
+get_volume_stats self refresh = ,0.0,0.039073034530573446,126
+target = <STR> target_num ,1.0,0.0363128380394144,127
+iscsi_target = <NUM> # dummy value when using TgtAdm ,1.0,0.03565389039969587,128
+cfg ListOpt <STR> ,1.0,0.03420965800226344,129
+oslo config cfg ,1.0,0.03420965800226344,130
+cfg IntOpt <STR> ,1.0,0.03420965800226344,131
+cfg StrOpt <STR> ,1.0,0.03420965800226344,132
+model_update [ <STR> ] = self _iscsi_location ,1.0,0.0331180214233103,133
+model_update = ,1.0,0.0331180214233103,134
+model_update ,1.0,0.0331180214233103,135
+test_initialize_connection self ,1.0,0.030785149959601656,136
+blockdev CommandFilter blockdev root ,0.0,0.029279825113635336,137
+zero shred string value ,0.0,0.027797330286362245,138
+<STR> % chap name password ,1.0,0.026905207359533223,139
+def_iscsi_authentication self chap name password ,1.0,0.026905207359533223,140
+auth_pass = volume_info [ <STR> <NUM> ,1.0,0.0268861491052996,141
+out err = self _execute <STR> dev_path ,1.0,0.022471120604826127,142
+self tgtadm set_execute execute ,1.0,0.020649759358037287,143
+BlockDeviceDriver self set_execute execute ,0.0,0.020649759358037287,144
+set_execute self execute ,0.0,0.020649759358037287,145
+exception CinderException _ <STR> ,1.0,0.01902220765746688,146
+exception ProcessExecutionError ,1.0,0.01902220765746688,147
+exception NotFound ,1.0,0.01902220765746688,148
+extra_flags append <STR> ,1.0,0.018315426730820726,149
+clear_cmd append vol_path ,1.0,0.018315426730820726,150
+clear_cmd append <STR> % clear_size ,1.0,0.018315426730820726,151
+self clear_volume volume ,0.0,0.018112821417795733,152
+volume_path = self local_path volume ,1.0,0.018112821417795733,153
+create_volume self volume ,0.0,0.018112821417795733,154
+volume [ <STR> ] ,1.0,0.018112821417795733,155
+location = volume [ <STR> ,1.0,0.018112821417795733,156
+<STR> volume [ <STR> ] ,1.0,0.018112821417795733,157
+self local_path volume ,0.0,0.018112821417795733,158
+param volume ,0.0,0.018112821417795733,159
+vol_path = self local_path volume ,1.0,0.018112821417795733,160
+self tgtadm remove_iscsi_target iscsi_target <NUM> volume [ <STR> ] ,1.0,0.018112821417795733,161
+volume_name = volume [ <STR> ] ,1.0,0.018112821417795733,162
+local_path self volume ,0.0,0.018112821417795733,163
+<STR> self local_path volume ,0.0,0.018112821417795733,164
+local_path = self local_path volume ,1.0,0.018112821417795733,165
+dev_path = self local_path volume ,1.0,0.018112821417795733,166
+clear_volume self volume ,1.0,0.018112821417795733,167
+volume lst ,0.0,0.018112821417795733,168
+volume [ <STR> ] ,1.0,0.018112821417795733,169
+api volume_get_all_by_host None ,1.0,0.016336022273910393,170
+check_exit_code = ,0.0,0.015539630503252619,171
+chap_auth = self _iscsi_authentication <STR> chap_username ,1.0,0.01070452169251574,172
+chap_auth = self _iscsi_authentication auth_method ,1.0,0.01070452169251574,173
+auth_user ,0.0,0.007420855788090907,174
+integer value ,0.0,0.0005325191583623943,175
+auth_method ,1.0,0.0,176
+AndReturn <STR> ,0.0,0.0,177
+clear_cmd = [ <STR> ] ,1.0,0.0,178
+self assertEquals self drv find_appropriate_size_device size ,1.0,0.0,179
+data = <STR> total_size / <NUM> ,0.0,0.0,180
+path<NUM> = self drv local_path TEST_VOLUME<NUM> AndReturn <STR> ,0.0,0.0,181
+self drv _get_used_devices AndReturn [ <STR> ] ,0.0,0.0,182
+<STR> self VERSION ,1.0,0.0,183
+self _update_volume_status ,1.0,0.0,184
+<STR> ,1.0,0.0,185
+target_end = self configuration iscsi_num_targets + <NUM> ,1.0,0.0,186
+image_service ,0.0,0.0,187
+def_get_used_devices self ,0.0,0.0,188
+size_in_m / <NUM> ,0.0,0.0,189
+extra_flags = [ <STR> ] ,1.0,0.0,190
+self drv _copy_volume <STR> dev <NUM> ,1.0,0.0,191
+test_initialize_connection_different_hosts self ,0.0,0.0,192
+dict_of_devices_sizes = ,0.0,0.0,193
+test_find_appropriate_size_device self ,0.0,0.0,194
+TEST_IMAGE_META <STR> ,0.0,0.0,195
+TEST_VOLUME = <STR> <NUM> ,1.0,0.0,196
+target_num xrange <NUM> target_end ,1.0,0.0,197
+size * <NUM> < = dev_size possible_device None ,0.0,0.0,198
+def_update_volume_status self ,1.0,0.0,199
+possible_device ,0.0,0.0,200
+clearing extra_flags ,1.0,0.0,201
+auth_pass ,0.0,0.0,202
+def_copy_volume self srcstr deststr size_in_m = None clearing = ,1.0,0.0,203
+TEST_IMAGE_ID <STR> ,0.0,0.0,204
+self configuration available_devices ,0.0,0.0,205
+BlockDeviceDriver self \ ,0.0,0.0,206
+free_size = <NUM> ,0.0,0.0,207
+volume_name ,1.0,0.0,208
+self assertEquals self drv _get_device_size dev_path <NUM> ,1.0,0.0,209
+self drv _get_device_size dev AndReturn <NUM> ,1.0,0.0,210
+self drv find_appropriate_size_device TEST_VOLUME [ <STR> ] \ ,0.0,0.0,211
+test_find_appropriate_size_device_not_big_enough_disk self ,0.0,0.0,212
+test_create_cloned_volume self ,1.0,0.0,213
+self drv _execute <STR> dev_path ,1.0,0.0,214
+dev self configuration available_devices ,0.0,0.0,215
+AndReturn <STR> ,1.0,0.0,216
+<STR> <NUM> ,1.0,0.0,217
+self _get_used_devices ,0.0,0.0,218
+local_path ,0.0,0.0,219
+TEST_CONNECTOR = <STR> ,0.0,0.0,220
+os ,1.0,0.0,221
+= <STR> ,1.0,0.0,222
+<STR> <NUM> ,1.0,0.0,223
+self _copy_volume <STR> vol_path size_in_m ,1.0,0.0,224
+size_in_m = out ,0.0,0.0,225
+available_devices = ,0.0,0.0,226
+test_devices_sizes self ,1.0,0.0,227
+dev_size < possible_device_size ,0.0,0.0,228
+test_get_device_size self ,1.0,0.0,229
+TEST_SRC = <STR> ,1.0,0.0,230
+dict_of_devices_sizes = self _devices_sizes ,0.0,0.0,231
+free_devices = self configuration available_devices - ,0.0,0.0,232
+chap_password ,0.0,0.0,233
+run_as_root = AndReturn out None ,0.0,0.0,234
+<STR> <STR> ,1.0,0.0,235
+used_devices add local_path ,0.0,0.0,236
+self assertEquals self drv _devices_sizes ,1.0,0.0,237
+ISCSIDriver initialize_connection TEST_VOLUME<NUM> ,0.0,0.0,238
+self assertEquals data <STR> ,1.0,0.0,239
+self configuration volume_clear ,1.0,0.0,240
+self configuration iscsi_port = <NUM> ,0.0,0.0,241
+clear_size = self configuration volume_clear_size ,1.0,0.0,242
+self tgtadm create_iscsi_target iscsi_name iscsi_target ,1.0,0.0,243
+None ,1.0,0.0,244
+free_size + = size ,0.0,0.0,245
+self drv = BlockDeviceDriver configuration = self configuration ,1.0,0.0,246
+chap_auth ,1.0,0.0,247
+volume_clear_size = <NUM> ,1.0,0.0,248
+<STR> ,1.0,0.0,249
+TEST_IMAGE_ID ,0.0,0.0,250
+TEST_IMAGE_META = <STR> ,0.0,0.0,251
+test_find_appropriate_size_device_no_free_disks self ,0.0,0.0,252
+<STR> ,0.0,0.0,253
+self configuration available_devices = [ <STR> ] ,0.0,0.0,254
+<STR> <NUM> ,1.0,0.0,255
+test_delete_path_is_not_in_list_of_available_devices self ,0.0,0.0,256
+self assertEquals data ,1.0,0.0,257
+TEST_IMAGE_SERVICE = <STR> ,0.0,0.0,258
+used_devices ,0.0,0.0,259
+self tgtadm show_target iscsi_target iqn = iqn ,1.0,0.0,260
+run_as_root = ,0.0,0.0,261
+* extra_flags run_as_root = ,1.0,0.0,262
+available_devices = self configuration available_devices ,0.0,0.0,263
+self drv local_path TEST_VOLUME<NUM> AndReturn None ,0.0,0.0,264
+VERSION = <STR> ,1.0,0.0,265
+possible_device_size = dev_size ,0.0,0.0,266
+TEST_IMAGE_META ,0.0,0.0,267
+data = self drv initialize_connection TEST_VOLUME<NUM> TEST_CONNECTOR ,0.0,0.0,268
+possible_device ,0.0,0.0,269
+TEST_VOLUME = ,1.0,0.0,270
+possible_device_size = None ,0.0,0.0,271
+dev_path dev_path \ ,0.0,0.0,272
+total_size + = size ,0.0,0.0,273
+possible_device = None ,0.0,0.0,274
+self configuration safe_get <STR> \ ,1.0,0.0,275
+<NUM> volume_path chap_auth ,0.0,0.0,276
+self drv _get_used_devices AndReturn ,0.0,0.0,277
+TEST_VOLUME<NUM> = <STR> ,1.0,0.0,278
+dev = self drv find_appropriate_size_device TEST_SRC [ <STR> ] \ ,0.0,0.0,279
+TEST_VOLUME = <STR> ,1.0,0.0,280
+<NUM> ,0.0,0.0,281
+<STR> ,1.0,0.0,282
+<STR> self configuration reserved_percentage ,1.0,0.0,283
+dev_path = <STR> ,1.0,0.0,284
+find_appropriate_size_device self size ,1.0,0.0,285
+self assertEquals self drv _stats ,1.0,0.0,286
+<STR> chap_username chap_password ,1.0,0.0,287
+iscsi_name = <STR> % self configuration iscsi_target_prefix ,1.0,0.0,288
+refresh ,0.0,0.0,289
+chap_auth = None ,1.0,0.0,290
+Copyright c <NUM> Mirantis Inc ,1.0,0.0,291
+used_devices = ,0.0,0.0,292
+iscsi_target = <NUM> ,1.0,0.0,293
+self _stats ,0.0,0.0,294
+self drv _devices_sizes AndReturn <STR> <NUM> ,1.0,0.0,295
+test_copy_image_to_volume self ,1.0,0.0,296
+<STR> ] ,1.0,0.0,297
+AndReturn [ TEST_VOLUME<NUM> TEST_VOLUME<NUM> ] ,0.0,0.0,298
+self configuration append_config_values volume_opts ,0.0,0.0,299
+test_delete_not_volume_provider_location self ,1.0,0.0,300
+TEST_IMAGE_ID = <STR> ,1.0,0.0,301
+test_get_used_devices self ,1.0,0.0,302
+extra_flags = [ ] ,1.0,0.0,303
+dict_of_devices_sizes ,0.0,0.0,304
+out = <STR> ,1.0,0.0,305
+size_in_m = self _get_device_size vol_path ,1.0,0.0,306
+Exception ,1.0,0.0,307
+tid = self tgtadm create_iscsi_target iscsi_name ,1.0,0.0,308
+clear_size ,1.0,0.0,309
+self drv _get_used_devices AndReturn [ <STR> ,0.0,0.0,310
+self configuration reserved_percentage ,1.0,0.0,311
+test_create_volume self ,1.0,0.0,312
+= <STR> ,1.0,0.0,313
+host_iscsi_targets > = self configuration iscsi_num_targets ,1.0,0.0,314
+self configuration volume_clear = = <STR> ,1.0,0.0,315
+free_devices ,0.0,0.0,316
+self drv find_appropriate_size_device size ,1.0,0.0,317
+<STR> ,1.0,0.0,318
+TestBlockDeviceDriver self setUp ,0.0,0.0,319
+test_delete_volume_path_exist self ,1.0,0.0,320
+def_get_device_size self dev_path ,1.0,0.0,321
+self drv local_path TEST_SRC AndReturn <STR> ,0.0,0.0,322
+setUp self ,1.0,0.0,323
+test_copy_volume_to_image self ,1.0,0.0,324
+size = <NUM> ,0.0,0.0,325
+All Rights Reserved ,1.0,0.0,326
+image_meta ,0.0,0.0,327
+self drv local_path TEST_VOLUME AndReturn <STR> ,0.0,0.0,328
+self assertEquals self drv _get_used_devices [ path<NUM> path<NUM> ] ,1.0,0.0,329
+self _stats = data ,0.0,0.0,330
+volume_clear = zero ,1.0,0.0,331
+<STR> free_size / <NUM> ,0.0,0.0,332
+old_name = old_name ,1.0,0.0,333
+volume_path ,1.0,0.0,334
+self _execute * clear_cmd run_as_root = ,1.0,0.0,335
+clear_size = = <NUM> ,1.0,0.0,336
+iscsi_target ,1.0,0.0,337
+iqn = location [ <NUM> ] ,1.0,0.0,338
+self drv local_path TEST_VOLUME<NUM> AndReturn <STR> ,0.0,0.0,339
+old_name = None ,1.0,0.0,340
+<STR> self _iscsi_location None None None None ,0.0,0.0,341
+] ,0.0,0.0,342
+self drv clear_volume TEST_VOLUME<NUM> ,0.0,0.0,343
+self drv _get_device_size <STR> AndReturn <NUM> ,1.0,0.0,344
+used_devices = self _get_used_devices ,0.0,0.0,345
+clear_cmd = [ <STR> % clear_size ] ,1.0,0.0,346
+volume_opts = [ ,1.0,0.0,347
+TEST_VOLUME<NUM> = <STR> None ,1.0,0.0,348
+clearing = ,0.0,0.0,349
+def_devices_sizes self ,0.0,0.0,350
+self drv _update_volume_status ,1.0,0.0,351
+self _execute <STR> % deststr ,1.0,0.0,352
+BlockDeviceDriver driver ISCSIDriver ,0.0,0.0,353
+self configuration volume_clear = = <STR> ,1.0,0.0,354
+total_size = <NUM> ,0.0,0.0,355
+test_update_volume_status self ,1.0,0.0,356
+TEST_CONNECTOR AndReturn <STR> ,0.0,0.0,357

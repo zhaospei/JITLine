@@ -1,0 +1,45 @@
+total_tokens,line_level_label,line_score,row
+call = mock call self context <STR> task_state = None ,0.0,1.0,1
+mock patch self compute <STR> ,1.0,0.6319152913965344,2
+instance = self _instance_update context instance uuid ,0.0,0.567410532648844,3
+self compute _init_instance self context instance ,1.0,0.5351398426760696,4
+instance = instance_obj Instance self context ,1.0,0.4024656323455084,5
+expected_task_state = task_states IMAGE_SNAPSHOT_PENDING ,1.0,0.3102327375767327,6
+_ instance_update assert_has_calls [ call ] ,0.0,0.3000365786092139,7
+LOG debug _ <STR> ,1.0,0.2693992034396889,8
+LOG debug _ <STR> ,1.0,0.2693992034396889,9
+instance uuid = <STR> ,1.0,0.1649449003033201,10
+instance save ,1.0,0.16290877939034706,11
+instance [ <STR> ] instance = instance ,1.0,0.11957328395665308,12
+task_states IMAGE_SNAPSHOT instance = instance ,0.0,0.07971552263776872,13
+instance = instance ,1.0,0.07971552263776872,14
+def_test_init_instance_cleans_image_states self instance ,1.0,0.03985776131888436,15
+instance task_state = task_states IMAGE_SNAPSHOT_PENDING ,1.0,0.03985776131888436,16
+instance task_state = task_states IMAGE_UPLOADING ,1.0,0.03985776131888436,17
+instance task_state = task_states IMAGE_PENDING_UPLOAD ,1.0,0.03985776131888436,18
+instance vm_state ! = vm_states ERROR ,1.0,0.03985776131888436,19
+instance vm_state = vm_states ACTIVE ,1.0,0.03985776131888436,20
+instance task_state = task_states IMAGE_SNAPSHOT ,1.0,0.03985776131888436,21
+self _test_init_instance_cleans_image_states instance ,1.0,0.03985776131888436,22
+instance task_state [ task_states IMAGE_PENDING_UPLOAD ,1.0,0.03985776131888436,23
+instance task_state = task_states IMAGE_SNAPSHOT ,1.0,0.03985776131888436,24
+<STR> task_states IMAGE_SNAPSHOT ,1.0,0.0,25
+self assertEqual task_states IMAGE_SNAPSHOT inst task_state ,0.0,0.0,26
+expected_state = is_snapshot task_states IMAGE_SNAPSHOT ,0.0,0.0,27
+task_states IMAGE_SNAPSHOT ] ,0.0,0.0,28
+contextlib nested ,0.0,0.0,29
+task_states IMAGE_SNAPSHOT_PENDING ,1.0,0.0,30
+<STR> task_states IMAGE_SNAPSHOT_PENDING ,1.0,0.0,31
+task_state = None ,1.0,0.0,32
+expected_state = is_snapshot ,0.0,0.0,33
+inst task_state ,1.0,0.0,34
+test_init_instance_cleans_image_state_uploading self ,1.0,0.0,35
+task_states IMAGE_UPLOADING ,0.0,0.0,36
+<STR> ,0.0,0.0,37
+test_init_instance_cleans_image_state_pending_upload self ,1.0,0.0,38
+exception UnexpectedDeletingTaskStateError ,0.0,0.0,39
+exception InstanceNotFound ,0.0,0.0,40
+test_init_instance_cleans_image_state_snapshot self ,1.0,0.0,41
+self assertEqual task_states IMAGE_SNAPSHOT_PENDING ,1.0,0.0,42
+_ instance_update ,1.0,0.0,43
+IMAGE_SNAPSHOT_PENDING = <STR> ,0.0,0.0,44

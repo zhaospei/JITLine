@@ -1,0 +1,219 @@
+total_tokens,line_level_label,line_score,row
+License the specific language governing permissions limitations ,1.0,1.0,1
+Unless required by applicable law agreed to writing software ,1.0,0.9218526273634478,2
+use this file compliance the License You may obtain ,1.0,0.6329142551424195,3
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.6070434569749995,4
+a copy of the License at ,1.0,0.5809639680249,5
+nova openstack common log logging ,1.0,0.5360714156583337,6
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.5121254975591351,7
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.4359789996832229,8
+< description > Adds mac address parameter to the ip < / description > ,1.0,0.3717437462169477,9
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.34229046650313627,10
+under the License ,1.0,0.3160743535444495,11
+jsonutils loads body get <STR> ,1.0,0.2997841494664377,12
+networks = common get_networks_for_instance context instance ,0.0,0.22303836364364163,13
+nova openstack common jsonutils ,1.0,0.22156916090287848,14
+def__ init__ self * args * * kwargs ,1.0,0.21049091275057724,15
+< ? xml version = <STR> ? > ,1.0,0.20092900609871966,16
+req = webob Request blank url ,1.0,0.19927632178160704,17
+< ip version = <STR> / > ,1.0,0.19619051055112446,18
+ExtendedIpsMacController self __ init__ * args * * kwargs ,1.0,0.19110336545908282,19
+fake_compute_get * args * * kwargs ,1.0,0.1526632781948945,20
+fake_compute_get_all * args * * kwargs ,1.0,0.1526632781948945,21
+nova api openstack common ,1.0,0.11768699108906301,22
+authorize = extensions soft_extension_authorizer <STR> ,1.0,0.11557829336242866,23
+extension = extensions ControllerExtension self <STR> controller ,1.0,0.11557829336242866,24
+nova api openstack extensions ,1.0,0.11557829336242866,25
+Extended_ips_mac extensions ExtensionDescriptor ,1.0,0.11557829336242866,26
+self stubs Set compute api API <STR> fake_compute_get ,1.0,0.11252276217606198,27
+self stubs Set compute api API <STR> fake_compute_get_all ,1.0,0.11252276217606198,28
+< description > % text s < / description > ,1.0,0.10787827534381925,29
+authorize context ,1.0,0.1053513725545786,30
+self _extend_server context server db_instance ,1.0,0.1053513725545786,31
+def_extend_server self context server instance ,1.0,0.1053513725545786,32
+context = req environ [ <STR> ] ,1.0,0.1053513725545786,33
+elem append ips AddressesTemplate ,0.0,0.10234097821542669,34
+< / image > ,1.0,0.09194169453451694,35
+< image = <STR> > ,1.0,0.09194169453451694,36
+res = req get_response fakes wsgi_app init_only = <STR> ,1.0,0.08730553627468281,37
+LOG = logging getLogger __ name__ ,1.0,0.08170048790270926,38
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,0.0,0.07389360019274516,39
+results append <STR> ,0.0,0.06841447153786476,40
+ALL_IPS append sanitized ,0.0,0.06841447153786476,41
+fakes stub_out_nw_api self stubs ,1.0,0.06073207432398279,42
+< atom link href = <STR> / > ,1.0,0.05941627393204405,43
+def_make_request self url ,1.0,0.05764053170023747,44
+url = <STR> % UUID<NUM> ,1.0,0.05764053170023747,45
+url = <STR> ,1.0,0.05764053170023747,46
+res = self _make_request url ,1.0,0.05764053170023747,47
+nova api openstack compute ips ,1.0,0.051790687852150234,48
+nova api openstack compute contrib extended_ips_mac ,1.0,0.051790687852150234,49
+nova compute ,1.0,0.051790687852150234,50
+self assertServerStates self _get_server res body ,1.0,0.05178699462171383,51
+etree XML body getchildren ,1.0,0.05178699462171383,52
+def_get_servers self body ,1.0,0.05178699462171383,53
+def_get_server self body ,1.0,0.05178699462171383,54
+for_i server self _get_servers res body ,1.0,0.05178699462171383,55
+etree XML body ,1.0,0.05178699462171383,56
+network server find <STR> % xmlutil XMLNS_V<NUM> ,0.0,0.05168097173861672,57
+< file path = <STR> > ,1.0,0.0486756572868136,58
+updated = <STR> ,1.0,0.038996677225897565,59
+ALL_IPS sort ,0.0,0.03434943668610336,60
+make_server elem ,1.0,0.033926506677580896,61
+make_server elem ,1.0,0.033926506677580896,62
+ip = elem [ <STR> ] ,1.0,0.033926506677580896,63
+elem = xmlutil SubTemplateElement root <STR> ,1.0,0.033926506677580896,64
+lxml etree ,1.0,0.016103357319097646,65
+subnet cache [ <STR> ] ,0.0,0.01593657628690884,66
+fixed subnet [ <STR> ] ,0.0,0.01593657628690884,67
+self assertEqual response status <NUM> ,1.0,0.011335543764676851,68
+< server status = <STR> > ,1.0,0.011335543764676851,69
+webob ,0.0,0.010345853035440996,70
+show self req resp_obj ,1.0,0.009764995221057301,71
+self _verify_response <STR> subs ,1.0,0.009634425371280626,72
+label network networks items ,0.0,0.009259596643671994,73
+resp_obj attach xml = ExtendedIpsMacServersTemplate ,1.0,0.0047384955475603995,74
+resp_obj attach xml = ExtendedIpsMacServerTemplate ,1.0,0.0047384955475603995,75
+<STR> % self prefix ,0.0,0.002199916406885705,76
+prefix = <STR> % extended_ips_mac Extended_ips_mac namespace ,1.0,0.002199916406885705,77
+prefix = <STR> % extended_ips_mac Extended_ips_mac alias ,1.0,0.002199916406885705,78
+detail self req resp_obj ,1.0,0.0005877005825492466,79
+< ip OS - EXT - IPS = <STR> / > ,1.0,0.0,80
+< servers xmlns OS - DCF = <STR> > ,1.0,0.0,81
+key = <STR> % Extended_ips_mac alias ,1.0,0.0,82
+< personality > ,1.0,0.0,83
+< / servers > ,1.0,0.0,84
+All Rights Reserved ,1.0,0.0,85
+< / server > ,1.0,0.0,86
+<STR> <NUM> ,1.0,0.0,87
+test_detail self ,1.0,0.0,88
+QnV<NUM>IHRoZSBza<NUM>kga<NUM>vd<NUM>MgdGhlIHJlYXNvbnMgYW<NUM>kIHRo ,1.0,0.0,89
+test_show self ,1.0,0.0,90
+ip <STR> % Extended_ips_mac namespace ,1.0,0.0,91
+< ip OS - EXT - IPS = <STR> / > ,1.0,0.0,92
+< / personality > ,1.0,0.0,93
+osapi_compute_extension = [ ,1.0,0.0,94
+c<NUM>lvbi<NUM>uLnRoaXMgaXMgdGhlIHBsYWNlIHRvIGdvIG<NUM>vdy<NUM>g ,1.0,0.0,95
+<STR> <NUM> ] ,0.0,0.0,96
+< network = <STR> > ,1.0,0.0,97
+<STR> <NUM> ,1.0,0.0,98
+<STR> <NUM> ,1.0,0.0,99
+<STR> <NUM> ] ,1.0,0.0,100
+i ip all_ips ,0.0,0.0,101
+self assertEqual ALL_IPS results ,0.0,0.0,102
+[ ,1.0,0.0,103
+def_get_ips self server ,0.0,0.0,104
+< server xmlns OS - DCF = <STR> > ,1.0,0.0,105
+< metadata > ,1.0,0.0,106
+< / flavor > ,1.0,0.0,107
+subs = self _get_regexes ,1.0,0.0,108
+ALL_IPS = [ ] ,0.0,0.0,109
+networks [ label ] [ <STR> ] ,0.0,0.0,110
+response = self _do_get <STR> % uuid ,1.0,0.0,111
+root = xmlutil TemplateElement <STR> ,1.0,0.0,112
+<STR> ] ,1.0,0.0,113
+nova test ,1.0,0.0,114
+all_ips = itertools chain network [ <STR> ] ,0.0,0.0,115
+<STR> ,1.0,0.0,116
+req headers [ <STR> ] = self content_type ,1.0,0.0,117
+ip itertools chain networks [ label ] [ <STR> ] ,0.0,0.0,118
+server servers ,1.0,0.0,119
+ip self _get_ips server ,0.0,0.0,120
+db_instance = req get_db_instance server [ <STR> ] ,1.0,0.0,121
+ExtendedIpsMacController wsgi Controller ,1.0,0.0,122
+OS - EXT - IPS - MAC mac_addr = <STR> / > ,0.0,0.0,123
+< addresses > ,1.0,0.0,124
+sanitized = floating ,0.0,0.0,125
+< / extension > ,1.0,0.0,126
+< servers xmlns OS - DCF = <STR> > ,1.0,0.0,127
+ip network ,1.0,0.0,128
+fakes stub_instance <NUM> uuid = UUID<NUM> nw_cache = NW_CACHE ,1.0,0.0,129
+] ,0.0,0.0,130
+ExtendedIpsMacSampleJsonTests ServersSampleBase ,1.0,0.0,131
+< flavor = <STR> > ,1.0,0.0,132
+<STR> % Extended_ips_mac alias ,1.0,0.0,133
+< metadata / > ,1.0,0.0,134
+< extension alias = <STR> > ,1.0,0.0,135
+extension_name = <STR> ,1.0,0.0,136
+b<NUM>zLiINCg<NUM>KLVJpY<NUM>hhcmQgQmFjaA = = ,1.0,0.0,137
+ExtendedIpsMacXmlTest ExtendedIpsMacTest ,1.0,0.0,138
+self assertEqual res status_int <NUM> ,1.0,0.0,139
+] ,0.0,0.0,140
+self flags ,1.0,0.0,141
+ZSBwYXR<NUM>ZXJucyBiZWhpbmQgYWxsIGNsb<NUM>VkcywgYW<NUM>kIHlv ,1.0,0.0,142
+@ wsgi extends ,1.0,0.0,143
+content_type = <STR> ,1.0,0.0,144
+network [ <STR> ] ,1.0,0.0,145
+setUp self ,1.0,0.0,146
+nova tests api openstack fakes ,1.0,0.0,147
+ICAgICAgDQoiQSBjbG<NUM>ZCBkb<NUM>VzIG<NUM>vdCBrbm<NUM>IHdoeSBp ,1.0,0.0,148
+[ extension ] ,1.0,0.0,149
+ExtendedIpsMacServersTemplate xmlutil TemplateBuilder ,1.0,0.0,150
+sanitized = fixed ,0.0,0.0,151
+server [ <STR> ] ,1.0,0.0,152
+IGF<NUM>IHN<NUM>Y<NUM>ggYSBzcGVlZC<NUM>uLkl<NUM>IGZlZWxzIGFuIGltcHVs ,1.0,0.0,153
+< server xmlns OS - EXT - IPS - MAC = <STR> > ,1.0,0.0,154
+c<NUM>VsZiBoaWdoIGVub<NUM>VnaCB<NUM>byBzZWUgYmV<NUM>b<NUM>kIGhvcml<NUM> ,1.0,0.0,155
+name = <STR> ,1.0,0.0,156
+<STR> [ ] ,1.0,0.0,157
+construct self ,1.0,0.0,158
+subs [ <STR> ] = uuid ,0.0,0.0,159
+res ,1.0,0.0,160
+< / addresses > ,1.0,0.0,161
+cache NW_CACHE ,0.0,0.0,162
+response <NUM> ,0.0,0.0,163
+servers = resp_obj obj [ <STR> ] ,1.0,0.0,164
+response = self _do_get <STR> ,1.0,0.0,165
+ExtendedIpsMacSampleXmlTests ExtendedIpsMacSampleJsonTests ,1.0,0.0,166
+namespace = <STR> ,1.0,0.0,167
+<STR> ] ,1.0,0.0,168
+<STR> ,1.0,0.0,169
+uuid = self _post_server ,1.0,0.0,170
+nova api openstack wsgi ,1.0,0.0,171
+osapi_compute_ext_list = [ <STR> ] ,1.0,0.0,172
+ip ,0.0,0.0,173
+make_server root ,1.0,0.0,174
+dSB<NUM>aWxsIGtub<NUM>csIHRvbywgd<NUM>hlbiB<NUM>b<NUM>UgbGlmdCB<NUM>b<NUM>Vy ,1.0,0.0,175
+sanitized [ <STR> ] ,1.0,0.0,176
+< servers xmlns OS - EXT - IPS - MAC = <STR> > ,1.0,0.0,177
+< server xmlns = <STR> > ,1.0,0.0,178
+< / network > ,1.0,0.0,179
+subs [ <STR> ,1.0,0.0,180
+< / metadata > ,1.0,0.0,181
+Copyright <NUM> IBM Corp ,0.0,0.0,182
+ExtendedIpsMacServerTemplate xmlutil TemplateBuilder ,1.0,0.0,183
+nova api openstack xmlutil ,1.0,0.0,184
+< ip OS - EXT - IPS = <STR> ,1.0,0.0,185
+assertServerStates self server ,1.0,0.0,186
+<STR> ,1.0,0.0,187
+results = [ ] ,0.0,0.0,188
+<STR> ,1.0,0.0,189
+<STR> <NUM> ,1.0,0.0,190
+network server [ <STR> ] itervalues ,0.0,0.0,191
+self assertServerStates server ,1.0,0.0,192
+Extended_ips_mac alias Extended_ips_mac namespace ,0.0,0.0,193
+ip [ <STR> ] ,1.0,0.0,194
+controller = ExtendedIpsMacController ,1.0,0.0,195
+ctype = <STR> ,1.0,0.0,196
+<STR> ,1.0,0.0,197
+itertools ,0.0,0.0,198
+get_controller_extensions self ,1.0,0.0,199
+alias = <STR> ,1.0,0.0,200
+floating fixed [ <STR> ] ,0.0,0.0,201
+fakes stub_instance <NUM> uuid = UUID<NUM> nw_cache = NW_CACHE ,1.0,0.0,202
+NW_CACHE = [ ,0.0,0.0,203
+ExtendedIpsMacTest self setUp ,1.0,0.0,204
+< / file > ,1.0,0.0,205
+dCBtb<NUM>ZlcyBpbiBqdXN<NUM>IHN<NUM>Y<NUM>ggYSBkaXJlY<NUM>Rpb<NUM>gYW<NUM>k ,1.0,0.0,206
+] ,1.0,0.0,207
+<STR> [ ,1.0,0.0,208
+sanitized pop <STR> ,1.0,0.0,209
+<STR> ] ,1.0,0.0,210
+UUID<NUM> = <STR> ,1.0,0.0,211
+server = resp_obj obj [ <STR> ] ,1.0,0.0,212
+xmlutil SlaveTemplate root <NUM> nsmap = ,1.0,0.0,213
+ExtendedIpsMacTest test TestCase ,1.0,0.0,214
+< meta key = <STR> > Apache<NUM> < / meta > ,1.0,0.0,215
+< server xmlns atom = <STR> > ,1.0,0.0,216
+label server [ <STR> ] ,0.0,0.0,217
+< server xmlns OS - DCF = <STR> > ,1.0,0.0,218

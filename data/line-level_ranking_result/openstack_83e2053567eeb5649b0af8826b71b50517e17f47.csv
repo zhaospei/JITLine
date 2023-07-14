@@ -1,0 +1,482 @@
+total_tokens,line_level_label,line_score,row
+on the <NUM>PAR array Set the following the cinder conf file to enable the ,1.0,0.9999999999999999,1
+correspond to the of remote wwn s that will export the volume ,0.0,0.8472646424759949,2
+License the specific language governing permissions limitations ,1.0,0.7733345795151291,3
+Unless required by applicable law agreed to writing software ,1.0,0.6697734418834161,4
+The drivers requires the use of the san_ip san_login ,0.0,0.6306572019498271,5
+This driver requires the use of the san_ip san_login ,0.0,0.6095600168723616,6
+a copy of the License at ,1.0,0.6057337555165095,7
+use this file compliance the License You may obtain ,1.0,0.5649900665346019,8
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.46762366851863196,9
+* Create a VLUN that HOST the volume we want to export ,0.0,0.4239975321225532,10
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.4114945321439806,11
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.4070632172336947,12
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.39065390017253554,13
+* Create a host on the <NUM>par the target wwn ,0.0,0.3814359329526132,14
+TODO support using the size the user ,0.0,0.3762445372232372,15
+The drivers uses both the REST service the SSH ,0.0,0.35101525318588717,16
+The driver uses both the REST service the SSH ,0.0,0.3299180681083578,17
+<STR> Assigns the volume to a server ,0.0,0.3261871514571708,18
+Assign created volume to a compute node / host so that it can be ,0.0,0.31691453717587387,19
+HP<NUM>PARFCDriver self __ init__ * args * * kwargs ,0.0,0.2965614752367428,20
+Driver entry point to unattach a volume an instance ,0.0,0.2958929930256728,21
+cinder openstack common log logging ,1.0,0.2870647928392993,22
+The <NUM>PAR drivers requires <NUM> <NUM> <NUM> firmware on the <NUM>PAR array ,1.0,0.2815915486464644,23
+The target_wwn can be a single entry a of wwns that ,0.0,0.278910501764282,24
+The driver returns a driver_volume_type of <STR> ,0.0,0.2687026324221229,25
+This driver requires <NUM> <NUM> <NUM> firmware on the <NUM>PAR array ,1.0,0.260494363568935,26
+def__ init__ self * args * * kwargs ,1.0,0.25345589104820937,27
+metadata = self common create_volume volume self client FLAGS ,1.0,0.24208535769239897,28
+create_export self context volume ,1.0,0.23481428648918742,29
+Steps to export a volume on <NUM>PAR ,0.0,0.23007088532346762,30
+cinder openstack common cfg ,1.0,0.20668820262840873,31
+volume = self volume copy ,1.0,0.20443682739565844,32
+remove_export self context volume ,1.0,0.18999926971175213,33
+ensure_export self context volume ,1.0,0.18999926971175213,34
+under the License ,1.0,0.18875934268680788,35
+self common create_volume_from_snapshot volume snapshot self client ,1.0,0.1813264443957726,36
+new_vol = self common create_cloned_volume volume src_vref ,1.0,0.180431113194299,37
+<STR> OpenStack iSCSI driver to enable <NUM>PAR storage array ,1.0,0.17843247525176567,38
+<STR> OpenStack Fibre Channel driver to enable <NUM>PAR storage array ,0.0,0.17843247525176567,39
+model_update = self driver create_volume self volume ,1.0,0.16119735657319206,40
+the <NUM>Par array ,1.0,0.15554268680593292,41
+<NUM>PAR Fibre Channel Driver along the required flags ,0.0,0.15554268680593292,42
+<NUM>PAR iSCSI Driver along the required flags ,0.0,0.15554268680593292,43
+must be the same `` % cpg [ <STR> ] FLAGS hp<NUM>par_domain ,1.0,0.15554268680593292,44
+vlun = self common create_vlun volume host self client ,1.0,0.15076079249271973,45
+ctxt = context get_admin_context ,0.0,0.15074059046442229,46
+self common delete_vlun volume connector self client ,1.0,0.14967618643484557,47
+persona_id = self common get_persona_type volume ,0.0,0.14159339507302512,48
+self common delete_volume volume self client ,1.0,0.13983665382432992,49
+do_setup self context ,1.0,0.1390325324095552,50
+new_vol = self create_volume volume client FLAGS ,1.0,0.137868201814099,51
+metadata = model_update [ <STR> ] ,1.0,0.13449581202048122,52
+cinder context ,1.0,0.13154185166075655,53
+model_update = self driver create_cloned_volume volume src_vref ,1.0,0.12932370652782288,54
+out = self common _cli_run <STR> ,1.0,0.1244463957219093,55
+self common delete_snapshot snapshot self client ,1.0,0.12286902634484091,56
+self common create_snapshot snapshot self client FLAGS ,1.0,0.12286902634484091,57
+stats = self common get_volume_stats refresh self client ,1.0,0.1215493813878919,58
+def_get_volume_type_value self volume_type key default = None ,1.0,0.10933804699590437,59
+orig_name = self _get_<NUM>par_vol_name volume [ <STR> ] ,1.0,0.10875054724688218,60
+cinder openstack common lockutils ,1.0,0.10846196783106994,61
+self driver create_volume_from_snapshot self volume self snapshot ,1.0,0.10669273890148424,62
+self driver create_volume_from_snapshot self volume self snapshot ,1.0,0.10669273890148424,63
+This driver requires <NUM> <NUM> <NUM> firmware on ,1.0,0.10495167676293823,64
+volume_driver = cinder volume drivers san hp hp_<NUM>par_iscsi HP<NUM>PARISCSIDriver ,0.0,0.10243012477723853,65
+volume_driver = cinder volume drivers san hp hp_<NUM>par_fc HP<NUM>PARFCDriver ,0.0,0.10243012477723853,66
+LOG warning <STR> % ,1.0,0.10057494968345347,67
+hpexceptions HTTPUnauthorized ex ,1.0,0.10050271604588995,68
+hpexceptions HTTPNotFound ex ,1.0,0.10050271604588995,69
+volume self snapshot ,0.0,0.09994720862243826,70
+create_volume_from_snapshot self volume snapshot ,1.0,0.09994720862243826,71
+Creates a volume a snapshot ,1.0,0.09994720862243826,72
+def_create_host self volume connector ,1.0,0.0999069600854694,73
+LOG error err ,0.0,0.099277897070433,74
+hostname = self common _safe_hostname connector [ <STR> ] ,1.0,0.09897198204151232,75
+@ lockutils synchronized <STR> ,1.0,0.09854016582525242,76
+result = self driver initialize_connection self volume self connector ,1.0,0.09823118531317822,77
+pass ,0.0,0.0980996506616455,78
+hp<NUM>parclient exceptions hpexceptions ,1.0,0.09540183182980472,79
+initialize_connection self volume connector ,1.0,0.09148565503406837,80
+cinder volume drivers san hp hp_<NUM>par_fc hpfcdriver ,1.0,0.09093649744092863,81
+cinder volume drivers san hp hp_<NUM>par_common HP<NUM>PARCommon ,1.0,0.09066987312609974,82
+create_volume self volume ,1.0,0.09033106809630088,83
+host = self common _get_<NUM>par_host hostname ,1.0,0.0888320372678735,84
+LOG error ex ,0.0,0.08793542852042881,85
+Unit tests OpenStack Cinder volume drivers ,0.0,0.08630013340757092,86
+ports [ <STR> ] append port ,0.0,0.08622417448730091,87
+LOG = logging getLogger __ name__ ,0.0,0.08558845820542064,88
+exception InvalidInput reason = err ,1.0,0.07873217589592363,89
+type_id = volume get <STR> None ,1.0,0.07798250148916659,90
+ports = self common get_ports ,1.0,0.07790789859948367,91
+self common = self _init_common ,0.0,0.07790789859948367,92
+self common check_flags FLAGS required_flags ,1.0,0.07790789859948367,93
+self common = None ,0.0,0.07790789859948367,94
+self assertRaises hpexceptions HTTPNotFound ,1.0,0.07574906409859984,95
+hpexceptions HTTPNotFound msg ,1.0,0.07574906409859984,96
+hpexceptions HTTPNotFound ,1.0,0.07574906409859984,97
+hpexceptions HTTPForbidden ,1.0,0.07574906409859984,98
+hpexceptions HTTPNotFound msg ,1.0,0.07574906409859984,99
+self assertRaises hpexceptions HTTPNotFound ,1.0,0.07574906409859984,100
+command ,1.0,0.07320360786435574,101
+command ,0.0,0.07320360786435574,102
+self assertEqual metadata [ <STR> ] HP<NUM>PAR_CPG ,1.0,0.07037505382269989,103
+<STR> metadata ,1.0,0.07037505382269989,104
+self assertEqual metadata [ <STR> ] HP<NUM>PAR_CPG_SNAP ,1.0,0.07037505382269989,105
+self assertFalse metadata [ <STR> ] None ,1.0,0.07037505382269989,106
+host = self _create_host volume connector ,1.0,0.0693815567193854,107
+self driver client createVLUN volume <NUM> hostname ,1.0,0.0686742855038922,108
+self driver client createVLUN volume <NUM> hostname ,1.0,0.0686742855038922,109
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,0.0,0.06735587782210696,110
+default ,1.0,0.06631430625147448,111
+self driver terminate_connection self volume ,1.0,0.06520294833004153,112
+cinder volume driver ,0.0,0.06520294833004153,113
+HP<NUM>PARFCDriver cinder volume driver FibreChannelDriver ,0.0,0.06520294833004153,114
+Unit tests OpenStack Cinder volume driver ,1.0,0.06520294833004153,115
+self driver terminate_connection self volume self connector ,1.0,0.06520294833004153,116
+self driver delete_volume self volume ,1.0,0.06520294833004153,117
+self driver delete_volume self volume ,1.0,0.06520294833004153,118
+self assertTrue model_update None ,1.0,0.0641207581977175,119
+volume_type = self _get_volume_type type_id ,1.0,0.0625488241826944,120
+create_cloned_volume self volume src_vref client FLAGS ,1.0,0.06192875522483251,121
+volume [ <STR> ] = <NUM> ,1.0,0.05845741805096123,122
+self volume = <STR> self VOLUME_NAME ,1.0,0.05845741805096123,123
+fake_create_<NUM>par_vlun self volume hostname ,1.0,0.05845741805096123,124
+self get_persona_type volume ,1.0,0.05845741805096123,125
+vol_name = self _get_<NUM>par_vol_name volume [ <STR> ] ,1.0,0.05845741805096123,126
+create_cloned_volume self volume src_vref ,1.0,0.05845741805096123,127
+fake_create_<NUM>par_vlun self volume hostname ,1.0,0.05845741805096123,128
+cinder volume volume_types ,1.0,0.05845741805096123,129
+get_persona_type self volume ,1.0,0.05845741805096123,130
+terminate_connection self volume connector force ,1.0,0.05845741805096123,131
+volume = <STR> VOLUME_NAME ,1.0,0.05845741805096123,132
+volume = <STR> HP<NUM>PARBaseDriver VOLUME_NAME ,1.0,0.05845741805096123,133
+delete_volume self volume ,1.0,0.05845741805096123,134
+fake_iscsi_discover_target_iqn self remote_ip ,1.0,0.05649074697598681,135
+ports [ <STR> ] append tmp [ <NUM> ] ,0.0,0.05519736590539175,136
+iscsi_ip_address = <STR> ,1.0,0.053630812303000264,137
+FLAGS iscsi_ip_address FLAGS iscsi_port ,0.0,0.053630812303000264,138
+LOG debug <STR> ,1.0,0.05320667590897104,139
+LOG debug <STR> ,1.0,0.05320667590897104,140
+Volume driver HP <NUM>PAR Storage array This driver requires <NUM> <NUM> <NUM> firmware ,1.0,0.05227078636981922,141
+self tempdir = tempfile mkdtemp ,0.0,0.05221751309742022,142
+self _copy_volume orig_name vol_name ,1.0,0.05029312919594019,143
+% orig_name vol_name ,0.0,0.05029312919594019,144
+info = out [ <NUM> ] split <STR> ,1.0,0.050021417536666966,145
+self stubs Set hpdriver HP<NUM>PARCommon <STR> ,1.0,0.04999230847855106,146
+self stubs Set hpdriver HP<NUM>PARCommon <STR> ,1.0,0.04999230847855106,147
+Example values ,0.0,0.04874187072901118,148
+self driver create_snapshot self snapshot ,1.0,0.04823532085058455,149
+self driver delete_snapshot self snapshot ,1.0,0.04823532085058455,150
+self driver delete_snapshot self snapshot ,1.0,0.04823532085058455,151
+self driver create_snapshot self snapshot ,1.0,0.04823532085058455,152
+stats = self driver get_volume_stats ,1.0,0.046915675893628654,153
+out = self _cli_run <STR> % vol_name None ,1.0,0.046538497122417595,154
+self stubs Set hpfcdriver HP<NUM>PARFCDriver ,1.0,0.04498334201381884,155
+self stubs Set hpfcdriver HP<NUM>PARCommon <STR> ,1.0,0.04498334201381884,156
+self stubs Set hpfcdriver HP<NUM>PARFCDriver <STR> ,1.0,0.04498334201381884,157
+new_vol ,1.0,0.04406579654390068,158
+<STR> new_vol ,1.0,0.04406579654390068,159
+<STR> new_vol ,1.0,0.04406579654390068,160
+done ,0.0,0.043954603085374966,161
+done = ,0.0,0.043954603085374966,162
+done = ,0.0,0.043954603085374966,163
+done ,0.0,0.043954603085374966,164
+prov_value = self _get_volume_type_value volume_type ,1.0,0.043023740744434276,165
+cpg = self _get_volume_type_value volume_type <STR> ,1.0,0.043023740744434276,166
+volume_type None ,1.0,0.043023740744434276,167
+volume_type = None ,1.0,0.043023740744434276,168
+snap_cpg = self _get_volume_type_value volume_type ,1.0,0.043023740744434276,169
+persona_value = self _get_volume_type_value volume_type <STR> ,1.0,0.043023740744434276,170
+specs = volume_type get <STR> ,1.0,0.043023740744434276,171
+exception InvalidInput reason = msg ,1.0,0.04263605539857712,172
+used that host ,0.0,0.042329990844459715,173
+self snapshot = <STR> self SNAPSHOT_NAME ,0.0,0.041489790571490756,174
+create_snapshot self snapshot ,1.0,0.041489790571490756,175
+snapshot = <STR> SNAPSHOT_NAME ,1.0,0.041489790571490756,176
+delete_snapshot self snapshot ,1.0,0.041489790571490756,177
+out ,0.0,0.0394900852152228,178
+% hostname <STR> join wwn None ,0.0,0.03769630757100611,179
+hostname <STR> join wwn None ,0.0,0.03769630757100611,180
+def_create_<NUM>par_iscsi_host self hostname iscsi_iqn domain persona_id ,1.0,0.03768888041715134,181
+persona_id domain hostname iscsi_iqn ,1.0,0.03768888041715134,182
+err =_ <STR> % FLAGS hp<NUM>par_cpg ,0.0,0.03609612049735735,183
+err = `` CPG <STR> \ ,0.0,0.03609612049735735,184
+err =_ <STR> ,1.0,0.03609612049735735,185
+stats ,1.0,0.03589359996927465,186
+self assertEquals stats [ <STR> ,1.0,0.03589359996927465,187
+self stats = <STR> ,1.0,0.03589359996927465,188
+self stats [ <STR> ] ,1.0,0.03589359996927465,189
+stats [ <STR> ,1.0,0.03589359996927465,190
+self client login FLAGS hp<NUM>par_username FLAGS hp<NUM>par_password ,0.0,0.0335271051815799,191
+project_id = <STR> ,1.0,0.03280592652943789,192
+<STR> project_id ,1.0,0.03280592652943789,193
+fake_create_<NUM>par_iscsi_host self hostname iscsi_iqn domain ,1.0,0.03246080199454786,194
+domain hostname iscsi_iqn ,1.0,0.03246080199454786,195
+def_create_<NUM>par_iscsi_host self hostname iscsi_iqn domain ,1.0,0.03246080199454786,196
+fake_create_<NUM>par_iscsi_host self hostname iscsi_iqn ,1.0,0.03246080199454786,197
+port = <STR> tmp [ <NUM> ] ,1.0,0.03102680858193546,198
+self flags lock_path = self tempdir ,1.0,0.029271688633461128,199
+self flags lock_path = self tempdir ,1.0,0.029271688633461128,200
+<STR> target_iqn ,0.0,0.02892621751892734,201
+<STR> target_iqn ,1.0,0.02892621751892734,202
+san_password = <STR> ,1.0,0.026688704940287564,203
+volume_types get_volume_type ctxt type_id ,1.0,0.026481882677367723,204
+Exception ex ,1.0,0.024753651947342796,205
+ex ,0.0,0.024753651947342796,206
+exception CinderException ex ,1.0,0.024753651947342796,207
+FLAGS hp<NUM>par_api_url ex ,0.0,0.024753651947342796,208
+exception InvalidInput ex ,1.0,0.024753651947342796,209
+def_get_volume_type self type_id ,1.0,0.019525083438260142,210
+comments [ <STR> ] = type_id ,1.0,0.019525083438260142,211
+type_id None ,1.0,0.019525083438260142,212
+LOG warn msg ,0.0,0.01678204974660379,213
+TestHP<NUM>PARISCSIDriver HP<NUM>PARBaseDriver test TestCase ,0.0,0.015667304841643147,214
+TestHP<NUM>PARDriver test TestCase ,1.0,0.015667304841643147,215
+TestHP<NUM>PARFCDriver HP<NUM>PARBaseDriver test TestCase ,0.0,0.015667304841643147,216
+test_terminate_connection self ,1.0,0.015521443582390446,217
+test_terminate_connection self ,1.0,0.015521443582390446,218
+self driver do_setup None ,1.0,0.014236211027892489,219
+time sleep <NUM> ,0.0,0.011729560520052145,220
+self properties = <STR> ,1.0,0.011469963180225704,221
+vol_stats = self driver get_volume_stats ,1.0,0.01102207592435401,222
+<NUM>PAR host names ,1.0,0.010924138668426656,223
+host ,1.0,0.010924138668426656,224
+host [ <STR> ] ,1.0,0.010924138668426656,225
+self assertEquals HP<NUM>PAR_DOMAIN host [ <STR> ] ,1.0,0.010924138668426656,226
+self assertEquals self FAKE_HOST host [ <STR> ] ,1.0,0.010924138668426656,227
+<NUM>PAR host names ,0.0,0.010924138668426656,228
+self _hosts [ hostname ] = host ,1.0,0.010924138668426656,229
+host = None ,1.0,0.010924138668426656,230
+This a <NUM>PAR host entry exporting volumes ,0.0,0.010924138668426656,231
+host = <STR> None ,0.0,0.010924138668426656,232
+host = self fake_get_<NUM>par_host self FAKE_HOST ,0.0,0.010924138668426656,233
+info = <STR> ,1.0,0.01053133232144417,234
+status = info [ <NUM> ] ,1.0,0.01053133232144417,235
+info ,1.0,0.01053133232144417,236
+self driver client getVolume ,0.0,0.010216867452965097,237
+self driver client getVolume ,1.0,0.010216867452965097,238
+snap_vol = self driver client getVolume self SNAPSHOT_<NUM>PAR_NAME ,1.0,0.010216867452965097,239
+vlun = self driver client getVLUN self VOLUME_<NUM>PAR_NAME ,1.0,0.010216867452965097,240
+self driver client getVLUN ,1.0,0.010216867452965097,241
+snap_vol = self driver client getVolume self SNAPSHOT_<NUM>PAR_NAME ,1.0,0.010216867452965097,242
+self driver client getVLUN ,1.0,0.010216867452965097,243
+test_delete_volume self ,1.0,0.00963939676625357,244
+test_delete_volume self ,1.0,0.00963939676625357,245
+test_create_snapshot self ,1.0,0.008319118830417225,246
+test_create_snapshot self ,1.0,0.008319118830417225,247
+shutil rmtree self tempdir ,0.0,0.007954915540287207,248
+check_for_setup_error self ,0.0,0.007630594797149367,249
+self _cli_run <STR> % src_name dest_name None ,1.0,0.007048411907194803,250
+self driver = hpfcdriver HP<NUM>PARFCDriver ,1.0,0.007012154593899366,251
+Volume driver HP <NUM>PAR Storage array ,1.0,0.0067455302790938,252
+self driver create_volume_from_snapshot ,1.0,0.0067455302790938,253
+<NUM> <NUM> - Initial driver ,1.0,0.0067455302790938,254
+client createVolume volume_name cpg capacity extras ,1.0,0.0058104932681244045,255
+def_create_<NUM>par_fibrechan_host self hostname wwn domain persona_id ,1.0,0.005228078422603475,256
+domain persona_id ,0.0,0.005228078422603475,257
+persona_id [ <NUM> ] ,1.0,0.005228078422603475,258
+% persona_id domain ,0.0,0.005228078422603475,259
+FLAGS hp<NUM>par_domain persona_id ,0.0,0.005228078422603475,260
+persona_id = persona_value split <STR> ,1.0,0.005228078422603475,261
+def_check_flags self ,0.0,0.004488826460716064,262
+get_volume_stats self refresh ,1.0,0.004276545645260209,263
+time ,1.0,0.00359886274861839,264
+hp<NUM>parclient client ,1.0,0.003471337173871296,265
+client createVolume volume_name FLAGS hp<NUM>par_cpg ,0.0,0.003471337173871296,266
+client HP<NUM>ParClient FLAGS hp<NUM>par_api_url ,1.0,0.003471337173871296,267
+self client = self _create_client ,1.0,0.003471337173871296,268
+self client debug_rest ,1.0,0.003471337173871296,269
+cpg = self client getCPG FLAGS hp<NUM>par_cpg ,1.0,0.003471337173871296,270
+self client FLAGS ,0.0,0.003471337173871296,271
+self client = None ,1.0,0.003471337173871296,272
+capacity extras ,0.0,0.002339156094253108,273
+extras [ <STR> ] = FLAGS hp<NUM>par_cpg ,1.0,0.002339156094253108,274
+extras = <STR> json dumps comments ,0.0,0.002339156094253108,275
+extras = <STR> json dumps comments ,1.0,0.002339156094253108,276
+<STR> self SNAPSHOT_ID ,1.0,0.0,277
+src_vref = ,1.0,0.0,278
+self assertEqual vol_stats [ <STR> ] ,1.0,0.0,279
+cinder exception ,1.0,0.0,280
+self VOLUME_<NUM>PAR_NAME ,1.0,0.0,281
+test_create_cloned_volume self ,1.0,0.0,282
+<STR> persona_value ,1.0,0.0,283
+via active VLUNs ,1.0,0.0,284
+fake_create_client self ,1.0,0.0,285
+fake_iscsi_ports = [ <STR> ] ,1.0,0.0,286
+default_persona = self valid_persona_values [ <NUM> ] ,1.0,0.0,287
+snap_default = FLAGS hp<NUM>par_cpg ,1.0,0.0,288
+self _hosts [ hostname ] ,1.0,0.0,289
+self assertEqual snap_vol [ <STR> ] self SNAPSHOT_<NUM>PAR_NAME ,1.0,0.0,290
+<STR> fake_desc ,0.0,0.0,291
+FakeHP<NUM>ParClient FLAGS hp<NUM>par_api_url ,1.0,0.0,292
+<STR> self FAKE_HOST ,1.0,0.0,293
+<STR> <STR> % hostname ,0.0,0.0,294
+<STR> ,1.0,0.0,295
+snap_default ,0.0,0.0,296
+self VOLUME_NAME ,1.0,0.0,297
+TestHP<NUM>PARISCSIDriver self tearDown ,1.0,0.0,298
+TestHP<NUM>PARDriver self setUp ,1.0,0.0,299
+self SNAPSHOT_NAME ,1.0,0.0,300
+<STR> <NUM> ,1.0,0.0,301
+<STR> ,1.0,0.0,302
+fake_get_ports self ,1.0,0.0,303
+TestHP<NUM>PARDriver self tearDown ,1.0,0.0,304
+self _hosts [ hostname ] ,1.0,0.0,305
+self assertEqual result [ <STR> ,1.0,0.0,306
+comments [ <STR> ,0.0,0.0,307
+fake_create_client self ,1.0,0.0,308
+<STR> HP<NUM>PARBaseDriver VOLUME_ID ,1.0,0.0,309
+cmd = <STR> % \ ,1.0,0.0,310
+hostname self _hosts ,1.0,0.0,311
+fake_fc_ports = [ <STR> ] ,1.0,0.0,312
+fake_desc = <STR> ,1.0,0.0,313
+HP<NUM>PARBaseDriver ,1.0,0.0,314
+<STR> ,1.0,0.0,315
+cmd = <STR> % \ ,1.0,0.0,316
+<STR> self fake_iscsi_ports ,0.0,0.0,317
+default_prov = self valid_prov_values [ <NUM> ] ,1.0,0.0,318
+user_id = <STR> ,1.0,0.0,319
+volume_id = <STR> ,1.0,0.0,320
+FakeHP<NUM>ParClient FLAGS hp<NUM>par_api_url ,1.0,0.0,321
+fake_delete_<NUM>par_host self hostname ,1.0,0.0,322
+self connector = <STR> ,0.0,0.0,323
+Copyright c <NUM> Hewlett - Packard Inc ,1.0,0.0,324
+self fake_get_ports ,1.0,0.0,325
+self _hosts [ hostname ] = None ,1.0,0.0,326
+fake_get_<NUM>par_host self hostname ,1.0,0.0,327
+test_delete_snapshot self ,1.0,0.0,328
+self assertEqual snap_vol [ <STR> ] self SNAPSHOT_<NUM>PAR_NAME ,1.0,0.0,329
+fake_delete_<NUM>par_host self hostname ,1.0,0.0,330
+<STR> self VOLUME_ID ,1.0,0.0,331
+FLAGS hp<NUM>par_domain ,1.0,0.0,332
+TARGET_IQN = <STR> ,1.0,0.0,333
+fake_get_volume_state self vol_name ,1.0,0.0,334
+FLAGS hp<NUM>par_debug ,1.0,0.0,335
+<STR> <NUM> ,1.0,0.0,336
+<STR> FLAGS hp<NUM>par_cpg_snap ,1.0,0.0,337
+<STR> ,1.0,0.0,338
+<STR> <NUM> ,1.0,0.0,339
+<STR> ,1.0,0.0,340
+test_create_volume_from_snapshot self ,1.0,0.0,341
+<STR> self valid_persona_values ,1.0,0.0,342
+<STR> user_id ,0.0,0.0,343
+self connector ,0.0,0.0,344
+<STR> <STR> % hostname ,0.0,0.0,345
+<STR> ] ,1.0,0.0,346
+FLAGS hp<NUM>par_cpg_snap ,1.0,0.0,347
+msg = <STR> ,1.0,0.0,348
+<STR> self VOLUME_NAME ,1.0,0.0,349
+<STR> ,0.0,0.0,350
+test_get_volume_stats self ,1.0,0.0,351
+CLONE_ID = <STR> ,1.0,0.0,352
+snap_default = FLAGS hp<NUM>par_cpg_snap ,1.0,0.0,353
+<STR> hostname ,0.0,0.0,354
+<STR> PROJECT_ID ,0.0,0.0,355
+prov_value self valid_prov_values ,1.0,0.0,356
+self fake_create_<NUM>par_fibrechan_host ,1.0,0.0,357
+<STR> ] ,0.0,0.0,358
+self fake_create_client ,1.0,0.0,359
+self fake_delete_<NUM>par_host ,1.0,0.0,360
+valid_prov_values = [ <STR> ] ,1.0,0.0,361
+hp<NUM>par_cpg_snap = HP<NUM>PAR_CPG_SNAP ,1.0,0.0,362
+TestHP<NUM>PARISCSIDriver self setUp ,1.0,0.0,363
+cinder flags ,1.0,0.0,364
+<STR> self valid_prov_values ,1.0,0.0,365
+<STR> <STR> % ,0.0,0.0,366
+HP<NUM>PARCommon ,1.0,0.0,367
+self flags ,0.0,0.0,368
+<STR> ] ,1.0,0.0,369
+def_create_client self ,1.0,0.0,370
+self _check_flags ,0.0,0.0,371
+<STR> ,1.0,0.0,372
+FLAGS hp<NUM>par_cpg_snap = = <STR> ,1.0,0.0,373
+Version history ,1.0,0.0,374
+fake_get_<NUM>par_host self hostname ,1.0,0.0,375
+<STR> None ,0.0,0.0,376
+self _hosts [ hostname ] = None ,1.0,0.0,377
+san_login = <STR> ,1.0,0.0,378
+default_persona ,0.0,0.0,379
+<STR> HP<NUM>PARBaseDriver CLONE_ID ,1.0,0.0,380
+self SNAPSHOT_<NUM>PAR_NAME ,1.0,0.0,381
+status ,1.0,0.0,382
+hp<NUM>par_domain = HP<NUM>PAR_DOMAIN ,1.0,0.0,383
+<STR> ] ! = FLAGS hp<NUM>par_domain ,1.0,0.0,384
+valid_persona_values = [ <STR> ,0.0,0.0,385
+specs [ key ] ,0.0,0.0,386
+default_prov ,0.0,0.0,387
+VOLUME_ID_SNAP = <STR> ,1.0,0.0,388
+<STR> SNAPSHOT_ID ,1.0,0.0,389
+tearDown self ,1.0,0.0,390
+ttpv = ,1.0,0.0,391
+via active VLUNs ,0.0,0.0,392
+FAKE_ISCSI_PORTS = [ <STR> ] ,1.0,0.0,393
+self fake_copy_volume ,1.0,0.0,394
+test_get_volume_stats self ,1.0,0.0,395
+_ hosts = ,1.0,0.0,396
+TARGET_IQN = <STR> ,1.0,0.0,397
+def_copy_volume self src_name dest_name ,1.0,0.0,398
+<STR> VOLUME_NAME ,1.0,0.0,399
+TestHP<NUM>PARFCDriver self tearDown ,1.0,0.0,400
+test_delete_snapshot self ,1.0,0.0,401
+PROJECT_ID = <STR> ,1.0,0.0,402
+hp<NUM>par_cpg = HP<NUM>PAR_CPG ,1.0,0.0,403
+status = self _get_volume_state vol_name ,1.0,0.0,404
+def_init_common self ,0.0,0.0,405
+exception NotAuthorized ,0.0,0.0,406
+fake_create_<NUM>par_fibrechan_host self hostname wwn ,1.0,0.0,407
+exception CinderException msg ,1.0,0.0,408
+<STR> snap_cpg ,1.0,0.0,409
+c Copyright <NUM> - <NUM> Hewlett - Packard Development Company L P ,1.0,0.0,410
+hp<NUM>par_api_url = <STR> ,1.0,0.0,411
+<STR> FAKE_DESC ,0.0,0.0,412
+prov_value = = <STR> ,1.0,0.0,413
+<STR> wwn [ <NUM> ] ] ,0.0,0.0,414
+self fake_get_volume_state ,1.0,0.0,415
+USER_ID = <STR> ,1.0,0.0,416
+connector = <STR> ,1.0,0.0,417
+exception NotFound ,1.0,0.0,418
+<STR> ,1.0,0.0,419
+hp<NUM>par_password = <STR> ,1.0,0.0,420
+self fake_create_<NUM>par_vlun ,1.0,0.0,421
+def_modify_<NUM>par_fibrechan_host self hostname wwn ,1.0,0.0,422
+<STR> wwn [ <NUM> ] ,0.0,0.0,423
+<STR> VOLUME_ID_SNAP ,1.0,0.0,424
+<STR> ttpv ,0.0,0.0,425
+iscsi_port = <STR> ,1.0,0.0,426
+FLAGS = flags FLAGS ,0.0,0.0,427
+<STR> FAKE_HOST ,1.0,0.0,428
+status = = <STR> ,1.0,0.0,429
+self state_tries = <NUM> ,1.0,0.0,430
+self assertRaises exception InvalidInput ,1.0,0.0,431
+ttpv = ,1.0,0.0,432
+None ,1.0,0.0,433
+status = None ,1.0,0.0,434
+msg =_ <STR> % status ,0.0,0.0,435
+<STR> [ <STR> ] ,0.0,0.0,436
+test_create_volume_from_snapshot self ,1.0,0.0,437
+<STR> prov_value ,0.0,0.0,438
+persona_value self valid_persona_values ,1.0,0.0,439
+def_get_volume_state self vol_name ,1.0,0.0,440
+<STR> None ,0.0,0.0,441
+<STR> <NUM> ,1.0,0.0,442
+msg = <STR> ,1.0,0.0,443
+self assertEquals self FAKE_HOST vlun [ <STR> ] ,1.0,0.0,444
+self fake_get_<NUM>par_host ,1.0,0.0,445
+self _create_<NUM>par_fibrechan_host hostname connector [ <STR> ] ,1.0,0.0,446
+FAKE_DESC = <STR> ,1.0,0.0,447
+required_flags = [ <STR> ,0.0,0.0,448
+c Copyright <NUM> Hewlett - Packard Development Company L P ,1.0,0.0,449
+san_ip = <STR> ,1.0,0.0,450
+self fake_get_ports ,1.0,0.0,451
+Copyright <NUM> OpenStack LLC ,0.0,0.0,452
+setUp self ,1.0,0.0,453
+VERSION = <NUM> <NUM> ,1.0,0.0,454
+hostname self _hosts ,1.0,0.0,455
+<STR> ,1.0,0.0,456
+self assertEquals self VOLUME_<NUM>PAR_NAME vlun [ <STR> ] ,1.0,0.0,457
+<STR> % \ ,0.0,0.0,458
+test_create_volume self ,1.0,0.0,459
+FLAGS hp<NUM>par_cpg ,1.0,0.0,460
+fake_get_ports self ,1.0,0.0,461
+All Rights Reserved ,1.0,0.0,462
+self _modify_<NUM>par_fibrechan_host hostname connector [ <STR> ] ,1.0,0.0,463
+<STR> USER_ID ,0.0,0.0,464
+key specs ,1.0,0.0,465
+TestHP<NUM>PARFCDriver self setUp ,1.0,0.0,466
+<STR> domain ,0.0,0.0,467
+<STR> VOLUME_ID ,1.0,0.0,468
+status = = <STR> ,1.0,0.0,469
+FAKE_FC_PORTS = [ <STR> ] ,1.0,0.0,470
+self VOLUME_ID ,1.0,0.0,471
+<STR> self FAKE_ISCSI_PORTS ,1.0,0.0,472
+self VOLUME_<NUM>PAR_NAME ,1.0,0.0,473
+<STR> HP<NUM>PARBaseDriver FAKE_HOST ,1.0,0.0,474
+test_initialize_connection self ,1.0,0.0,475
+msg =_ <STR> ,1.0,0.0,476
+<STR> ,1.0,0.0,477
+hp<NUM>par_username = <STR> ,1.0,0.0,478
+fake_copy_volume self src_name dest_name ,1.0,0.0,479
+<STR> [ ] ,0.0,0.0,480
+<STR> volume_id ,1.0,0.0,481

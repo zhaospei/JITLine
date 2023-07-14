@@ -1,0 +1,121 @@
+total_tokens,line_level_label,line_score,row
+mock patch dhcp_agent LOG <STR> log ,0.0,1.0,1
+mock patch dhcp_agent LOG trace_level log ,0.0,1.0,2
+mock patch dhcp_agent LOG <STR> log ,0.0,1.0,3
+self assertTrue log called ,1.0,0.9636484641129373,4
+port = self call self context ,1.0,0.5410958256849847,5
+neutron openstack common db exception db_exc ,1.0,0.5088379986583255,6
+retval = plugin create_port context port = port_dict ,0.0,0.5045880964622788,7
+retval = plugin create_port context port = port_dict ,1.0,0.5045880964622788,8
+self call self context ,1.0,0.4985986083487776,9
+dhcp DictModel self call self context ,1.0,0.4985986083487776,10
+network = self call self context ,1.0,0.4985986083487776,11
+network = plugin get_network context network_id ,1.0,0.4620908791263143,12
+network = plugin get_network context network_id ,1.0,0.4620908791263143,13
+neutron openstack common rpc common ,1.0,0.45449684884379093,14
+self assertFalse self call_driver called ,0.0,0.34322417407794487,15
+@ utils synchronized <STR> ,1.0,0.250673802277111,16
+pool spawn_n self safe_configure_dhcp_for_network network ,1.0,0.1660160981197353,17
+pool spawn_n self configure_dhcp_for_network network ,1.0,0.1660160981197353,18
+network namespace ,1.0,0.12827596598840108,19
+network namespace ,1.0,0.12827596598840108,20
+exc = common RemoteError exc_type = <STR> ,1.0,0.1161679658686446,21
+e common RemoteError ,1.0,0.11052591616923288,22
+neutron common exceptions n_exc ,1.0,0.11052591616923288,23
+neutron common exceptions ,1.0,0.11052591616923288,24
+self driver return_value foo side_effect = exc Exception ,0.0,0.09239742476730951,25
+self driver return_value foo side_effect = Exception ,0.0,0.08675537506789778,26
+[ mock call get_network_info <STR> ] ,0.0,0.0789661179704681,27
+interface_name = self get_interface_name network port ,1.0,0.04249721733614582,28
+interface_name = self get_interface_name network port ,1.0,0.04249721733614582,29
+dhcp DictModel port ,1.0,0.04249721733614582,30
+port ,1.0,0.04249721733614582,31
+retval = self callbacks get_dhcp_port mock Mock ,0.0,0.042458388747890645,32
+retval = self callbacks get_network_info mock Mock network_id = <STR> ,0.0,0.042458388747890645,33
+self root_helper ,1.0,0.036784239750554136,34
+self root_helper ,1.0,0.036784239750554136,35
+self plugin get_network_info return_value = None ,0.0,0.014774389779522822,36
+self plugin update_port return_value = None ,1.0,0.014774389779522822,37
+self plugin get_network return_value = <STR> ,0.0,0.014774389779522822,38
+host = self host ,0.0,0.00863698125623475,39
+host = self host ,0.0,0.00863698125623475,40
+def_test_call_driver_failure self exc = None trace_level = <STR> ,1.0,0.00564204969941173,41
+exc = exceptions NetworkNotFound net_id = <STR> ,1.0,0.00564204969941173,42
+host = <STR> ,1.0,0.004318490628117375,43
+self _test_call_driver_failure ,1.0,0.0,44
+self make_msg <STR> ,0.0,0.0,45
+% <STR> action ,0.0,0.0,46
+n_exc NetworkNotFound ,1.0,0.0,47
+ip_lib IPDevice interface_name ,1.0,0.0,48
+raise_create_port ,0.0,0.0,49
+self assertIsNone retval ,0.0,0.0,50
+<STR> network ,0.0,0.0,51
+raise_get_network ,0.0,0.0,52
+self _test_get_dhcp_port_with_failures ,1.0,0.0,53
+LOG warn _ <STR> network_id ,1.0,0.0,54
+raise_create_port = None ,0.0,0.0,55
+self _test_call_driver_failure ,1.0,0.0,56
+safe_get_network_info self network_id ,1.0,0.0,57
+enable_dhcp_helper self network_id ,1.0,0.0,58
+<STR> ,1.0,0.0,59
+device_id = device_id ,1.0,0.0,60
+self configure_dhcp_for_network network ,1.0,0.0,61
+ip_lib IPDevice interface_name ,1.0,0.0,62
+Exception ,1.0,0.0,63
+raise_get_network = n_exc NetworkNotFound net_id = <STR> ,1.0,0.0,64
+LOG exception _ <STR> network_id ,1.0,0.0,65
+<STR> network_id <STR> e ,1.0,0.0,66
+test_call_driver_failure self ,1.0,0.0,67
+dhcp NetModel self use_namespaces ,1.0,0.0,68
+topic = self topic ,0.0,0.0,69
+network = self plugin_rpc get_network_info network_id ,1.0,0.0,70
+network_id = network_id ,1.0,0.0,71
+LOG exception _ <STR> action ,1.0,0.0,72
+self needs_resync = ,1.0,0.0,73
+enable_dhcp_helper self network_id ,1.0,0.0,74
+device_id = <STR> ,0.0,0.0,75
+<STR> ,1.0,0.0,76
+self plugin assert_has_calls ,0.0,0.0,77
+self dhcp enable_dhcp_helper <STR> ,1.0,0.0,78
+dhcp NetModel self use_namespaces network ,1.0,0.0,79
+safe_configure_dhcp_for_network self network ,1.0,0.0,80
+self plugin create_port side_effect = raise_create_port ,1.0,0.0,81
+def_test_get_dhcp_port_with_failures self ,1.0,0.0,82
+trace_level = <STR> ,1.0,0.0,83
+network_id = <STR> ,1.0,0.0,84
+<STR> network_id ,1.0,0.0,85
+n_exc SubnetNotFound e ,0.0,0.0,86
+LOG exception _ <STR> network_id ,1.0,0.0,87
+test_enable_dhcp_helper_network_none self ,1.0,0.0,88
+LOG warn _ <STR> ,1.0,0.0,89
+e exc_type = = <STR> ,1.0,0.0,90
+network ,1.0,0.0,91
+device_id = device_id ,1.0,0.0,92
+self plugin get_network side_effect = n_exc NetworkNotFound net_id = <STR> ,1.0,0.0,93
+test_get_dhcp_port_catch_network_not_found_on_create_port self ,1.0,0.0,94
+self plugin get_network side_effect = raise_get_network ,1.0,0.0,95
+exceptions NetworkNotFound net_id = network ,1.0,0.0,96
+raise_create_port = n_exc SubnetNotFound subnet_id = <STR> ,1.0,0.0,97
+LOG exception _ <STR> ,1.0,0.0,98
+LOG warning _ <STR> network ,1.0,0.0,99
+network ,1.0,0.0,100
+network = self safe_get_network_info network_id ,1.0,0.0,101
+test_get_dhcp_port_catch_not_found_on_get_network self ,1.0,0.0,102
+Exception e ,1.0,0.0,103
+topic = self topic ,0.0,0.0,104
+e exceptions NetworkNotFound ,1.0,0.0,105
+self assertFalse self dhcp needs_resync ,1.0,0.0,106
+raise_create_port = n_exc NetworkNotFound net_id = <STR> ,1.0,0.0,107
+test_get_network_info_return_none_on_not_found self ,1.0,0.0,108
+network ,1.0,0.0,109
+n_exc NetworkNotFound ,0.0,0.0,110
+test_call_driver_failure self ,1.0,0.0,111
+self configure_dhcp_for_network network ,1.0,0.0,112
+db_exc DBError ,1.0,0.0,113
+test_call_driver_remote_error_net_not_found self ,1.0,0.0,114
+network_id = network_id ,1.0,0.0,115
+test_call_driver_network_not_found self ,1.0,0.0,116
+exceptions NetworkNotFound RuntimeError ,1.0,0.0,117
+test_get_dhcp_port_catch_subnet_not_found_on_create_port self ,1.0,0.0,118
+raise_get_network = None ,0.0,0.0,119
+self make_msg <STR> ,0.0,0.0,120

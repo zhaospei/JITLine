@@ -1,0 +1,386 @@
+total_tokens,line_level_label,line_score,row
+Unless required by applicable law agreed to writing software ,1.0,1.0,1
+License the specific language governing permissions limitations ,1.0,0.8897217271869535,2
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.7592071468755834,3
+a copy of the License at ,1.0,0.7469566170720261,4
+nova openstack common log logging ,1.0,0.6577321067154458,5
+networking storage of VMs compute hosts on which they run <STR> ,0.0,0.5534118319083787,6
+networking storage of vms compute hosts on which they run <STR> ,0.0,0.5534118319083787,7
+pool the <STR> state If a number of continuous requests fail ,0.0,0.5453975763177805,8
+add_to_aggregate self context aggregate host * * kwargs ,1.0,0.5246346695224047,9
+remove_from_aggregate self context aggregate host * * kwargs ,1.0,0.5046683894605278,10
+aggregate the <STR> state If a number of continuous requests fail ,0.0,0.49372173426821225,11
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.48345918767206403,12
+undo_aggregate_operation self context op aggregate_id ,1.0,0.4710513486030648,13
+self _pool undo_aggregate_operation context op ,1.0,0.4710513486030648,14
+def_undo_aggregate_operation self context op aggregate_id ,1.0,0.4710513486030648,15
+op context aggregate_id host ,1.0,0.4710513486030648,16
+op context aggregate_id host ,1.0,0.4710513486030648,17
+A <STR> during the first request of ,0.0,0.4666402717830999,18
+A <STR> during the first request of ,0.0,0.4666402717830999,19
+use this file compliance the License You may obtain ,1.0,0.4514505751645084,20
+pool being setup An pool may be <STR> which case the underlying ,1.0,0.4344918830752622,21
+self compute_rpcapi remove_aggregate_host context ,1.0,0.42848235295389997,22
+self compute_rpcapi remove_aggregate_host context ,1.0,0.42848235295389997,23
+_ create_aggregate_with_hosts context = ctxt metadata = None ,1.0,0.4137140100504051,24
+r<NUM> =_create_aggregate_with_hosts context = ctxt metadata = None ,1.0,0.4137140100504051,25
+expected = self api remove_host_from_aggregate self context ,0.0,0.39761495461145746,26
+expected = self api remove_host_from_aggregate self context ,1.0,0.39761495461145746,27
+self compute_rpcapi add_aggregate_host context ,1.0,0.3930732583869886,28
+self compute_rpcapi add_aggregate_host context ,1.0,0.3930732583869886,29
+db aggregate_metadata_add self context result pool_flag ,1.0,0.39183806301701063,30
+db aggregate_metadata_add self context result metadata ,1.0,0.39183806301701063,31
+result = db aggregate_create self context values ,1.0,0.3851748087455586,32
+pool being setup An aggregate may be <STR> which case the underlying ,1.0,0.3828160410256939,33
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.3817673101273437,34
+self _is_hv_pool context aggregate ,1.0,0.3715393107274646,35
+reason = invalid [ db aggregate_metadata_get context ,1.0,0.3669068877360316,36
+self api remove_host_from_aggregate self context ,1.0,0.3646721909726727,37
+aggr = self api create_aggregate self context ,1.0,0.3646721909726727,38
+aggr = self api create_aggregate self context ,1.0,0.3646721909726727,39
+self api delete_aggregate self context aggr [ <STR> ] ,1.0,0.3646721909726727,40
+aggr = self api add_host_to_aggregate self context ,1.0,0.3646721909726727,41
+self api add_host_to_aggregate self context ,1.0,0.3646721909726727,42
+aggr = self api add_host_to_aggregate self context ,0.0,0.3646721909726727,43
+self context result <STR> ,0.0,0.35718454605333483,44
+aggregate = self db aggregate_get context aggregate_id ,1.0,0.356377088889844,45
+excepted = db aggregate_get self context self aggr ,1.0,0.356377088889844,46
+excepted = db aggregate_get self context self aggr ,1.0,0.356377088889844,47
+db aggregate_metadata_add self context aggr [ <STR> ] metadata ,1.0,0.35370698622530794,48
+db aggregate_metadata_add context aggregate metadata ,1.0,0.35370698622530794,49
+db aggregate_metadata_add context aggregate ,1.0,0.35370698622530794,50
+db aggregate_metadata_add self context self aggr metadata ,1.0,0.35370698622530794,51
+db aggregate_metadata_add context aggregate_id metadata ,1.0,0.35370698622530794,52
+self aggr = db aggregate_create self context values ,1.0,0.3470437319538559,53
+db aggregate_update self context aggr [ <STR> ] status ,1.0,0.3464157651798969,54
+self db aggregate_update context aggregate_id status ,1.0,0.3464157651798969,55
+def_create_service_entries context values = <STR> ,1.0,0.3405095065148706,56
+values =_create_service_entries self context ,1.0,0.3405095065148706,57
+values =_create_service_entries self context ,1.0,0.3405095065148706,58
+self db aggregate_update context aggregate_id values ,1.0,0.3405095065148706,59
+db aggregate_update context aggregate values ,1.0,0.3405095065148706,60
+self conn add_to_aggregate self context ,1.0,0.33901974932350887,61
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.33226866333985017,62
+self driver undo_aggregate_operation context ,1.0,0.324279163200848,63
+self context self aggr <STR> ,0.0,0.3190534692616321,64
+self conn remove_from_aggregate self context ,1.0,0.3190534692616321,65
+self get_aggregate context aggregate_id ,1.0,0.3190534692616321,66
+self db aggregate_host_add context aggregate_id host ,1.0,0.3190534692616321,67
+def_is_hv_pool self context aggregate_id ,1.0,0.3190534692616321,68
+db service_create context ,1.0,0.3190534692616321,69
+self get_aggregate context aggregate_id ,1.0,0.3190534692616321,70
+db aggregate_metadata_get context aggregate [ pool_states KEY ] ,1.0,0.3190534692616321,71
+self db aggregate_host_add context aggregate_id host ,1.0,0.3190534692616321,72
+self context self aggr <STR> ,1.0,0.3190534692616321,73
+db aggregate_update self context self aggr state ,1.0,0.3190534692616321,74
+fake_driver_add_to_aggregate context aggregate host ,1.0,0.3190534692616321,75
+self db aggregate_host_delete context aggregate_id host ,1.0,0.3190534692616321,76
+db aggregate_host_add self context self aggr <STR> ,1.0,0.3190534692616321,77
+self _undo_aggregate_operation context ,1.0,0.3190534692616321,78
+fake_driver_remove_from_aggregate context aggregate host ,1.0,0.3190534692616321,79
+stub_add_host_to_aggregate context aggregate host ,1.0,0.3190534692616321,80
+_ create_service_entries self context <STR> ] ,1.0,0.3190534692616321,81
+metadata = db aggregate_metadata_get context aggregate_id ,1.0,0.3190534692616321,82
+db aggregate_host_add self context self aggr <STR> ,1.0,0.3190534692616321,83
+self db aggregate_host_delete context aggregate_id host ,1.0,0.3190534692616321,84
+master_compute = db aggregate_metadata_get context ,1.0,0.3190534692616321,85
+fake_driver_add_to_aggregate context aggregate host ,1.0,0.3190534692616321,86
+A pool may be <STR> which case the admin has triggered its ,1.0,0.2506909142210706,87
+configurations The pool goes into the <STR> state when the underlying ,0.0,0.23266348919176494,88
+hypervisor pool up running An pool may be <STR> when it has ,1.0,0.23042084349430897,89
+yet An pool may be <STR> meaning that the underlying hypervisor ,1.0,0.2252883618557829,90
+under the License ,1.0,0.21450235555420874,91
+aggregate_hosts = Table <STR> meta autoload = ,1.0,0.20627203685890563,92
+aggregate_metadata = Table <STR> meta autoload = ,1.0,0.20627203685890563,93
+aggregates = Table <STR> meta autoload = ,1.0,0.20627203685890563,94
+that order to recover it an pool must be deleted ,1.0,0.20221857675765342,95
+An aggregate may be <STR> which case the admin has triggered its ,0.0,0.19901507217160117,96
+LOG = logging getLogger __ name__ ,1.0,0.19081480058850345,97
+meta bind = migrate_engine ,1.0,0.18259744253573737,98
+self assertRaises exc HTTPConflict self controller action ,1.0,0.18229023114236687,99
+configurations The aggregate goes into the <STR> state when the underlying ,0.0,0.18098764714219664,100
+no hosts it has been deleted An pool may be <STR> other ,1.0,0.17944220475116168,101
+hypervisor pool up running An aggregate may be <STR> when it has ,1.0,0.17874500144474068,102
+yet An aggregate may be <STR> meaning that the underlying hypervisor ,1.0,0.1736125198063135,103
+an <STR> state To recover such a state ,0.0,0.1607664456017716,104
+an <STR> state To recover such a state ,0.0,0.1607664456017716,105
+self stubs Set self controller api <STR> ,1.0,0.15961103595503814,106
+that order to recover it an aggregate must be deleted ,1.0,0.15054273470808516,107
+rec record_list ,1.0,0.13686918977857063,108
+no hosts it has been deleted An aggregate may be <STR> other ,1.0,0.12776636270169228,109
+dialect = migrate_engine url get_dialect name ,0.0,0.1266409447440563,110
+nova compute api compute_api ,1.0,0.12526487426678307,111
+self api = compute_api AggregateAPI ,0.0,0.12526487426678307,112
+delete aggregate_metadata aggregate_metadata c key = = <STR> ,1.0,0.12174665957204596,113
+sqlalchemy String Column MetaData Table delete select ,1.0,0.12174665957204596,114
+UniqueConstraint col name = <STR> drop ,0.0,0.11830523740878893,115
+h<NUM> = db aggregate_host_get_all ctxt r<NUM> ,1.0,0.11381738459919231,116
+<STR> Ensure InvalidAggregateAction raised when adding host ,0.0,0.10854276409460725,117
+<STR> Ensure InvalidAggregateAction raised when adding host ,0.0,0.10854276409460725,118
+error <STR> ,1.0,0.10773048270417634,119
+error <STR> ,1.0,0.10773048270417634,120
+downgrade migrate_engine ,1.0,0.10492899457500766,121
+upgrade migrate_engine ,1.0,0.09531217307114953,122
+r<NUM> =_create_aggregate_with_hosts ctxt ,1.0,0.09466054078877453,123
+_ create_aggregate_with_hosts ctxt ,1.0,0.09466054078877453,124
+avail_zone hosts values iteritems ,0.0,0.09408116150887467,125
+invalid keys ,0.0,0.08970191070985037,126
+aggregate operational_state invalid keys ,1.0,0.08970191070985037,127
+<STR> Handles requests relating to compute resources e g guest VMs ,0.0,0.08790410395747707,128
+<STR> Handles requests relating to compute resources e g guest vms ,0.0,0.08790410395747707,129
+meta = MetaData ,1.0,0.08728526946460756,130
+pass ,0.0,0.0865872001785911,131
+self stubs Set self compute driver <STR> ,1.0,0.08263768992379003,132
+self stubs Set self compute driver <STR> ,1.0,0.08263768992379003,133
+master_compute = aggregate metadetails get <STR> ,1.0,0.07552038838001221,134
+<STR> Possible states xen resource pools ,0.0,0.06887542895794561,135
+fake_zone = values keys [ <NUM> ] ,0.0,0.0633045294886882,136
+fake_zone = values keys [ <NUM> ] ,0.0,0.0633045294886882,137
+message =_ <STR> ,1.0,0.05630734703359013,138
+aggregates c operational_state alter nullable = ,1.0,0.05521426801997922,139
+aggregate_hosts c host alter unique = ,1.0,0.05521426801997922,140
+<STR> Ensure InvalidAggregateAction raised when aggregate ,0.0,0.05173701952500836,141
+<STR> Ensure InvalidAggregateAction raised when aggregate ,0.0,0.05173701952500836,142
+invalid = pool_states CREATED <STR> ,0.0,0.047853418474478264,143
+invalid = aggregate_states CREATED <STR> ,0.0,0.047853418474478264,144
+invalid = pool_states CHANGING <STR> ,0.0,0.047853418474478264,145
+invalid = aggregate_states CHANGING <STR> ,0.0,0.047853418474478264,146
+reason = invalid [ aggregate operational_state ] ,1.0,0.047853418474478264,147
+host_ref update values ,0.0,0.041899382793801905,148
+host_ref update values ,0.0,0.041899382793801905,149
+aggregates update values operational_state = select ,1.0,0.041899382793801905,150
+Metadata keys ,0.0,0.0418484922353721,151
+pool_states POOL_FLAG metadata keys ,1.0,0.0418484922353721,152
+row execute <STR> ] ,1.0,0.040653955322459495,153
+nova virt xenapi pool_states ,1.0,0.038306204857087287,154
+self assertEqual result [ <STR> ,1.0,0.038131076791762614,155
+self assertEqual aggregate_states ACTIVE result operational_state ,0.0,0.038131076791762614,156
+self assertDictMatch result metadetails ,1.0,0.038131076791762614,157
+pool_states KEY pool_states ACTIVE result metadetails ,0.0,0.038131076791762614,158
+result = self _aggregate_setup ,0.0,0.038131076791762614,159
+None result <STR> ,1.0,0.038131076791762614,160
+self assertEquals result name <STR> ,1.0,0.038131076791762614,161
+self compute remove_aggregate_host ,0.0,0.035409094566982414,162
+self assertEqual expected [ <STR> ] [ pool_states KEY ] ,1.0,0.032942763638774436,163
+self assertEqual expected [ <STR> ] ,1.0,0.032942763638774436,164
+expected [ <STR> ] ,0.0,0.032942763638774436,165
+row = aggregate_metadata insert ,1.0,0.03242911513128392,166
+aggregate_id = aggregate_id host_param = host host = host ,1.0,0.03130525141278829,167
+aggregate_id = aggregate_id host_param = host host = host ,1.0,0.03130525141278829,168
+status = <STR> aggregate_states DISMISSED ,0.0,0.027362295918269552,169
+status = <STR> aggregate_states CHANGING ,0.0,0.027362295918269552,170
+status = <STR> pool_states ERROR ,0.0,0.027362295918269552,171
+status = <STR> aggregate_states ERROR ,1.0,0.027362295918269552,172
+status = <STR> aggregate_states ACTIVE ,0.0,0.027362295918269552,173
+record_list = aggregates select execute ,1.0,0.027133998636627268,174
+<STR> execute ,1.0,0.027133998636627268,175
+body = <STR> ,1.0,0.026225984676470554,176
+values = <STR> aggregate_id ,1.0,0.021456037253316105,177
+fake_host = values [ fake_zone ] [ <NUM> ] ,1.0,0.021456037253316105,178
+values setdefault <STR> aggregate_states CREATED ,0.0,0.021456037253316105,179
+values = ,1.0,0.021456037253316105,180
+values = <STR> aggregate_states CHANGING ,1.0,0.021456037253316105,181
+host values [ fake_zone ] ,1.0,0.021456037253316105,182
+host values [ fake_zone ] ,1.0,0.021456037253316105,183
+values = <STR> <STR> ,1.0,0.021456037253316105,184
+values [ fake_zone ] [ <NUM> ] ,1.0,0.021456037253316105,185
+values = <STR> ,1.0,0.021456037253316105,186
+values = <STR> aggregate_id ,1.0,0.021456037253316105,187
+values ,1.0,0.021456037253316105,188
+values [ fake_zone ] [ <NUM> ] ,0.0,0.021456037253316105,189
+lazy = <STR> ,1.0,0.016035086528991643,190
+[ aggregate_metadata c value ] where aggregates c = = ,1.0,0.01291914670767316,191
+col = aggregate_hosts c host ,1.0,0.010389070530485833,192
+host_ref save session = session ,1.0,0.009822474041009601,193
+host_ref save session = session ,0.0,0.009822474041009601,194
+service availability_zone ! = aggregate availability_zone ,1.0,0.009606648212959078,195
+service availability_zone ! = aggregate availability_zone ,0.0,0.009606648212959078,196
+self driver undo_aggregate_operation ,1.0,0.005225693939233323,197
+nova compute aggregate_states ,1.0,0.0,198
+<STR> aggr_zone ,1.0,0.0,199
+pool_states ERROR <STR> ,0.0,0.0,200
+aggregate ready <STR> ,1.0,0.0,201
+state = <STR> aggregate_states ACTIVE ,0.0,0.0,202
+deleted <STR> ,1.0,0.0,203
+host = Column String <NUM> unique = ,1.0,0.0,204
+changing <STR> ,1.0,0.0,205
+<STR> ] ,0.0,0.0,206
+aggregate operational_state [ aggregate_states CREATED ,0.0,0.0,207
+set_error ,0.0,0.0,208
+aggregate ,1.0,0.0,209
+reason = <STR> ,1.0,0.0,210
+test_add_host_to_aggregate_invalid_dismissed_status self ,0.0,0.0,211
+self assertRaises exception AggregateError ,1.0,0.0,212
+aggregate = self _aggregate_setup metadata = self fake_metadata ,0.0,0.0,213
+self _undo_aggregate_operation ,1.0,0.0,214
+ComputeAPIAggrTestCase BaseTestCase ,0.0,0.0,215
+aggregate = self _aggregate_setup aggr_state = pool_states CHANGING ,1.0,0.0,216
+<STR> avail_zone ,0.0,0.0,217
+self assertRaises exception InvalidAggregateAction ,1.0,0.0,218
+aggr [ <STR> ] ,1.0,0.0,219
+aggregate_states DISMISSED <STR> ,0.0,0.0,220
+self assertRaises exception AggregateHostConflict ,1.0,0.0,221
+exception InvalidAggregateAction ,1.0,0.0,222
+<STR> ,1.0,0.0,223
+Exception ,1.0,0.0,224
+exception AggregateError ,1.0,0.0,225
+pool_states DISMISSED <STR> ,0.0,0.0,226
+aggregate_metadata c aggregate_id aggregate_metadata c key = = ,1.0,0.0,227
+aggregate_states ERROR ] ,0.0,0.0,228
+pool_states KEY pool_states CREATED ,0.0,0.0,229
+host set_error = ,0.0,0.0,230
+self assertEqual excepted hosts [ <STR> ] ,1.0,0.0,231
+LOG exception _ <STR> ,1.0,0.0,232
+self assertEqual aggregate [ <STR> ,1.0,0.0,233
+metadata = pool_states KEY pool_states ERROR ,1.0,0.0,234
+test_remove_host_from_aggregate_invalid_changing_status self ,1.0,0.0,235
+aggregate_id = aggregate ,1.0,0.0,236
+migrate changeset UniqueConstraint ,1.0,0.0,237
+<STR> host ,0.0,0.0,238
+[ pool_states KEY ] ] ,1.0,0.0,239
+<STR> % ,1.0,0.0,240
+test_remove_host_from_aggregate_error self ,1.0,0.0,241
+self compute add_aggregate_host ,1.0,0.0,242
+self assertDictMatch pool_states POOL_FLAG <STR> ,1.0,0.0,243
+pool_flag = pool_states POOL_FLAG <STR> ,1.0,0.0,244
+ComputeAPIAggrTestCase test TestCase ,0.0,0.0,245
+<STR> ,1.0,0.0,246
+<STR> ] ,1.0,0.0,247
+exception DBError ,1.0,0.0,248
+pool_states ACTIVE ,0.0,0.0,249
+<STR> fake_zone ,0.0,0.0,250
+<STR> ,1.0,0.0,251
+aggregate = self _aggregate_setup aggr_state = aggregate_states ACTIVE ,1.0,0.0,252
+test_aggregate_host_add_duplicate_works self ,1.0,0.0,253
+<STR> aggr_state ,0.0,0.0,254
+test_add_aggregate_host_raise_err self ,1.0,0.0,255
+action = <STR> ,0.0,0.0,256
+exception AggregateHostConflict host = host ,1.0,0.0,257
+self assertEqual aggr [ <STR> ] ,1.0,0.0,258
+fake_driver_add_to_aggregate ,1.0,0.0,259
+exception AggregateHostConflict ,1.0,0.0,260
+aggr [ <STR> ,1.0,0.0,261
+self assertEqual aggregate deleted ,1.0,0.0,262
+test_add_host_to_aggregate_invalid_changing_status self ,1.0,0.0,263
+aggr_state = aggregate_states CREATED ,0.0,0.0,264
+self assertEqual r<NUM> operational_state <STR> ,1.0,0.0,265
+host = <STR> ,1.0,0.0,266
+test_add_host_to_aggregate_invalid_changing_status self ,1.0,0.0,267
+aggregate_id = aggregate_id ,1.0,0.0,268
+test_aggregate_host_add_duplicate_raise_conflict self ,1.0,0.0,269
+aggregate <STR> ,1.0,0.0,270
+aggregates drop_column <STR> ,1.0,0.0,271
+aggregate operational_state [ aggregate_states ACTIVE ,0.0,0.0,272
+aggr_state = pool_states CREATED ,1.0,0.0,273
+test_remove_host_from_aggregate_invalid_dismissed_status self ,1.0,0.0,274
+test_add_host_with_already_added_to_another_aggregate self ,0.0,0.0,275
+aggr [ <STR> ] host ,0.0,0.0,276
+test_add_host_to_aggregate_invalid_error_status self ,1.0,0.0,277
+aggregate operational_state = = aggregate_states CREATED ,1.0,0.0,278
+self assertEqual excepted hosts [ ] ,1.0,0.0,279
+host_ref = models AggregateHost ,0.0,0.0,280
+compute_driver = <STR> ,1.0,0.0,281
+<STR> Possible states host aggregates ,0.0,0.0,282
+aggregate [ pool_states KEY ] ] ,0.0,0.0,283
+self assertEqual aggr [ <STR> ] ,1.0,0.0,284
+self assertRaises exception AggregateNotFound ,1.0,0.0,285
+pool_states CHANGING <STR> ,0.0,0.0,286
+= = pool_states CREATED ,0.0,0.0,287
+<STR> <NUM> ,1.0,0.0,288
+<STR> ,1.0,0.0,289
+AggregateHostConflict Duplicate ,0.0,0.0,290
+aggregate_hosts drop_column <STR> ,1.0,0.0,291
+Copyright <NUM> OpenStack LLC ,1.0,0.0,292
+self fake_metadata = pool_states POOL_FLAG <STR> ,1.0,0.0,293
+self assertEqual aggr [ <STR> ] <NUM> ,1.0,0.0,294
+host set_error = ,0.0,0.0,295
+self assertNotEqual aggr [ <STR> ] ,1.0,0.0,296
+<STR> % ,0.0,0.0,297
+aggregate_id host set_error ,1.0,0.0,298
+self assertEqual excepted operational_state aggregate_states ERROR ,0.0,0.0,299
+<STR> aggr_zone ,0.0,0.0,300
+deleted <STR> ,1.0,0.0,301
+aggregate_states ACTIVE ,0.0,0.0,302
+self assertEqual metadata aggregate metadetails ,1.0,0.0,303
+aggregate [ <STR> ] ,1.0,0.0,304
+host set_error ,0.0,0.0,305
+reason = <STR> ,1.0,0.0,306
+<STR> ,1.0,0.0,307
+aggregate_states DISMISSED <STR> ,0.0,0.0,308
+metadata = self fake_metadata ,0.0,0.0,309
+pool_states KEY aggr_state ,0.0,0.0,310
+self assertEqual aggr [ <STR> ] ,1.0,0.0,311
+fake_driver_add_to_aggregate ,1.0,0.0,312
+self assertEqual excepted metadetails [ pool_states KEY ] ,1.0,0.0,313
+test_add_aggregate_host_raise_err self ,1.0,0.0,314
+pool_states KEY pool_states ACTIVE ,0.0,0.0,315
+host = <STR> ,1.0,0.0,316
+KEY = <STR> ,1.0,0.0,317
+metadata = <STR> host ,1.0,0.0,318
+mox ,1.0,0.0,319
+aggregate = self _aggregate_setup aggr_state = pool_states ERROR ,0.0,0.0,320
+POOL_FLAG = <STR> ,0.0,0.0,321
+<STR> fake_zone ,0.0,0.0,322
+pool_states DISMISSED <STR> ,0.0,0.0,323
+aggregates create_column operational_state ,1.0,0.0,324
+host_ref = models AggregateHost ,0.0,0.0,325
+action = <STR> ,0.0,0.0,326
+<STR> ,1.0,0.0,327
+self assertEqual excepted hosts [ ] ,1.0,0.0,328
+host = Column String <NUM> unique = ,1.0,0.0,329
+<STR> host ,0.0,0.0,330
+NotImplementedError ,1.0,0.0,331
+test_add_host_to_aggregate_invalid_error_status self ,1.0,0.0,332
+aggr [ <STR> ] host ,0.0,0.0,333
+metadata = self fake_metadata aggr_state = pool_states ACTIVE ,0.0,0.0,334
+dialect startswith <STR> ,0.0,0.0,335
+changing <STR> ,0.0,0.0,336
+test_remove_host_from_aggregate_invalid_dismissed_status self ,1.0,0.0,337
+exception InvalidAggregateAction ,1.0,0.0,338
+test_remove_host_from_aggregate_error self ,1.0,0.0,339
+test_add_host_to_aggregate_invalid_dismissed_status self ,1.0,0.0,340
+<STR> <STR> ,1.0,0.0,341
+hosts = [ <STR> ] ,1.0,0.0,342
+aggregate_hosts create_column Column <STR> String <NUM> ,0.0,0.0,343
+self assertEqual aggregate metadetails ,1.0,0.0,344
+connection_type = <STR> ,1.0,0.0,345
+<STR> aggregate_states DISMISSED ,0.0,0.0,346
+test_remove_host_from_aggregate_invalid_changing_status self ,1.0,0.0,347
+LOG exception _ <STR> ,1.0,0.0,348
+exception AggregateError ,1.0,0.0,349
+aggregate_states CHANGING ,0.0,0.0,350
+aggr [ <STR> ] ,1.0,0.0,351
+test_remove_aggregate_host_raise_err self ,1.0,0.0,352
+aggregate = self _aggregate_setup hosts = [ <STR> ] ,1.0,0.0,353
+<STR> aggregate_states ACTIVE ,0.0,0.0,354
+operational_state = Column String <NUM> nullable = ,1.0,0.0,355
+aggregate_states ERROR <STR> ,0.0,0.0,356
+host self _host_uuid ,0.0,0.0,357
+fake_driver_remove_from_aggregate ,1.0,0.0,358
+Exception ,1.0,0.0,359
+aggregate = self _aggregate_setup aggr_state = pool_states DISMISSED ,0.0,0.0,360
+host self _host_uuid ,0.0,0.0,361
+exception AggregateHostConflict ,1.0,0.0,362
+master_compute = aggregate metadetails [ <STR> ] ,1.0,0.0,363
+aggregate ready <STR> ,1.0,0.0,364
+set_error ,0.0,0.0,365
+aggr [ <STR> ] fake_host ,0.0,0.0,366
+aggregate_id = aggregate_id ,1.0,0.0,367
+self compute add_aggregate_host ,1.0,0.0,368
+aggregate_states ACTIVE ] ,0.0,0.0,369
+self req <STR> ,1.0,0.0,370
+operational_state = Column <STR> String <NUM> ,1.0,0.0,371
+metadata = pool_states POOL_FLAG <STR> ,1.0,0.0,372
+pool_states KEY pool_states CHANGING ,1.0,0.0,373
+aggregate_states CHANGING <STR> ,0.0,0.0,374
+self assertRaises exception AggregateError ,1.0,0.0,375
+pool_states ERROR ,0.0,0.0,376
+self compute = importutils import_object FLAGS compute_manager ,1.0,0.0,377
+self assertRaises exception InvalidAggregateAction ,1.0,0.0,378
+self fake_metadata = <STR> ,1.0,0.0,379
+stub_add_host_to_aggregate ,1.0,0.0,380
+self assertEqual h<NUM> h<NUM> ,1.0,0.0,381
+exception AggregateHostExists ,0.0,0.0,382
+exception AggregateHostExists ,1.0,0.0,383
+self assertEqual aggr [ <STR> ] aggregate_states CHANGING ,1.0,0.0,384
+host hosts ,1.0,0.0,385

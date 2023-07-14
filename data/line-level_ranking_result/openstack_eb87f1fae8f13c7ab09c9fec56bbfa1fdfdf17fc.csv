@@ -1,0 +1,360 @@
+total_tokens,line_level_label,line_score,row
+If a value specified the file found then the glance - api ,1.0,1.0,1
+the glance - api service fails to start Guide reg ex python compiler ,0.0,0.779161785684865,2
+then the glance - api service fails to start ,0.0,0.7060060539732057,3
+specified then the glance - api service fails to start ,0.0,0.7060060539732057,4
+If a value specified the file found then an ,0.0,0.6608516784211246,5
+This file contains the rules protections the roles ,0.0,0.6542930804944961,6
+This file contains the rules protections the roles / policies ,0.0,0.6542930804944961,7
+created_image = self controller create request image = image ,1.0,0.6417752268193945,8
+webob exc HTTPInternalServerError explanation = msg ,1.0,0.6250292613016163,9
+self assertRaises webob exc HTTPForbidden self controller update ,0.0,0.6171070980492603,10
+a match found the remaining rules will be traversed through ,0.0,0.6146338079262138,11
+a match found the remaining rules will be applied ,0.0,0.6040684078300581,12
+then the glance - api service will start ,0.0,0.6008393080542295,13
+* If an operation create read update delete specified misspelt ,0.0,0.6003915122878349,14
+* If an operation create read update delete specified misspelt ,0.0,0.6003915122878349,15
+http / / docs python org / <NUM> / library / re html # regular - expression - syntax ,0.0,0.5282576500271121,16
+http / / docs python org / <NUM> / library / re html # regular - expression - syntax ,0.0,0.5282576500271121,17
+self assertEquals output status_int webob exc HTTPForbidden code ,1.0,0.5186488770546899,18
+self controller = glance api v<NUM> images ImagesController self db ,0.0,0.5173766935531775,19
+<STR> Add policy rules to the policy enforcer ,0.0,0.5080463845465152,20
+response = requests patch path headers = headers data = data ,0.0,0.4999571977322075,21
+For example the file listed property_protection_file has ,0.0,0.4964809436753215,22
+The rules will be applied the order specified below Once ,0.0,0.402879638627539,23
+The rules will be applied the order specified Once ,0.0,0.402879638627539,24
+As admin role create an image a protected verify ,0.0,0.3928251421074319,25
+As admin role create an image protected verify ,0.0,0.3928251421074319,26
+As admin role create an image verify permitted role <STR> can ,0.0,0.3928251421074319,27
+output = another_request get_response self api ,0.0,0.386056874341269,28
+glance - api service will start Guide reg ex python compiler used ,0.0,0.38064265114584533,29
+* If the reg ex specified below does then ,0.0,0.366508120331703,30
+* If the reg ex specified below does then ,0.0,0.366508120331703,31
+request = unit_test_utils get_fake_request roles = [ <STR> ] ,0.0,0.35692076815929963,32
+For each section specify CRUD permissions You may refer to policies defined ,0.0,0.34865419953823795,33
+For each section specify CRUD permissions You may refer to roles defined ,0.0,0.34865419953823795,34
+This file an example config file when ,0.0,0.3382004227039927,35
+glance common exception ,1.0,0.3242052691583866,36
+output = self controller update another_request ,1.0,0.31681165842248554,37
+then that operation the given regex disabled roles ,0.0,0.30811513305611504,38
+self assertRaises webob exc HTTPInternalServerError ,1.0,0.30029543962677485,39
+response = requests get path headers = self _headers ,0.0,0.29396684494108677,40
+response = requests get path headers = headers ,0.0,0.29396684494108677,41
+Specify whether <STR> are used the ,0.0,0.2933523886200435,42
+then the corresponding policy rule would be ,0.0,0.2933523886200435,43
+msg =_ <STR> ,1.0,0.2896077929117431,44
+LOG error msg ,0.0,0.2896077929117431,45
+glance tests utils ,0.0,0.28881859263018983,46
+TestPropertyRules utils BaseTestCase ,0.0,0.28881859263018983,47
+update = default ,1.0,0.2674675698526187,48
+res_body = json loads output body [ <STR> ] [ <NUM> ] ,1.0,0.2618735444964596,49
+<STR> output body ,0.0,0.2618735444964596,50
+res_body = json loads output body [ <STR> ] ,1.0,0.2618735444964596,51
+update = admin ,1.0,0.25918331634825387,52
+update = admin ,1.0,0.25918331634825387,53
+update = admin member ,1.0,0.25918331634825387,54
+permitted role <STR> can update that protected ,0.0,0.25918331634825387,55
+update = admin member ,0.0,0.25918331634825387,56
+unpermitted role <STR> can * * update that protected ,0.0,0.25918331634825387,57
+policy _rules update rules_obj ,0.0,0.25918331634825387,58
+update = context_is_admin ,1.0,0.25918331634825387,59
+path = self _url <STR> ,0.0,0.24980820696005882,60
+path = self _url <STR> % image_id ,0.0,0.24980820696005882,61
+As admin role create image verify permitted role <STR> can ,0.0,0.24066140563957336,62
+context = glance context RequestContext roles = [ <STR> ] ,0.0,0.21586652037193882,63
+self context = context ,0.0,0.21586652037193882,64
+enforcer = glance api policy Enforcer ,0.0,0.19795966942669052,65
+glance api policy ,0.0,0.19795966942669052,66
+self policy_enforcer = policy_enforcer glance api policy Enforcer ,0.0,0.19795966942669052,67
+glance api policy ,0.0,0.19795966942669052,68
+create = default ,1.0,0.19732871297608745,69
+glance openstack common policy ,1.0,0.19272616527529335,70
+response = requests post path headers = headers data = data ,0.0,0.19011952083548841,71
+response = requests delete path headers = self _headers ,0.0,0.19011952083548841,72
+create = admin member ,1.0,0.18904445947172252,73
+create a protected ,0.0,0.18904445947172252,74
+create = admin member ,0.0,0.18904445947172252,75
+create = admin ,1.0,0.18904445947172252,76
+create = context_is_admin ,1.0,0.18904445947172252,77
+create = admin ,1.0,0.18904445947172252,78
+create = glance_creator ,0.0,0.18904445947172252,79
+HTTPInternalServerErrors will be thrown Guide reg ex python compiler used ,0.0,0.1826829817191549,80
+self property_file_roles = os path join conf_dir ,0.0,0.1757498118386301,81
+self property_file = os path join conf_dir ,0.0,0.1757498118386301,82
+self property_file_policies = os path join conf_dir ,0.0,0.1757498118386301,83
+key value expected_image items ,1.0,0.16152034040685706,84
+NOTE Multiple roles can be specified a given operation These roles must ,0.0,0.15731664626032238,85
+permissions = CONFIG get property_exp operation ,0.0,0.14888799980875148,86
+path = <STR> ,1.0,0.14537866406781125,87
+self start_servers * * self __ dict__ copy ,0.0,0.13899440217735837,88
+def__ init__ self context extra_props property_rules ,1.0,0.1369688107312128,89
+self assertRaises exception InvalidPropertyProtectionConfiguration ,1.0,0.1314791038830932,90
+exception Forbidden ,1.0,0.1314791038830932,91
+exception \ ,0.0,0.1314791038830932,92
+exception InvalidPropertyProtectionConfiguration ,1.0,0.1314791038830932,93
+self assertEqual <NUM> response status_code response text ,1.0,0.11130964074518848,94
+self assertEqual output status_int <NUM> ,1.0,0.11076069319358098,95
+service will start ,1.0,0.1095272500074955,96
+Specify regular expression which properties will be protected [ ] ,0.0,0.1095272500074955,97
+Specify regular expression which properties will be protected [ ] ,0.0,0.1095272500074955,98
+HTTPInternalServerError will be thrown ,0.0,0.1095272500074955,99
+where glance_creator defined policy json For example ,0.0,0.10918942991172216,100
+key <STR> req context roles ,0.0,0.10793326018596941,101
+check_property_rules self property_name action context ,0.0,0.10793326018596941,102
+roles = context roles ,0.0,0.10793326018596941,103
+self property_rules check_property_rules key <STR> self context ,0.0,0.10793326018596941,104
+key <STR> req context roles ,0.0,0.10793326018596941,105
+key <STR> req context roles ,0.0,0.10793326018596941,106
+key <STR> req context ,0.0,0.10793326018596941,107
+glance context RequestContext roles = roles ,0.0,0.10793326018596941,108
+self context ,1.0,0.10793326018596941,109
+key <STR> req context ,0.0,0.10793326018596941,110
+def_check_policy self property_exp action context ,0.0,0.10793326018596941,111
+self context ,0.0,0.10793326018596941,112
+self roles = self context roles ,0.0,0.10793326018596941,113
+self policy_enforcer enforce context target ,0.0,0.10793326018596941,114
+context ,0.0,0.10793326018596941,115
+glance context ,0.0,0.10793326018596941,116
+context extra_properties self property_rules ,1.0,0.10793326018596941,117
+key <STR> req context ,1.0,0.10793326018596941,118
+image = json loads response text ,1.0,0.10597248826969147,119
+cfg StrOpt <STR> ,1.0,0.10492009885980284,120
+rule_dict [ rule_name ] = policy parse_rule rule ,0.0,0.10470527931289127,121
+- protections - policies conf sample ,0.0,0.103919181776515,122
+- protections conf sample ,0.0,0.103919181776515,123
+- protections - roles conf sample ,0.0,0.103919181776515,124
+roles intersection rule get action ,0.0,0.1038473241055984,125
+roles = CONFIG get property_exp operation ,0.0,0.1038473241055984,126
+rule_roles = rule get action ,1.0,0.1038473241055984,127
+permissions = [ permissions ] ,0.0,0.09008135140630615,128
+glance tests unit base ,0.0,0.0889937520733482,129
+k v headers iteritems ,1.0,0.07677917059284013,130
+NOTE Only one policy can be specified per action If multiple policies are ,0.0,0.07059108025668058,131
+another_request = unit_test_utils get_fake_request roles = [ <STR> ] ,0.0,0.0650522352215612,132
+another_request = unit_test_utils get_fake_request ,0.0,0.0650522352215612,133
+permitted role <STR> can * * read that protected via ,0.0,0.06338585698866296,134
+permitted role <STR> can read that protected via ,0.0,0.06338585698866296,135
+self assertEqual <NUM> response status_code ,1.0,0.056954098643347856,136
+images = json loads response text [ <STR> ] ,1.0,0.05435554210184063,137
+self assertFalse <STR> image ,1.0,0.05161694616785085,138
+image = <STR> ,1.0,0.05161694616785085,139
+image_id = image [ <STR> ] ,0.0,0.05161694616785085,140
+self assertEqual image [ <STR> ,1.0,0.05161694616785085,141
+self assertEqual image [ key ] value key ,0.0,0.05161694616785085,142
+self set_rules rules ,0.0,0.05104621431167336,143
+self config property_protection_rule_format = <STR> ,1.0,0.05086007972731585,144
+TestImagesController test_utils BaseTestCase ,0.0,0.049758451255705265,145
+<STR> permissions ,1.0,0.04504067570315307,146
+permissions ,0.0,0.04504067570315307,147
+permissions split <STR> ] ,0.0,0.04504067570315307,148
+permissions ,0.0,0.04504067570315307,149
+For each section specify CRUD permissions ,0.0,0.04504067570315307,150
+property_dict [ operation ] = permissions ,0.0,0.04504067570315307,151
+permissions = [ permission strip permission ,0.0,0.04504067570315307,152
+method = <STR> ,1.0,0.03469274408825154,153
+TestPropertyRulesWithRoles base IsolatedUnitTest ,0.0,0.03086066543639591,154
+TestImagesController base IsolatedUnitTest ,0.0,0.03086066543639591,155
+TestPropertyRulesWithPolicies base IsolatedUnitTest ,0.0,0.03086066543639591,156
+target = <STR> join [ property_exp action ] ,0.0,0.03037114777081886,157
+be comma separated ,0.0,0.029176445474190613,158
+def__ init__ self policy_enforcer = None ,0.0,0.029035550545243413,159
+def__ init__ self ,0.0,0.029035550545243413,160
+def__ init__ self roles extra_props property_rules ,0.0,0.029035550545243413,161
+property_protection_rule_format = roles enabled ,0.0,0.022895542264616077,162
+property_protection_rule_format = policies enabled ,0.0,0.022895542264616077,163
+default = <STR> ,0.0,0.008284253504364892,164
+The default value property_protection_rule_format <STR> ,0.0,0.008284253504364892,165
+delete = default ,1.0,0.008284253504364892,166
+read = default ,0.0,0.008284253504364892,167
+read = admin ,1.0,0.0,168
+self property_protection_rule_format = <STR> ,1.0,0.0,169
+tags = [ ] ,0.0,0.0,170
+test_update_reserved_extra_property self ,0.0,0.0,171
+read = admin member ,1.0,0.0,172
+policy_enforcer = policy ,0.0,0.0,173
+So remember GREAT POWER comes GREAT RESPONSIBILITY ! ,0.0,0.0,174
+test_property_protections_with_policies self ,1.0,0.0,175
+self api_server property_protection_file = self property_file ,0.0,0.0,176
+<STR> ] ,0.0,0.0,177
+check_property_rules self property_name action roles ,0.0,0.0,178
+=_ <STR> ,1.0,0.0,179
+WARNING ,0.0,0.0,180
+self prop_enforcer = property_utils PropertyRules ,1.0,0.0,181
+self roles ,0.0,0.0,182
+property_policies = <STR> ,0.0,0.0,183
+roles = [ <STR> ] ,1.0,0.0,184
+test_prop_protection_with_create_with_patch_and_policy self ,0.0,0.0,185
+create_context policy roles = [ ] ,1.0,0.0,186
+test_create_reserved_extra_property self ,0.0,0.0,187
+self copy_data_file <STR> conf_dir ,0.0,0.0,188
+self assertEqual res_body [ <STR> ] ,1.0,0.0,189
+image_id = self _create_admin_image ,1.0,0.0,190
+conf_file = <STR> ,0.0,0.0,191
+[ ^ x_ * ] ,0.0,0.0,192
+test_prop_protection_with_update_and_unpermitted_policy self ,1.0,0.0,193
+self property_rules = property_utils PropertyRules self policy ,1.0,0.0,194
+self _check_policy prop_exp_key action ,1.0,0.0,195
+test_check_property_rules_delete_permitted_specific_policy self ,0.0,0.0,196
+enforcer ,0.0,0.0,197
+<STR> [ ] ,0.0,0.0,198
+expected_image = ,0.0,0.0,199
+test_prop_protection_with_permitted_policy_config self ,1.0,0.0,200
+test_check_property_rules_update_unpermitted_policy self ,0.0,0.0,201
+used ,0.0,0.0,202
+<STR> ,1.0,0.0,203
+self property_rules check_property_rules key <STR> self roles ,0.0,0.0,204
+delete = admin ,1.0,0.0,205
+self api_server property_protection_file = self property_file_roles ,1.0,0.0,206
+changes = [ ,0.0,0.0,207
+delete = admin member ,0.0,0.0,208
+roles ,0.0,0.0,209
+self assertEqual <NUM> images ,1.0,0.0,210
+[ * ] ,0.0,0.0,211
+test_delete_nonexistant_extra_property_as_permitted_role self ,0.0,0.0,212
+test_delete_reserved_extra_property_as_permitted_role self ,0.0,0.0,213
+self property_file = self _copy_data_file <STR> ,0.0,0.0,214
+roles = [ role strip role roles split <STR> ] ,0.0,0.0,215
+property_dict [ operation ] = roles ,0.0,0.0,216
+roles extra_properties self property_rules ,1.0,0.0,217
+test_check_property_rules_read_unpermitted_policy self ,0.0,0.0,218
+self roles ,0.0,0.0,219
+TestPropertyRules self tearDown ,0.0,0.0,220
+self test_dir ,0.0,0.0,221
+test_create_reserved_extra_property_as_permitted_role self ,0.0,0.0,222
+<STR> ] ,0.0,0.0,223
+TestPropertyRulesWithRoles self setUp ,0.0,0.0,224
+headers = self _headers <STR> media_type ,1.0,0.0,225
+policy json ,0.0,0.0,226
+InvalidPropertyProtectionConfiguration ,1.0,0.0,227
+property_rules = property_utils PropertyRules ,1.0,0.0,228
+<STR> ,1.0,0.0,229
+test_update_reserved_extra_property_as_permitted_role self ,0.0,0.0,230
+use_policies ,0.0,0.0,231
+self api_server property_protection_rule_format = <STR> ,1.0,0.0,232
+TestPropertyRules self setUp ,0.0,0.0,233
+self notifier ,0.0,0.0,234
+self rules_checker = property_utils PropertyRules ,1.0,0.0,235
+read = admin member ,0.0,0.0,236
+<STR> ,1.0,0.0,237
+test_property_protections self ,0.0,0.0,238
+self property_rules = property_utils PropertyRules ,1.0,0.0,239
+self load_rules ,0.0,0.0,240
+<STR> ] ,1.0,0.0,241
+self roles = roles ,0.0,0.0,242
+read = admin ,0.0,0.0,243
+section property_utils CONFIG sections ,0.0,0.0,244
+<STR> ,1.0,0.0,245
+property_utils CONFIG remove_section section ,0.0,0.0,246
+<STR> ,1.0,0.0,247
+set_property_protections self ,0.0,0.0,248
+[ * ] ,0.0,0.0,249
+self prop_exp_mapping [ compiled_rule ] = property_exp ,0.0,0.0,250
+test_create_extra_property_as_permitted_role_after_read self ,0.0,0.0,251
+self api_server property_protection_file = self property_file_policies ,0.0,0.0,252
+permitted role <STR> can can delete that protected ,0.0,0.0,253
+test_check_property_rules_read_permitted_specific_policy self ,0.0,0.0,254
+self assertEqual res_body [ <STR> ] ,1.0,0.0,255
+self prop_enforcer = property_utils PropertyRules self policy ,1.0,0.0,256
+add_rules self rules ,0.0,0.0,257
+self policy_enforcer add_rules rule_dict ,0.0,0.0,258
+test_delete_nonexistant_extra_property self ,0.0,0.0,259
+self _add_policy_rules property_exp operation ,0.0,0.0,260
+test_check_property_rules_create_unpermitted_policy self ,0.0,0.0,261
+self prop_prot_rule_format = self prop_prot_rule_format lower ,0.0,0.0,262
+[ spl_creator_policy ] ,0.0,0.0,263
+malformed_rules = <STR> ] ,0.0,0.0,264
+property_utils CONFIG remove_section section ,0.0,0.0,265
+setUp self ,0.0,0.0,266
+self stop_servers ,1.0,0.0,267
+rule = <STR> % rule ,0.0,0.0,268
+headers = self _headers <STR> ,1.0,0.0,269
+self policies = [ ] ,0.0,0.0,270
+self assertNotIn <STR> ,0.0,0.0,271
+property_utils PropertyRules ,1.0,0.0,272
+self assertEqual res_body [ <STR> ,1.0,0.0,273
+self rules_checker = property_utils PropertyRules self policy ,1.0,0.0,274
+property_protection_rule_format = % property_protection_rule_format s ,0.0,0.0,275
+test_create_extra_property_admin self ,0.0,0.0,276
+extra_props = <STR> ,1.0,0.0,277
+created_image image_id changes ,0.0,0.0,278
+TestPropertyRulesWithPolicies self setUp ,0.0,0.0,279
+property_protection_file ,0.0,0.0,280
+<STR> % image_id ,1.0,0.0,281
+another_request headers [ k ] = v ,0.0,0.0,282
+res_body [ <STR> ] ,0.0,0.0,283
+self assertTrue self rules_checker check_property_rules ,1.0,0.0,284
+[ spl_default_policy ] ,0.0,0.0,285
+self prop_prot_rule_format [ <STR> ] ,1.0,0.0,286
+<STR> ,1.0,0.0,287
+test_check_property_rules_delete_unpermitted_policy self ,0.0,0.0,288
+<STR> ,1.0,0.0,289
+policy json ,0.0,0.0,290
+tearDown self ,0.0,0.0,291
+property_protection_rule_format = roles ,1.0,0.0,292
+TestPropertyRulesWithPolicies self tearDown ,0.0,0.0,293
+So remember GREAT POWER comes GREAT RESPONSIBILITY ! ,0.0,0.0,294
+another_request created_image image_id changes ,1.0,0.0,295
+test_delete_reserved_extra_property self ,0.0,0.0,296
+self prop_prot_rule_format ,1.0,0.0,297
+rule_roles ,1.0,0.0,298
+self assertIn <STR> % ,0.0,0.0,299
+test_property_protections_with_roles self ,1.0,0.0,300
+prop_exp_key = self prop_exp_mapping [ rule_exp ] ,1.0,0.0,301
+<STR> ,1.0,0.0,302
+test_check_property_rules_update_permitted_specific_policy self ,0.0,0.0,303
+<STR> <NUM> ,1.0,0.0,304
+property_rules = property_utils PropertyRules self policy ,1.0,0.0,305
+extra_properties = extra_props ,1.0,0.0,306
+self assertEqual output extra_properties [ <STR> ] ,1.0,0.0,307
+<STR> % ,1.0,0.0,308
+self property_file = self _copy_data_file conf_file self test_dir ,0.0,0.0,309
+message =_ <STR> ,0.0,0.0,310
+self unset_property_protections ,1.0,0.0,311
+self load_rules ,0.0,0.0,312
+unset_property_protections self ,1.0,0.0,313
+self assertEqual <STR> ] ,1.0,0.0,314
+test_prop_protection_with_detail_and_permitted_policy self ,0.0,0.0,315
+create_context self policy [ <STR> ] ,1.0,0.0,316
+property_policies ,0.0,0.0,317
+data = json dumps <STR> ,1.0,0.0,318
+self prop_prot_rule_format = = <STR> ,1.0,0.0,319
+section property_utils CONFIG sections ,0.0,0.0,320
+delete = admin member ,1.0,0.0,321
+image_id = self _create_admin_image ,1.0,0.0,322
+self set_property_protection_rules malformed_rules ,1.0,0.0,323
+self assertFalse self rules_checker check_property_rules ,1.0,0.0,324
+self assertEqual created_image extra_properties [ <STR> ] ,1.0,0.0,325
+rule_name = <STR> % property_exp action ,0.0,0.0,326
+] ,0.0,0.0,327
+test_property_protection_with_malformed_rule self ,1.0,0.0,328
+roles intersection rule_roles ,1.0,0.0,329
+<STR> ] ,0.0,0.0,330
+rule_dict = ,0.0,0.0,331
+TestPropertyRulesWithRoles self tearDown ,0.0,0.0,332
+rules_obj = policy Rules rules ,0.0,0.0,333
+[ prop_a ] ,0.0,0.0,334
+WARNING ,0.0,0.0,335
+test_prop_protection_with_detail_and_unpermitted_policy self ,0.0,0.0,336
+media_type = <STR> ,0.0,0.0,337
+test_prop_protection_with_update_and_permitted_policy self ,1.0,0.0,338
+self prop_prot_rule_format = CONF property_protection_rule_format ,0.0,0.0,339
+delete = admin ,1.0,0.0,340
+delete = context_is_admin ,1.0,0.0,341
+test_property_protection_with_multiple_policies self ,1.0,0.0,342
+self policy = policy Enforcer ,0.0,0.0,343
+headers = <STR> ,1.0,0.0,344
+read = glance_creator ,0.0,0.0,345
+self set_property_protections use_policies = ,1.0,0.0,346
+set_property_protections self use_policies = ,1.0,0.0,347
+self prop_exp_mapping = ,0.0,0.0,348
+InvalidPropertyProtectionConfiguration Invalid ,1.0,0.0,349
+policy _rules ,0.0,0.0,350
+read = context_is_admin ,1.0,0.0,351
+test_check_property_rules_create_permitted_specific_policy self ,0.0,0.0,352
+test_prop_protection_with_delete_and_permitted_policy self ,0.0,0.0,353
+self store ,0.0,0.0,354
+def_add_policy_rules self property_exp action rule ,0.0,0.0,355
+] ,0.0,0.0,356
+data = json dumps [ ,1.0,0.0,357
+/ images / detail ,0.0,0.0,358
+[ ^ x_ * ] ,0.0,0.0,359

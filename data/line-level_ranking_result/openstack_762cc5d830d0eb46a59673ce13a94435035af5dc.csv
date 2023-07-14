@@ -1,0 +1,372 @@
+total_tokens,line_level_label,line_score,row
+cmd = commands ClearProbe self app None ,1.0,0.9999999999999999,1
+self app debug_agent = QuantumDebugAgent cfg CONF ,1.0,0.9999999999999999,2
+cmd = commands CreateProbe self app None ,1.0,0.9999999999999999,3
+cmd = commands ListProbe self app None ,1.0,0.9999999999999999,4
+self app debug_agent ,1.0,0.9999999999999999,5
+cmd = commands ExecProbe self app None ,1.0,0.9999999999999999,6
+self app stdout write result + <STR> ,1.0,0.9999999999999999,7
+cmd = commands DeleteProbe self app None ,1.0,0.9999999999999999,8
+self app stdout write _ <STR> ,1.0,0.9999999999999999,9
+self app = MyApp mock_std ,1.0,0.9999999999999999,10
+cmd = commands PingAll self app None ,1.0,0.9999999999999999,11
+info = ports get <STR> [ ] ,1.0,0.6168256275320405,12
+def_get_network self network_id ,1.0,0.0,13
+parser = QuantumDebugShell self build_option_parser ,1.0,0.0,14
+fixed_ip subnet = self _get_subnet fixed_ip subnet_id ,1.0,0.0,15
+get_debug_agent self ,1.0,0.0,16
+exec_command self port_id command = None ,1.0,0.0,17
+All Rights Reserved ,1.0,0.0,18
+mock_std = mock Mock ,1.0,0.0,19
+Configure ,1.0,0.0,20
+def__ init__ self _stdout ,1.0,0.0,21
+self addCleanup mock patch stopall ,1.0,0.0,22
+namespace = namespace ,1.0,0.0,23
+mock call show_subnet <STR> ] ,1.0,0.0,24
+setUp self ,1.0,0.0,25
+quantumclient common exceptions exc ,1.0,0.0,26
+timeout ,0.0,0.0,27
+def_get_subnet self subnet_id ,1.0,0.0,28
+COMMANDS = <STR> COMMAND_V<NUM> ,1.0,0.0,29
+port [ <STR> ] = self driver get_device_name DictModel port ,1.0,0.0,30
+client_inst show_subnet return_value = fake_subnet_v<NUM> ,1.0,0.0,31
+namespace = self _get_namespace port ,1.0,0.0,32
+quantum agent linux ip_lib ,1.0,0.0,33
+s columns formatters = self _formatters ,1.0,0.0,34
+fake_ports = self fake_ports ,1.0,0.0,35
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.0,36
+PingAll ProbeCommand ,1.0,0.0,37
+namespace_p = mock patch ,1.0,0.0,38
+test_delete_probe self ,1.0,0.0,39
+mock_driver DEV_NAME_LEN = ,1.0,0.0,40
+self client delete_port port ,1.0,0.0,41
+The port probe ,1.0,0.0,42
+probe = self ensure_probe port [ <STR> ] ,1.0,0.0,43
+<STR> ] ,1.0,0.0,44
+parsed_args = cmd_parser parse_args args ,1.0,0.0,45
+device_owner = DEVICE_OWNER_PROBE ,1.0,0.0,46
+cliff ,0.0,0.0,47
+namespace = namespace ,1.0,0.0,48
+DictModel info [ <NUM> ] ,1.0,0.0,49
+ports = self client list_ports [ <STR> ] ,1.0,0.0,50
+quantum debug shell main ,1.0,0.0,51
+create_probe self network_id ,1.0,0.0,52
+ensure_probe self network_id ,1.0,0.0,53
+s info ,1.0,0.0,54
+quantumclient common utils ,1.0,0.0,55
+sys ,1.0,0.0,56
+self client assert_has_calls [ mock call list_ports ,1.0,0.0,57
+info = ports [ <STR> ] ,1.0,0.0,58
+network = self _get_network network_id ,1.0,0.0,59
+get_parser self prog_name ,1.0,0.0,60
+device_id = socket gethostname ,1.0,0.0,61
+netaddr ,1.0,0.0,62
+network_id ,1.0,0.0,63
+device_exists_p = mock patch ,1.0,0.0,64
+<STR> % ping_command ,0.0,0.0,65
+TODO nati ping netcat nmap bench ,1.0,0.0,66
+cfg StrOpt <STR> ,1.0,0.0,67
+list_probes self ,1.0,0.0,68
+client_cls_p = mock patch <STR> ,1.0,0.0,69
+] ,0.0,0.0,70
+namespace = <STR> ,1.0,0.0,71
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.0,72
+port = DictModel port_dict ,1.0,0.0,73
+result = <STR> ,1.0,0.0,74
+body = port = ,1.0,0.0,75
+DictModel subnet_dict ,1.0,0.0,76
+self log debug <STR> % parsed_args ,1.0,0.0,77
+= <STR> ,1.0,0.0,78
+<STR> ,1.0,0.0,79
+<STR> ,1.0,0.0,80
+quantum - debug probe - probe_id_<NUM> <STR> ,1.0,0.0,81
+parser = ExecProbe self get_parser prog_name ,1.0,0.0,82
+We can have multiple probe probes a network order to check connectivity between ports ,1.0,0.0,83
+test_delete_probe_without_namespace self ,1.0,0.0,84
+cfg StrOpt <STR> ,1.0,0.0,85
+! / usr / / env python ,1.0,0.0,86
+network ,1.0,0.0,87
+get_data self parsed_args ,1.0,0.0,88
+ensure_namespace_p = mock patch ,1.0,0.0,89
+test_ping_all self ,1.0,0.0,90
+port = self _create_port network ,1.0,0.0,91
+client = self client_manager quantum ,1.0,0.0,92
+args = [ ] ,1.0,0.0,93
+debug_agent delete_probe parsed_args ,1.0,0.0,94
+fixed_ips = [ subnet_id = s s network subnets ] ,1.0,0.0,95
+self driver assert_has_calls [ mock call get_device_name mock ANY ,1.0,0.0,96
+DEVICE_OWNER_PROBE = <STR> ,1.0,0.0,97
+test_exec_command_without_namespace self ,1.0,0.0,98
+ip_cidrs = [ ] ,1.0,0.0,99
+! / / python ,1.0,0.0,100
+self driver assert_has_calls [ mock call init_l<NUM> <STR> ,1.0,0.0,101
+self driver = mock_driver ,1.0,0.0,102
+info = debug_agent list_probes ,1.0,0.0,103
+subnet = self _get_subnet fixed_ip [ <STR> ] ,1.0,0.0,104
+subnet_dict = self client show_subnet subnet_id [ <STR> ] ,1.0,0.0,105
+<STR> % port ,1.0,0.0,106
+parser = CreateProbe self get_parser prog_name ,1.0,0.0,107
+mock call create_port fake_port ,1.0,0.0,108
+result ,1.0,0.0,109
+quantum openstack common importutils ,1.0,0.0,110
+quantum agent linux interface ,1.0,0.0,111
+driver_cls = dvr_cls_p start ,1.0,0.0,112
+result = debug_agent ping_all parsed_args ,1.0,0.0,113
+DeleteProbe ProbeCommand ,1.0,0.0,114
+mock call show_port <STR> ] ,1.0,0.0,115
+timeout = parsed_args timeout ,1.0,0.0,116
+client_inst show_network return_value = fake_network ,1.0,0.0,117
+expected = [ mock call list_ports ,1.0,0.0,118
+device_id = <STR> % socket gethostname ,1.0,0.0,119
+network subnets = obj_subnet ,1.0,0.0,120
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.0,121
+cfg BoolOpt <STR> default = ,1.0,0.0,122
+mock > = <NUM> <NUM> ,1.0,0.0,123
+nosehtmloutput ,1.0,0.0,124
+probe - clear Clear All probes ,1.0,0.0,125
+client_inst = mock Mock ,1.0,0.0,126
+k v COMMANDS [ api_version ] items ,1.0,0.0,127
+This commands returns a port of a probe port A probe port a port which used to test ,1.0,0.0,128
+os ,1.0,0.0,129
+= <STR> ,1.0,0.0,130
+export TEST_CONFIG_FILE = / etc / quantum / dhcp_agent ini ,1.0,0.0,131
+log = logging getLogger __ name__ + <STR> ,1.0,0.0,132
+self fake_ports = fake_ports ,1.0,0.0,133
+<STR> <NUM> ,1.0,0.0,134
+driver = importutils import_object cfg CONF interface_driver cfg CONF ,1.0,0.0,135
+probe - create < net - > Create probe port - create port interface then plug it ,1.0,0.0,136
+CreateProbe ProbeCommand ,1.0,0.0,137
+self driver init_l<NUM> interface_name ip_cidrs namespace = namespace ,1.0,0.0,138
+namespace = None ,1.0,0.0,139
+self stdout =_stdout ,1.0,0.0,140
+Debug Helper Script Quantum ,1.0,0.0,141
+device_exists_p start ,1.0,0.0,142
+<STR> Exec commands on the namespace of the probe ,1.0,0.0,143
+cfg CONF set_override <STR> ,1.0,0.0,144
+ns assert_has_calls [ mock call execute mock ANY ] ,1.0,0.0,145
+QuantumDebugShell self initialize_app argv ,1.0,0.0,146
+mock call unplug <STR> ,1.0,0.0,147
+LOG debug _ <STR> % interface_name ,1.0,0.0,148
+quantumclient quantum v<NUM>_<NUM> QuantumCommand ,1.0,0.0,149
+logging ,1.0,0.0,150
+tenant_id = network tenant_id ,1.0,0.0,151
+nargs = <STR> ,1.0,0.0,152
+info ,1.0,0.0,153
+mock call show_port <STR> ,1.0,0.0,154
+quantum - debug extends the shell of quantumclient so you can use the commands of quantum ,1.0,0.0,155
+use this file compliance the License You may obtain ,1.0,0.0,156
+<STR> [ ] ,1.0,0.0,157
+default = env <STR> ,1.0,0.0,158
+port = DictModel self client show_port port_id [ <STR> ] ,1.0,0.0,159
+fixed_ip port fixed_ips ,1.0,0.0,160
+cfg CONF register_opts QuantumDebugAgent OPTS ,1.0,0.0,161
+port ,1.0,0.0,162
+<STR> ,1.0,0.0,163
+Copyright <NUM> Nachi Ueno NTT MCL Inc ,1.0,0.0,164
+uuid ,1.0,0.0,165
+mock call delete_port <STR> ] ,1.0,0.0,166
+interface_name ,1.0,0.0,167
+obj_subnet = [ self _get_subnet s_id s_id network subnets ] ,1.0,0.0,168
+interface_name = self driver get_device_name port ,1.0,0.0,169
+columns = info > <NUM> info [ <NUM> ] keys [ ] ,1.0,0.0,170
+debug_agent = self get_debug_agent ,1.0,0.0,171
+self client assert_has_calls [ mock call show_network <STR> ,1.0,0.0,172
+self client show_subnet return_value = fake_subnet_v<NUM> ,1.0,0.0,173
+cmd run parsed_args ,1.0,0.0,174
+_ formatters = <STR> _format_fixed_ips ,1.0,0.0,175
+fake_ports ,1.0,0.0,176
+exc CommandError ,1.0,0.0,177
+quantum - debug commands ,1.0,0.0,178
+self client assert_has_calls expected ,1.0,0.0,179
+mock call show_subnet <STR> ] ,1.0,0.0,180
+ports = self client list_ports device_id = socket gethostname ,1.0,0.0,181
+ClearProbe ProbeCommand ,1.0,0.0,182
+` probe - < port - > ` <STR> Exec interactive command eg ssh ,1.0,0.0,183
+ip_cidr = <STR> % fixed_ip ip_address net prefixlen ,1.0,0.0,184
+quantumclient v<NUM>_<NUM> client ,1.0,0.0,185
+namespace netns execute shlex split command ,1.0,0.0,186
+OPTS = [ ,1.0,0.0,187
+COMMAND_V<NUM> = ,1.0,0.0,188
+port = debug_agent create_probe parsed_args ,1.0,0.0,189
+test_ping_all_v<NUM> self ,1.0,0.0,190
+<STR> allocation_pools ,1.0,0.0,191
+quantum agent dhcp_agent DictModel ,1.0,0.0,192
+self client assert_has_calls [ mock call show_port <STR> ] ,1.0,0.0,193
+default = None ,1.0,0.0,194
+ping_command = <STR> ,1.0,0.0,195
+self client = client ,1.0,0.0,196
+command ,1.0,0.0,197
+default = <NUM> ,1.0,0.0,198
+probe - < port - > <STR> Exec commands on the namespace of the probe ,1.0,0.0,199
+mock patch <STR> exe ,1.0,0.0,200
+info ,1.0,0.0,201
+probe - List probes ,1.0,0.0,202
+parser ,1.0,0.0,203
+mock > = <NUM> <NUM>b<NUM> ,1.0,0.0,204
+self driver = driver ,1.0,0.0,205
+client_inst show_port return_value = fake_port ,1.0,0.0,206
+ip = ip_lib IPWrapper self conf root_helper ,1.0,0.0,207
+distribute > = <NUM> <NUM> <NUM> ,1.0,0.0,208
+cfg CONF [ <STR> self options config_file ] ,1.0,0.0,209
+datetime ,1.0,0.0,210
+client_cls return_value = client_inst ,1.0,0.0,211
+self client = client_inst ,1.0,0.0,212
+result + = self exec_command probe ,1.0,0.0,213
+ping - - - < network_id > - - timeout <NUM> optional ,1.0,0.0,214
+<STR> ,1.0,0.0,215
+mock_driver ,1.0,0.0,216
+shlex ,1.0,0.0,217
+cfg CONF register_opts interface OPTS ,1.0,0.0,218
+cmd_parser = cmd get_parser <STR> ,1.0,0.0,219
+quantum debug debug_agent QuantumDebugAgent ,1.0,0.0,220
+<STR> % self _get_namespace port ,1.0,0.0,221
+Unless required by applicable law agreed to writing software ,1.0,0.0,222
+errno ,1.0,0.0,223
+port ,1.0,0.0,224
+mock call unplug <STR> ] ,0.0,0.0,225
+def_get_namespace self port ,1.0,0.0,226
+address = fixed_ip [ <STR> ] ,1.0,0.0,227
+quantum debug commands ,0.0,0.0,228
+mock patch <STR> ns ,1.0,0.0,229
+if__ name__ = = <STR> ,1.0,0.0,230
+MyApp ,1.0,0.0,231
+probe - delete < port - > Delete probe - delete port then uplug ,1.0,0.0,232
+debug_agent clear_probe ,1.0,0.0,233
+self conf = conf ,1.0,0.0,234
+ip netns delete namespace ,1.0,0.0,235
+exe assert_has_calls [ mock call execute mock ANY ] ,1.0,0.0,236
+initialize_app self argv ,1.0,0.0,237
+client_inst create_port return_value = fake_port ,1.0,0.0,238
+<STR> ] ,1.0,0.0,239
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.0,240
+ports = self client list_ports network_id = network_id ,1.0,0.0,241
+quantum common exceptions ,1.0,0.0,242
+QuantumDebugShell QuantumShell ,1.0,0.0,243
+expected = [ mock call show_network <STR> ,1.0,0.0,244
+test_ping_all_with_ensure_port self ,1.0,0.0,245
+cfg CONF set_override <STR> ,1.0,0.0,246
+columns utils get_item_properties ,1.0,0.0,247
+sys exit main ,0.0,0.0,248
+self conf use_namespaces ,1.0,0.0,249
+client_inst list_ports return_value = fake_ports ,1.0,0.0,250
+Copyright c <NUM> Openstack LLC ,1.0,0.0,251
+under the License ,1.0,0.0,252
+mock_driver = mock MagicMock ,1.0,0.0,253
+allocation_pools = [ <STR> ,1.0,0.0,254
+QuantumDebugShell self __ init__ api_version ,1.0,0.0,255
+main argv = None ,1.0,0.0,256
+self conf use_namespaces ip netns exists namespace ,1.0,0.0,257
+a copy of the License at ,1.0,0.0,258
+address ,0.0,0.0,259
+interface LinuxInterfaceDriver DEV_NAME_LEN ,1.0,0.0,260
+ProbeCommand QuantumCommand ,1.0,0.0,261
+self options config_file ,1.0,0.0,262
+LOG = logging getLogger <STR> ,1.0,0.0,263
+fake_network = <STR> ,1.0,0.0,264
+you can also specify config file by - - config - file option ,1.0,0.0,265
+device_id = socket gethostname ,1.0,0.0,266
+parser = PingAll self get_parser prog_name ,1.0,0.0,267
+self client assert_has_calls ,1.0,0.0,268
+test_exec_command self ,1.0,0.0,269
+subnet = fixed_ip subnet ,1.0,0.0,270
+ports = self client list_ports device_owner = DEVICE_OWNER_PROBE ,1.0,0.0,271
+def__ init__ self api_version ,1.0,0.0,272
+admin_state_up = ,1.0,0.0,273
+fake_port_list network_id = None device_owner = None device_id = None ,1.0,0.0,274
+driver_cls return_value = mock_driver ,1.0,0.0,275
+ip_cidrs append ip_cidr ,1.0,0.0,276
+self client assert_has_calls [ mock call show_port <STR> ,1.0,0.0,277
+net = netaddr IPNetwork subnet cidr ,1.0,0.0,278
+self conf root_helper namespace ,1.0,0.0,279
+port [ <STR> ] = = DEVICE_OWNER_PROBE ,1.0,0.0,280
+parser add_argument ,1.0,0.0,281
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.0,282
+clear_probe self ,1.0,0.0,283
+export TEST_CONFIG_FILE = / etc / quantum / l<NUM>_agent ini ,1.0,0.0,284
+result = debug_agent exec_command parsed_args parsed_args command ,1.0,0.0,285
+port info ,1.0,0.0,286
+socket ,1.0,0.0,287
+In the command probe automatically created needed ,1.0,0.0,288
+ping_all self network_id = None timeout = <NUM> ,1.0,0.0,289
+cfg CONF root_helper = <STR> ,1.0,0.0,290
+delete_probe self port_id ,1.0,0.0,291
+self debug_agent = QuantumDebugAgent cfg CONF client driver ,1.0,0.0,292
+<STR> DEVICE_OWNER_PROBE ,1.0,0.0,293
+self client assert_has_calls [ mock call list_ports ] ,1.0,0.0,294
+namespace = namespace ] ,1.0,0.0,295
+def__ init__ self conf client driver ,1.0,0.0,296
+run self parsed_args ,1.0,0.0,297
+nosehtmloutput ,1.0,0.0,298
+build_option_parser self description version ,1.0,0.0,299
+quantumclient shell env QuantumShell QUANTUM_API_VERSION ,1.0,0.0,300
+quantum openstack common cfg ,1.0,0.0,301
+self client list_ports side_effect = fake_port_list ,1.0,0.0,302
+[ mock call list_ports device_owner = DEVICE_OWNER_PROBE ] ,1.0,0.0,303
+port ports ,1.0,0.0,304
+mock ,1.0,0.0,305
+namespace = ip ensure_namespace namespace ,1.0,0.0,306
+namespace_p start ,1.0,0.0,307
+fake_subnet_v<NUM> = <STR> ,1.0,0.0,308
+self driver plug network ,1.0,0.0,309
+License the specific language governing permissions limitations ,1.0,0.0,310
+<STR> utils import_class ,1.0,0.0,311
+network_id = network ,1.0,0.0,312
+QuantumDebugShell QUANTUM_API_VERSION run argv sys argv [ <NUM> ] ,1.0,0.0,313
+self delete_probe port [ <STR> ] ,1.0,0.0,314
+quantum agent linux utils ,1.0,0.0,315
+Usage ,1.0,0.0,316
+mock_driver get_device_name return_value = <STR> ,1.0,0.0,317
+[ <STR> ] ,1.0,0.0,318
+main ,1.0,0.0,319
+subnet ip_version = = <NUM> ,1.0,0.0,320
+self create_probe network_id ,1.0,0.0,321
+ping - - - one command to ping fixed ip ' s network a specified network ,1.0,0.0,322
+self command_manager add_command k v ,1.0,0.0,323
+TestDebugCommands unittest TestCase ,1.0,0.0,324
+fake_ports = <STR> ] ] ,1.0,0.0,325
+ExecProbe ProbeCommand ,1.0,0.0,326
+cfg CONF args = sys argv project = <STR> ,1.0,0.0,327
+ip_lib device_exists interface_name ,1.0,0.0,328
+quantum debug debug_agent DEVICE_OWNER_PROBE QuantumDebugAgent ,1.0,0.0,329
+<STR> ] ,1.0,0.0,330
+<STR> ] ,1.0,0.0,331
+fixed_ip port [ <STR> ] ,1.0,0.0,332
+client_inst ,1.0,0.0,333
+] ,1.0,0.0,334
+ensure_namespace_p start ,1.0,0.0,335
+client_cls = client_cls_p start ,1.0,0.0,336
+[ <STR> ] ,1.0,0.0,337
+utils execute shlex split command ,1.0,0.0,338
+QuantumDebugAgent ,1.0,0.0,339
+test_list_probe self ,1.0,0.0,340
+device_owner = DEVICE_OWNER_PROBE ,1.0,0.0,341
+<STR> socket gethostname ,1.0,0.0,342
+<STR> ,1.0,0.0,343
+description version ,1.0,0.0,344
+ports = self client list_ports network_id = network_id [ <STR> ] ,1.0,0.0,345
+dvr_cls_p = mock patch <STR> ,1.0,0.0,346
+<STR> [ ] ,1.0,0.0,347
+config setup_logging cfg CONF ,1.0,0.0,348
+network_dict = self client show_network network_id [ <STR> ] ,1.0,0.0,349
+network = DictModel network_dict ,1.0,0.0,350
+unittest<NUM> unittest ,1.0,0.0,351
+port network = network ,1.0,0.0,352
+itertools ,1.0,0.0,353
+quantum agent common config ,1.0,0.0,354
+parser = DeleteProbe self get_parser prog_name ,1.0,0.0,355
+test_create_probe self ,1.0,0.0,356
+quantumclient quantum v<NUM>_<NUM> port import_format_fixed_ips ,1.0,0.0,357
+port mac_address ,1.0,0.0,358
+mock call show_subnet <STR> ,1.0,0.0,359
+args = [ <STR> ] ,1.0,0.0,360
+test_clear_probe self ,1.0,0.0,361
+<STR> Ping fixed_ip ,1.0,0.0,362
+mock call list_ports network_id = <STR> ,1.0,0.0,363
+def_create_port self network ,1.0,0.0,364
+ListProbe QuantumCommand lister Lister ,1.0,0.0,365
+cliff lister ,1.0,0.0,366
+quantum debug commands ,1.0,0.0,367
+fake_port = <STR> ,1.0,0.0,368
+self driver unplug self driver get_device_name port ,1.0,0.0,369
+port_dict = self client create_port body [ <STR> ] ,1.0,0.0,370
+distribute > = <NUM> <NUM> <NUM> ,1.0,0.0,371

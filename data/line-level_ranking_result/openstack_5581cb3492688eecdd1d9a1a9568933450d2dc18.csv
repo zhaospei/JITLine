@@ -1,0 +1,993 @@
+total_tokens,line_level_label,line_score,row
+self app = FakeDirectCMODEServerHandler sock <STR> None ,0.0,1.0,1
+cinder context ,1.0,0.21074041713441238,2
+ctxt = context get_admin_context ,1.0,0.21074041713441238,3
+cinder volume configuration conf ,1.0,0.0678098596055986,4
+test_map [ ] [ <NUM> ] <STR> ,0.0,0.0,5
+record_step = <NUM> tag = None ,0.0,0.0,6
+param des_result desired result ,1.0,0.0,7
+<STR> ,1.0,0.0,8
+vol_max = self ssc_vols [ <STR> ] ,1.0,0.0,9
+refresh_ssc_vols self vols ,0.0,0.0,10
+raid_info ,0.0,0.0,11
+headers ,0.0,0.0,12
+na_server IgnoreArg AndReturn raid<NUM> ,0.0,0.0,13
+vserver = args [ <NUM> ] ,0.0,0.0,14
+- <NUM> ,0.0,0.0,15
+param volume volume reference ,0.0,0.0,16
+space total_available * nfs_oversub_ratio to ensure enough space ,0.0,0.0,17
+dedup_vols add vol ,0.0,0.0,18
+text value case no NaElement node ,0.0,0.0,19
+eff_disk_type = query_aggr_storage_disk na_server aggr_name ,1.0,0.0,20
+< space - guarantee - enabled > enabled < / space - guarantee - enabled > ,0.0,0.0,21
+self [ <STR> ] ,0.0,0.0,22
+specs None specs ,0.0,0.0,23
+% <STR> ] ,1.0,0.0,24
+<STR> Sets the attribute a thread safe manner ,0.0,0.0,25
+* * <STR> size ,1.0,0.0,26
+backend <STR> None None ,0.0,0.0,27
+use this file compliance the License You may obtain ,1.0,0.0,28
+RESPONSE_PREFIX_DIRECT_CMODE = <STR> < ? xml version = <STR> ? > ,0.0,0.0,29
+% <STR> vserver ,1.0,0.0,30
+des_result ,1.0,0.0,31
+msg =_ <STR> ,1.0,0.0,32
+< / volume - space - attributes > ,0.0,0.0,33
+api_family = <STR> ,1.0,0.0,34
+def_is_share_eligible self nfs_share volume_size_in_gib ,0.0,0.0,35
+<STR> [ self vol<NUM> self vol<NUM> ] ,0.0,0.0,36
+vol<NUM> aggr [ <STR> ,0.0,0.0,37
+junction = sh split <STR> [ <NUM> ] ,0.0,0.0,38
+param nfs_share nfs share ,0.0,0.0,39
+< space - guarantee > volume < / space - guarantee > ,0.0,0.0,40
+compress_vols add vol ,0.0,0.0,41
+res_map = ssc_utils get_cluster_ssc na_server vserver ,1.0,0.0,42
+query = <STR> None ,1.0,0.0,43
+compress_vols = ,0.0,0.0,44
+k = = <STR> vol mirror [ <STR> ] ,1.0,0.0,45
+test_cl_vols_ssc_single self ,0.0,0.0,46
+aggr_attribs = ssc_utils query_aggr_options na_server <STR> ,0.0,0.0,47
+StringIO ,0.0,0.0,48
+FakeHttplibSocket ,0.0,0.0,49
+request self method path data = None headers = None ,0.0,0.0,50
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,0.0,0.0,51
+BaseHTTPServer ,0.0,0.0,52
+specs = None ,0.0,0.0,53
+result = ssc_vols [ <STR> ] ,1.0,0.0,54
+tag = request tag ,0.0,0.0,55
+<STR> ,0.0,0.0,56
+< / volume - attributes > ,0.0,0.0,57
+self_size_avl None other_size_avl None ,0.0,0.0,58
+sis_vols [ vol ] = v_sis ,1.0,0.0,59
+test_query_aggr_storage_disk self ,0.0,0.0,60
+vol [ <STR> ] sis_vols ,1.0,0.0,61
+inconsistent invalid junction_active ,0.0,0.0,62
+vols = ssc_utils query_cluster_vols_for_ssc na_server <STR> ,0.0,0.0,63
+httplib ,0.0,0.0,64
+Returns new val was on attribute ,0.0,0.0,65
+param is_iter iterator api ,1.0,0.0,66
+mox MockObject ,1.0,0.0,67
+Requests made via this connection actually get translated routed into ,0.0,0.0,68
+self state = ,0.0,0.0,69
+tag ,1.0,0.0,70
+<STR> Invokes given api call to a NetApp server ,0.0,0.0,71
+available the new volume ,0.0,0.0,72
+k data_struct keys ,0.0,0.0,73
+aggr_name = vol aggr [ <STR> ] ,0.0,0.0,74
+req_str + = <STR> % data ,0.0,0.0,75
+self _ensure_shares_mounted ,0.0,0.0,76
+FakeDirectCmodeHTTPConnection ,0.0,0.0,77
+fmt [ <STR> ] = storage_protocol ,0.0,0.0,78
+aggr_attribs ,0.0,0.0,79
+vols add vol ,0.0,0.0,80
+cinder volume driver ,1.0,0.0,81
+vol<NUM> state [ <STR> ,0.0,0.0,82
+aggr - name raid_type ha_policy disk_type ,1.0,0.0,83
+eff_disk_type ,0.0,0.0,84
+self vserver = self vserver self vserver self DEFAULT_VS ,0.0,0.0,85
+options = res get_child_by_name <STR> ,1.0,0.0,86
+FakeHTTPRequestHandler BaseHTTPServer BaseHTTPRequestHandler ,0.0,0.0,87
+sorted_vols = volumes reverse = ,0.0,0.0,88
+self_size_avl > other_size_avl ,0.0,0.0,89
+is_iter = records = <NUM> tag = None ,0.0,0.0,90
+des_result = des_attr ,0.0,0.0,91
+vol refresh_vols ,1.0,0.0,92
+qos = None aggr_name = <STR> ,0.0,0.0,93
+self http_response ,0.0,0.0,94
+query [ <STR> ] = volume_id ,1.0,0.0,95
+sis sis_status ,1.0,0.0,96
+api_el = NaElement api_name ,1.0,0.0,97
+ssc_utils get_sis_vol_dict na_server vserver None AndReturn sis ,1.0,0.0,98
+cinder test ,1.0,0.0,99
+< effective - disk - > SATA < / effective - disk - > ,0.0,0.0,100
+metadata [ <STR> ] name ,0.0,0.0,101
+total_allocated / total_size > = oversub_ratio ,0.0,0.0,102
+root = etree fromstring request_xml ,0.0,0.0,103
+vol sort_vols ,1.0,0.0,104
+<STR> aggr ,0.0,0.0,105
+driver_loc None ,0.0,0.0,106
+<STR> ! = s path ,1.0,0.0,107
+< > rw < / > ,0.0,0.0,108
+na_server IgnoreArg AndReturn raiddp ,0.0,0.0,109
+self sock result ,0.0,0.0,110
+cond ,0.0,0.0,111
+< / options > ,0.0,0.0,112
+request = body [ <NUM> ] ,0.0,0.0,113
+vol res_vols ,1.0,0.0,114
+v vol_attrs ,0.0,0.0,115
+t start ,0.0,0.0,116
+vol tmp ,0.0,0.0,117
+<STR> [ self vol<NUM> self vol<NUM> self vol<NUM> ] ,0.0,0.0,118
+cinder volume drivers netapp options netapp_cluster_opts ,1.0,0.0,119
+na_server IgnoreArg AndReturn <STR> ,1.0,0.0,120
+out write <STR> ,1.0,0.0,121
+vol sis [ <STR> ,1.0,0.0,122
+body = [ x x root iterchildren ] ,1.0,0.0,123
+exception VolumeBackendAPIException ,1.0,0.0,124
+child add_child_elem value ,0.0,0.0,125
+vol qos [ <STR> ] = None ,1.0,0.0,126
+api_name = <STR> ,1.0,0.0,127
+self [ <STR> ] = vserver ,0.0,0.0,128
+lun_create = NaElement create_node_with_children ,1.0,0.0,129
+path = <STR> ] name ,1.0,0.0,130
+api_family = <STR> query = query ,0.0,0.0,131
+Exception ,1.0,0.0,132
+< volume - state - attributes > ,0.0,0.0,133
+api_el add_child_elem res_el ,1.0,0.0,134
+res ,0.0,0.0,135
+api = etree QName tag localname tag ,1.0,0.0,136
+makefile self mode _other ,0.0,0.0,137
+mirror_vols add vol ,1.0,0.0,138
+args = [ backend na_server vserver ] ,1.0,0.0,139
+<STR> ,1.0,0.0,140
+< / volume - state - attributes > ,0.0,0.0,141
+<STR> ,1.0,0.0,142
+vol ,1.0,0.0,143
+backend = args [ <NUM> ] ,0.0,0.0,144
+self host = host ,0.0,0.0,145
+<STR> Queries sis volumes ,0.0,0.0,146
+exception InvalidInput data = msg ,1.0,0.0,147
+self assertEqual res ssc_map [ ] ,0.0,0.0,148
+ssc_utils <STR> a b c None ,0.0,0.0,149
+query parameters ,0.0,0.0,150
+self sis = ,0.0,0.0,151
+dedup = compression = ,0.0,0.0,152
+@ utils synchronized lock_pr ,1.0,0.0,153
+requested_volume_size = volume_size_in_gib * units GiB ,1.0,0.0,154
+< name > nfsvol < / name > ,0.0,0.0,155
+vol mirror [ <STR> ,1.0,0.0,156
+backend <STR> None ,1.0,0.0,157
+na_server vserver volume = <STR> ,1.0,0.0,158
+<STR> % e message ,0.0,0.0,159
+additional_elems = None is_iter = ,0.0,0.0,160
+cond = ,1.0,0.0,161
+vol ,0.0,0.0,162
+data_struct [ k ] ,1.0,0.0,163
+raid_info = disk get_child_by_name <STR> ,1.0,0.0,164
+query_attr = <STR> vserver ,1.0,0.0,165
+LOG debug _ <STR> nfs_share ,1.0,0.0,166
+vol vols [ <STR> ] ,1.0,0.0,167
+volume ,1.0,0.0,168
+self stubs Set httplib <STR> ,0.0,0.0,169
+child get_content ,0.0,0.0,170
+k = = <STR> vol space [ <STR> ] ,1.0,0.0,171
+total_size total_available total_allocated = \ ,1.0,0.0,172
+vol netapp_volumes ,1.0,0.0,173
+self configuration netapp_size_multiplier ,0.0,0.0,174
+RESPONSE_PREFIX_DIRECT = <STR> ,0.0,0.0,175
+vol_raid = vol aggr [ <STR> ] ,0.0,0.0,176
+mox VerifyAll ,1.0,0.0,177
+volume_type = volume_types get_volume_type ctxt type_id ,0.0,0.0,178
+cinder utils ,1.0,0.0,179
+body = <STR> > < attributes - > ,1.0,0.0,180
+< state > enabled < / state > ,0.0,0.0,181
+containers = [ ] ,0.0,0.0,182
+exception VolumeBackendAPIException data = msg % volume [ <STR> ] ,1.0,0.0,183
+vol space [ <STR> ] = \ ,0.0,0.0,184
+result ,0.0,0.0,185
+aggrs [ aggr_name ] = aggr_attrs ,0.0,0.0,186
+setUp self ,1.0,0.0,187
+ssc_utils get_sis_vol_dict ,1.0,0.0,188
+self _do_create_volume volume ,1.0,0.0,189
+na_server vserver <STR> AndReturn test_vols ,1.0,0.0,190
+self ssc_enabled = ,1.0,0.0,191
+vol<NUM> = createNetAppVolume name = <STR> ,0.0,0.0,192
+self ssc_vols extra_specs ,1.0,0.0,193
+volumes ,1.0,0.0,194
+mirror - mirrored i e dp mirror ,0.0,0.0,195
+ssc_vols = get_cluster_ssc na_server vserver ,1.0,0.0,196
+vol state [ <STR> ,1.0,0.0,197
+DEFAULT_VS = <STR> ,1.0,0.0,198
+test_map = <STR> ,1.0,0.0,199
+el data_struct ,0.0,0.0,200
+vol_str ,0.0,0.0,201
+eff_disk_type = \ ,0.0,0.0,202
+mnt_share_vols add vol ,0.0,0.0,203
+Currently queries raid ha - policy ,0.0,0.0,204
+< value > cfo < / value > ,0.0,0.0,205
+na_server <STR> AndReturn raiddp ,1.0,0.0,206
+< volume - - attributes > ,0.0,0.0,207
+vol space [ <STR> ,1.0,0.0,208
+bool_specs_list = [ <STR> ,0.0,0.0,209
+ssc_map = <STR> [ vol<NUM> ] ,0.0,0.0,210
+self assertEqual vols <NUM> ,1.0,0.0,211
+s send_header <STR> ,0.0,0.0,212
+result = na_utils invoke_api na_server api_name = <STR> ,1.0,0.0,213
+server = copy copy na_server ,0.0,0.0,214
+attrs ,1.0,0.0,215
+self ssc_vols [ <STR> ] > \ ,1.0,0.0,216
+< / storage - disk - info > ,0.0,0.0,217
+name = v [ <STR> ] ,1.0,0.0,218
+param query api query ,1.0,0.0,219
+lxml etree ,1.0,0.0,220
+def_update_cluster_vol_stats self data ,0.0,0.0,221
+specs ,1.0,0.0,222
+des_result = None additional_elems = None ,1.0,0.0,223
+self space = ,0.0,0.0,224
+api_el add_new_child <STR> tag ,1.0,0.0,225
+tmp = copy deepcopy result ,0.0,0.0,226
+raid_type = specs get <STR> ,0.0,0.0,227
+set_copy = copy deepcopy self stale_vols ,0.0,0.0,228
+other_size_avl = other space get <STR> ,0.0,0.0,229
+< size - total > <NUM> < / size - total > ,0.0,0.0,230
+All Rights Reserved ,1.0,0.0,231
+vol mirror [ <STR> ] = \ ,1.0,0.0,232
+res = ssc_utils get_volumes_for_specs ssc_map extra_specs ,1.0,0.0,233
+sh self _mounted_shares ,1.0,0.0,234
+< options > ,0.0,0.0,235
+s wfile write RESPONSE_PREFIX_DIRECT_CMODE ,0.0,0.0,236
+ssc_utils get_volumes_for_specs self ssc_vols extra_specs ,1.0,0.0,237
+vol __ ___ = path rpartition <STR> ,1.0,0.0,238
+LOG warn _ <STR> ,1.0,0.0,239
+self [ <STR> ] ,0.0,0.0,240
+< volume - space - attributes > ,0.0,0.0,241
+if_spec_ineffect b_specs <STR> ,0.0,0.0,242
+< / owning - vserver - name > ,0.0,0.0,243
+< value > raid_dp < / value > ,0.0,0.0,244
+vol_max space [ <STR> ] / units GiB ,1.0,0.0,245
+<STR> space_reserved ,1.0,0.0,246
+self assertEqual vol sis [ <STR> ] ,1.0,0.0,247
+self ssc_enabled ,1.0,0.0,248
+self vserver ,0.0,0.0,249
+k = = <STR> vol sis [ <STR> ] ,1.0,0.0,250
+self assertEqual res_vols <NUM> ,1.0,0.0,251
+space total_available * nfs_oversub_ratio to ensure enough space ,0.0,0.0,252
+<STR> os_type ,0.0,0.0,253
+<STR> igroup_type ,0.0,0.0,254
+* * <STR> size ,1.0,0.0,255
+nfs_share ,0.0,0.0,256
+family_meta ,0.0,0.0,257
+query = NaElement <STR> ,1.0,0.0,258
+vol_space = vol get_child_by_name <STR> ,1.0,0.0,259
+metadata [ <STR> ] name ,0.0,0.0,260
+total_allocated / total_size > = oversub_ratio ,0.0,0.0,261
+vol_get_iter = NaElement <STR> ,0.0,0.0,262
+avl_size > = size ,0.0,0.0,263
+volume = self _get_avl_volume_by_size req_size ,0.0,0.0,264
+LOG debug _ <STR> ,1.0,0.0,265
+default = <STR> ,0.0,0.0,266
+* * <STR> vserver ,0.0,0.0,267
+<STR> storage_family ,0.0,0.0,268
+<STR> new_name ,1.0,0.0,269
+tag ,0.0,0.0,270
+<STR> None ,0.0,0.0,271
+avl_vol = ,0.0,0.0,272
+netapp_vserver = openstack ,0.0,0.0,273
+avl_vol [ <STR> ] = avl_size ,0.0,0.0,274
+LOG debug _ <STR> nfs_share ,1.0,0.0,275
+available the new volume ,0.0,0.0,276
+vol_attrs add_node_with_children ,1.0,0.0,277
+<STR> igroup_name ,0.0,0.0,278
+volume ,0.0,0.0,279
+query add_child_elem vol_attrs ,0.0,0.0,280
+used_ratio = self configuration nfs_used_ratio ,0.0,0.0,281
+<STR> vol_uuid ,0.0,0.0,282
+vol_attrs = NaElement <STR> ,1.0,0.0,283
+<STR> Creates a NetApp api request ,1.0,0.0,284
+vol_set discard vol ,0.0,0.0,285
+< / - cluster - volume > ,0.0,0.0,286
+export - path ,0.0,0.0,287
+apparent_available < = requested_volume_size ,0.0,0.0,288
+the httplib HTTPResponse that the caller expects ,0.0,0.0,289
+refresh_cluster_ssc backend na_server vserver ,1.0,0.0,290
+dedup = compression = ,0.0,0.0,291
+api_name query des_result additional_elems ,0.0,0.0,292
+junction = = vol [ <STR> ] ,1.0,0.0,293
+request_xml = s rfile read s headers [ <STR> ] ,0.0,0.0,294
+param tag tag api ,1.0,0.0,295
+oversub_ratio = self configuration nfs_oversub_ratio ,0.0,0.0,296
+exception VolumeBackendAPIException data = msg % name ,1.0,0.0,297
+tag = res get_child_content <STR> ,1.0,0.0,298
+cinder exception VolumeBackendAPIException ,1.0,0.0,299
+attr_list = res get_child_by_name <STR> ,1.0,0.0,300
+msg =_ <STR> ,1.0,0.0,301
+apparent_available = <NUM> apparent_size - total_allocated ,0.0,0.0,302
+<STR> None ,0.0,0.0,303
+msg_fmt = <STR> storage_family ,0.0,0.0,304
+vol_get_iter add_child_elem query ,0.0,0.0,305
+vol_get_iter add_child_elem desired_attrs ,0.0,0.0,306
+data [ <STR> ,1.0,0.0,307
+<STR> ] ,1.0,0.0,308
+<STR> ,1.0,0.0,309
+avl_vol [ <STR> ,0.0,0.0,310
+* * <STR> ,1.0,0.0,311
+* * <STR> ] ,1.0,0.0,312
+<STR> ,1.0,0.0,313
+desired_attrs = NaElement <STR> ,0.0,0.0,314
+driver_loc ,0.0,0.0,315
+VolumeBackendAPIException ,1.0,0.0,316
+metadata [ <STR> ] = None ,0.0,0.0,317
+req_size = size * \ ,0.0,0.0,318
+des_vol_attrs add_node_with_children <STR> ,0.0,0.0,319
+<STR> space_reserved ,1.0,0.0,320
+metadata [ <STR> ] ,0.0,0.0,321
+First validation step ratio of actual space used_space / total_space ,0.0,0.0,322
+* * <STR> None ,1.0,0.0,323
+vol_get_iter ,0.0,0.0,324
+<STR> dest_path ,0.0,0.0,325
+vol_get_iter add_new_child <STR> tag ,1.0,0.0,326
+<STR> initiator ,0.0,0.0,327
+vserver ,0.0,0.0,328
+self _create_lun_on_eligible_vol name size metadata ,1.0,0.0,329
+tag None ,0.0,0.0,330
+vol_get_iter add_new_child <STR> ,0.0,0.0,331
+space used when using sparse files compares the apparent available ,0.0,0.0,332
+self assertRaises VolumeBackendAPIException ,0.0,0.0,333
+def_get_avl_volume_by_size self size ,0.0,0.0,334
+des_vol_attrs add_node_with_children ,0.0,0.0,335
+avl_vol ,0.0,0.0,336
+InvalidInput ,0.0,0.0,337
+<STR> ,1.0,0.0,338
+apparent_available < = requested_volume_size ,0.0,0.0,339
+StringIO ,1.0,0.0,340
+avl_vol [ <STR> ] = vol_id get_child_content ,1.0,0.0,341
+avl_size = vol_space get_child_content <STR> ,1.0,0.0,342
+storage_protocol ,0.0,0.0,343
+self configuration netapp_size_multiplier ,0.0,0.0,344
+metadata [ <STR> ] ,0.0,0.0,345
+msg_fmt = <STR> storage_protocol ,0.0,0.0,346
+def_create_avl_vol_request self vserver tag = None ,0.0,0.0,347
+vols = attr_list get_children ,1.0,0.0,348
+vol_id = vol get_child_by_name <STR> ,1.0,0.0,349
+self client invoke_successfully lun_create ,1.0,0.0,350
+used > used_ratio ,0.0,0.0,351
+lun_create = NaElement create_node_with_children ,1.0,0.0,352
+path = <STR> ] name ,1.0,0.0,353
+None ,1.0,0.0,354
+used = total_size - total_available / total_size ,1.0,0.0,355
+cinder exception InvalidInput ,1.0,0.0,356
+Second validation step apparent space allocated differs actual ,0.0,0.0,357
+less than <STR> ,0.0,0.0,358
+* * <STR> path ,1.0,0.0,359
+vol vols ,1.0,0.0,360
+% msg_fmt ,0.0,0.0,361
+desired_attrs add_child_elem des_vol_attrs ,0.0,0.0,362
+apparent_size = <NUM> total_size * oversub_ratio ,0.0,0.0,363
+<STR> ,1.0,0.0,364
+res = self client invoke_successfully vol_request ,1.0,0.0,365
+* * <STR> None ,1.0,0.0,366
+<STR> dest_path ,0.0,0.0,367
+def_create_lun_on_eligible_vol self name size metadata ,1.0,0.0,368
+vol_request = self _create_avl_vol_request self vserver tag ,0.0,0.0,369
+<STR> vserver ,0.0,0.0,370
+tag = None ,0.0,0.0,371
+requested_volume_size = volume_size_in_gib * units GiB ,1.0,0.0,372
+timeutils is_newer_than backend ssc_run_time delta_secs ,0.0,0.0,373
+def_create_lun_on_eligible_vol self name size metadata ,1.0,0.0,374
+cinder units ,1.0,0.0,375
+<STR> vserver ,0.0,0.0,376
+vol aggr [ <STR> ] = \ ,0.0,0.0,377
+<NUM> * units GiB ,1.0,0.0,378
+test_vols = ,0.0,0.0,379
+vol state [ <STR> ,0.0,0.0,380
+refresh_stale_ssc ,0.0,0.0,381
+< owning - vserver - name > Openstack ,0.0,0.0,382
+result ,1.0,0.0,383
+ssc_utils query_aggr_storage_disk ,0.0,0.0,384
+test_vols_for_boolean_specs self ,1.0,0.0,385
+volumes = ssc_utils get_volumes_for_specs ,1.0,0.0,386
+mox StubOutWithMock ssc_utils <STR> ,1.0,0.0,387
+query ,1.0,0.0,388
+backend stale_vols ,0.0,0.0,389
+[ self vol<NUM> self vol<NUM> self vol<NUM> self vol<NUM> self vol<NUM> ] ,0.0,0.0,390
+server set_vfiler tunnel ,0.0,0.0,391
+vol qos [ <STR> ] = \ ,0.0,0.0,392
+vol<NUM> state [ <STR> ] = ,0.0,0.0,393
+% <STR> ] ,1.0,0.0,394
+self assertRaises exception VolumeBackendAPIException ,1.0,0.0,395
+pass ,1.0,0.0,396
+req_str = <STR> % method path ,0.0,0.0,397
+sis_vols = get_sis_vol_dict na_server vserver volume ,1.0,0.0,398
+cinder volume drivers netapp api NaServer ,1.0,0.0,399
+cinder volume drivers netapp ssc_utils ,1.0,0.0,400
+oldclose = self _wbuffer close ,0.0,0.0,401
+raid = <STR> ,1.0,0.0,402
+vol aggr [ <STR> ,1.0,0.0,403
+Present attributes ,0.0,0.0,404
+volume_size = volume [ <STR> ] ,1.0,0.0,405
+cinder volume drivers netapp api ,1.0,0.0,406
+iter_records = iter_records + record_step ,0.0,0.0,407
+containers ,0.0,0.0,408
+s end_headers ,1.0,0.0,409
+% self self aggr self space self sis self state self qos ,0.0,0.0,410
+<STR> ] ,1.0,0.0,411
+is_iter = ,0.0,0.0,412
+compares the apparent available ,0.0,0.0,413
+disk_type ,1.0,0.0,414
+used = total_size - total_available / total_size ,0.0,0.0,415
+api_family = = <STR> ,1.0,0.0,416
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.0,417
+< space - guarantee - enabled > enabled ,0.0,0.0,418
+stale_vols = backend _update_stale_vols reset = ,1.0,0.0,419
+cinder volume drivers netapp utils na_utils ,1.0,0.0,420
+ssc_map = <STR> [ self vol<NUM> ] ,0.0,0.0,421
+self ssc_vols = None ,0.0,0.0,422
+result = [ ] ,1.0,0.0,423
+param api_name api name string ,1.0,0.0,424
+test_vols = [ copy deepcopy self vol<NUM> ] ,0.0,0.0,425
+self sock = FakeHttplibSocket sock result ,0.0,0.0,426
+strg = val lower ,0.0,0.0,427
+type_id None ,0.0,0.0,428
+apparent_size = <NUM> total_size * oversub_ratio ,0.0,0.0,429
+self ssc_enabled ,1.0,0.0,430
+NetAppVolume ,0.0,0.0,431
+na_server api NaServer ,0.0,0.0,432
+<STR> [ vol<NUM> ] ,0.0,0.0,433
+na_utils set_safe_attr backend <STR> ,0.0,0.0,434
+query_cluster_vols_for_ssc na_server vserver volume = None ,1.0,0.0,435
+< state > online < / state > ,0.0,0.0,436
+sis - dedup compression ,0.0,0.0,437
+vol space [ <STR> ] ,0.0,0.0,438
+sis_vols ,1.0,0.0,439
+child = self get_child_by_name key ,0.0,0.0,440
+query = <STR> ,1.0,0.0,441
+res_el = NaElement <STR> ,1.0,0.0,442
+<STR> Convert to NaElement appends ,0.0,0.0,443
+child translate_struct value ,0.0,0.0,444
+get_volumes_for_specs ssc_vols specs ,1.0,0.0,445
+self _is_share_eligible sh size ,1.0,0.0,446
+vols ,1.0,0.0,447
+get_cluster_latest_ssc * args * * kwargs ,0.0,0.0,448
+< sis - status - info > ,0.0,0.0,449
+disk_type = specs get <STR> ,0.0,0.0,450
+eff_disk_type = ssc_utils query_aggr_storage_disk na_server <STR> ,1.0,0.0,451
+< path > / vol / iscsi < / path > ,0.0,0.0,452
+self = ,0.0,0.0,453
+self_size_avl None other_size_avl None ,0.0,0.0,454
+self stubs Set ,0.0,0.0,455
+self add_child_elem child ,0.0,0.0,456
+tag ,0.0,0.0,457
+vol = NetAppVolume name vserver ,0.0,0.0,458
+lock_pr = <STR> identity ,0.0,0.0,459
+vol [ <STR> ] = = <STR> ,0.0,0.0,460
+mox ,1.0,0.0,461
+< - junction - active > true < / - junction - active > ,0.0,0.0,462
+child = NaElement k ,0.0,0.0,463
+containers = [ a a b ,1.0,0.0,464
+na_server vserver <STR> AndReturn sis ,1.0,0.0,465
+set_debuglevel self level ,0.0,0.0,466
+aggr_attrs = aggrs [ aggr_name ] ,0.0,0.0,467
+additional_elems = add_elems ,1.0,0.0,468
+ssc_utils refresh_cluster_ssc self self client self vserver ,1.0,0.0,469
+volume_id [ <STR> ] = volume ,1.0,0.0,470
+exception NfsNoSuitableShareFound ,0.0,0.0,471
+param records limit records <NUM> infinite ,1.0,0.0,472
+def__ init__ self host timeout = None ,0.0,0.0,473
+vol export [ <STR> ] = sh ,0.0,0.0,474
+self driver ssc_vols = self ssc_map ,0.0,0.0,475
+test_get_cluster_ssc self ,1.0,0.0,476
+def__ getitem__ self key ,1.0,0.0,477
+self_size_avl None other_size_avl None ,0.0,0.0,478
+k ssc_vols_copy ,1.0,0.0,479
+< / - compression - enabled > ,1.0,0.0,480
+b_specs [ spec ] = = b_specs [ opp_spec ] ,0.0,0.0,481
+v get_child_by_name <STR> ,1.0,0.0,482
+do_POST s ,0.0,0.0,483
+< name > ha_policy < / name > ,0.0,0.0,484
+op get_child_content <STR> ,1.0,0.0,485
+child set_content data_struct [ k ] ,0.0,0.0,486
+self get_attr key ,0.0,0.0,487
+param na_server na_server instance ,0.0,0.0,488
+* * <STR> igroup_name ,0.0,0.0,489
+set_safe_attr instance attr val ,0.0,0.0,490
+data_struct [ k ] ,1.0,0.0,491
+get_volume_extra_specs volume ,1.0,0.0,492
+des_attr = <STR> ,1.0,0.0,493
+vol space [ <STR> ] ,1.0,0.0,494
+def_find_containers self size extra_specs ,1.0,0.0,495
+raid<NUM> = <STR> ,1.0,0.0,496
+volume volumes ,0.0,0.0,497
+backend refresh_ssc_vols ssc_vols ,1.0,0.0,498
+get_latest_ssc ,0.0,0.0,499
+sock = FakeHttplibSocket req_str decode <STR> ,0.0,0.0,500
+extra_specs = test_map [ ] [ <NUM> ] <STR> ,0.0,0.0,501
+query_aggr_storage_disk na_server aggr ,1.0,0.0,502
+ssc_utils query_cluster_vols_for_ssc ,0.0,0.0,503
+First validation step ratio of actual space used_space / total_space ,0.0,0.0,504
+value ,1.0,0.0,505
+key ,0.0,0.0,506
+<STR> initiator ,0.0,0.0,507
+ssc_utils query_aggr_storage_disk na_server <STR> ,1.0,0.0,508
+refresh_stale_ssc ,0.0,0.0,509
+self ssc_vols [ <STR> ] \ ,1.0,0.0,510
+< storage - disk - info > ,0.0,0.0,511
+if_spec_ineffect b_specs <STR> ,0.0,0.0,512
+< space - guarantee > file < / space - guarantee > ,0.0,0.0,513
+aggr_name aggrs ,0.0,0.0,514
+FakeDirectCMODEServerHandler address_string = x <STR> ,0.0,0.0,515
+vol_qos = vol qos [ <STR> ] ,0.0,0.0,516
+raid_info get_child_content <STR> ,1.0,0.0,517
+oldclose ,0.0,0.0,518
+copy deepcopy self vol<NUM> copy deepcopy self vol<NUM> ] ,0.0,0.0,519
+< - invalid > true < / - invalid > ,0.0,0.0,520
+get_cluster_vols_with_ssc na_server vserver volume = None ,1.0,0.0,521
+headers = ,0.0,0.0,522
+Unless required by applicable law agreed to writing software ,1.0,0.0,523
+test_vols = \ ,0.0,0.0,524
+def_get_avl_volumes self size extra_specs = None ,1.0,0.0,525
+self add_child_elem NaElement key ,1.0,0.0,526
+SscUtilsTestCase test TestCase ,1.0,0.0,527
+param volume_size_in_gib size GB ,0.0,0.0,528
+refresh_vols = ,1.0,0.0,529
+self assertEqual aggr_attribs [ <STR> ,0.0,0.0,530
+req_size = size * \ ,0.0,0.0,531
+metadata [ <STR> ] ,0.0,0.0,532
+is_iter record_step tag ,0.0,0.0,533
+getresponse self ,0.0,0.0,534
+na_utils to_bool ,0.0,0.0,535
+test_query_aggr_options self ,0.0,0.0,536
+identity = backend ,0.0,0.0,537
+vol_dtype = vol aggr [ <STR> ] ,0.0,0.0,538
+s wfile write body ,0.0,0.0,539
+extra_specs = None ,1.0,0.0,540
+attr_list = res [ <STR> ] ,1.0,0.0,541
+KeyError e ,1.0,0.0,542
+res = get_cluster_vols_with_ssc na_server vserver name ,1.0,0.0,543
+threading Timer ,1.0,0.0,544
+netapp_vserver = < None > ,1.0,0.0,545
+< - inconsistent > false < / - inconsistent > ,0.0,0.0,546
+mox = self mox ,1.0,0.0,547
+metadata [ <STR> ] = None ,0.0,0.0,548
+<STR> % self vserver ,1.0,0.0,549
+aggrs = ,0.0,0.0,550
+res result ,1.0,0.0,551
+default = None ,0.0,0.0,552
+cinder volume drivers netapp utils ,1.0,0.0,553
+vol_raid = vol_raid lower vol_raid None ,0.0,0.0,554
+log_message self * args ,0.0,0.0,555
+self _update_cluster_vol_stats data ,0.0,0.0,556
+vol volumes ,1.0,0.0,557
+backend driver VolumeDriver ,0.0,0.0,558
+self _update_cluster_vol_stats self _stats ,0.0,0.0,559
+self has_attr key ,0.0,0.0,560
+vol [ <STR> ,0.0,0.0,561
+less than <STR> Second validation step apparent space ,0.0,0.0,562
+vserver = v [ <STR> ] ,0.0,0.0,563
+self _wbuffer = StringIO StringIO <STR> ,1.0,0.0,564
+volumes = query_cluster_vols_for_ssc na_server vserver volume ,1.0,0.0,565
+qos - qos_policy_group ,1.0,0.0,566
+<STR> ,1.0,0.0,567
+volume [ <STR> ] ,1.0,0.0,568
+self _create_lun_on_eligible_vol name size metadata extra_specs ,1.0,0.0,569
+data ,0.0,0.0,570
+<STR> = = api ,1.0,0.0,571
+< / sis - status - info > ,0.0,0.0,572
+Storage service catalog utility functions classes NetApp systems ,0.0,0.0,573
+copy ,1.0,0.0,574
+def__ hash__ self ,0.0,0.0,575
+sg_enabled = ,1.0,0.0,576
+data_struct [ k ] ,1.0,0.0,577
+op op_list ,1.0,0.0,578
+<STR> netapp_volumes ,0.0,0.0,579
+param tunnel tunnel entity vserver vfiler name ,0.0,0.0,580
+result = result - ssc_vols [ <STR> ] ,1.0,0.0,581
+get_cluster_ssc na_server vserver ,1.0,0.0,582
+vol space [ <STR> ,1.0,0.0,583
+dedup = compression = ,0.0,0.0,584
+query_attr [ <STR> ] = vol_path ,1.0,0.0,585
+msg =_ <STR> ,1.0,0.0,586
+LOG warn _ <STR> ,1.0,0.0,587
+self _wbuffer ,0.0,0.0,588
+self http_response begin ,0.0,0.0,589
+query_el = NaElement <STR> ,1.0,0.0,590
+api_el add_new_child <STR> record_step ,1.0,0.0,591
+test_vols_for_optional_specs self ,1.0,0.0,592
+attr_list ,1.0,0.0,593
+req_str + = <STR> % key value ,0.0,0.0,594
+< containing - aggregate - name > aggr<NUM> ,0.0,0.0,595
+TypeError _ <STR> ,0.0,0.0,596
+child get_children ,1.0,0.0,597
+<STR> ,1.0,0.0,598
+vol_set = ssc_vols_copy [ k ] ,1.0,0.0,599
+data [ <STR> ] = <NUM> ,1.0,0.0,600
+val = = old_val ,0.0,0.0,601
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.0,602
+test_vols = [ copy deepcopy self vol<NUM> ,0.0,0.0,603
+test_map keys ,0.0,0.0,604
+sh eligible ,0.0,0.0,605
+def__ setitem__ self key value ,1.0,0.0,606
+sort_vols = vols reverse = ,0.0,0.0,607
+<STR> compress_vols ,0.0,0.0,608
+query = <STR> query_attr ,1.0,0.0,609
+expired_vols = ,1.0,0.0,610
+vol_set add vol ,0.0,0.0,611
+state - status vserver_root cluster_volume ,0.0,0.0,612
+SscUtilsTestCase self setUp ,0.0,0.0,613
+result = server invoke_successfully na_element ,1.0,0.0,614
+na_server = args [ <NUM> ] ,0.0,0.0,615
+LOG debug _ <STR> ,1.0,0.0,616
+children attribute value present ,0.0,0.0,617
+<STR> A fake httplib HTTPConnection netapp tests ,0.0,0.0,618
+volume ,1.0,0.0,619
+self _is_share_eligible nfs_share volume_size_in_gib ,1.0,0.0,620
+v_sis [ <STR> ] = na_utils to_bool ,1.0,0.0,621
+< junction - path > / nfs<NUM> < / junction - path > ,0.0,0.0,622
+< / results > <STR> ,1.0,0.0,623
+< owning - vserver - name > Openstack < / owning - vserver - name > ,0.0,0.0,624
+a copy of the License at ,1.0,0.0,625
+self export = ,0.0,0.0,626
+s wfile write RESPONSE_SUFFIX_DIRECT ,0.0,0.0,627
+< name > nfsvol<NUM> < / name > ,0.0,0.0,628
+cinder openstack common timeutils ,1.0,0.0,629
+vol mirror [ <STR> ] ,1.0,0.0,630
+def_spec_ineffect b_specs spec opp_spec ,0.0,0.0,631
+thin_prov_vols add vol ,0.0,0.0,632
+strg = = <STR> ,1.0,0.0,633
+vols_found = create_vol_list vol_attrs ,1.0,0.0,634
+s wfile write RESPONSE_PREFIX_DIRECT ,0.0,0.0,635
+mirror_vols = ,1.0,0.0,636
+self stale_vols = ,0.0,0.0,637
+op_list = options get_children ,1.0,0.0,638
+exception InvalidVolume <STR> ,1.0,0.0,639
+thin_provisioned size_avl_bytes size_total_bytes ,0.0,0.0,640
+self _get_capacity_info nfs_share ,1.0,0.0,641
+volume = self _get_avl_volume_by_size req_size ,0.0,0.0,642
+newclose ,0.0,0.0,643
+drv _get_capacity_info self TEST_NFS_EXPORT<NUM> \ ,0.0,0.0,644
+< junction - path > / iscsi < / junction - path > ,0.0,0.0,645
+backend <STR> None ,1.0,0.0,646
+vol<NUM> space [ <STR> ] = ,0.0,0.0,647
+< name > raidtype < / name > ,0.0,0.0,648
+vol sis [ <STR> ] ,1.0,0.0,649
+vol<NUM> state [ <STR> ] = ,0.0,0.0,650
+self _update_stale_vols ,1.0,0.0,651
+instance attr ,0.0,0.0,652
+< - compression - enabled > ,1.0,0.0,653
+self ssc_vols = vols ,0.0,0.0,654
+name = vol [ <STR> ] ,1.0,0.0,655
+data_struct [ k ] ,0.0,0.0,656
+KeyError _ <STR> % key ,0.0,0.0,657
+LOG = logging getLogger __ name__ ,1.0,0.0,658
+under the License ,1.0,0.0,659
+<STR> Dict getter method NaElement ,1.0,0.0,660
+vols [ key ] = vols [ key ] & mnt_share_vols ,0.0,0.0,661
+spec bool_specs_list ,0.0,0.0,662
+b_specs [ spec ] = na_utils to_bool specs get spec \ ,0.0,0.0,663
+apparent_available = <NUM> apparent_size - total_allocated ,0.0,0.0,664
+tag_el = result get_child_by_name <STR> ,1.0,0.0,665
+self configuration append_config_values netapp_cluster_opts ,1.0,0.0,666
+qos_policy_group = specs get <STR> ,1.0,0.0,667
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.0,668
+v_sis = ,0.0,0.0,669
+exception InvalidParameterValue <STR> ,1.0,0.0,670
+<STR> ] ,1.0,0.0,671
+server set_vserver tunnel ,0.0,0.0,672
+na_element = create_api_request ,0.0,0.0,673
+used_ratio = self configuration nfs_used_ratio ,0.0,0.0,674
+query = query ,1.0,0.0,675
+extra_specs = get_volume_extra_specs volume ,1.0,0.0,676
+api_el translate_struct additional_elems ,1.0,0.0,677
+< netapp version = <STR> > <STR> ,0.0,0.0,678
+self ssc_vols [ <STR> ] \ ,1.0,0.0,679
+space - space - guarantee - enabled space - guarantee ,0.0,0.0,680
+ssc_map ,0.0,0.0,681
+cinder volume drivers netapp utils get_volume_extra_specs ,1.0,0.0,682
+self ssc_vols [ <STR> ,1.0,0.0,683
+get_sis_vol_dict na_server vserver volume = None ,1.0,0.0,684
+timeout > <NUM> ,0.0,0.0,685
+cinder volume volume_types ,1.0,0.0,686
+self client invoke_successfully lun_create ,1.0,0.0,687
+mode = = <STR> ,1.0,0.0,688
+LOG warn _ <STR> ,1.0,0.0,689
+vol = ssc_utils NetAppVolume kwargs [ <STR> ] ,0.0,0.0,690
+self ssc_enabled = ,1.0,0.0,691
+vol state [ <STR> ] ,0.0,0.0,692
+< attributes - > ,0.0,0.0,693
+na_server = api NaServer <STR> ,0.0,0.0,694
+self _get_capacity_info sh ,1.0,0.0,695
+< / space - guarantee - enabled > ,0.0,0.0,696
+records > <NUM> ,1.0,0.0,697
+createNetAppVolume * * kwargs ,0.0,0.0,698
+self add_child_elem NaElement el ,1.0,0.0,699
+vol_path = <STR> % volume ,1.0,0.0,700
+< name > iscsi < / name > ,0.0,0.0,701
+options ,1.0,0.0,702
+self _rbuffer = StringIO StringIO value ,1.0,0.0,703
+mnt_share_vols = ,0.0,0.0,704
+volume [ <STR> ] = sh ,1.0,0.0,705
+vol sis [ <STR> ] ,1.0,0.0,706
+storage_protocol None ,0.0,0.0,707
+set_copy ,0.0,0.0,708
+server set_timeout timeout ,0.0,0.0,709
+vol<NUM> space [ <STR> ,0.0,0.0,710
+vol space [ <STR> ] = ,0.0,0.0,711
+<STR> dest_path ,0.0,0.0,712
+is_iter = ,0.0,0.0,713
+b_specs [ <STR> ] ,0.0,0.0,714
+@ utils synchronized <STR> ,1.0,0.0,715
+disk storage_disks ,1.0,0.0,716
+Copyright c <NUM> NetApp Inc ,1.0,0.0,717
+raiddp = <STR> ,1.0,0.0,718
+getresponsebody self ,0.0,0.0,719
+ssc_utils get_cluster_vols_with_ssc ,0.0,0.0,720
+vs_root = status = <STR> junc_active = ,0.0,0.0,721
+<STR> Verifies NFS share eligible to host volume given size ,0.0,0.0,722
+b_specs [ <STR> ] ,0.0,0.0,723
+cinder exception ,1.0,0.0,724
+<STR> igroup_name ,0.0,0.0,725
+self stale_vols clear ,0.0,0.0,726
+* * <STR> ,1.0,0.0,727
+aggr_attrs = query_aggr_options na_server aggr_name ,0.0,0.0,728
+< / attributes - > ,0.0,0.0,729
+data [ <STR> ] = \ ,0.0,0.0,730
+volumes ,1.0,0.0,731
+additional_elems = None ,1.0,0.0,732
+* * <STR> ] ,1.0,0.0,733
+iter_records = <NUM> ,1.0,0.0,734
+instance attr val ,0.0,0.0,735
+mox IgnoreArg ,1.0,0.0,736
+na_server vserver volume = None ,1.0,0.0,737
+param api_family cm <NUM>m ,0.0,0.0,738
+child translate_struct data_struct [ k ] ,0.0,0.0,739
+Copyright c <NUM> OpenStack LLC ,1.0,0.0,740
+path ,0.0,0.0,741
+<STR> ] ,1.0,0.0,742
+allocated differs actual space used when using sparse files ,0.0,0.0,743
+b_specs = ,0.0,0.0,744
+self stale_vols add volume ,0.0,0.0,745
+volume [ <STR> ] = None ,1.0,0.0,746
+backend <STR> ,0.0,0.0,747
+self _is_share_eligible vol export [ <STR> ] size ,1.0,0.0,748
+child ,1.0,0.0,749
+vol qos [ <STR> ,1.0,0.0,750
+< - cluster - volume > true ,0.0,0.0,751
+If attr already had the value then ,0.0,0.0,752
+v [ <STR> ,1.0,0.0,753
+< num - records > <NUM> < / num - records > < / results > <STR> ,1.0,0.0,754
+vserver = <STR> ,0.0,0.0,755
+result append vol ,0.0,0.0,756
+self aggr = ,0.0,0.0,757
+refresh_vols add res pop ,0.0,0.0,758
+vol_attrs = attr_list get_children ,1.0,0.0,759
+volume_id = <STR> vserver ,1.0,0.0,760
+na_server set_api_version <NUM> <NUM> ,0.0,0.0,761
+specs get spec None ,0.0,0.0,762
+exception InvalidInput ,1.0,0.0,763
+api_el add_child_elem query_el ,1.0,0.0,764
+self [ <STR> ] ,0.0,0.0,765
+LOG info _ <STR> ,1.0,0.0,766
+<NUM> ,0.0,0.0,767
+KeyError _ <STR> ,1.0,0.0,768
+< - invalid > false < / - invalid > ,0.0,0.0,769
+<STR> % self _host ,0.0,0.0,770
+self http_response = httplib HTTPResponse self sock ,0.0,0.0,771
+res_el translate_struct des_result ,1.0,0.0,772
+query_el translate_struct query ,1.0,0.0,773
+qos_policy_group ,1.0,0.0,774
+param timeout timeout seconds ,0.0,0.0,775
+sis_vols = ,0.0,0.0,776
+vol_qos = vol_qos lower vol_qos None ,0.0,0.0,777
+vol mirror [ <STR> ] = ,1.0,0.0,778
+sg = <STR> thin = mirrored = ,0.0,0.0,779
+ssc_vols [ <STR> ] ,0.0,0.0,780
+old_val = instance attr None ,0.0,0.0,781
+the fake direct handler above we then turn the response into ,0.0,0.0,782
+AndReturn <NUM> * units GiB <NUM> * units GiB ,1.0,0.0,783
+vol sorted_vols ,1.0,0.0,784
+def__ cmp__ self other ,0.0,0.0,785
+def__ eq__ self other ,0.0,0.0,786
+self assertEqual eff_disk_type <STR> ,1.0,0.0,787
+storage_disks = attr_list get_children ,1.0,0.0,788
+If volume present sis queried it ,0.0,0.0,789
+backend ssc_run_time = timeutils utcnow ,0.0,0.0,790
+path = sis get_child_content <STR> ,1.0,0.0,791
+t = Timer <NUM> refresh_cluster_stale_ssc ,1.0,0.0,792
+raid_type ,1.0,0.0,793
+<STR> dest_path ,0.0,0.0,794
+param additional_elems other than query des_result ,1.0,0.0,795
+mox IsA ,1.0,0.0,796
+true ,0.0,0.0,797
+< junction - path > / nfs < / junction - path > ,0.0,0.0,798
+qos_policy_group lower ! = vol_qos ,0.0,0.0,799
+[ self vol<NUM> self vol<NUM> self vol<NUM> self vol<NUM> self vol<NUM> ] ,0.0,0.0,800
+timeout = <NUM> tunnel = None ,0.0,0.0,801
+< disk - raid - info > ,0.0,0.0,802
+self assertEqual res ssc_map [ <STR> ] - ssc_map [ ] ,0.0,0.0,803
+< aggr - option - info > ,0.0,0.0,804
+out = s wfile ,0.0,0.0,805
+<STR> Queries cluster aggr attributes ,0.0,0.0,806
+ssc_utils query_aggr_options ,0.0,0.0,807
+vols update vols_found ,1.0,0.0,808
+iter_records > = records ,0.0,0.0,809
+FakeDirectCmodeHTTPConnection ,0.0,0.0,810
+sis get_child_content <STR> ,1.0,0.0,811
+do_GET s ,0.0,0.0,812
+val ,0.0,0.0,813
+ValueError _ <STR> ,0.0,0.0,814
+< volume - attributes > ,0.0,0.0,815
+raid_type lower ! = vol_raid ,0.0,0.0,816
+<STR> ] ,1.0,0.0,817
+ssc_vols_copy = copy deepcopy backend ssc_vols ,1.0,0.0,818
+attrs [ <STR> ,1.0,0.0,819
+expired_vols add vol ,0.0,0.0,820
+self assertEqual res ssc_map [ <STR> ] ,0.0,0.0,821
+aggr_name ,0.0,0.0,822
+api_el ,1.0,0.0,823
+def__ init__ self value ,1.0,0.0,824
+< / disk - raid - info > ,0.0,0.0,825
+volumes ,1.0,0.0,826
+self ssc_vols [ <STR> ] ,1.0,0.0,827
+job_set = na_utils set_safe_attr backend <STR> ,0.0,0.0,828
+containers key = x x [ <NUM> ] reverse = ] ,1.0,0.0,829
+job_set ,0.0,0.0,830
+param record_step records at a time api ,1.0,0.0,831
+vol [ <STR> ] = \ ,0.0,0.0,832
+self_size_avl < other_size_avl ,0.0,0.0,833
+data_struct ,1.0,0.0,834
+refresh_cluster_stale_ssc * args * * kwargs ,0.0,0.0,835
+data_struct data_struct ,1.0,0.0,836
+containers append vol ,0.0,0.0,837
+self mirror = ,1.0,0.0,838
+add_elems = <STR> aggr_name ,0.0,0.0,839
+test_query_cl_vols_for_ssc self ,0.0,0.0,840
+containers append sh total_available ,0.0,0.0,841
+License the specific language governing permissions limitations ,1.0,0.0,842
+Useful NaElement queries which have unique ,0.0,0.0,843
+vols = ,0.0,0.0,844
+oversub_ratio = self configuration nfs_oversub_ratio ,0.0,0.0,845
+exception VolumeBackendAPIException data = msg % name ,1.0,0.0,846
+backend ssc_run_time ,0.0,0.0,847
+v [ <STR> ] ,1.0,0.0,848
+cond = ,0.0,0.0,849
+family_meta None ,0.0,0.0,850
+self vserver = self configuration netapp_vserver ,0.0,0.0,851
+attr_list = res get_child_by_name <STR> ,1.0,0.0,852
+is_iter ,1.0,0.0,853
+% fmt ,0.0,0.0,854
+vols = \ ,0.0,0.0,855
+netapp_volumes = get_cluster_vols_with_ssc na_server vserver ,1.0,0.0,856
+self _mounted_shares ,1.0,0.0,857
+set_copy = self stale_vols copy ,0.0,0.0,858
+v [ <STR> ] get_child_content ,1.0,0.0,859
+disk_type lower ! = vol_dtype ,0.0,0.0,860
+t = Timer <NUM> get_cluster_latest_ssc ,1.0,0.0,861
+<STR> os_type ,0.0,0.0,862
+strg = = <STR> ,1.0,0.0,863
+<STR> igroup_type ,0.0,0.0,864
+volume = ssc_utils NetAppVolume volume self vserver ,1.0,0.0,865
+self _update_stale_vols volume = sh ,1.0,0.0,866
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.0,867
+eligible ,0.0,0.0,868
+na_server vserver None AndReturn test_vols ,0.0,0.0,869
+attrs = ,0.0,0.0,870
+query_aggr_options na_server aggr_name ,0.0,0.0,871
+additional_elems ,1.0,0.0,872
+<STR> Represents a NetApp volume ,1.0,0.0,873
+api_family = <STR> query = None ,0.0,0.0,874
+to_bool val ,0.0,0.0,875
+self assertEqual res <NUM> ,1.0,0.0,876
+result discard vol ,0.0,0.0,877
+sis_status = attr_list get_children ,1.0,0.0,878
+vol expired_vols ,1.0,0.0,879
+vol_str = <STR> \ ,1.0,0.0,880
+self _rbuffer ,0.0,0.0,881
+Returns NaElement present ,0.0,0.0,882
+child set_content value ,0.0,0.0,883
+self add_new_child key value ,1.0,0.0,884
+reset ,0.0,0.0,885
+vol state [ <STR> ] = \ ,0.0,0.0,886
+vol stale_vols ,1.0,0.0,887
+sg_enabled = ,0.0,0.0,888
+< / space - guarantee > ,0.0,0.0,889
+avl_byt = <STR> ,0.0,0.0,890
+raid_type disk_type qos_policy_group ,1.0,0.0,891
+create_api_request api_name query = None des_result = None ,0.0,0.0,892
+< - inconsistent > true < / - inconsistent > ,0.0,0.0,893
+<STR> vol_uuid ,0.0,0.0,894
+data [ <STR> \ ,1.0,0.0,895
+FakeDirectCMODEServerHandler FakeHTTPRequestHandler ,0.0,0.0,896
+self qos = ,0.0,0.0,897
+value ,1.0,0.0,898
+get_latest_ssc ,0.0,0.0,899
+res_vols = ssc_utils get_cluster_vols_with_ssc ,0.0,0.0,900
+[ <STR> ,1.0,0.0,901
+< ! DOCTYPE netapp SYSTEM <STR> > <STR> ,0.0,0.0,902
+LOG debug _ <STR> ,1.0,0.0,903
+nfs_share ,0.0,0.0,904
+self ssc_vols ,1.0,0.0,905
+result = na_utils invoke_api na_server ,1.0,0.0,906
+< / containing - aggregate - name > ,0.0,0.0,907
+<STR> ] ,0.0,0.0,908
+key vols keys ,0.0,0.0,909
+type_id = volume get <STR> ,0.0,0.0,910
+child ,0.0,0.0,911
+create_vol_list vol_attrs ,1.0,0.0,912
+na_server na_server NaServer ,0.0,0.0,913
+k = = <STR> ,1.0,0.0,914
+sg = <STR> thin = mirrored = ,0.0,0.0,915
+s end_headers ,1.0,0.0,916
+def__ init__ self name vserver = None ,0.0,0.0,917
+s send_response <NUM> ,1.0,0.0,918
+vol<NUM> sis [ <STR> ] = ,0.0,0.0,919
+translate_struct self data_struct ,1.0,0.0,920
+thin_prov_vols = ,0.0,0.0,921
+<STR> test_vols ,0.0,0.0,922
+NaApiError ,1.0,0.0,923
+exception InvalidInput reason =_ <STR> ,1.0,0.0,924
+create_volume self volume ,1.0,0.0,925
+- name vserver junction_path ,0.0,0.0,926
+eff_disk_type ,0.0,0.0,927
+sg = <STR> thin = mirrored = ,0.0,0.0,928
+vol<NUM> qos [ <STR> ] = None ,0.0,0.0,929
+specs = volume_type get <STR> ,1.0,0.0,930
+vol<NUM> = ssc_utils NetAppVolume <STR> ,0.0,0.0,931
+tag = tag_el get_content tag_el None ,0.0,0.0,932
+strg = = <STR> ,1.0,0.0,933
+vol_dtype = vol_dtype lower vol_dtype None ,0.0,0.0,934
+self _wbuffer close = newclose ,0.0,0.0,935
+extra_specs = \ ,1.0,0.0,936
+ssc_map = <STR> dedup_vols ,0.0,0.0,937
+value NaElement ,0.0,0.0,938
+def__ str__ self ,1.0,0.0,939
+b_specs [ <STR> ] ,0.0,0.0,940
+vol space [ <STR> ] > = size ,0.0,0.0,941
+Records dedup compression enabled ,0.0,0.0,942
+backend refresh_ssc_vols ssc_vols_copy ,1.0,0.0,943
+self result = self _wbuffer getvalue ,0.0,0.0,944
+self ssc_vols [ <STR> ,1.0,0.0,945
+body = <STR> > ,1.0,0.0,946
+<STR> \ ,1.0,0.0,947
+< space - guarantee > volume ,0.0,0.0,948
+< / volume - - attributes > ,0.0,0.0,949
+mox ReplayAll ,1.0,0.0,950
+vol<NUM> mirror [ <STR> ] = ,1.0,0.0,951
+< / aggr - option - info > ,0.0,0.0,952
+eligible = self _find_containers volume [ <STR> ] extra_specs ,1.0,0.0,953
+self [ <STR> ] = name ,0.0,0.0,954
+vol sis [ <STR> ] = ,1.0,0.0,955
+vol space [ <STR> ,0.0,0.0,956
+def_update_stale_vols self volume = None reset = ,0.0,0.0,957
+invoke_api na_server api_name api_family = <STR> query = None ,0.0,0.0,958
+< size - available > <NUM> < / size - available > ,0.0,0.0,959
+dedup_vols = ,0.0,0.0,960
+vol space [ <STR> ] = ,1.0,0.0,961
+LOG info _ <STR> ] ,1.0,0.0,962
+val None old_val None ,0.0,0.0,963
+job_set = na_utils set_safe_attr ,0.0,0.0,964
+self _update_stale_vols volume = volume ,1.0,0.0,965
+child = NaElement key ,0.0,0.0,966
+<STR> Creates a volume ,0.0,0.0,967
+value ,1.0,0.0,968
+key value headers iteritems ,0.0,0.0,969
+des_result = None ,0.0,0.0,970
+test_cl_vols_ssc_all self ,0.0,0.0,971
+b_specs [ spec ] None b_specs [ opp_spec ] None ,0.0,0.0,972
+result = result & ssc_vols [ <STR> ] ,1.0,0.0,973
+volumes = self _get_avl_volumes req_size extra_specs ,0.0,0.0,974
+records = res get_child_content <STR> ,1.0,0.0,975
+vol state [ <STR> ] ,0.0,0.0,976
+delta_secs = backend <STR> <NUM> ,0.0,0.0,977
+aggr_attrs [ <STR> ] = eff_disk_type ,1.0,0.0,978
+vol<NUM> space [ <STR> ] = ,0.0,0.0,979
+used > used_ratio ,0.0,0.0,980
+< - vserver - root > false < / - vserver - root > ,0.0,0.0,981
+ssc_utils refresh_cluster_ssc self self _client self vserver ,1.0,0.0,982
+self assertEqual res_map [ <STR> ] <NUM> ,0.0,0.0,983
+record_step = <NUM> ,0.0,0.0,984
+cinder openstack common log logging ,1.0,0.0,985
+RESPONSE_SUFFIX_DIRECT = <STR> ,0.0,0.0,986
+<STR> = = api ,1.0,0.0,987
+sis = <STR> ,0.0,0.0,988
+na_server vserver AndReturn test_vols ,0.0,0.0,989
+vol vols ,1.0,0.0,990
+self_size_avl = self space get <STR> ,0.0,0.0,991
+des_vol_attrs = NaElement <STR> ,1.0,0.0,992

@@ -1,0 +1,195 @@
+total_tokens,line_level_label,line_score,row
+License the specific language governing permissions limitations ,1.0,1.0,1
+Typically the of the last row used the client - facing pagination ,0.0,0.8165319607676353,2
+param marker the last item of the previous page we returns the ,1.0,0.7993591486878701,3
+Unless required by applicable law agreed to writing software ,1.0,0.7753422050068081,4
+param sort_keys array of attributes by which results should be ,1.0,0.6645676747257204,5
+distributed under the License distributed on an <STR> BASIS WITHOUT ,1.0,0.6522763273218254,6
+use this file compliance the License You may obtain ,1.0,0.6463778558443799,7
+param sort_dirs per - column array of sort_dirs corresponding to sort_keys ,0.0,0.6297524524023987,8
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.6183507264560683,9
+a copy of the License at ,1.0,0.5818757032003908,10
+param limit maximum number of items to ,1.0,0.49791823022317555,11
+cinder openstack common log logging ,1.0,0.48304131098717434,12
+Administrator of the National Aeronautics Space Administration ,0.0,0.4800917813205429,13
+WARRANTIES OR CONDITIONS OF ANY KIND either express implied See the ,1.0,0.46971421916668665,14
+Licensed under the Apache License Version <NUM> <NUM> the <STR> you may ,1.0,0.42605087197586305,15
+We use the last row the previous page the <STR> pagination ,0.0,0.420271927673067,16
+So we must values that follow the passed marker the order ,0.0,0.4071442459349139,17
+With a compound - values sort_key k<NUM> k<NUM> k<NUM> we must do this to repeat ,0.0,0.3493571596663975,18
+marker then the actual marker must be fetched the db ,0.0,0.3018118117523587,19
+self assertRaises webob exc HTTPBadRequest ,1.0,0.24391412603184934,20
+cinder common sqlalchemyutils ,1.0,0.24356227929847454,21
+context is_admin <STR> filters ,0.0,0.22654576126066903,22
+context is_admin <STR> search_opts ,0.0,0.22654576126066903,23
+Pagination works by requiring a unique sort_key specified by sort_keys ,0.0,0.21218955920705132,24
+param query the query to which we should add paging / sorting ,0.0,0.202223596835523,25
+Copyright <NUM> United States Government represented by the ,0.0,0.18509142865675146,26
+volumes = self db volume_get_all context ,1.0,0.16021542056143923,27
+query =_volume_get_query context filter_by project_id = project_id ,1.0,0.16021542056143923,28
+context project_id ,1.0,0.16021542056143923,29
+IMPL volume_get_all context marker limit sort_key sort_dir ,1.0,0.16021542056143923,30
+volume_get_all context ,1.0,0.16021542056143923,31
+volumes = self volume_api get_all context marker = None limit = None ,1.0,0.16021542056143923,32
+IMPL volume_get_all_by_project context project_id marker limit ,1.0,0.16021542056143923,33
+return_volume_get_query context ,1.0,0.16021542056143923,34
+volumes = self db volume_get_all context marker limit sort_key ,1.0,0.16021542056143923,35
+volume_get_all context marker limit sort_key sort_dir ,1.0,0.16021542056143923,36
+get_all self context marker = None limit = None sort_key = <STR> ,1.0,0.16021542056143923,37
+marker_volume = volume_get context marker ,1.0,0.16021542056143923,38
+remove_invalid_options context search_options allowed_search_options ,1.0,0.16021542056143923,39
+stub_volume_get_all_by_project self context marker limit sort_key ,1.0,0.16021542056143923,40
+stub_volume_get_all_by_project context project_id marker limit ,1.0,0.16021542056143923,41
+query =_volume_get_query context ,1.0,0.16021542056143923,42
+IMPL volume_get_all_by_project context project_id ,1.0,0.16021542056143923,43
+volume_get_all_by_project context project_id marker limit sort_key ,1.0,0.16021542056143923,44
+get_all self context search_opts = None ,0.0,0.16021542056143923,45
+volume_get_all_by_project context project_id ,1.0,0.16021542056143923,46
+stub_volume_get_all context search_opts = None marker = None limit = None ,1.0,0.16021542056143923,47
+stub_volume_get_all context search_opts = None ,1.0,0.16021542056143923,48
+remove_invalid_options context filters allowed_search_options ,1.0,0.16021542056143923,49
+return_volume_get_query context filter_by project_id = project_id ,1.0,0.16021542056143923,50
+IMPL volume_get_all context ,1.0,0.16021542056143923,51
+stub_volume_get_all_by_project self context search_opts = None ,1.0,0.16021542056143923,52
+volumes = self volume_api get_all context search_opts = search_opts ,0.0,0.16021542056143923,53
+context project_id ,0.0,0.16021542056143923,54
+volumes = self volume_api get_all context marker limit sort_key ,1.0,0.16021542056143923,55
+stub_volume_get_all_by_project context project_id ,1.0,0.16021542056143923,56
+under the License ,1.0,0.15915871898207531,57
+param model the ORM model ,0.0,0.13076269890018183,58
+the lexicographical ordering ,0.0,0.13076269890018183,59
+results after this value ,1.0,0.12970577582391807,60
+With a single - valued sort_key this would be easy sort_key > X ,0.0,0.12970577582391807,61
+We also have to cope different sort_directions ,0.0,0.12844912645240913,62
+params = req params copy ,1.0,0.12576383131202856,63
+opt values search_opts iteritems ,1.0,0.11114350073075775,64
+opt values filters iteritems ,1.0,0.11114350073075775,65
+crit_attrs append model_attr > marker_values [ i ] ,0.0,0.10771594040651908,66
+crit_attrs append model_attr = = marker_values [ j ] ,0.0,0.10771594040651908,67
+crit_attrs append model_attr < marker_values [ i ] ,0.0,0.10771594040651908,68
+marker_values append v ,0.0,0.10771594040651908,69
+criteria_list append criteria ,0.0,0.10771594040651908,70
+If sort_keys unique then we risk looping through values ,0.0,0.10643211032290172,71
+LOG debug _ <STR> % filters ,1.0,0.10356077575680432,72
+LOG debug _ <STR> % search_opts ,1.0,0.10356077575680432,73
+copied glance / db / sqlalchemy / api py ,0.0,0.09793895165523242,74
+search_opts update req GET ,0.0,0.08137045304496407,75
+param sort_dir direction which results should be asc desc ,1.0,0.08124678592782855,76
+passed to us marker ,0.0,0.07519986478466878,77
+req = fakes HTTPRequest blank <STR> ,1.0,0.07208940570337519,78
+vim tabstop = <NUM> shiftwidth = <NUM> softtabstop = <NUM> ,1.0,0.06803479732070716,79
+query = query order_by sort_dir_func sort_key_attr ,0.0,0.06460497422597865,80
+cinder exception ,1.0,0.05894448653381173,81
+<STR> sqlalchemy desc ,0.0,0.05827775842111471,82
+cinder db sqlalchemy models ,1.0,0.0556589674355591,83
+exception InvalidInput reason = <STR> ,1.0,0.050427503857741286,84
+res_dict = self controller index req ,1.0,0.04394454841085231,85
+self controller index ,1.0,0.04394454841085231,86
+marker = params pop <STR> None ,1.0,0.041025295495140265,87
+sort_dir = params pop <STR> ,1.0,0.041025295495140265,88
+sort_key = params pop <STR> ,1.0,0.041025295495140265,89
+limit = params pop <STR> None ,1.0,0.041025295495140265,90
+filters = params ,1.0,0.041025295495140265,91
+criteria = sqlalchemy sql and_ * crit_attrs ,0.0,0.023977956784978303,92
+f = sqlalchemy sql or_ * criteria_list ,0.0,0.012731542396840304,93
+rtype sqlalchemy orm query Query ,0.0,0.012731542396840304,94
+sqlalchemy ,0.0,0.012731542396840304,95
+<STR> sqlalchemy asc ,0.0,0.012731542396840304,96
+stubs stub_volume <NUM> display_name = <STR> ,1.0,0.010230801986130965,97
+self stubs Set db <STR> ,1.0,0.001964704230836338,98
+query ,1.0,0.0,99
+test_volume_index_limit self ,1.0,0.0,100
+self assertEquals volumes [ <NUM> ] [ <STR> ,1.0,0.0,101
+test_volume_index_limit_negative self ,1.0,0.0,102
+] ,0.0,0.0,103
+sort_key sort_dir ,0.0,0.0,104
+criteria_list = [ ] ,0.0,0.0,105
+marker_values = [ ] ,1.0,0.0,106
+The query sorting / pagination added ,1.0,0.0,107
+test_volume_detail_limit self ,1.0,0.0,108
+v = marker sort_key ,0.0,0.0,109
+volumes = res_dict [ <STR> ] ,1.0,0.0,110
+sort_dir = sort_dir ,0.0,0.0,111
+<STR> Returns a query sorting / pagination criteria added ,1.0,0.0,112
+sort_key_attr = model current_sort_key ,0.0,0.0,113
+sort_dir ,0.0,0.0,114
+[ ,1.0,0.0,115
+sort_dir ,0.0,0.0,116
+filters [ <STR> ] ,1.0,0.0,117
+marker = marker_volume ,1.0,0.0,118
+<STR> ,1.0,0.0,119
+def_get_volume_search_options self ,0.0,0.0,120
+sort_dirs = = sort_keys ,0.0,0.0,121
+paginate_query query model limit sort_keys marker = None ,0.0,0.0,122
+LOG = logging getLogger __ name__ ,1.0,0.0,123
+unknown_options = [ opt opt search_options ,1.0,0.0,124
+search_opts [ <STR> ] ,1.0,0.0,125
+query ,1.0,0.0,126
+limit None ,1.0,0.0,127
+search_opts = ,0.0,0.0,128
+Copyright <NUM> Justin Santa Barbara ,1.0,0.0,129
+<STR> search_opts ,1.0,0.0,130
+sort_dir_func = ,0.0,0.0,131
+sort_key sort_keys ,0.0,0.0,132
+LOG warn _ <STR> ,0.0,0.0,133
+sort_dirs None sort_dir None ,0.0,0.0,134
+search_options [ opt ] ,1.0,0.0,135
+log_msg =_ <STR> % ,1.0,0.0,136
+search_opts ,0.0,0.0,137
+sort_dir = <STR> filters = ,1.0,0.0,138
+search_opts self _get_volume_search_options ,1.0,0.0,139
+filters ,1.0,0.0,140
+search_opts [ <STR> ] ,0.0,0.0,141
+search_opts None ,1.0,0.0,142
+sort_dirs None ,0.0,0.0,143
+marker_volume = None ,1.0,0.0,144
+self assertEquals volumes <NUM> ,1.0,0.0,145
+j xrange <NUM> i ,0.0,0.0,146
+stub_volume_get_all_by_project ,1.0,0.0,147
+filters self _get_volume_filter_options ,1.0,0.0,148
+test_volume_index_limit_marker self ,1.0,0.0,149
+sort_dir = <STR> ,1.0,0.0,150
+filters [ <STR> ] ,1.0,0.0,151
+sort_key = <STR> ,0.0,0.0,152
+log_msg =_ <STR> % bad_options ,1.0,0.0,153
+[ current_sort_dir ] ,0.0,0.0,154
+ValueError _ <STR> ,0.0,0.0,155
+AttributeError ,1.0,0.0,156
+[ sort_key <STR> ] ,0.0,0.0,157
+sort_dirs = [ sort_dir for_sort_key sort_keys ] ,0.0,0.0,158
+test_volume_detail_limit_non_int self ,1.0,0.0,159
+test_volume_index_with_marker self ,1.0,0.0,160
+sort_dir = None sort_dirs = None ,0.0,0.0,161
+sort_dir sort_dirs ,0.0,0.0,162
+model_attr = model sort_keys [ i ] ,0.0,0.0,163
+Copyright <NUM> - <NUM> OpenStack LLC ,1.0,0.0,164
+<STR> ,1.0,0.0,165
+test_volume_detail_limit_negative self ,1.0,0.0,166
+i xrange <NUM> sort_keys ,0.0,0.0,167
+sort_dir filters = ,0.0,0.0,168
+All Rights Reserved ,1.0,0.0,169
+marker limit ,0.0,0.0,170
+query = query f ,0.0,0.0,171
+current_sort_key current_sort_dir sort_keys sort_dirs ,0.0,0.0,172
+k<NUM> > X<NUM> k<NUM> = = X<NUM> & & k<NUM> > X<NUM> k<NUM> = = X<NUM> & & k<NUM> = = X<NUM> & & k<NUM> > X<NUM> ,0.0,0.0,173
+req ,0.0,0.0,174
+filters [ opt ] ,1.0,0.0,175
+sort_key sort_dir ,0.0,0.0,176
+test_volume_detail_limit_marker self ,1.0,0.0,177
+<STR> filters ,1.0,0.0,178
+sort_dirs [ i ] = = <STR> ,0.0,0.0,179
+crit_attrs = [ ] ,0.0,0.0,180
+unknown_options = [ opt opt filters ,1.0,0.0,181
+model_attr = model sort_keys [ j ] ,0.0,0.0,182
+sort_dir filters ,1.0,0.0,183
+<STR> sort_keys ,0.0,0.0,184
+def_get_volume_filter_options self ,1.0,0.0,185
+marker None ,1.0,0.0,186
+self assertEquals volumes [ <NUM> ] [ <STR> ] <NUM> ,1.0,0.0,187
+test_volume_index_limit_non_int self ,1.0,0.0,188
+sort_dir = <STR> filters = search_opts ,0.0,0.0,189
+query = query limit limit ,0.0,0.0,190
+test_volume_detail_with_marker self ,1.0,0.0,191
+query = sqlalchemyutils paginate_query query models Volume limit ,1.0,0.0,192
+sort_dirs [ i ] = = <STR> ,0.0,0.0,193
+sort_key = <STR> ,0.0,0.0,194

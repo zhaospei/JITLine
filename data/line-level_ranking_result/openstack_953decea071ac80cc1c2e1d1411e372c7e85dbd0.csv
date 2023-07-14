@@ -1,0 +1,364 @@
+total_tokens,line_level_label,line_score,row
+See the License the specific language governing permissions ,1.0,1.0,1
+You may obtain a copy of the License at ,1.0,0.7133015397187891,2
+Unless required by applicable law agreed to writing software ,1.0,0.7040335139987571,3
+distributed under the License distributed on an <STR> BASIS ,1.0,0.6231730413517436,4
+http / / www apache org / licenses / LICENSE - <NUM> <NUM> ,1.0,0.55387392533452,5
+limitations under the License ,1.0,0.5470276744780775,6
+StrOpt Location of CA certificates file to use CRD client ,0.0,0.5082154393409334,7
+you may use this file compliance the License ,1.0,0.46835911605178726,8
+@ log log ,0.0,0.4546762567543196,9
+neutron openstack common log logging ,1.0,0.425147048282954,10
+In [ ml<NUM> ] section of / etc / neutron / plugins / ml<NUM> / ml<NUM>_conf ini ,0.0,0.37275930984820604,11
+Licensed under the Apache License Version <NUM> <NUM> the <STR> ,1.0,0.3679872919688565,12
+It supports the Cloud Resource Discovery CRD service by updating ,0.0,0.3648368908939046,13
+neutron common log ,1.0,0.35964779748658665,14
+port_context = self _get_port_context tenant_id network_id port_id ,0.0,0.34945291021624925,15
+Freescale SDN FSL - SDN Mechanism Driver an add - on support ML<NUM> plugin ,0.0,0.26913854133062504,16
+CRD service must be running the controller ,0.0,0.2664174897501155,17
+calls context set_binding binding details ,0.0,0.26259272420498686,18
+segments = context network_segments ,1.0,0.24803093038397295,19
+Register the configuration option crd service ,1.0,0.24485448220584952,20
+Freescale SDN mechanism driver handles VM port binding within the ,0.0,0.24315430082862224,21
+def__ init__ self network segments ,1.0,0.20648811479800763,22
+Supported network types by FSL OF Controller include vlan vxlan ,0.0,0.20387585306739311,23
+LOG = logging getLogger __ name__ ,1.0,0.20231947667253747,24
+Freescale Mechanism driver handles the following postcommit operations ,0.0,0.19844367360106915,25
+<STR> port_id ,0.0,0.19394366673616636,26
+port_id = <STR> ,0.0,0.19394366673616636,27
+def_get_port_context self tenant_id net_id port_id ,0.0,0.19394366673616636,28
+<STR> function verifies the supported network types vlan vxlan ,0.0,0.18839204124611567,29
+context set_binding segment [ api ID ] ,0.0,0.18512073486717512,30
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND either express ,1.0,0.1831527650657308,31
+IntOpt Timeout value connecting to CRD service ,0.0,0.18232580222103503,32
+Network Subnet Port Create / Update / Delete data into the CRD database ,0.0,0.17819422138755012,33
+context e g keystone ,0.0,0.17453300661286977,34
+port = context current ,0.0,0.1742682892898236,35
+- Network create / update / delete ,0.0,0.17400257571264918,36
+- Subnet create / update / delete ,0.0,0.17400257571264918,37
+StrOpt Authorization strategy connecting to CRD admin ,0.0,0.17033032002755152,38
+update_network_postcommit self context ,0.0,0.1698589978192452,39
+create_subnet_postcommit self context ,0.0,0.1698589978192452,40
+delete_subnet_postcommit self context ,0.0,0.1698589978192452,41
+delete_port_postcommit self context ,0.0,0.1698589978192452,42
+network = context current ,0.0,0.1698589978192452,43
+create_network_postcommit self context ,0.0,0.1698589978192452,44
+update_subnet_postcommit self context ,0.0,0.1698589978192452,45
+delete_network_postcommit self context ,0.0,0.1698589978192452,46
+admin context e g RegionOne ,0.0,0.1698589978192452,47
+bind_port self context ,0.0,0.1698589978192452,48
+subnet = context current ,0.0,0.1698589978192452,49
+segment context network network_segments ,1.0,0.1698589978192452,50
+create_port_postcommit self context ,0.0,0.1698589978192452,51
+How to use Freescale SDN Mechanism Driver ? ,0.0,0.16879854914553766,52
+cfg CONF set_override <STR> ,1.0,0.1636789971983038,53
+CRD service options required FSL SDN OS Mech Driver ,1.0,0.1595622300294909,54
+<STR> network_id ,1.0,0.15550924348008294,55
+network_id = <STR> ,0.0,0.15550924348008294,56
+network_context = self _get_network_context tenant_id network_id ,0.0,0.15550924348008294,57
+<STR> network_id ,1.0,0.15550924348008294,58
+subnet_context = self _get_subnet_context tenant_id network_id ,0.0,0.15550924348008294,59
+crd_auth_url = http / / <NUM> <NUM> <NUM> <NUM> <NUM> / v<NUM> <NUM> / ,0.0,0.14219885184203074,60
+crd_url = http / / <NUM> <NUM> <NUM> <NUM> <NUM> ,0.0,0.14219885184203074,61
+e g http / / <NUM> <NUM> <NUM> <NUM> <NUM> ,0.0,0.14219885184203074,62
+e g http / / <NUM> <NUM> <NUM> <NUM> <NUM> / v<NUM> <NUM> / ,0.0,0.14219885184203074,63
+body = self _prepare_crd_network network segments ,0.0,0.14022886903650347,64
+mock patch mechanism_fslsdn FslsdnMechanismDriver ,0.0,0.13907951212103176,65
+neutron plugins common constants ,1.0,0.13338544912223815,66
+neutron common constants n_const ,1.0,0.13230966910947337,67
+StrOpt User name authentication to CRD ,0.0,0.1296897113410212,68
+StrOpt URL connecting to CRD Service ,0.0,0.1296897113410212,69
+StrOpt Password authentication to CRD ,0.0,0.1296897113410212,70
+StrOpt Region name connecting to CRD ,0.0,0.1296897113410212,71
+req = self driver _prepare_crd_network network segments ,0.0,0.12877624554197686,72
+def__ init__ self record ,0.0,0.1283161822332799,73
+mechanism driver like ODL MD ,0.0,0.12743142073010405,74
+self _crdclient update_network network [ <STR> ] body = body ,0.0,0.12411387294364445,75
+self _crdclient create_network body = body ,0.0,0.12411387294364445,76
+self _crdclient update_subnet subnet [ <STR> ] body = body ,0.0,0.12411387294364445,77
+self _crdclient create_port body = body ,0.0,0.12411387294364445,78
+self _crdclient create_subnet body = body ,0.0,0.12411387294364445,79
+- Port create / delete ,0.0,0.11965734272544616,80
+required FSL SDN OS Mechanism driver ,1.0,0.11768704560767157,81
+Flow management OVS handled by Freescale Openflow Controller ,0.0,0.11660742600069306,82
+BoolOpt If ignore SSL validation issues boolean value ,0.0,0.1143483912528034,83
+implied ,1.0,0.10229652259010723,84
+self vif_details = portbindings CAP_PORT_FILTER ,0.0,0.09244906580770092,85
+neutron extensions portbindings ,1.0,0.09244906580770092,86
+self vif_type = portbindings VIF_TYPE_OVS ,0.0,0.09244906580770092,87
+VIF_TYPE = portbindings VIF_TYPE_OVS ,0.0,0.09244906580770092,88
+default = ,0.0,0.08654807637679929,89
+default = <STR> ,0.0,0.08654807637679929,90
+default = <NUM> ,0.0,0.08654807637679929,91
+crd_user_name = < - service - username - > ,0.0,0.08546247281306661,92
+FakeNetworkContext network segments ,0.0,0.07817193256475247,93
+self _segments = segments ,1.0,0.07817193256475247,94
+segments = network_context network_segments ,1.0,0.07817193256475247,95
+<STR> segments ,1.0,0.07817193256475247,96
+segments = [ <STR> seg_id ] ,0.0,0.07817193256475247,97
+def_prepare_crd_network network segments ,0.0,0.07817193256475247,98
+self client update_subnet assert_called_once_with subnet_id body = req ,0.0,0.06774606289723818,99
+self client create_port assert_called_once_with body = req ,0.0,0.06774606289723818,100
+self client create_network assert_called_once_with body = req ,0.0,0.06774606289723818,101
+self client create_subnet assert_called_once_with body = req ,0.0,0.06774606289723818,102
+self client update_network assert_called_once_with net_id body = req ,0.0,0.06774606289723818,103
+self client = self driver _crdclient = mock Mock ,0.0,0.06703914665233002,104
+body = self _prepare_crd_port port ,0.0,0.06646622794240836,105
+Update / etc / neutron / plugins / ml<NUM> / ml<NUM>_conf_fslsdn ini below ,0.0,0.06462826464303074,106
+etc / neutron / plugins / ml<NUM> / ml<NUM>_conf_fslsdn ini ,0.0,0.06462826464303074,107
+body = self _prepare_crd_subnet subnet ,0.0,0.06205693647183627,108
+LOG debug <STR> body ,1.0,0.06205693647183627,109
+cfg CONF register_opts ml<NUM>_fslsdn_opts <STR> ,1.0,0.0575165270590775,110
+req = self driver _prepare_crd_port port ,0.0,0.05501360444787606,111
+e g service ,0.0,0.05198143963615671,112
+crd_password = < - service - password - > ,0.0,0.05198143963615671,113
+CRD service manages network nodes virtual network appliances openflow ,0.0,0.05198143963615671,114
+StrOpt Tenant name CRD service ,0.0,0.05198143963615671,115
+crd_tenant_name = service ,0.0,0.05198143963615671,116
+self driver initialize ,0.0,0.05060431297730397,117
+self driver delete_port_postcommit port_context ,0.0,0.05060431297730397,118
+self driver create_network_postcommit network_context ,0.0,0.05060431297730397,119
+self driver delete_subnet_postcommit subnet_context ,0.0,0.05060431297730397,120
+self driver delete_network_postcommit network_context ,0.0,0.05060431297730397,121
+self driver create_port_postcommit port_context ,0.0,0.05060431297730397,122
+self driver update_network_postcommit network_context ,0.0,0.05060431297730397,123
+self driver update_subnet_postcommit subnet_context ,0.0,0.05060431297730397,124
+self driver = mechanism_fslsdn FslsdnMechanismDriver ,1.0,0.05060431297730397,125
+self driver create_subnet_postcommit subnet_context ,0.0,0.05060431297730397,126
+req = self driver _prepare_crd_subnet subnet ,0.0,0.05060431297730397,127
+modify <STR> attributes ,0.0,0.05001973035157733,128
+self client delete_port assert_called_once_with port [ <STR> ] ,0.0,0.04397384904770701,129
+pass ,0.0,0.04147171138845663,130
+Defines Configuration options FSL SDN OS Mechanism Driver ,1.0,0.040498057762932006,131
+self _crdclient delete_port port [ <STR> ] ,0.0,0.03828472262230512,132
+cfg StrOpt <STR> ,1.0,0.03235866383631179,133
+cfg BoolOpt <STR> ,1.0,0.03235866383631179,134
+cfg IntOpt <STR> ,1.0,0.03235866383631179,135
+FSLCONF = cfg CONF ml<NUM>_fslsdn ,1.0,0.03235866383631179,136
+oslo config cfg ,1.0,0.03235866383631179,137
+controller based network applications ,0.0,0.02906509298543267,138
+LOG info _ <STR> ,1.0,0.028937938026924282,139
+mechanism_drivers = fslsdn ,1.0,0.02540001419604333,140
+neutron plugins ml<NUM> driver_api api ,1.0,0.01633751706074004,141
+requests ,0.0,0.015721324215588334,142
+segment [ api NETWORK_TYPE ] [ constants TYPE_VLAN ,1.0,0.015261737047930246,143
+FslsdnMechanismDriver api MechanismDriver ,0.0,0.015261737047930246,144
+<STR> segment [ api SEGMENTATION_ID ] ,1.0,0.015261737047930246,145
+<STR> segment [ api ID ] ,0.0,0.015261737047930246,146
+<STR> segment [ api NETWORK_TYPE ] ,0.0,0.015261737047930246,147
+<STR> segment [ api PHYSICAL_NETWORK ] ,0.0,0.015261737047930246,148
+self _crdclieint = mock Mock ,1.0,0.010745707249624144,149
+mock ,0.0,0.010745707249624144,150
+@ author Trinath Somanchi Freescale Inc ,0.0,0.009139293308454898,151
+@ author Trinath Somanchi Freescale Inc ,0.0,0.009139293308454898,152
+self _crdclient = client Client * * crd_client_params ,1.0,0.0056891264254019065,153
+neutronclient v<NUM>_<NUM> client ,1.0,0.0056891264254019065,154
+self client delete_network assert_called_once_with net_id ,0.0,0.0056891264254019065,155
+self client delete_subnet assert_called_once_with subnet_id ,0.0,0.0056891264254019065,156
+crd_auth_strategy = keystone ,0.0,0.004674008793661242,157
+port = <STR> ,1.0,0.004409291470572092,158
+LOG debug <STR> port [ <STR> ] ,0.0,0.004409291470572092,159
+<STR> port ,0.0,0.004409291470572092,160
+crd_ipaddress = port [ <STR> ] ,0.0,0.004409291470572092,161
+FakeContext port ,0.0,0.004409291470572092,162
+port = port_context current ,0.0,0.004409291470572092,163
+port [ <STR> ] ! = <NUM> ,0.0,0.004409291470572092,164
+def_prepare_crd_port port ,0.0,0.004409291470572092,165
+crd_subnet_id = port [ <STR> ] ,0.0,0.004409291470572092,166
+port [ <STR> ] > <NUM> ,0.0,0.004409291470572092,167
+neutron tests base ,1.0,0.0029240926134908437,168
+TestFslSdnMechanismDriver base BaseTestCase ,0.0,0.0029240926134908437,169
+fslsdn = neutron plugins ml<NUM> drivers mechanism_fslsdn FslsdnMechanismDriver ,1.0,0.0010757800128097948,170
+neutron plugins ml<NUM> drivers mechanism_fslsdn ,1.0,0.0010757800128097948,171
+def_get_subnet_context self tenant_id net_id subnet_id cidr ,0.0,0.0,172
+<STR> crd_subnet_id ,0.0,0.0,173
+<STR> new = mocked_fslsdn_init ,0.0,0.0,174
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ,1.0,0.0,175
+p a_pools ] ,0.0,0.0,176
+e g ,0.0,0.0,177
+LOG debug <STR> subnet [ <STR> ] ,0.0,0.0,178
+LOG debug <STR> segment ,1.0,0.0,179
+expected_seg = [ <STR> segmentation_id ] ,0.0,0.0,180
+net_id = network [ <STR> ] ,0.0,0.0,181
+<STR> ,1.0,0.0,182
+ml<NUM>_fslsdn_opts = [ ,1.0,0.0,183
+Freescale SDN Mechanism Driver Neutron ML<NUM> plugin ,0.0,0.0,184
+gateway_ip ,0.0,0.0,185
+<STR> tenant_id ,1.0,0.0,186
+crd_dns_nameservers = <STR> ] ,0.0,0.0,187
+<STR> subnet ,0.0,0.0,188
+test_prepare_port_with_single_fixed_ip self ,0.0,0.0,189
+neutron - > ML<NUM>_plugin ,0.0,0.0,190
+setUp self ,1.0,0.0,191
+subnet = <STR> tenant_id ,1.0,0.0,192
+Basic work flow ,0.0,0.0,193
+self _segments ,1.0,0.0,194
+<STR> SERVICE_TYPE ,1.0,0.0,195
+| CRD server | ,0.0,0.0,196
+<STR> crd_ipaddress ,0.0,0.0,197
+tenant_id = <STR> ,0.0,0.0,198
+create_network ,0.0,0.0,199
+<STR> ,1.0,0.0,200
+| | ,1.0,0.0,201
+TestFslSdnMechanismDriver self setUp ,0.0,0.0,202
+<STR> ] ,1.0,0.0,203
+crd_subnet_id = <STR> ,0.0,0.0,204
+ML<NUM>_plugin < - - FSL - SDN - MD ,0.0,0.0,205
+TestFslSdnMechDriverPortsV<NUM> test_db_plugin TestPortsV<NUM> ,1.0,0.0,206
+<STR> tenant_id ,1.0,0.0,207
+LOG debug ,0.0,0.0,208
+<STR> FSLCONF crd_url ,1.0,0.0,209
+network [ <STR> ] ,0.0,0.0,210
+How does Freescale SDN Mechanism Driver work ? ,0.0,0.0,211
+<STR> ,1.0,0.0,212
+self _network ,0.0,0.0,213
+self check_segment segment ,0.0,0.0,214
+fixed_ips = [ ] ,0.0,0.0,215
+FakeNetworkContext ,0.0,0.0,216
+def_get_network_context self tenant_id net_id seg_id ,0.0,0.0,217
+crd_auth_strategy = ,1.0,0.0,218
+fips = [ <STR> ] ,1.0,0.0,219
+self vif_type ,0.0,0.0,220
+multiple_fips ,0.0,0.0,221
+cidr = <STR> ,1.0,0.0,222
+multiple_fips = [ <STR> ,0.0,0.0,223
+Introduction ,0.0,0.0,224
+| ML<NUM> plugin | ,0.0,0.0,225
+test_prepare_port_with_multiple_fixed_ips self ,0.0,0.0,226
+current self ,0.0,0.0,227
+shortcut ,1.0,0.0,228
+e g secret ,0.0,0.0,229
+<STR> <NUM> ,0.0,0.0,230
+FSL - SDN - MD < - - crd_service ,0.0,0.0,231
+StrOpt CRD auth URL ,0.0,0.0,232
+setup_driver_config ,0.0,0.0,233
+self _crdclient delete_network network [ <STR> ] ,0.0,0.0,234
+crd_tenant_name = ,1.0,0.0,235
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ,0.0,0.0,236
+<STR> FSLCONF crd_region_name ,1.0,0.0,237
+<STR> FSLCONF crd_ca_certificates_file ,1.0,0.0,238
+= = = = = = = = = = = = ,1.0,0.0,239
+crd_dns_nameservers = <STR> ,0.0,0.0,240
+<STR> ] ,1.0,0.0,241
+- - - - - - - - - ,1.0,0.0,242
+| ,0.0,0.0,243
+crd_password = ,0.0,0.0,244
+Configuring FSLSDN Mechanism Driver ,0.0,0.0,245
+crd_url_timeout = ,0.0,0.0,246
+test_create_update_delete_subnet_postcommit self ,0.0,0.0,247
+=_ <STR> ,0.0,0.0,248
+| | Mechanism Driver | ,1.0,0.0,249
+crd_url = ,0.0,0.0,250
+<STR> ,0.0,0.0,251
+crd_auth_url = ,0.0,0.0,252
+<STR> crd_dns_nameservers ,0.0,0.0,253
+<STR> ] ,0.0,0.0,254
+self assertEqual expected_crd_network req ,0.0,0.0,255
+<STR> cidr ,0.0,0.0,256
+TestFslSdnMechDriverSubnetsV<NUM> test_db_plugin TestSubnetsV<NUM> ,1.0,0.0,257
+crd_sec_grps = <STR> ,0.0,0.0,258
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + ,1.0,0.0,259
+expected_crd_subnet = <STR> ,0.0,0.0,260
+TestFslSdnMechDriverV<NUM> self setUp ,0.0,0.0,261
+expected_crd_port [ <STR> ,0.0,0.0,262
+seconds e g <NUM> ,0.0,0.0,263
+gateway_ip = <STR> ,0.0,0.0,264
+TestFslSdnMechDriverV<NUM> test_db_plugin NeutronDbPluginV<NUM>TestCase ,1.0,0.0,265
+expected_crd_network = <STR> ,0.0,0.0,266
+segmentation_id ,0.0,0.0,267
+<STR> crd_allocation_pools ,0.0,0.0,268
+<STR> subnet_id ,0.0,0.0,269
+CAP_PORT_FILTER = ,0.0,0.0,270
+TestFslSdnMechDriverV<NUM> ,0.0,0.0,271
+mocked_fslsdn_init self ,0.0,0.0,272
++ - + - - - - - - - - + - - - - - - - - - - - - - - - - - - - - - - + ,1.0,0.0,273
+crd_ca_certificates_file = ,1.0,0.0,274
+crd_ipaddress = <STR> ,0.0,0.0,275
+self _crdclient delete_subnet subnet [ <STR> ] ,0.0,0.0,276
+TestFslSdnMechDriverNetworksV<NUM> test_db_plugin TestNetworksV<NUM> ,1.0,0.0,277
+<STR> ,1.0,0.0,278
+ML<NUM>_plugin - > FSL - SDN - MD ,0.0,0.0,279
+self _record = record ,0.0,0.0,280
+[ ml<NUM>_fslsdn ] ,1.0,0.0,281
+- - - - - - - - - - - - - - - - - - - - - - ,1.0,0.0,282
+<STR> FSLCONF crd_auth_url ,1.0,0.0,283
+FSL - SDN - MD - > crd_service ,0.0,0.0,284
++ - - - - - - - - - - + - - - - - - - - - - - - - + ,1.0,0.0,285
+crd_api_insecure = ,0.0,0.0,286
+<STR> FSLCONF crd_tenant_name ,1.0,0.0,287
+check_segment self segment ,1.0,0.0,288
+<STR> FSLCONF crd_url_timeout ,1.0,0.0,289
+test_create_update_delete_network_postcommit self ,0.0,0.0,290
+fips ,0.0,0.0,291
+LOG debug <STR> ,1.0,0.0,292
+<STR> FSLCONF crd_api_insecure ,1.0,0.0,293
+self assertEqual expected_crd_port req ,0.0,0.0,294
+def_prepare_crd_subnet subnet ,0.0,0.0,295
+crd_region_name = ,0.0,0.0,296
+r subnet [ <STR> ] ] ,0.0,0.0,297
+crd_host_routes = <STR> ] ,0.0,0.0,298
+neutron < - - ML<NUM>_plugin ,0.0,0.0,299
+crd_user_name = ,0.0,0.0,300
+subnet_id cidr gateway_ip ,0.0,0.0,301
+crd_sec_grps = <STR> ] ,0.0,0.0,302
+neutron tests unit test_db_plugin ,1.0,0.0,303
+setup_driver_config ,0.0,0.0,304
+Cloud Resource Discovery CRD authorization credentials ,0.0,0.0,305
+| Neutron Server | ,0.0,0.0,306
+network = network_context current ,0.0,0.0,307
+p [ <STR> ] ,1.0,0.0,308
+expected_crd_port = <STR> ,0.0,0.0,309
+<STR> ] ,1.0,0.0,310
+subnet = subnet_context current ,0.0,0.0,311
+crd_client_params = ,1.0,0.0,312
+subnet_id = subnet [ <STR> ] ,0.0,0.0,313
+FakeContext subnet ,0.0,0.0,314
+LOG debug <STR> ,1.0,0.0,315
+Copyright c <NUM> Freescale Inc ,1.0,0.0,316
+<STR> FSLCONF crd_user_name ,1.0,0.0,317
+<STR> FSLCONF crd_auth_strategy ,1.0,0.0,318
+self assertEqual expected_crd_subnet req ,0.0,0.0,319
+test_create_delete_port_postcommit self ,0.0,0.0,320
+FakeContext ,0.0,0.0,321
+segmentation_id = <NUM> ,0.0,0.0,322
+Configuring ML<NUM> Plugin ,0.0,0.0,323
+crd_allocation_pools = <STR> ,0.0,0.0,324
+Neutron ,0.0,0.0,325
+<STR> crd_ipaddress ,1.0,0.0,326
+<STR> fixed_ips ,0.0,0.0,327
+a_pools = subnet [ <STR> ] ,0.0,0.0,328
+subnet_id = <STR> ,0.0,0.0,329
+Copyright c <NUM> Freescale Semiconductor ,1.0,0.0,330
+| ReST API ,0.0,0.0,331
+status = n_const PORT_STATUS_ACTIVE ,0.0,0.0,332
+<STR> ,1.0,0.0,333
+| + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + ,1.0,0.0,334
+] ,0.0,0.0,335
+constants TYPE_VXLAN ] ,0.0,0.0,336
+self _network = network ,0.0,0.0,337
+@ ,1.0,0.0,338
+<STR> gateway_ip ,0.0,0.0,339
+crd_host_routes = <STR> ,0.0,0.0,340
+initialize self ,0.0,0.0,341
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ,1.0,0.0,342
+<STR> expected_seg ,0.0,0.0,343
+@ ,1.0,0.0,344
+e g user<NUM> ,0.0,0.0,345
+<STR> net_id ,0.0,0.0,346
+network = <STR> net_id ,0.0,0.0,347
+self _record ,0.0,0.0,348
+| | Freescale SDN | ,0.0,0.0,349
+secret = <STR> ,0.0,0.0,350
+self vif_details ,0.0,0.0,351
+crd_allocation_pools = <STR> ] ,0.0,0.0,352
+- - - - - - - - - - - - - - - - - - - - ,1.0,0.0,353
+- - ,1.0,0.0,354
+network_segments self ,1.0,0.0,355
+<STR> FSLCONF crd_password ,1.0,0.0,356
+r [ <STR> ] ,1.0,0.0,357
+<STR> crd_sec_grps ,0.0,0.0,358
+=_ <STR> ,1.0,0.0,359
++ - - - - - - - - - - - - - - - - - - - - - - - - + ,1.0,0.0,360
+SERVICE_TYPE = <STR> ,1.0,0.0,361
+Sequence diagram create_network ,0.0,0.0,362
+<STR> crd_host_routes ,0.0,0.0,363

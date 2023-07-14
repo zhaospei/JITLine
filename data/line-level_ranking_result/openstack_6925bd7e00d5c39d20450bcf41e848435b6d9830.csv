@@ -1,0 +1,210 @@
+total_tokens,line_level_label,line_score,row
+StrOpt The name of the physical_network managed via the Cisco Nexus Switch ,0.0,1.0,1
+param cidr cidr address of subnetwork to be created ,0.0,0.9158617876798377,2
+param cidr cidr address of subnetwork to be created ,0.0,0.9158617876798377,3
+param name Name of network to be created ,0.0,0.7664244632891051,4
+param name Name of network to be created ,0.0,0.7664244632891051,5
+param do_delete If to delete the port at the ,0.0,0.7397588620460136,6
+Create a network subnet port then update port the result ,1.0,0.5771910397710535,7
+This string value must be present the ml<NUM>_conf ini network_vlan_ranges ,0.0,0.5026358345180113,8
+res = self _create_port self fmt net_id arg_list = args ,0.0,0.4563754490909725,9
+host_id = context current get portbindings HOST_ID ,1.0,0.44959891314753064,10
+end of testing ,0.0,0.448921568072189,11
+context bound_segment get api SEGMENTATION_ID ,1.0,0.4342729328478441,12
+ctx = context get_admin_context ,1.0,0.4218769907631101,13
+context = ctx * * port_dict ,0.0,0.4218769907631101,14
+neutron API request matches the HTTP status corresponding ,0.0,0.40898550788549004,15
+<STR> Confirm that an HTTP status corresponds to an expected exception ,0.0,0.4045736754233142,16
+param device_id Device ID to use port to be created ,0.0,0.39738884932809626,17
+param device_id Device ID to use port to be created / updated ,0.0,0.39738884932809626,18
+param host_id Host ID to use port create / update ,0.0,0.38223906005630226,19
+segment = context bound_segment ,1.0,0.3798105116613103,20
+Create a network subnet port the result ,1.0,0.3689168309722269,21
+<STR> Map a Cisco exception to the HTTP status equivalent ,0.0,0.34895370318432967,22
+instance_id = context current get <STR> ,1.0,0.3445568872633609,23
+port = context current ,1.0,0.31880772232054183,24
+port = context current ,1.0,0.31880772232054183,25
+res = self _create_port self fmt net_id ,1.0,0.3181233498037795,26
+create_port_postcommit self context ,1.0,0.3000631209723132,27
+self _invoke_nexus_on_port_event context instance_id ,1.0,0.2900944660768272,28
+self _invoke_nexus_on_port_event context ,0.0,0.2900944660768272,29
+def_invoke_nexus_on_port_event self context instance_id ,1.0,0.2900944660768272,30
+def_get_vlanid self context ,1.0,0.2900944660768272,31
+old_port = context original ,0.0,0.2900944660768272,32
+def_mock_get_vlanid context ,0.0,0.2900944660768272,33
+self _is_deviceowner_compute context current ,1.0,0.2900944660768272,34
+def_invoke_nexus_on_port_event self context ,0.0,0.2900944660768272,35
+Confirm that an HTTP status which has been returned an ,0.0,0.2881558510159031,36
+neutron extensions portbindings ,1.0,0.28493486545889396,37
+to an expected exception ,1.0,0.26567666518876193,38
+def_create_port_res self name = <STR> cidr = CIDR_<NUM> ,1.0,0.24794745430571782,39
+args = portbindings HOST_ID <STR> ,0.0,0.2432941251714761,40
+host = serv __ getattr__ <STR> ,0.0,0.24166038673515983,41
+port = self deserialize self fmt res ,1.0,0.22825327402812984,42
+def__ init__ self device_id host_name network_context ,0.0,0.20812826313129848,43
+mock_status = mock patch ,1.0,0.204917099534088,44
+mock_host = mock patch ,1.0,0.204917099534088,45
+mock patch mech_cisco_nexus CiscoNexusMechanismDriver ,1.0,0.204917099534088,46
+mock_vlanid = mock patch ,1.0,0.204917099534088,47
+network_segments = network_context network_segments ,0.0,0.1874905758794007,48
+serv = nc servers get instance_id ,0.0,0.17626297422041826,49
+cfg StrOpt <STR> default = None ,0.0,0.16758924623681346,50
+neutron common constants n_const ,1.0,0.16421195011706233,51
+self _create_port_res name = <STR> cidr = CIDR_<NUM> ,1.0,0.16254845447622712,52
+portbindings HOST_ID host_name ,1.0,0.15882638685504147,53
+def_create_resources self name = <STR> cidr = CIDR_<NUM> ,1.0,0.1553185353287204,54
+self _create_resources name = <STR> cidr = CIDR_<NUM> ,1.0,0.1553185353287204,55
+def__ init__ self device_id network_context ,0.0,0.15434390216042665,56
+<STR> start ,0.0,0.14978111740442027,57
+<STR> start ,0.0,0.14978111740442027,58
+param status HTTP status ,0.0,0.14564005215879483,59
+neutron_context = ctx ,0.0,0.1317825246862829,60
+expected_http = wexc HTTPOk code ,0.0,0.11618254755668914,61
+param expected_exception Expected HTTP code ,0.0,0.10980101901944986,62
+port_dict = portbindings HOST_ID host_id ,1.0,0.1050420258842138,63
+LOG debug _ <STR> ,1.0,0.09913308809640696,64
+self assertEqual status expected_http ,0.0,0.098728695949733,65
+self _create_port_res name = <STR> do_delete = res ,0.0,0.09499947754396804,66
+self _create_port_res name = <STR> res ,1.0,0.09499947754396804,67
+testtools ExpectedException exceptions NexusPortBindingNotFound ,0.0,0.09466964529283929,68
+testtools ExpectedException ,0.0,0.09466964529283929,69
+network_segments [ <NUM> ] [ <STR> ] ,0.0,0.09374528793972989,70
+self _segment = network_context network_segments ,1.0,0.09374528793972989,71
+bound_segment self ,1.0,0.08971604558457894,72
+name = <STR> ,1.0,0.08776955839643964,73
+self _create_resources name = <STR> device_id = DEVICE_ID_<NUM> ,1.0,0.08776955839643964,74
+self _create_resources name = <STR> ,1.0,0.08776955839643964,75
+keystone_conf admin_password ,0.0,0.07444884546099381,76
+self _manage_port vlan_name vlan_id host instance_id ,1.0,0.07221136518640185,77
+self assertEqual res status_int wexc HTTPCreated code ,1.0,0.07074673635345727,78
+host = self _get_instance_host instance_id ,0.0,0.07068075892207488,79
+host ,0.0,0.07058376787267949,80
+cidr = CIDR_<NUM> ,0.0,0.06754897693233763,81
+self _is_deviceowner_compute port self _is_status_active port ,1.0,0.057426512487570046,82
+instance_id = port [ <STR> port <STR> ,0.0,0.057426512487570046,83
+port_context = FakePortContext instance_id host_name ,0.0,0.05378436097083509,84
+mock_host return_value = host_name ,0.0,0.05378436097083509,85
+def_assertExpectedHTTP self status exc ,1.0,0.053292884746452246,86
+keystone_conf auth_host ,0.0,0.04945707567426596,87
+neutron plugins ml<NUM> driver_api api ,1.0,0.04807162688530826,88
+expected_http ,0.0,0.04543581120328077,89
+keystone_conf auth_port ,0.0,0.043894412673424005,90
+param exc Expected exception ,1.0,0.03905428266599259,91
+param exc Expected Cisco exception ,1.0,0.03905428266599259,92
+novaclient v<NUM>_<NUM> client nova_client ,0.0,0.03600881271932304,93
+device_owner = port [ <STR> ] ,1.0,0.028713256243785023,94
+def_is_status_active self port ,0.0,0.028713256243785023,95
+port ,0.0,0.028713256243785023,96
+port [ <STR> ] = = n_const PORT_STATUS_ACTIVE ,0.0,0.028713256243785023,97
+def_is_deviceowner_compute self port ,1.0,0.028713256243785023,98
+port [ <STR> ] = = DEVICE_ID_<NUM> ,0.0,0.028713256243785023,99
+instance_id = port [ <STR> ] ,1.0,0.028713256243785023,100
+port [ <STR> ,1.0,0.028713256243785023,101
+self _create_resources port ,1.0,0.028713256243785023,102
+expected_code = expected_exception ,0.0,0.027248006413929746,103
+variable ,0.0,0.01681928581641115,104
+expected_exception = c_exc NexusConfigFailed ,0.0,0.013177336033679979,105
+self _create_resources expected_exception = c_exc NexusConnectFailed ,0.0,0.013177336033679979,106
+c_exc NexusConnectFailed ,0.0,0.013177336033679979,107
+c_exc NexusComputeHostNotConfigured ,1.0,0.013177336033679979,108
+expected_exception = c_exc NexusComputeHostNotConfigured ,0.0,0.013177336033679979,109
+self _create_resources expected_exception = c_exc NexusConfigFailed ,0.0,0.013177336033679979,110
+c_exc NexusConfigFailed ,0.0,0.013177336033679979,111
+bindings = nexus_db_v<NUM> get_nexusport_binding nexus_port ,1.0,0.011163386469008557,112
+nexus_db_v<NUM> get_nexusport_binding nexus_port ,1.0,0.011163386469008557,113
+nexus_db_v<NUM> get_nexusport_binding nexus_port ,1.0,0.011163386469008557,114
+bindings = nexus_db_v<NUM> get_nexusport_binding nexus_port ,1.0,0.011163386469008557,115
+self _cisco_mech_driver create_port_postcommit port_context ,0.0,0.009968654895576313,116
+self _create_port_res do_delete = res ,0.0,0.0072299191475284075,117
+self _create_port_res res ,1.0,0.0072299191475284075,118
+self _update <STR> ] data ,0.0,0.004897195338786478,119
+data = <STR> port_dict ,0.0,0.004897195338786478,120
+nc = nova_client Client keystone_conf admin_user ,0.0,0.004639668974172131,121
+vlan_id ,0.0,0.0016275973137223681,122
+vlan_id device_id ,1.0,0.0016275973137223681,123
+vlan_name = cfg CONF ml<NUM>_cisco vlan_name_prefix + vlan_id ,1.0,0.0016275973137223681,124
+vlan_id ,0.0,0.0016275973137223681,125
+vlan_id host_id ,1.0,0.0016275973137223681,126
+vlan_name = cfg CONF ml<NUM>_cisco vlan_name_prefix + vlan_id ,1.0,0.0016275973137223681,127
+self _manage_port vlan_name vlan_id host_id instance_id ,0.0,0.0016275973137223681,128
+exc base FAULT_MAP ,1.0,0.00098853183383779,129
+exc base FAULT_MAP ,1.0,0.00098853183383779,130
+api NETWORK_TYPE NETWORK_TYPE ,0.0,0.0,131
+nexus_ip_addr ,0.0,0.0,132
+VLAN_START + <NUM> ,0.0,0.0,133
+<STR> mock_get_host ,0.0,0.0,134
+no_cache = ,0.0,0.0,135
+instance_id old_device ,0.0,0.0,136
+cfg CONF ml<NUM>_cisco managed_physical_network None ,0.0,0.0,137
+keystone_conf admin_tenant_name ,0.0,0.0,138
+old_device = old_port [ <STR> ] ,1.0,0.0,139
+def_valid_network_segment self segment ,1.0,0.0,140
+expected_exception = None ,0.0,0.0,141
+NETWORK_TYPE = <STR> ,1.0,0.0,142
+keystone_auth_url = <STR> % keystone_conf auth_protocol ,0.0,0.0,143
+instance_id device_owner ! = <STR> ,0.0,0.0,144
+segment segment [ api NETWORK_TYPE ] = = <STR> ,1.0,0.0,145
+self _cisco_mech_driver delete_port_precommit port_context ,1.0,0.0,146
+self _delete <STR> ] ,0.0,0.0,147
+<STR> mock_host ,0.0,0.0,148
+self assertTrue self _is_in_last_nexus_cfg [ <STR> ] ,1.0,0.0,149
+mock_host return_value = COMP_HOST_NAME ,0.0,0.0,150
+res ,0.0,0.0,151
+<STR> ,0.0,0.0,152
+cfg CONF ml<NUM>_cisco managed_physical_network = = ,0.0,0.0,153
+self _assertExpectedHTTP res status_int KeyError ,1.0,0.0,154
+self _assertExpectedHTTP res status_int ,1.0,0.0,155
+VLAN_START ,0.0,0.0,156
+<STR> PORT_STATE ,0.0,0.0,157
+<STR> ] ,1.0,0.0,158
+segment [ api PHYSICAL_NETWORK ] ,1.0,0.0,159
+keystone_conf = cfg CONF keystone_authtoken ,0.0,0.0,160
+def_expectedHTTP self exc ,1.0,0.0,161
+<STR> device_id ,0.0,0.0,162
+device_id = DEVICE_ID_<NUM> do_delete = ,0.0,0.0,163
+mock_status return_value = n_const PORT_STATUS_ACTIVE ,0.0,0.0,164
+self _segment ,1.0,0.0,165
+network_context = port_context network ,0.0,0.0,166
+self _delete <STR> ] ,1.0,0.0,167
+<STR> DEVICE_OWNER ,0.0,0.0,168
+mock_get_host return_value = <STR> ,0.0,0.0,169
+self _cisco_mech_driver update_port_postcommit port_context ,1.0,0.0,170
+self _create_resources ,1.0,0.0,171
+Example managed_physical_network = physnet<NUM> ,0.0,0.0,172
+<STR> ,1.0,0.0,173
+self _cisco_mech_driver delete_port_precommit port_context ,1.0,0.0,174
+<STR> DEVICE_OWNER ,1.0,0.0,175
+PORT_STATE = n_const PORT_STATUS_ACTIVE ,0.0,0.0,176
+host_id = COMP_HOST_NAME ,1.0,0.0,177
+=_ <STR> ,0.0,0.0,178
+self _valid_network_segment segment ,0.0,0.0,179
+device_id = DEVICE_ID_<NUM> ,1.0,0.0,180
+host_id = <STR> ,0.0,0.0,181
+mock_vlanid side_effect =_mock_get_vlanid ,0.0,0.0,182
+exc = = None ,0.0,0.0,183
+managed_physical_network = ,0.0,0.0,184
+@ ,1.0,0.0,185
+expected_exception = self _expectedHTTP expected_exception ,0.0,0.0,186
+<STR> host_id ,0.0,0.0,187
+self _create_resources ,1.0,0.0,188
+<STR> ] ,1.0,0.0,189
+self assertEqual bindings <NUM> ,1.0,0.0,190
+def_get_instance_host self instance_id ,0.0,0.0,191
+instance_id ,0.0,0.0,192
+do_delete ,0.0,0.0,193
+self assertTrue ,1.0,0.0,194
+self assertEqual bindings <NUM> ,1.0,0.0,195
+self _network_segments = [ <STR> segment_id ] ,0.0,0.0,196
+port_context = FakePortContext instance_id network_context ,0.0,0.0,197
+def_get_vlanid self port_context ,1.0,0.0,198
+device_id = device_id ,0.0,0.0,199
+instance_id ,0.0,0.0,200
+nexus_ip_addr ,0.0,0.0,201
+self _network_segments = api SEGMENTATION_ID segment_id ,0.0,0.0,202
+network_context ,0.0,0.0,203
+exceptions NexusPortBindingNotFound ,1.0,0.0,204
+self _is_in_last_nexus_cfg [ <STR> ] ,1.0,0.0,205
+self _create_resources expected_exception = KeyError ,0.0,0.0,206
+keystone_auth_url ,0.0,0.0,207
+<STR> ,1.0,0.0,208
+mech_cisco_nexus CiscoNexusMechanismDriver ,1.0,0.0,209

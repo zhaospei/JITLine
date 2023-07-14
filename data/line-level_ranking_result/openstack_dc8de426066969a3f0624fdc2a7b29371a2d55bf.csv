@@ -1,0 +1,167 @@
+total_tokens,line_level_label,line_score,row
+param owner_uid UID of owner defaults to current user ,0.0,0.9999999999999999,1
+fake_fetch target * args * * kwargs ,1.0,0.33148903363204885,2
+fake_fetch target * args * * kwargs ,0.0,0.33148903363204885,3
+stores the result self disk_info_path ,0.0,0.2862812874333924,4
+<STR> Return the driver self path ,0.0,0.2732153328675562,5
+First checks self disk_info_path an entry ,0.0,0.27043309782551533,6
+exception InvalidDiskInfo reason = msg ,1.0,0.26139107578925924,7
+disk_info_file write <STR> % jsonutils dumps dct ,1.0,0.1937287465864817,8
+dct update self path driver_format ,1.0,0.18473196650751006,9
+info = self mox CreateMockAnything ,1.0,0.18076097594534435,10
+exception DiskInfoReadWriteFail reason = unicode e ,0.0,0.1796114671594141,11
+See https / / bugs launchpad net / nova / + bug / <NUM> ,0.0,0.16484328449577973,12
+@ utils synchronized self disk_info_path external = ,0.0,0.13036637316037852,13
+CONF set_override <STR> ,0.0,0.11673169459540655,14
+CONF set_override <STR> ,1.0,0.11673169459540655,15
+nova virt libvirt imagebackend ,1.0,0.1036806281960279,16
+self stubs Set utils <STR> fake_chown ,0.0,0.08631754421832229,17
+utils chown self disk_info_path owner_uid = os getuid ,0.0,0.08448112385561642,18
+msg = _ <STR> ,1.0,0.08177960862988647,19
+msg =_ <STR> ,1.0,0.08177960862988647,20
+shutil rmtree self INSTANCES_PATH ,0.0,0.06716900177058491,21
+shutil ,1.0,0.06716900177058491,22
+execute <STR> owner_uid path run_as_root = ,0.0,0.05340175310193403,23
+fake_processutils stub_out_processutils_execute self stubs ,0.0,0.05317143623152949,24
+fake_processutils stub_out_processutils_execute self stubs ,1.0,0.05317143623152949,25
+self stubs Set os path <STR> lambda_ ,1.0,0.05317143623152949,26
+self stubs Set image <STR> ,1.0,0.05317143623152949,27
+self stubs Set os <STR> p w ,1.0,0.05317143623152949,28
+self stubs Set imagebackend Raw <STR> lambda_ None ,0.0,0.05317143623152949,29
+self stubs Set image <STR> ,0.0,0.05317143623152949,30
+self stubs Set imagebackend Image <STR> ,0.0,0.05317143623152949,31
+self stubs Set os path <STR> lambda_ ,0.0,0.05317143623152949,32
+self stubs Set os <STR> p w ,1.0,0.05317143623152949,33
+self stubs Set imagebackend Raw <STR> lambda_ None ,1.0,0.05317143623152949,34
+self stubs Set os <STR> p w ,0.0,0.05317143623152949,35
+self stubs Set os <STR> p w ,0.0,0.05317143623152949,36
+orig_uid = os stat path st_uid ,0.0,0.051962515955472625,37
+owner_uid = os getuid ,0.0,0.05133501586882362,38
+If it ' s there calls self _get_driver_format then ,0.0,0.04856028614830898,39
+self mox StubOutWithMock imagebackend utils synchronized ,0.0,0.04798981824847397,40
+self mox StubOutWithMock imagebackend utils synchronized ,1.0,0.04798981824847397,41
+self DISK_INFO_PATH = os path join self INSTANCES_PATH ,0.0,0.04399934768953951,42
+self disk_info_path = os path join os path dirname self path ,0.0,0.04399934768953951,43
+os path exists self DISK_INFO_PATH AndReturn ,1.0,0.03938113998480278,44
+os path exists self TEMPLATE_DIR AndReturn ,1.0,0.03938113998480278,45
+os path exists self PATH AndReturn ,1.0,0.03938113998480278,46
+os path exists self disk_info_path ,1.0,0.03938113998480278,47
+os path exists self OLD_STYLE_INSTANCE_PATH AndReturn ,1.0,0.03938113998480278,48
+os path exists self TEMPLATE_DIR AndReturn ,1.0,0.03938113998480278,49
+os path exists CONF instances_path AndReturn ,0.0,0.03938113998480278,50
+os path exists self PATH AndReturn ,1.0,0.03938113998480278,51
+os path exists self TEMPLATE_PATH AndReturn ,1.0,0.03938113998480278,52
+os path exists self INSTANCES_PATH AndReturn ,1.0,0.03938113998480278,53
+def_dict_from_line line ,0.0,0.03649275680965341,54
+jsonutils loads line ,0.0,0.03649275680965341,55
+line = disk_info_file read rstrip ,0.0,0.03649275680965341,56
+line ,0.0,0.03649275680965341,57
+dct =_dict_from_line line ,0.0,0.03649275680965341,58
+nova utils ,1.0,0.0331461079867928,59
+self mox StubOutWithMock imagebackend disk <STR> ,1.0,0.014843710261681171,60
+self mox StubOutWithMock imagebackend libvirt_utils <STR> ,1.0,0.014843710261681171,61
+fn = self mox CreateMockAnything ,1.0,0.014843710261681171,62
+self mox StubOutWithMock os path <STR> ,0.0,0.014843710261681171,63
+self mox ReplayAll ,0.0,0.014843710261681171,64
+self mox VerifyAll ,0.0,0.014843710261681171,65
+self mox StubOutWithMock imagebackend disk <STR> ,0.0,0.014843710261681171,66
+self mox StubOutWithMock imagebackend fileutils <STR> ,0.0,0.014843710261681171,67
+self mox StubOutWithMock imagebackend libvirt_utils <STR> ,0.0,0.014843710261681171,68
+fn = self mox CreateMockAnything ,0.0,0.014843710261681171,69
+RawTestCase _ImageTestCase test NoDBTestCase ,0.0,0.010639893485858708,70
+RawTestCase _ImageTestCase test NoDBTestCase ,0.0,0.010639893485858708,71
+image cache fake_fetch self TEMPLATE_PATH self SIZE ,1.0,0.0,72
+image = self image_class self INSTANCE self NAME ,0.0,0.0,73
+OSError e ,0.0,0.0,74
+RawTestCase self setUp ,0.0,0.0,75
+prepare_mocks self ,0.0,0.0,76
+<STR> % self SIZE self PATH ] ,0.0,0.0,77
+self assertEqual fake_processutils fake_execute_get_log [ ] ,1.0,0.0,78
+fake_processutils fake_execute_clear_log ,0.0,0.0,79
+[ <STR> % self PATH ,0.0,0.0,80
+setUp self ,0.0,0.0,81
+fake_processutils fake_execute_clear_log ,1.0,0.0,82
+chown path owner_uid = None ,0.0,0.0,83
+self driver_format = data file_format <STR> ,1.0,0.0,84
+SIZE = <NUM> ,0.0,0.0,85
+self resolve_driver_format ,0.0,0.0,86
+self image_class = imagebackend Raw ,0.0,0.0,87
+imagebackend Image _get_driver_format ,0.0,0.0,88
+<STR> unicode e ,0.0,0.0,89
+test_prealloc_image_without_write_access self ,1.0,0.0,90
+fn ,0.0,0.0,91
+<STR> % self SIZE self PATH ] ,0.0,0.0,92
+self mock_create_image image ,0.0,0.0,93
+path driver_format dct iteritems ,0.0,0.0,94
+<STR> ,0.0,0.0,95
+self assertEqual fake_processutils fake_execute_get_log ,1.0,0.0,96
+[ <STR> % self PATH ,1.0,0.0,97
+INSTANCES_PATH = <STR> ,0.0,0.0,98
+driver_format = self _get_driver_format ,0.0,0.0,99
+fn ,0.0,0.0,100
+<STR> ,1.0,0.0,101
+data = images qemu_img_info self path ,1.0,0.0,102
+test_prealloc_image self ,1.0,0.0,103
+self disk_info_path None ,0.0,0.0,104
+owner_uid None ,0.0,0.0,105
+<STR> % self SIZE self PATH ,0.0,0.0,106
+image = self image_class self INSTANCE self NAME ,1.0,0.0,107
+TypeError ValueError e ,0.0,0.0,108
+resolve_driver_format self ,1.0,0.0,109
+disk_info_file truncate ,0.0,0.0,110
+fake_chown path owner_uid = None ,0.0,0.0,111
+image cache None self TEMPLATE ,1.0,0.0,112
+self driver_format = self resolve_driver_format ,0.0,0.0,113
+self driver_format ,0.0,0.0,114
+test_cache_base_dir_exists self ,0.0,0.0,115
+_ImageTestCase self tearDown ,0.0,0.0,116
+self assertEqual driver_format <STR> ,0.0,0.0,117
+<STR> % ,0.0,0.0,118
+self assertEqual fake_processutils fake_execute_get_log [ ] ,0.0,0.0,119
+prepare_mocks self ,0.0,0.0,120
+self INSTANCES_PATH = tempfile mkdtemp suffix = <STR> ,0.0,0.0,121
+InvalidDiskInfo Invalid ,0.0,0.0,122
+self path dct ,1.0,0.0,123
+test_cache_image_exists self ,1.0,0.0,124
+test_resolve_driver_format self ,1.0,0.0,125
+def_get_driver_format self ,0.0,0.0,126
+self disk_info_path disk_info_file ,0.0,0.0,127
+self INSTANCE [ <STR> ,0.0,0.0,128
+self assertEqual fake_processutils fake_execute_get_log ,0.0,0.0,129
+path = = self path ,0.0,0.0,130
+fn target = self TEMPLATE_PATH ,0.0,0.0,131
+<STR> ,0.0,0.0,132
+imagebackend fileutils ensure_tree self TEMPLATE_DIR ,0.0,0.0,133
+write_to_disk_info_file ,0.0,0.0,134
+test_cache_template_exists self ,0.0,0.0,135
+os fdopen fd <STR> disk_info_file ,1.0,0.0,136
+driver_format = image resolve_driver_format ,0.0,0.0,137
+test_cache self ,0.0,0.0,138
+RawTestCase self setUp ,0.0,0.0,139
+fd = os self disk_info_path os O_RDWR | os O_CREAT <NUM>o<NUM> ,1.0,0.0,140
+fileutils ensure_tree os path dirname self disk_info_path ,0.0,0.0,141
+disk_info_file seek <NUM> ,0.0,0.0,142
+SIZE = <NUM> ,0.0,0.0,143
+msg_fmt =_ <STR> ,1.0,0.0,144
+orig_uid ! = owner_uid ,0.0,0.0,145
+self OLD_STYLE_INSTANCE_PATH ,0.0,0.0,146
+image cache fake_fetch self TEMPLATE_PATH self SIZE ,0.0,0.0,147
+<STR> % self SIZE self PATH ,0.0,0.0,148
+BackendTestCase self setUp ,0.0,0.0,149
+setUp self ,0.0,0.0,150
+driver_format ,1.0,0.0,151
+self disk_info_path = None ,0.0,0.0,152
+self image_class = imagebackend Raw ,0.0,0.0,153
+write_to_disk_info_file ,0.0,0.0,154
+test_prealloc_image_without_write_access self ,0.0,0.0,155
+DiskInfoReadWriteFail Invalid ,0.0,0.0,156
+image cache fn self TEMPLATE ,1.0,0.0,157
+self disk_info_path None ,0.0,0.0,158
+tearDown self ,0.0,0.0,159
+<STR> chown a path ,0.0,0.0,160
+None ,0.0,0.0,161
+test_prealloc_image self ,0.0,0.0,162
+data file_format <STR> ,1.0,0.0,163
+tempfile ,0.0,0.0,164
+lock_path = self lock_path ,0.0,0.0,165
+data = images qemu_img_info self path ,1.0,0.0,166
